@@ -1,34 +1,44 @@
-# The RDF datasets prepared and published in the Archives nationales of France Sparnatural prototype | les jeux de données RDF préparés et publiés dans le prototype Sparnatural des Archives nationales de France 
+# The RDF knowledge graph of the Archives nationales of France Sparnatural prototype | le graphe de connaissances RDF du prototype Sparnatural des Archives nationales de France 
 
 ## Version 1.0 (août 2022) | v1.0 (August 2022)
 
-Télécharger la release: 
+Download the release | Télécharger la release : [https://github.com/ArchivesNationalesFR/Sparnatural_prototype_data/releases/tag/1.0](https://github.com/ArchivesNationalesFR/Sparnatural_prototype_data/releases/tag/1.0). 
 
 ## Description
 
 ### [en]
 
-The RDF data of this repository are those published in the SParnatural prototype of the Archives nationales of France ([https://sparna-git.github.io/sparnatural-demonstrateur-an/index.html](https://sparna-git.github.io/sparnatural-demonstrateur-an/index.html)). In this website, the documentation, which is available in French and in English  ([https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html)), explains the objectives of the project, presents the source data select, the data graph production process, the current content of the knowledge graph obtained, and the outcomes of the project.
+The RDF data of this repository are those published in the Sparnatural prototype of the Archives nationales of France ([https://sparna-git.github.io/sparnatural-demonstrateur-an/index.html](https://sparna-git.github.io/sparnatural-demonstrateur-an/index.html)). In this website, the documentation, which is available in French and in English  ([https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html)), explains the objectives of the project, presents the source data selected, the data graph production process, the current content of the knowledge graph obtained, and the outcomes of the project.
 
 Format of the data: RDF/XML
 
+Number of triples: 57,9 million, including about 37 million inferred (in a GraphDB Free repository that has been configured using RDFS-Plus Optimized inference rules)
+
 Main vocabularies and ontologies used:  (RiC-O)](https://www.ica.org/standards/RiC/ontology) (the last official version, v 0.2 dated February 2021) and  [SKOS](https://www.w3.org/2004/02/skos/).
+
+More information: [https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html#stats](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html#stats)
+
 
 The 'RDF' folder contains, in the 'imported_data' subfolder, the whole of the data imported into the graph base used. In the 'other_entities' subfolder, for now, you can find exactly the same data as in the [https://github.com/ArchivesNationalesFR/Referentiels/tree/main/concepts/rdf](https://github.com/ArchivesNationalesFR/Referentiels/tree/main/concepts/rdf), [https://github.com/ArchivesNationalesFR/Referentiels/tree/main/agents/personnesPhysiques](https://github.com/ArchivesNationalesFR/Referentiels/tree/main/agents/personnesPhysiques), and [https://github.com/ArchivesNationalesFR/Referentiels/tree/main/agents/collectivites](https://github.com/ArchivesNationalesFR/Referentiels/tree/main/agents/collectivites) folders.
 
 In the 
 'sparql_updates' subfolder you can find a text file, that contains the SPARQL INSERT DATA and INSERT queries used to enrich the graph obtained once imported.
 
-Once these operations are gitdone, it has been possible to design and produce the two exploration interfaces that are currently available in the prototype, using the [Sparnatural](https://sparnatural.eu/) SPARQL query visual editor.
+Once these operations have been done, it has been possible to design and produce the two exploration interfaces that are currently available in the prototype, using the [Sparnatural](https://sparnatural.eu/) SPARQL query visual editor.
 
-In the 'source_metadata' folder, you can find the most of the source metadata form which the RDF data are generated. This includes 1577 EAD 2022 archival finding aids and 1120 EAC-CPF authority records. About these source metadata, see [https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html#metadata](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html#metadata).
+In the 'source_metadata' folder, you can find the most of the source metadata from which the RDF data are generated. This includes 1577 EAD 2022 archival finding aids and 1120 EAC-CPF authority records. About these source metadata, see [https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html#metadata](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html#metadata).
 
 ### [fr]
-Les données RDF de ce dépôt (contenues dans le dossier RDF) sont celles publiées dans le prototype Sparnatural des Archives nationales de France ([https://sparna-git.github.io/sparnatural-demonstrateur-an/index.html](https://sparna-git.github.io/sparnatural-demonstrateur-an/index.html)). Dans ce site web, la documentation, disponible en français ([https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-fr.html](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-fr.html)) et en anglais ([https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html)), présente les objectifs du projet, les données sélectionnées, le processus de sémantisation de ces données et d'enrichissement du graphe obtenu, le contenu actuel du graphe de connaissances, et les résultats du projet. 
+Les données RDF de ce dépôt (contenues dans le dossier RDF) sont celles publiées dans le prototype Sparnatural des Archives nationales de France ([https://sparna-git.github.io/sparnatural-demonstrateur-an/index.html](https://sparna-git.github.io/sparnatural-demonstrateur-an/index.html)). Dans ce site web, la documentation, disponible en français ([https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-fr.html](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-fr.html)) et en anglais, présente les objectifs du projet, les données sélectionnées, le processus de sémantisation de ces données et d'enrichissement du graphe obtenu, le contenu actuel du graphe de connaissances, et les résultats du projet. 
 
 Format des données RDF : RDF/XML
 
+Nombre de triplets obtenus : 57,9 millions, dont environ 37 millions de triplets inférés (dans un entrepôt d'une instance de GraphDB Free, configuré pour utiliser simplement les règles d'inférence 'RDFS-Plus Optimized')
+
 Principaux modèles et ontologies utilisés : [Records in Contexts - Ontology (RiC-O)](https://www.ica.org/standards/RiC/ontology) (dans sa dernière version officielle en date, la v0.2 de février 2021) et  [SKOS](https://www.w3.org/2004/02/skos/). 
+
+Plus d'informations : [https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-fr.html#stats](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-fr.html#stats).
+
 
 Le dossier 'RDF' contient, dans le sous-dossier 'imported_data', l'ensemble des données RDF importées dans la base de graphes utilisée. Dans le sous-dossier 'other_entities', on trouve pour l'instant exactement les mêmes données que celles contenues dans les dossiers  [https://github.com/ArchivesNationalesFR/Referentiels/tree/main/concepts/rdf](https://github.com/ArchivesNationalesFR/Referentiels/tree/main/concepts/rdf), [https://github.com/ArchivesNationalesFR/Referentiels/tree/main/agents/personnesPhysiques](https://github.com/ArchivesNationalesFR/Referentiels/tree/main/agents/personnesPhysiques) et [https://github.com/ArchivesNationalesFR/Referentiels/tree/main/agents/collectivites](https://github.com/ArchivesNationalesFR/Referentiels/tree/main/agents/collectivites).
 Dans le dossier 'sparql_updates' on trouve un fichier texte contenant les requêtes SPARQL de type INSERT DATA ou INSERT utilisées pour enrichir le graphe obtenu.
