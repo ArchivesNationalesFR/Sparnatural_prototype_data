@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/053868">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Dossiers de clients de l'étude XXXVI (1734-1925) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XXXVI (1734-1925) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2015</rico:publicationDate>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:p xml:lang="fr">Révisé en 2019 par Virginie Grégoire, secrétaire de documentation.</html:p>
+      </rico:descriptiveNote>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Etabli par Marie-Françoise Limon-Bonnet, conservateur général du patrimoine, responsable du Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Deuxième édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Ajout de l'article MC/DC/XXXVI/2 par Virginie Grégoire, secrétaire de documentation au Minutier central des notaires de Paris</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-053868"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053868-i1">
+            <rico:isInstantiationOf rdf:resource="record/053868"/>
+            <rico:title xml:lang="fr">Dossiers de clients de l'étude XXXVI (1734-1925) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XXXVI (1734-1925) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d'information archivistique des Archives nationales. Première édition en 2015.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_053868</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_053868"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-053868">
+      <rico:isOrWasDescribedBy rdf:resource="record/053868"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds"/>
+      <rico:title xml:lang="fr">Dossiers de clients de l'étude XXXVI</rico:title>
+      <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XXXVI</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1734-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1925-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1734-1925</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010163"/>
+      <rico:hasProvenance rdf:resource="agent/010478"/>
+      <rico:hasProvenance rdf:resource="agent/012026"/>
+      <rico:hasProvenance rdf:resource="agent/012027"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de client</html:b>s,<html:b>comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Les pièces éventuellement <html:b>acquises à titre onéreux</html:b>par les Archives nationales sont communicables.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux autres archives de l'étude XXXVIArchives de l'étude XXXVI</html:p>
+      </rico:scopeAndContent>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Document(s) séparé(s)</html:h4>
+            <html:p>Voir Etude XXXVI</html:p>
+         </html:div>
+      </rico:descriptiveNote>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Autre(s) instrument(s) de recherche</html:h4>
+            <html:ul>
+               <html:li>«Mélanges» (dossiers de clients) de l’étude XXXVI.</html:li>
+            </html:ul>
+            <html:p>« Mélanges » dossiers de clients de l'étude XXXVI<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050942">«Mélanges» (dossiers de clients) de l’étude XXXVI. MC/ET/XXXVI/148, MC/ET/XXXVI/669, MC/ET/XXXVI/671, MC/ET/XXXVI/777/A-MC/ET/XXXVI/777/F (1551-1952)</html:a>
+            </html:p>
+         </html:div>
+      </rico:descriptiveNote>
+      <rico:isRecordResourceAssociatedWithRecordResource rdf:resource="recordResource/top-050942"/>
+      <rico:isOrWasSubjectOf rdf:resource="record/050942"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050942"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_053868"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-053868-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-053868"/>
+            <rico:identifier>MC/DC/XXXVI/1-MC/DC/XXXVI/2</rico:identifier>
+            <rico:title xml:lang="fr">Dossiers de clients de l'étude XXXVI</rico:title>
+            <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XXXVI</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1734-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1925-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1734-1925</rico:date>
+            <rico:carrierExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">2 boîtes</html:p>
+            </rico:carrierExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">ml</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010163"/>
+            <rico:hasProvenance rdf:resource="agent/010478"/>
+            <rico:hasProvenance rdf:resource="agent/012026"/>
+            <rico:hasProvenance rdf:resource="agent/012027"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de client</html:b>s,<html:b>comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Les pièces éventuellement <html:b>acquises à titre onéreux</html:b>par les Archives nationales sont communicables.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Achat (MC/DC/XXXVI/1).</html:p>
+                  <html:p>Dépôt (MC/DC/XXXVI/2).</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_053868"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/053868-c-salus5krb-1n87pb24i2bnq"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053868-c-sawfkiqpa-1l0fkp2iq8z4m"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053868-c-salus5krb-1n87pb24i2bnq">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053868"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Compagnie de charité de la paroisse Saint-Eustache</rico:title>
+      <rdfs:label xml:lang="fr">Compagnie de charité de la paroisse Saint-Eustache</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1734-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1734-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1734</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010163"/>
+      <rico:hasProvenance rdf:resource="agent/010478"/>
+      <rico:hasProvenance rdf:resource="agent/012026"/>
+      <rico:hasProvenance rdf:resource="agent/012027"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053868/c-salus5krb-1n87pb24i2bnq"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053868-c-salus5krb-1n87pb24i2bnq-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053868-c-salus5krb-1n87pb24i2bnq"/>
+            <rico:identifier>MC/DC/XXXVI/1</rico:identifier>
+            <rico:title xml:lang="fr">Compagnie de charité de la paroisse Saint-Eustache</rico:title>
+            <rdfs:label xml:lang="fr">Compagnie de charité de la paroisse Saint-Eustache</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1734-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1734-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1734</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053868/c-salus5krb-1n87pb24i2bnq"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053868-c-1eddwjlym--1t4i4as3xhml">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053868-c-salus5krb-1n87pb24i2bnq"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Devis et marché des ouvrages de maçonnerie, charpente, couverture, menuiserie... qu'il convient faire pour la construction de deux écoles de charité, l'une de garçons, l'autre de filles, écoles établies par la compagnie de charité de la paroisse Saint-Eustache dite Notre-Dame de Bon Secours, sur un terrain appartenant à la compagnie, sis Grande-Rue du Faubourg-Montmartre, joignant le cimetière de la paroisse aux Porcherons.</rico:title>
+            <rdfs:label xml:lang="fr">Devis et marché des ouvrages de maçonnerie, charpente, couverture, menuiserie... qu'il convient faire pour la construction de deux écoles de charité, l'une de garçons, l'autre de filles, écoles établies par la compagnie de charité de la paroisse Saint-Eustache dite Notre-Dame de Bon Secours, sur un terrain appartenant à la compagnie, sis Grande-Rue du Faubourg-Montmartre, joignant le cimetière de la paroisse aux Porcherons.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1734-05-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1734-05-31</rico:endDate>
+            <rico:date xml:lang="fr">mai 1734</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Acte imparfait (non signé et non précisément daté) de Me François Touvenot, et donc non inscrit à son répertoire.</html:p>
+                  <html:p>7 plans accompagnent le projet de marché, signé et paraphé de Frion, Millochin et Hervier, administrateurs de la compagnie de charité, et de Jacquemart, Charpentier et Hogu, maîtres menuisiers, ainsi que de Cudville, maître maçon.</html:p>
+                  <html:p>Un feuillet volant est inséré dans l'acte ; il comprend des noms d'artisans, au verso d'une annonce manuscrite de terre à vendre près de Paris et Versailles : "Belle terre bien fieffé à vendre".</html:p>
+                  <html:p>
+                     <html:b>Origine de l'information :</html:b>
+                  </html:p>
+                  <html:p>Analyse effectuée par le personnel du Minutier central des notaires de Paris</html:p>
+                  <html:p>
+                     <html:b>Date de création de la notice :</html:b>2015 (Marie-Françoise Limon-Bonnet)</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:descriptiveNote rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Document(s) séparé(s)</html:h4>
+                  <html:p>Il existe d'autres marchés passés par cette confrérie de charité, dans les minutes de l'étude XXXVI. Voir notamment MC/ET/XXXVI/409 (24 mars 1728), MC/ET/XXXVI/452 (27 mars 1746), MC/ET/XXXVI/466 (24 mai 1750) et MC/ET//XXXVI/470 (20 septembre 1751).</html:p>
+               </html:div>
+            </rico:descriptiveNote>
+            <rico:isRelatedTo>
+               <rico:Activity>
+                  <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3nyu9yq7p-8zx3tnvrcpf0"/>
+               </rico:Activity>
+            </rico:isRelatedTo>
+            <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d3nyu9yq7p-8zx3tnvrcpf0"/>
+            <rico:isRelatedTo>
+               <rico:Activity>
+                  <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl6x2dd-1l2khvksguxs4"/>
+               </rico:Activity>
+            </rico:isRelatedTo>
+            <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d3m0bl6x2dd-1l2khvksguxs4"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bi371-1mjp07dkae4vt"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dbflg-15uovbijc0oz"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89o8wi--1rme6ynsra3qz"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_024-d3nyvow9c3--1ln2rhczl581f"/>
+            <rico:documents>
+               <rico:Activity>
+                  <rico:hasActivityType rdf:resource="activityType/FRAN_RI_011-d5bhvij20u-eiobqjac9wuo"/>
+               </rico:Activity>
+            </rico:documents>
+            <rico:hasOrHadSubject rdf:resource="activityType/FRAN_RI_011-d5bhvij20u-eiobqjac9wuo"/>
+            <rico:hasProvenance rdf:resource="agent/010163"/>
+            <rico:hasProvenance rdf:resource="agent/010478"/>
+            <rico:hasProvenance rdf:resource="agent/012026"/>
+            <rico:hasProvenance rdf:resource="agent/012027"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053868/c-1eddwjlym--1t4i4as3xhml"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053868-c-1eddwjlym--1t4i4as3xhml-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053868-c-1eddwjlym--1t4i4as3xhml"/>
+                  <rico:identifier>MC/DC/XXXVI/1</rico:identifier>
+                  <rico:title xml:lang="fr">Devis et marché des ouvrages de maçonnerie, charpente, couverture, menuiserie... qu'il convient faire pour la construction de deux écoles de charité, l'une de garçons, l'autre de filles, écoles établies par la compagnie de charité de la paroisse Saint-Eustache dite Notre-Dame de Bon Secours, sur un terrain appartenant à la compagnie, sis Grande-Rue du Faubourg-Montmartre, joignant le cimetière de la paroisse aux Porcherons.</rico:title>
+                  <rdfs:label xml:lang="fr">Devis et marché des ouvrages de maçonnerie, charpente, couverture, menuiserie... qu'il convient faire pour la construction de deux écoles de charité, l'une de garçons, l'autre de filles, écoles établies par la compagnie de charité de la paroisse Saint-Eustache dite Notre-Dame de Bon Secours, sur un terrain appartenant à la compagnie, sis Grande-Rue du Faubourg-Montmartre, joignant le cimetière de la paroisse aux Porcherons.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1734-05-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1734-05-31</rico:endDate>
+                  <rico:date xml:lang="fr">mai 1734</rico:date>
+                  <rico:carrierExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">0,34 x 0,24 m.</html:p>
+                  </rico:carrierExtent>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">1 pièce isolée de 8 p., 7 plans et 1 feuillet volant.</html:p>
+                  </rico:instantiationExtent>
+                  <rico:history rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:h4>Informations sur les modalités d’entrée</html:h4>
+                        <html:p>Achat. Librairie de l'Avenue, 2014 (catalogue 19, lot n°155).</html:p>
+                     </html:div>
+                  </rico:history>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053868/c-1eddwjlym--1t4i4as3xhml"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053868-c-sawfkiqpa-1l0fkp2iq8z4m">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053868"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Particuliers</rico:title>
+      <rdfs:label xml:lang="fr">Particuliers</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1895-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1925-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1895-1925</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:ul>
+               <html:li>Charles Emile Desnoyers</html:li>
+            </html:ul>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010163"/>
+      <rico:hasProvenance rdf:resource="agent/010478"/>
+      <rico:hasProvenance rdf:resource="agent/012026"/>
+      <rico:hasProvenance rdf:resource="agent/012027"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053868/c-sawfkiqpa-1l0fkp2iq8z4m"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053868-c-sawfkiqpa-1l0fkp2iq8z4m-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053868-c-sawfkiqpa-1l0fkp2iq8z4m"/>
+            <rico:identifier>MC/DC/XXXVI/2</rico:identifier>
+            <rico:title xml:lang="fr">Particuliers</rico:title>
+            <rdfs:label xml:lang="fr">Particuliers</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1895-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1925-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1895-1925</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053868/c-sawfkiqpa-1l0fkp2iq8z4m"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053868-c-scqbsmppq--1ia79bbkupc9r">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053868-c-sawfkiqpa-1l0fkp2iq8z4m"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Charles Emile Desnoyers</rico:title>
+            <rdfs:label xml:lang="fr">Charles Emile Desnoyers</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1895-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1925-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1895-1925</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Charles Emile Desnoyers, négociant, demeurant 60, rue de Château Landon.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010163"/>
+            <rico:hasProvenance rdf:resource="agent/010478"/>
+            <rico:hasProvenance rdf:resource="agent/012026"/>
+            <rico:hasProvenance rdf:resource="agent/012027"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053868/c-scqbsmppq--1ia79bbkupc9r"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053868-c-scqbsmppq--1ia79bbkupc9r-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053868-c-scqbsmppq--1ia79bbkupc9r"/>
+                  <rico:identifier>MC/DC/XXXVI/2</rico:identifier>
+                  <rico:title xml:lang="fr">Charles Emile Desnoyers</rico:title>
+                  <rdfs:label xml:lang="fr">Charles Emile Desnoyers</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1895-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1925-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1895-1925</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053868/c-scqbsmppq--1ia79bbkupc9r"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/053868-c-sdov1p26k-18px5cyfi3f71">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/053868-c-scqbsmppq--1ia79bbkupc9r"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Divorce de Charles Emile Desnoyers et Marie Renée Gabrielle Trinquart</rico:title>
+                  <rdfs:label xml:lang="fr">Divorce de Charles Emile Desnoyers et Marie Renée Gabrielle Trinquart</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1895-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1907-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1895-1907</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:ul>
+                           <html:li>
+                              <html:b>Papiers de famille</html:b>: Contrat de mariage, dépôt de l'acte du mariage pardevant Me Fauchey, notaire, certificat de mariage, compte d'administration d'Anne Julie Trinquart, mère de Marie Renée Gabrielle Trinquart, cession de bail à Charles Emile Desnoyers, factures de Charles Emile Desnoyers.</html:li>
+                           <html:li>
+                              <html:b>Papiers relatifs à la séparation</html:b>: copies des jugements de séparation de corps et de divorce, convention relative au paiement d'une pension alimentaire, témoignage concernant une visite auprès d'Yvonne Desnoyers fille mineure de Charles Emile Desnoyers et Marie Renée Gabrielle Trinquart, procès verbal de constat, correspondance, reçus et notes de déboursés et d'honoraires.</html:li>
+                        </html:ul>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Desnoyers, Charles Emile</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Desnoyers, Charles Emile</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Desnoyers, Charles Emile</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Trinquart, Marie Renée Gabrielle</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Trinquart, Marie Renée Gabrielle</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Trinquart, Marie Renée Gabrielle</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Desnoyers, Yvonne</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Desnoyers, Yvonne</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Desnoyers, Yvonne</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nz9g9l4f-ivwljxcgpid9"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bh85k-zoce6yspjkhr"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aw4it-19as7kymqwcs3"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8edh1n--6pmbenfru38u"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dc8p2-nyxarkw0ppoi"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d699mmxhwr0-4f15mrcy9b9z"/>
+                  <rico:hasProvenance rdf:resource="agent/010163"/>
+                  <rico:hasProvenance rdf:resource="agent/010478"/>
+                  <rico:hasProvenance rdf:resource="agent/012026"/>
+                  <rico:hasProvenance rdf:resource="agent/012027"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053868/c-sdov1p26k-18px5cyfi3f71"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/053868-c-sdov1p26k-18px5cyfi3f71-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/053868-c-sdov1p26k-18px5cyfi3f71"/>
+                        <rico:identifier>MC/DC/XXXVI/2</rico:identifier>
+                        <rico:title xml:lang="fr">Divorce de Charles Emile Desnoyers et Marie Renée Gabrielle Trinquart</rico:title>
+                        <rdfs:label xml:lang="fr">Divorce de Charles Emile Desnoyers et Marie Renée Gabrielle Trinquart</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1895-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1907-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1895-1907</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053868/c-sdov1p26k-18px5cyfi3f71"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/053868-c-sea3x3g5u-1i8sfvdc3hnpc">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/053868-c-scqbsmppq--1ia79bbkupc9r"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Emancipation d'Yvonne Desnoyers</rico:title>
+                  <rdfs:label xml:lang="fr">Emancipation d'Yvonne Desnoyers</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1914-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1914-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1914</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Extrait du procès-verbal du conseil de famille du 19 octobre 1914, note de frais de l'étude Burkhardt.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010163"/>
+                  <rico:hasProvenance rdf:resource="agent/010478"/>
+                  <rico:hasProvenance rdf:resource="agent/012026"/>
+                  <rico:hasProvenance rdf:resource="agent/012027"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053868/c-sea3x3g5u-1i8sfvdc3hnpc"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/053868-c-sea3x3g5u-1i8sfvdc3hnpc-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/053868-c-sea3x3g5u-1i8sfvdc3hnpc"/>
+                        <rico:identifier>MC/DC/XXXVI/2</rico:identifier>
+                        <rico:title xml:lang="fr">Emancipation d'Yvonne Desnoyers</rico:title>
+                        <rdfs:label xml:lang="fr">Emancipation d'Yvonne Desnoyers</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1914-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1914-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1914</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053868/c-sea3x3g5u-1i8sfvdc3hnpc"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/053868-c-sdyzkv8s1--x80cmr7sd2w1">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/053868-c-scqbsmppq--1ia79bbkupc9r"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Succession de Charles Emile Desnoyers</rico:title>
+                  <rdfs:label xml:lang="fr">Succession de Charles Emile Desnoyers</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1895-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1925-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1895-1925</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Charles Émile Desnoyers, décédé le 27 février 1922 : compte de la succession de Marthe Marie Joséphine Juif, épouse de Charles Emile Desnoyers, inventaire du mobilier, compte de la succession, convention entre Charles Emile Desnoyers et Marie Renée Gabrielle Trinquart, épouse divorcée de Charles Emile Desnoyers, déclaration de succession, bilan de l'actif et du passif, faire-part de décès, liquidation et partage de la succession, copie du testament, quittances et reçus de paiement, correspondance.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Desnoyers, Charles Emile</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Desnoyers, Charles Emile</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Desnoyers, Charles Emile</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-8da7t9knp--ju2vtil7dkls"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dc8p2-nyxarkw0ppoi"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d4wun--5fx3alx73y2a"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8e592y--1eh3sssxpxr0n"/>
+                  <rico:hasProvenance rdf:resource="agent/010163"/>
+                  <rico:hasProvenance rdf:resource="agent/010478"/>
+                  <rico:hasProvenance rdf:resource="agent/012026"/>
+                  <rico:hasProvenance rdf:resource="agent/012027"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053868/c-sdyzkv8s1--x80cmr7sd2w1"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/053868-c-sdyzkv8s1--x80cmr7sd2w1-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/053868-c-sdyzkv8s1--x80cmr7sd2w1"/>
+                        <rico:identifier>MC/DC/XXXVI/2</rico:identifier>
+                        <rico:title xml:lang="fr">Succession de Charles Emile Desnoyers</rico:title>
+                        <rdfs:label xml:lang="fr">Succession de Charles Emile Desnoyers</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1895-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1925-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1895-1925</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053868/c-sdyzkv8s1--x80cmr7sd2w1"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/053868-c-sujzdmlc1--19qdkaowuoana">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/053868-c-scqbsmppq--1ia79bbkupc9r"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Correspondance familiale de la famille Desnoyers</rico:title>
+                  <rdfs:label xml:lang="fr">Correspondance familiale de la famille Desnoyers</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1895-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1925-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1895-1925</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Correspondance de Charles Emile Desnoyers, Marie Renée Gabrielle Trinquart et Yvonne Desnoyers dans le cadre des différents litiges familiaux les opposant (divorce, émancipation, succession).</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d699mmxhwr0-4f15mrcy9b9z"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Desnoyers, Charles Emile</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Desnoyers, Charles Emile</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Desnoyers, Charles Emile</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Trinquart, Marie Renée Gabrielle</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Trinquart, Marie Renée Gabrielle</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Trinquart, Marie Renée Gabrielle</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Desnoyers, Yvonne</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Desnoyers, Yvonne</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Desnoyers, Yvonne</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010163"/>
+                  <rico:hasProvenance rdf:resource="agent/010478"/>
+                  <rico:hasProvenance rdf:resource="agent/012026"/>
+                  <rico:hasProvenance rdf:resource="agent/012027"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053868/c-sujzdmlc1--19qdkaowuoana"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/053868-c-sujzdmlc1--19qdkaowuoana-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/053868-c-sujzdmlc1--19qdkaowuoana"/>
+                        <rico:identifier>MC/DC/XXXVI/2</rico:identifier>
+                        <rico:title xml:lang="fr">Correspondance familiale de la famille Desnoyers</rico:title>
+                        <rdfs:label xml:lang="fr">Correspondance familiale de la famille Desnoyers</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1895-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1925-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1895-1925</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053868/c-sujzdmlc1--19qdkaowuoana"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

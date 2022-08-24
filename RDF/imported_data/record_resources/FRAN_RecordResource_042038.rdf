@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/042038">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Louis BROUART, 4 juin 1681 - 31 décembre 1722 (étude XL) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Louis BROUART, 4 juin 1681 - 31 décembre 1722 (étude XL) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-18</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">1ère édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-042038"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/042038-i1">
+            <rico:isInstantiationOf rdf:resource="record/042038"/>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Louis BROUART, 4 juin 1681 - 31 décembre 1722 (étude XL) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Louis BROUART, 4 juin 1681 - 31 décembre 1722 (étude XL) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_042038</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_042038"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-042038">
+      <rico:isOrWasDescribedBy rdf:resource="record/042038"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Louis BROUART (étude XL)</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Louis BROUART (étude XL)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-06-04</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1722-12-31</rico:endDate>
+      <rico:date xml:lang="fr">4 juin 1681 - 31 décembre 1722</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010167"/>
+      <rico:hasProvenance rdf:resource="agent/013068"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l’étude XL Archives de l'étude XL</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_042038"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-042038-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-042038"/>
+            <rico:identifier>MC/ET/XL/35 - MC/ET/XL/45, MC/RE/XL/1/A</rico:identifier>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Louis BROUART (étude XL)</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Louis BROUART (étude XL)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-06-04</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1722-12-31</rico:endDate>
+            <rico:date xml:lang="fr">4 juin 1681 - 31 décembre 1722</rico:date>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010167"/>
+            <rico:hasProvenance rdf:resource="agent/013068"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_042038"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/042038-c1p6z9g2fwvv--86nx2jc4a6b6"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/042038-c1p6z9g2j0rn-qz42q8hhoqwx"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/042038-c1p6z9g2fwvv--86nx2jc4a6b6">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-042038"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Minutes de Louis BROUART</rico:title>
+      <rdfs:label xml:lang="fr">Minutes de Louis BROUART</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1713-12-31</rico:endDate>
+      <rico:date xml:lang="fr">janvier 1681 - 1713</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010167"/>
+      <rico:hasProvenance rdf:resource="agent/013068"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c1p6z9g2fwvv--86nx2jc4a6b6"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/042038-c1p6z9g2fwvv--86nx2jc4a6b6-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/042038-c1p6z9g2fwvv--86nx2jc4a6b6"/>
+            <rico:identifier>MC/ET/XL/35 - MC/ET/XL/45</rico:identifier>
+            <rico:title xml:lang="fr">Minutes de Louis BROUART</rico:title>
+            <rdfs:label xml:lang="fr">Minutes de Louis BROUART</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1713-12-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier 1681 - 1713</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c1p6z9g2fwvv--86nx2jc4a6b6"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042038-c1p6z9g2gx5f--r46o4zrquoyp">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042038-c1p6z9g2fwvv--86nx2jc4a6b6"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1681</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1681</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1681</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>1681 janvier à 1681, 20 mai : actes passés par-devant Pierre Lecompte.</html:p>
+                  <html:p>1681, 4 juin à 1681, 31 décembre : actes passés par-devant Louis Brouart.</html:p>
+                  <html:p>Entre le 20 mai et le 4 juin pièces de greffe concernant principalement la pose de scellés, après le décès de Lecompte, survenue subitement le 26 mai, vers 10 heures du matin, Lecompte, Louis, son frère, sculpteur du roi.</html:p>
+                  <html:p>Fragment de pièces d'audience, 10 avril 1681.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010167"/>
+            <rico:hasProvenance rdf:resource="agent/013068"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c1p6z9g2gx5f--r46o4zrquoyp"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042038-c1p6z9g2gx5f--r46o4zrquoyp-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042038-c1p6z9g2gx5f--r46o4zrquoyp"/>
+                  <rico:identifier>MC/ET/XL/35</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1681</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1681</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1681</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c1p6z9g2gx5f--r46o4zrquoyp"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042038-c-qviio7oxh-lv887an14vys">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042038-c1p6z9g2fwvv--86nx2jc4a6b6"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1682</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1682</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1682-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1682-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1682</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010167"/>
+            <rico:hasProvenance rdf:resource="agent/013068"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviio7oxh-lv887an14vys"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042038-c-qviio7oxh-lv887an14vys-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042038-c-qviio7oxh-lv887an14vys"/>
+                  <rico:identifier>MC/ET/XL/36</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1682</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1682</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1682-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1682-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1682</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviio7oxh-lv887an14vys"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042038-c-qviioeys8-1q7sgib1m6ebz">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042038-c1p6z9g2fwvv--86nx2jc4a6b6"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1683</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1683</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1683-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1683-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1683</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010167"/>
+            <rico:hasProvenance rdf:resource="agent/013068"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviioeys8-1q7sgib1m6ebz"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042038-c-qviioeys8-1q7sgib1m6ebz-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042038-c-qviioeys8-1q7sgib1m6ebz"/>
+                  <rico:identifier>MC/ET/XL/37</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1683</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1683</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1683-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1683-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1683</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviioeys8-1q7sgib1m6ebz"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042038-c-qviioh3v1-2pmdpahroofc">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042038-c1p6z9g2fwvv--86nx2jc4a6b6"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1684</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1684</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1684-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1684-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1684</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010167"/>
+            <rico:hasProvenance rdf:resource="agent/013068"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviioh3v1-2pmdpahroofc"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042038-c-qviioh3v1-2pmdpahroofc-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042038-c-qviioh3v1-2pmdpahroofc"/>
+                  <rico:identifier>MC/ET/XL/38</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1684</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1684</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1684-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1684-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1684</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviioh3v1-2pmdpahroofc"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042038-c-qviioj34s--jetqvcq1l39k">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042038-c1p6z9g2fwvv--86nx2jc4a6b6"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1685</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1685</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1685-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1685-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1685</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010167"/>
+            <rico:hasProvenance rdf:resource="agent/013068"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviioj34s--jetqvcq1l39k"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042038-c-qviioj34s--jetqvcq1l39k-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042038-c-qviioj34s--jetqvcq1l39k"/>
+                  <rico:identifier>MC/ET/XL/39</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1685</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1685</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1685-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1685-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1685</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviioj34s--jetqvcq1l39k"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042038-c-qviiol2ei-38oaas1gtwql">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042038-c1p6z9g2fwvv--86nx2jc4a6b6"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1686</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1686</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1686-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1686-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1686</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010167"/>
+            <rico:hasProvenance rdf:resource="agent/013068"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviiol2ei-38oaas1gtwql"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042038-c-qviiol2ei-38oaas1gtwql-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042038-c-qviiol2ei-38oaas1gtwql"/>
+                  <rico:identifier>MC/ET/XL/40</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1686</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1686</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1686-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1686-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1686</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviiol2ei-38oaas1gtwql"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042038-c-qviion039--1g51rotio89xb">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042038-c1p6z9g2fwvv--86nx2jc4a6b6"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1687</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1687</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1687-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1687-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1687</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010167"/>
+            <rico:hasProvenance rdf:resource="agent/013068"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviion039--1g51rotio89xb"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042038-c-qviion039--1g51rotio89xb-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042038-c-qviion039--1g51rotio89xb"/>
+                  <rico:identifier>MC/ET/XL/41</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1687</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1687</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1687-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1687-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1687</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviion039--1g51rotio89xb"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042038-c-qviiooveg--18lyec7wn69bd">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042038-c1p6z9g2fwvv--86nx2jc4a6b6"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1688</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1688</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1688-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1688-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1688</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010167"/>
+            <rico:hasProvenance rdf:resource="agent/013068"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviiooveg--18lyec7wn69bd"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042038-c-qviiooveg--18lyec7wn69bd-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042038-c-qviiooveg--18lyec7wn69bd"/>
+                  <rico:identifier>MC/ET/XL/42</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1688</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1688</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1688-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1688-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1688</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviiooveg--18lyec7wn69bd"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042038-c-qviioqpx5--tsyef3pt54dz">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042038-c1p6z9g2fwvv--86nx2jc4a6b6"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1689</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1689</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1689-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1689-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1689</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010167"/>
+            <rico:hasProvenance rdf:resource="agent/013068"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviioqpx5--tsyef3pt54dz"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042038-c-qviioqpx5--tsyef3pt54dz-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042038-c-qviioqpx5--tsyef3pt54dz"/>
+                  <rico:identifier>MC/ET/XL/43</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1689</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1689</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1689-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1689-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1689</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviioqpx5--tsyef3pt54dz"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042038-c-qviioskyv-1rixrc931prtb">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042038-c1p6z9g2fwvv--86nx2jc4a6b6"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1704 - 1709</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1704 - 1709</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1704-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1709-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1704 - 1709</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010167"/>
+            <rico:hasProvenance rdf:resource="agent/013068"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviioskyv-1rixrc931prtb"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042038-c-qviioskyv-1rixrc931prtb-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042038-c-qviioskyv-1rixrc931prtb"/>
+                  <rico:identifier>MC/ET/XL/44</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1704 - 1709</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1704 - 1709</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1704-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1709-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1704 - 1709</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviioskyv-1rixrc931prtb"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042038-c-qviip2f7k-mzoi49l13by">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042038-c1p6z9g2fwvv--86nx2jc4a6b6"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1710 - 1713</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1710 - 1713</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1710-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1713-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1710 - 1713</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>1735, 3 novembre au 14 juin 1738, le notariat de Passy est resté vacant (RE/XL/1, fol.57 r°).</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010167"/>
+            <rico:hasProvenance rdf:resource="agent/013068"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviip2f7k-mzoi49l13by"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042038-c-qviip2f7k-mzoi49l13by-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042038-c-qviip2f7k-mzoi49l13by"/>
+                  <rico:identifier>MC/ET/XL/45</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1710 - 1713</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1710 - 1713</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1710-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1713-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1710 - 1713</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c-qviip2f7k-mzoi49l13by"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/042038-c1p6z9g2j0rn-qz42q8hhoqwx">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-042038"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Répertoire(s) de Louis BROUART</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire(s) de Louis BROUART</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1700-01-06</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1756-09-30</rico:endDate>
+      <rico:date xml:lang="fr">6 janvier 1700 - 30 septembre 1756</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010167"/>
+      <rico:hasProvenance rdf:resource="agent/013068"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c1p6z9g2j0rn-qz42q8hhoqwx"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/042038-c1p6z9g2j0rn-qz42q8hhoqwx-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/042038-c1p6z9g2j0rn-qz42q8hhoqwx"/>
+            <rico:identifier>MC/RE/XL/1/A</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire(s) de Louis BROUART</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire(s) de Louis BROUART</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1700-01-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1756-09-30</rico:endDate>
+            <rico:date xml:lang="fr">6 janvier 1700 - 30 septembre 1756</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c1p6z9g2j0rn-qz42q8hhoqwx"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042038-c1p6z9g2k1sz--iqg3zexmxowb">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042038-c1p6z9g2j0rn-qz42q8hhoqwx"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+            <rico:title xml:lang="fr">Répertoire. 1700, 6 janvier - 1756, 30 septembre</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire. 1700, 6 janvier - 1756, 30 septembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1700-01-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1756-09-30</rico:endDate>
+            <rico:date xml:lang="fr">6 janvier 1700 - 30 septembre 1756</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Répertoire des notaires Louis Brouart (6 janvier 1700-31 décembre 1722), Jean Guignebesche (3 mai 1723-20 octobre 1723) , Choin (8 novembre 1723-3 novembre 1733), Julien Siot (13 mai 1743-30 septembre 1756).</html:p>
+                  <html:p>Le répertoire de Jean Guignebesche ne comprend que 3 actes (3 mai, 17 mai et 20 octobre 1723).</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement et la cotation :</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux mentions d'actes contenues dans le répertoire. Parmi celles-ci, certaines peuvent y être décrites, de manière plus ou moins détaillée. Pour consulter l'acte proprement dit, il convient de rechercher la cote au niveau des articles (registre ou liasse) des minutes du notaire (cote de type 'MC/ET').</html:p>
+                  <html:p>
+                     <html:b>Ancienne(s) cote(s) :</html:b>
+                  </html:p>
+                  <html:p>RE/XL/1</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010167"/>
+            <rico:hasProvenance rdf:resource="agent/013068"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c1p6z9g2k1sz--iqg3zexmxowb"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042038-c1p6z9g2k1sz--iqg3zexmxowb-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042038-c1p6z9g2k1sz--iqg3zexmxowb"/>
+                  <rico:identifier>MC/RE/XL/1/A</rico:identifier>
+                  <rico:title xml:lang="fr">Répertoire. 1700, 6 janvier - 1756, 30 septembre</rico:title>
+                  <rdfs:label xml:lang="fr">Répertoire. 1700, 6 janvier - 1756, 30 septembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1700-01-06</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1756-09-30</rico:endDate>
+                  <rico:date xml:lang="fr">6 janvier 1700 - 30 septembre 1756</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042038/c1p6z9g2k1sz--iqg3zexmxowb"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

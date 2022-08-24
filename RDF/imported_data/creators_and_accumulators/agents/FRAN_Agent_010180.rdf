@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rico="https://www.ica.org/standards/RiC/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:isni="https://isni.org/ontology#" xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/010180">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#AuthorityRecord"/>
+      <rico:describesOrDescribed rdf:resource="agent/010180"/>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl001"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl003"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-04-23</rico:creationDate>
+      <rico:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-05</rico:lastModificationDate>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:name xml:lang="fr">Dérivation
+                (Migration ETANOT)</rico:name>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-04-23</rico:date>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:name xml:lang="fr">Révision
+                (par Marie-Françoise LIMON-BONNET)</rico:name>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-09-30</rico:date>
+            <rico:descriptiveNote xml:lang="fr">F. Clavaud, 6 octobre 2014 : revu indexation fonction, créé lien
+               chronologique vers étude XV, revu liens IR</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:name xml:lang="fr">Révision
+                (par Mission.referentiels MISSION.REFERENTIELS)</rico:name>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-05</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Traitements systématiques appliqués par script XSLT spécifique aux
+               notices des études notariales parisiennes hors du SIA des Archives nationales :
+               normalisation de la forme autorisée du nom, correction de l’indexation statut
+               juridique, suppression d’éléments toDate et mandate vides et de la forme du nom
+               "indéterminé", remplacement des apostrophes droites par des apostrophes
+               courbes.</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:name xml:lang="fr">Modification
+                (par Modification_en_masse_SIA)</rico:name>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-05</rico:date>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:source rdf:parseType="Literal">
+         <html:p xml:lang="fr">Poisson (Jean-Paul), " Une comptabilité notariale parisienne à la fin du XVIIIe siècle étude LIII, 1783-1790) ",<html:i>Essais de notarialogie</html:i>, 2002, p. 187.</html:p>
+      </rico:source>
+      <rico:source rdf:parseType="Literal">
+         <html:p xml:lang="fr">Limon-Bonnet (M.-F.) [dir.],<html:i>122 minutes d’histoire. Actes des notaires de Paris, XVIe-XXe siècle, Pari</html:i>s, 2012, pp. 110-111.</html:p>
+      </rico:source>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/010180">
+            <rico:isInstantiationOf rdf:resource="record/010180"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_NP_010180</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/NP/FRAN_NP_010180"/>
+            <rico:identifier>FRDAFANCH00MC_NAETUDE_053</rico:identifier>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl011"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:Agent rdf:about="agent/010180">
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#CorporateBody"/>
+      <rico:isOrWasDescribedBy rdf:resource="record/010180"/>
+      <rdfs:label xml:lang="fr">Étude notariale LIII (Paris ; 1648-....)</rdfs:label>
+      <rico:hasOrHadAgentName>
+         <rico:AgentName rdf:about="agentName/010180-%C3%89tude%20notariale%20LIII%20%28Paris%20%3B%201648-....%29">
+            <rdfs:label xml:lang="fr">Étude notariale LIII (Paris ; 1648-....)</rdfs:label>
+            <rico:textualValue xml:lang="fr">Étude notariale LIII (Paris ; 1648-....)</rico:textualValue>
+            <rico:isOrWasAgentNameOf rdf:resource="agent/010180"/>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl001"/>
+            <rico:type xml:lang="fr">nom d'agent : forme préférée</rico:type>
+         </rico:AgentName>
+      </rico:hasOrHadAgentName>
+      <rico:hasOrHadAgentName>
+         <rico:AgentName rdf:about="agentName/010180-75029">
+            <rdfs:label xml:lang="fr">75029</rdfs:label>
+            <rico:textualValue xml:lang="fr">75029</rico:textualValue>
+            <rico:isOrWasAgentNameOf rdf:resource="agent/010180"/>
+         </rico:AgentName>
+      </rico:hasOrHadAgentName>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1648-01-01</rico:beginningDate>
+      <rico:thingIsTargetOfPlaceRelation>
+         <rico:PlaceRelation>
+            <rico:placeRelationHasTarget rdf:resource="agent/010180"/>
+            <rico:placeRelationHasSource rdf:resource="place/28%2C%20avenue%20Marceau%2C%2075016%20Paris"/>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1923-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1973-12-31</rico:endDate>
+         </rico:PlaceRelation>
+      </rico:thingIsTargetOfPlaceRelation><rico:isAssociatedWithPlace rdf:resource="place/28%2C%20avenue%20Marceau%2C%2075016%20Paris"/>
+      <rico:hasOrHadLocation rdf:resource="place/28%2C%20avenue%20Marceau%2C%2075016%20Paris"/>
+      <rico:hasOrHadCorporateBodyType rdf:resource="corporateBodyType/FRAN_RI_104-d5blomr902-13lmns87apgev"/><rico:hasOrHadIdentifier><rico:Identifier rdf:about="identifier/010180-53"><skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</skos:prefLabel><skos:altLabel xml:lang="fr">LIII</skos:altLabel><rico:type xml:lang="fr">numéro d’office notarial parisien dans la nomenclature des Archives nationales</rico:type><rico:isOrWasIdentifierOf rdf:resource="agent/010180"/></rico:Identifier></rico:hasOrHadIdentifier>
+      <rico:agentIsTargetOfPerformanceRelation>
+         <rico:PerformanceRelation rdf:about="performanceRelation/010180-d3nyui3o8w--11y7jgy8q3wnt-16480101-19731231">
+            <rico:performanceRelationHasTarget rdf:resource="agent/010180"/>
+            <rico:performanceRelationHasSource>
+               <rico:Activity>
+                  <rico:activityIsSourceOfPerformanceRelation rdf:resource="performanceRelation/010180-d3nyui3o8w--11y7jgy8q3wnt-16480101-19731231"/>
+                  <rico:hasActivityType rdf:resource="activityType/FRAN_RI_011-d3nyui3o8w--11y7jgy8q3wnt"/>
+               </rico:Activity>
+            </rico:performanceRelationHasSource>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1648-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1973-12-31</rico:endDate>
+         </rico:PerformanceRelation>
+      </rico:agentIsTargetOfPerformanceRelation><rico:performsOrPerformed><rico:Activity><rico:hasActivityType rdf:resource="activityType/FRAN_RI_011-d3nyui3o8w--11y7jgy8q3wnt"/></rico:Activity></rico:performsOrPerformed>
+      <rico:history rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <h4>Contexte général</h4>
+            <html:p>Les minutes de cette étude ont été versées aux Archives nationales (2013) jusqu’au 31 décembre 1938, mais elles n’ont pas encore été cotées. Leur communication en salle de lecture n’est donc pas encore possible.</html:p>
+         </html:div>
+      </rico:history>
+      <rico:history rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Cette étude est installée depuis le XVIIe siècle rue Saint-Honoré, vis-à-vis l’ancien hôpital des Quinze-Vingts (actuelle place du Palais-Royal), puis, à partir de 1763, en face de l’hôtel de Noailles, soit au n° 333, puis au n°339. Elle se transporte place Boieldieu en 1856, 66, rue Pierre-Charron en 1887, puis 28, avenue Marceau en 1929. Elle est absorbée en 1973, de même que les études XL et LXIII, par l’étude XV, dont l’adresse se trouve au 54, avenue Victor-Hugo. Cette étude est celle de Diderot, qui y passe de nombreux actes. Parmi les clients célèbres, on relève également, outre le comte d’Artois (donation de ce dernier au duc de Berry, 9 novembre 1819), Mirabeau, Helvétius, le baron d’Holbach, le baron de Grimm et Mme Caron de Beaumarchais.</html:p>
+            <html:p>Le Minutier central conserve les minutes de l’étude LII à partir de l’année 1648.</html:p>
+            <html:p>Les minutes de cette étude ont été versées aux Archives nationales (2013) jusqu’au 31 décembre 1938, mais elles n’ont pas encore été cotées. Leur communication en salle de lecture n’est donc pas encore possible.</html:p>
+         </html:div>
+      </rico:history>
+      <rico:groupIsSourceOfMembershipRelation rdf:resource="membershipRelation/010180-011694-19610208-19730418"/><rico:hasOrHadMember rdf:resource="agent/011694"/>
+      <rico:agentIsSourceOfAgentTemporalRelation rdf:resource="agentTemporalRelation/010180-010142-19730101-*"/><rico:hasSuccessor rdf:resource="agent/010142"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/052154-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-052154"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/052160-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-052160"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/052144-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-052144"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/052149-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-052149"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/052146-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-052146"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/052156-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-052156"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/052155-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-052155"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/042272-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-042272"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/042265-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-042265"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/053365-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-053365"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/042271-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-042271"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/042262-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-042262"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/042267-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-042267"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/042261-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-042261"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/042260-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-042260"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/054326-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-054326"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/053001-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-053001"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/053000-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-053000"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/054277-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-054277"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/054303-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-054303"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/054307-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-054307"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/054331-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-054331"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/055936-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-055936"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/055937-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-055937"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/042258-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-042258"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/042273-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-042273"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/058120-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-058120"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/042274-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-042274"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/058416-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-058416"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/058318-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-058318"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/042264-010180"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-042264"/>
+   </rico:Agent>
+</rdf:RDF>

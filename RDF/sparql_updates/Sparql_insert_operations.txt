@@ -1,0 +1,244 @@
+PREFIX demoanonto: <https://sparnatural-demo-anf.huma-num.fr/ontology#>
+PREFIX sparnademoan: <https://sparnatural-demo-anf.huma-num.fr/insertedData/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# Démonstrateur Sparnatural des Archives nationales de France (https://sparna-git.github.io/sparnatural-demonstrateur-an/index.html) : requêtes SPARQL d'insertion de nouveaux triplets dans le jeu de données préalablement importé dans une base de graphes. Date du fichier : 23 août 2022. 
+
+# Déclaration de nouvelles classes
+
+INSERT DATA { GRAPH sparnademoan: {
+
+demoanonto:Notaire a owl:Class ;
+    rdfs:subClassOf rico:Person ;
+    rdfs:label "Notaire"@fr ;
+    rdfs:comment "Juriste investi d'une mission d'autorité publique, qui prépare des contrats sous la forme authentique, pour le compte de ses clients."@fr;
+    skos:note "pourrait être considéré équivalent de /rico:hasOrHadOccupationType <http://data.archives-nationales.culture.gouv.fr/occupationType/FRAN_RI_010-d3nyu9x713-9kcjiv44l4wh>"@fr .
+
+demoanonto:EtudeNotariale a owl:Class ;
+rdfs:subClassOf rico:CorporateBody ;
+rdfs:label "Étude notariale"@fr ;
+skos:note "pourrait être considéré équivalent de : rico:CorporateBody; rico:hasOrHadCorporateBodyType <http://data.archives-nationales.culture.gouv.fr/corporateBodyType/FRAN_RI_104-d5blomr902-13lmns87apgev>"@fr .
+
+
+demoanonto:Repertoire a owl:Class ;
+rdfs:subClassOf rico:Record ;
+rdfs:label "Répertoire"@fr ;
+rdfs:comment "Liste, en général chronologique, se présentant sous forme de registre ou d’ensemble de feuillets, que le notaire a obligation de tenir, aujourd’hui jour par jour, en y faisant figurer date, nature de l’acte (titre qui en caractérise le contenu, par exemple : vente, procuration, inventaire…), espèce de l’acte (minute ou brevet), noms des parties et toutes autres mentions prescrites par la loi ou les règlements. Une fois versé avec les minutes dans un service public d’archives, le répertoire sert principalement à repérer un acte donné en l’absence outils de recherche plus commodes, mais le répertoire, comme la minute, comporte intrinsèquement une valeur probatoire."@fr ;
+ skos:note "pourrait être considéré équivalent de : Record ayant pour type de document répertoire - rico:hasDocumentaryFormType <http://data.archives-nationales.culture.gouv.fr/documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed>"@fr . 
+    
+        
+demoanonto:InstrumentRecherche a owl:Class ;
+rdfs:subClassOf rico:Record ;
+rdfs:label "Instrument de recherche"@fr .
+   
+demoanonto:NoticeAutorite a owl:Class ;
+rdfs:subClassOf rico:Record ;
+rdfs:label "Notice d’autorité"@fr ;
+rdfs:comment "Notice d’autorité archivistique, qui décrit classiquement une entité contextuelle telle qu’un agent."@fr .
+    
+demoanonto:ActeNotarie a owl:Class ;
+rdfs:subClassOf rico:Record ;
+rdfs:label "Acte notarié"@fr ;
+rdfs:comment "Acte établi par un notaire. Inclut les minutes, premiers originaux des actes notariés, complets de toutes leurs            annexes, signées du ou des notaires et des parties à l’acte et dont le notaire a charge de la conservation jusqu’à ce que la loi en transfère la responsabilité à un service public d’archives. Les minutes sont inscrites au répertoire de ce même notaire et            font foi (valeur probatoire), constituant des actes authentiques au sens du Code civil."@fr .
+    
+demoanonto:Archive a owl:Class ;
+rdfs:subClassOf rico:RecordResource ;
+rdfs:label "Archives"@fr;
+rdfs:comment "Tout ensemble ou pièce d’archives, hors des instruments de recherche et notices d’autorité."@fr .
+    
+demoanonto:Fonds a owl:Class ;
+rdfs:subClassOf rico:RecordResource ;
+rdfs:label "Fonds d’archives"@fr .
+    
+demoanonto:CopieNumerique a owl:Class ;
+rdfs:subClassOf rico:Instantiation ;
+rdfs:label "Copie numérique"@fr ;
+rdfs:comment "Toute copie numérique fidèle et intégrale d’une ressource archivistique, produite à des fins de communication aux publics comme substitut de l’original."@fr .
+    
+demoanonto:ListeActes a owl:Class ;
+rdfs:subClassOf rico:RecordPart ;
+rdfs:label "Liste d’actes notariés"@fr ;
+rdfs:comment "Subdivision logique d’un répertoire de notaire, concernant le plus souvent une période donnée, par exemple une année."@fr ;
+skos:note "pourrait être considéré équivalent de : RecordPart, inclus dans un Repertoire, et dont l'intitulé commence par 'Liste'"@fr .
+
+demoanonto:MentionActe a owl:Class ;
+rdfs:subClassOf rico:RecordPart ;
+rdfs:label "Mention d’acte notarié"@fr ;
+rdfs:comment "Mention d’un acte dans une liste d’actes notariés. Le notaire y spécifie toujours la date de l’acte (année et mois, pas toujours le quantième dans le mois), le type d’acte, le nom de l’intéressé ou des parties."@fr .
+
+demoanonto:QuartierOuParoisse a owl:Class ;
+rdfs:subClassOf rico:Place ;
+rdfs:comment "Quartier, paroisse ou arrondissement parisien"@fr ;
+rdfs:label "Quartier ou paroisse de Paris"@fr .
+
+
+demoanonto:VoieParisienne a owl:Class ;
+rdfs:subClassOf rico:Place ;
+rdfs:label "Voie de Paris"@fr .
+    
+demoanonto:EdificeParisien a owl:Class ;
+rdfs:subClassOf rico:Place ;
+rdfs:label "Édifice de Paris"@fr .
+    
+demoanonto:MotMatiere a owl:Class ;
+rdfs:subClassOf rico:Type ;
+rdfs:label "Mot matière sujet de ressource archivistique"@fr ;
+rdfs:comment "Toute chose qui n’est ni un agent ni un lieu, et qui peut être le sujet d’une ressource archivistique. Peut notamment être un objet matériel, un événement, un concept. Peut avoir un nom propre."@fr ;
+skos:note "Utilisé pour qualifier, en attendant mieux, les concepts définis dans le référentiel matières des Archives nationales."@fr ;
+skos:example "guerre 1914-1918 ; Traité de Maastricht (1992) ; élection ; tourisme ; église"@fr .
+} } ;
+
+
+# calcul des instances des nouvelles classes 
+
+
+INSERT { GRAPH sparnademoan: { 
+    ?ir a demoanonto:InstrumentRecherche 
+} }
+WHERE {
+    ?ir a rico:Record ; 
+    rico:hasDocumentaryFormType <https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid> .
+} ;
+
+INSERT { GRAPH sparnademoan: { 
+    ?ar a demoanonto:NoticeAutorite 
+} }
+WHERE {
+    ?ar a rico:Record ; 
+    rico:hasDocumentaryFormType <https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#AuthorityRecord> .
+} ;
+
+INSERT { GRAPH sparnademoan: { 
+    ?fds a demoanonto:Fonds 
+} }
+WHERE {
+    ?fds a rico:RecordResource ; 
+    rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds> .
+} ;
+
+INSERT { GRAPH sparnademoan: { 
+    ?ra a demoanonto:Archive 
+} }
+WHERE {
+    ?ra a rico:RecordResource . 
+   MINUS {?ra rico:hasDocumentaryFormType <https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid>}
+   MINUS {?ra rico:hasDocumentaryFormType  <https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#AuthorityRecord>}
+} ;
+
+
+INSERT {
+GRAPH sparnademoan: { 
+    ?rep a demoanonto:Repertoire
+    } }
+WHERE {
+?rep a rico:Record ;
+rico:hasDocumentaryFormType <http://data.archives-nationales.culture.gouv.fr/documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed> .
+} ;
+
+
+INSERT { GRAPH sparnademoan: { 
+    ?copienum a demoanonto:CopieNumerique 
+} }
+WHERE {
+    ?copienum a rico:Instantiation ; 
+    dc:format "image/jpeg"@en .
+   
+} ;
+INSERT {
+GRAPH sparnademoan: 
+{ ?ra a demoanonto:ActeNotarie }
+}
+
+WHERE {
+    ?ra a rico:Record . 
+  MINUS {?ra rico:hasDocumentaryFormType <https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid>}
+  MINUS {?ra rico:hasDocumentaryFormType  <https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#AuthorityRecord>}
+  MINUS {?ra a demoanonto:Repertoire }
+} ;
+
+INSERT { GRAPH sparnademoan: { 
+    ?motcle a demoanonto:MotMatiere
+    } }
+WHERE {
+    ?motcle a rico:Thing ;
+  skos:inScheme <http://data.archives-nationales.culture.gouv.fr/things> .
+} ;
+
+
+
+INSERT { GRAPH sparnademoan: { 
+    ?mention a demoanonto:MentionActe
+    } }
+WHERE {
+   ?mention rdf:type rico:RecordPart ;
+   rdfs:label ?label ;
+   rico:isOrWasConstituentOf+ ?rep .
+   ?rep a demoanonto:Repertoire .
+   FILTER (!STRSTARTS(LCASE(STR(?label)), 'page de titre'))
+   FILTER (!STRSTARTS(LCASE(STR(?label)), 'liste'))
+   FILTER (!STRSTARTS(LCASE(STR(?label)), 'table'))
+   FILTER (!STRSTARTS(LCASE(STR(?label)), 'du '))
+} ;
+
+
+INSERT {  GRAPH sparnademoan: {  ?doc a demoanonto:ListeActes}}
+WHERE {
+?doc a rico:RecordPart ; rico:title ?title ;
+rico:isOrWasConstituentOf+ ?rep .
+?rep a demoanonto:Repertoire .
+FILTER (strstarts(LCASE(STR(?title)), "liste"))
+} ;
+
+INSERT { GRAPH sparnademoan: { 
+    ?agent a demoanonto:Notaire 
+} }
+WHERE {
+    ?agent a rico:Person ; 
+    rico:hasOrHadOccupationOfType <http://data.archives-nationales.culture.gouv.fr/occupationType/FRAN_RI_010-d3nyu9x713-9kcjiv44l4wh> .
+} ;
+
+# calcul des études notariales
+INSERT { GRAPH sparnademoan: {
+    ?agent a demoanonto:EtudeNotariale 
+} }
+WHERE { 
+    ?agent a rico:CorporateBody ;
+    rico:hasOrHadCorporateBodyType <http://data.archives-nationales.culture.gouv.fr/corporateBodyType/FRAN_RI_104-d5blomr902-13lmns87apgev> .
+} ;
+
+
+
+INSERT { GRAPH sparnademoan: { 
+    ?voie a demoanonto:VoieParisienne 
+} }
+WHERE {
+    ?voie a rico:Place ; 
+  rico:hasOrHadPlaceType <http://data.archives-nationales.culture.gouv.fr/placeType/voie%20urbaine> .
+} ;
+
+INSERT { GRAPH sparnademoan: { 
+    ?ed a demoanonto:EdificeParisien
+} }
+WHERE {
+    ?ed a rico:Place ; 
+  rico:hasOrHadPlaceType <http://data.archives-nationales.culture.gouv.fr/placeType/am%C3%A9nagement%20ou%20construction> .
+} ;
+
+# calcul des quartiers ou paroisses
+INSERT { GRAPH sparnademoan: {
+    ?lieu a demoanonto:QuartierOuParoisse
+} }
+WHERE {
+    ?lieu a rico:Place .
+    ?lieu rico:hasOrHadPlaceType ?placeType .
+    VALUES ?placeType {
+        <http://data.archives-nationales.culture.gouv.fr/placeType/quartier>
+        <http://data.archives-nationales.culture.gouv.fr/placeType/paroisse>
+        <http://data.archives-nationales.culture.gouv.fr/placeType/arrondissement%20municipal>
+    }
+}

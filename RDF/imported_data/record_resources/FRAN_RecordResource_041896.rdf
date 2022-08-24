@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041896">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire François LEMOYNE, 1614 - 4 novembre 1639 (étude XXXIII) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire François LEMOYNE, 1614 - 4 novembre 1639 (étude XXXIII) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-18</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">1ère édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041896"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041896-i1">
+            <rico:isInstantiationOf rdf:resource="record/041896"/>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire François LEMOYNE, 1614 - 4 novembre 1639 (étude XXXIII) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire François LEMOYNE, 1614 - 4 novembre 1639 (étude XXXIII) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041896</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041896"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041896">
+      <rico:isOrWasDescribedBy rdf:resource="record/041896"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire François LEMOYNE (étude XXXIII)</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire François LEMOYNE (étude XXXIII)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1614-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1639-11-04</rico:endDate>
+      <rico:date xml:lang="fr">1614 - 4 novembre 1639</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010160"/>
+      <rico:hasProvenance rdf:resource="agent/011530"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l’étude XXXIIIArchives de l'étude XXXIII</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041896"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041896-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041896"/>
+            <rico:identifier>MC/ET/XXXIII/99 - MC/ET/XXXIII/157, MC/RE/XXXIII/1 - MC/RE/XXXIII/3</rico:identifier>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire François LEMOYNE (étude XXXIII)</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire François LEMOYNE (étude XXXIII)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1614-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1639-11-04</rico:endDate>
+            <rico:date xml:lang="fr">1614 - 4 novembre 1639</rico:date>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010160"/>
+            <rico:hasProvenance rdf:resource="agent/011530"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041896"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/041896-c1p6yjiovq77--449mi1mylndg"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/041896-c1p6yjip2jkj-190bgyxjjk5zm"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041896-c1p6yjiovq77--449mi1mylndg">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041896"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Minutes de François LEMOYNE</rico:title>
+      <rdfs:label xml:lang="fr">Minutes de François LEMOYNE</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1614-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1651-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1614 - 1651</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010160"/>
+      <rico:hasProvenance rdf:resource="agent/011530"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041896/c1p6yjiovq77--449mi1mylndg"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041896-c1p6yjiovq77--449mi1mylndg-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041896-c1p6yjiovq77--449mi1mylndg"/>
+            <rico:identifier>MC/ET/XXXIII/99 - MC/ET/XXXIII/157</rico:identifier>
+            <rico:title xml:lang="fr">Minutes de François LEMOYNE</rico:title>
+            <rdfs:label xml:lang="fr">Minutes de François LEMOYNE</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1614-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1651-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1614 - 1651</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041896/c1p6yjiovq77--449mi1mylndg"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041896-c1p6yjiowtjv--1caqo3be7n094">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041896-c1p6yjiovq77--449mi1mylndg"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes concernant l'Hôtel-Dieu de Paris. 1614 - 1624</rico:title>
+            <rdfs:label xml:lang="fr">Minutes concernant l'Hôtel-Dieu de Paris. 1614 - 1624</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1614-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1624-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1614 - 1624</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010160"/>
+            <rico:hasProvenance rdf:resource="agent/011530"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041896/c1p6yjiowtjv--1caqo3be7n094"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041896-c1p6yjiowtjv--1caqo3be7n094-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041896-c1p6yjiowtjv--1caqo3be7n094"/>
+                  <rico:identifier>MC/ET/XXXIII/99</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes concernant l'Hôtel-Dieu de Paris. 1614 - 1624</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes concernant l'Hôtel-Dieu de Paris. 1614 - 1624</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1614-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1624-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1614 - 1624</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041896/c1p6yjiowtjv--1caqo3be7n094"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041896-c1p6yjioy7pf--1nqlgecrdvazt">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041896-c1p6yjiovq77--449mi1mylndg"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes concernant l'Hôtel-Dieu de Paris. 1625 - 1633</rico:title>
+            <rdfs:label xml:lang="fr">Minutes concernant l'Hôtel-Dieu de Paris. 1625 - 1633</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1625-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1633-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1625 - 1633</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010160"/>
+            <rico:hasProvenance rdf:resource="agent/011530"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041896/c1p6yjioy7pf--1nqlgecrdvazt"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041896-c1p6yjioy7pf--1nqlgecrdvazt-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041896-c1p6yjioy7pf--1nqlgecrdvazt"/>
+                  <rico:identifier>MC/ET/XXXIII/100</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes concernant l'Hôtel-Dieu de Paris. 1625 - 1633</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes concernant l'Hôtel-Dieu de Paris. 1625 - 1633</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1625-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1633-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1625 - 1633</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041896/c1p6yjioy7pf--1nqlgecrdvazt"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041896-c1p6yjiozluz-1wma74xi909f8">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041896-c1p6yjiovq77--449mi1mylndg"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes concernant l'Hôtel-Dieu de Paris. 1634 - 1638</rico:title>
+            <rdfs:label xml:lang="fr">Minutes concernant l'Hôtel-Dieu de Paris. 1634 - 1638</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1634-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1638-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1634 - 1638</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010160"/>
+            <rico:hasProvenance rdf:resource="agent/011530"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041896/c1p6yjiozluz-1wma74xi909f8"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041896-c1p6yjiozluz-1wma74xi909f8-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041896-c1p6yjiozluz-1wma74xi909f8"/>
+                  <rico:identifier>MC/ET/XXXIII/101</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes concernant l'Hôtel-Dieu de Paris. 1634 - 1638</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes concernant l'Hôtel-Dieu de Paris. 1634 - 1638</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1634-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1638-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1634 - 1638</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre. Document détérioré.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041896/c1p6yjiozluz-1wma74xi909f8"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041896-c1p6yjip0w5n--751nwyzxtzug">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041896-c1p6yjiovq77--449mi1mylndg"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes concernant l'hôpital des Incurables. 1634 - 1651</rico:title>
+            <rdfs:label xml:lang="fr">Minutes concernant l'hôpital des Incurables. 1634 - 1651</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1634-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1651-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1634 - 1651</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>1642-1651 : actes passés par-devant Philippe Lemoyne.</html:p>
+                  <html:p>1634-1636 : actes passés par-devant François Lemoyne.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010160"/>
+            <rico:hasProvenance rdf:resource="agent/011530"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041896/c1p6yjip0w5n--751nwyzxtzug"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041896-c1p6yjip0w5n--751nwyzxtzug-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041896-c1p6yjip0w5n--751nwyzxtzug"/>
+                  <rico:identifier>MC/ET/XXXIII/157</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes concernant l'hôpital des Incurables. 1634 - 1651</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes concernant l'hôpital des Incurables. 1634 - 1651</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1634-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1651-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1634 - 1651</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre. Document détérioré.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041896/c1p6yjip0w5n--751nwyzxtzug"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041896-c1p6yjip2jkj-190bgyxjjk5zm">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041896"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Répertoire(s) de François LEMOYNE</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire(s) de François LEMOYNE</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1615-01-16</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1690-07-29</rico:endDate>
+      <rico:date xml:lang="fr">16 janvier 1615 - 29 juillet 1690</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010160"/>
+      <rico:hasProvenance rdf:resource="agent/011530"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041896/c1p6yjip2jkj-190bgyxjjk5zm"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041896-c1p6yjip2jkj-190bgyxjjk5zm-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041896-c1p6yjip2jkj-190bgyxjjk5zm"/>
+            <rico:identifier>MC/RE/XXXIII/1 - MC/RE/XXXIII/3</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire(s) de François LEMOYNE</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire(s) de François LEMOYNE</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1615-01-16</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1690-07-29</rico:endDate>
+            <rico:date xml:lang="fr">16 janvier 1615 - 29 juillet 1690</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041896/c1p6yjip2jkj-190bgyxjjk5zm"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041896-c1p6yjip3ju3-q74y635lkvxa">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041896-c1p6yjip2jkj-190bgyxjjk5zm"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+            <rico:title xml:lang="fr">Répertoire. 1615, 16 janvier - 1690, 29 juillet</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire. 1615, 16 janvier - 1690, 29 juillet</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1615-01-16</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1690-07-29</rico:endDate>
+            <rico:date xml:lang="fr">16 janvier 1615 - 29 juillet 1690</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Répertoire des notaires François Lemoine (10 janvier 1615-4 novembre 1639), Philippe Lemoyne (23 mars 1640-4 septembre 1676), Jean Chuppin (11 septembre 1676-29 juillet 1690).</html:p>
+                  <html:p>Répertoire chronologique des actes relatifs à l'Hôtel-Dieu.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement et la cotation :</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux mentions d'actes contenues dans le répertoire. Parmi celles-ci, certaines peuvent y être décrites, de manière plus ou moins détaillée. Pour consulter l'acte proprement dit, il convient de rechercher la cote au niveau des articles (registre ou liasse) des minutes du notaire (cote de type 'MC/ET').</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010160"/>
+            <rico:hasProvenance rdf:resource="agent/011530"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041896/c1p6yjip3ju3-q74y635lkvxa"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041896-c1p6yjip3ju3-q74y635lkvxa-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041896-c1p6yjip3ju3-q74y635lkvxa"/>
+                  <rico:identifier>MC/RE/XXXIII/1</rico:identifier>
+                  <rico:title xml:lang="fr">Répertoire. 1615, 16 janvier - 1690, 29 juillet</rico:title>
+                  <rdfs:label xml:lang="fr">Répertoire. 1615, 16 janvier - 1690, 29 juillet</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1615-01-16</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1690-07-29</rico:endDate>
+                  <rico:date xml:lang="fr">16 janvier 1615 - 29 juillet 1690</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041896/c1p6yjip3ju3-q74y635lkvxa"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041896-c1p6yjip5moj-rh6ncwlg1w9g">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041896-c1p6yjip2jkj-190bgyxjjk5zm"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+            <rico:title xml:lang="fr">Répertoire. 1634, 29 novembre - 1690, 18 juillet</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire. 1634, 29 novembre - 1690, 18 juillet</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1634-11-29</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1690-07-18</rico:endDate>
+            <rico:date xml:lang="fr">29 novembre 1634 - 18 juillet 1690</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Répertoire des notaires François Lemoyne (29 novembre 1634- 8 août 1636), Philippe Lemoyne (7 mars 1642 -4 septembre 1676), Jean Chuppin (18 septembre 1676-18 juillet 1690).</html:p>
+                  <html:p>Répertoire chronologique des actes relatifs à l'Hôpital des Incurables.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement et la cotation :</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux mentions d'actes contenues dans le répertoire. Parmi celles-ci, certaines peuvent y être décrites, de manière plus ou moins détaillée. Pour consulter l'acte proprement dit, il convient de rechercher la cote au niveau des articles (registre ou liasse) des minutes du notaire (cote de type 'MC/ET').</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010160"/>
+            <rico:hasProvenance rdf:resource="agent/011530"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041896/c1p6yjip5moj-rh6ncwlg1w9g"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041896-c1p6yjip5moj-rh6ncwlg1w9g-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041896-c1p6yjip5moj-rh6ncwlg1w9g"/>
+                  <rico:identifier>MC/RE/XXXIII/3</rico:identifier>
+                  <rico:title xml:lang="fr">Répertoire. 1634, 29 novembre - 1690, 18 juillet</rico:title>
+                  <rdfs:label xml:lang="fr">Répertoire. 1634, 29 novembre - 1690, 18 juillet</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1634-11-29</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1690-07-18</rico:endDate>
+                  <rico:date xml:lang="fr">29 novembre 1634 - 18 juillet 1690</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041896/c1p6yjip5moj-rh6ncwlg1w9g"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

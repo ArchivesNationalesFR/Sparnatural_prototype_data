@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/042000">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Jean LE FRANC, 31 juillet 1669 - décembre 1681 (étude XXXVIII) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jean LE FRANC, 31 juillet 1669 - décembre 1681 (étude XXXVIII) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-18</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">1ère édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-042000"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/042000-i1">
+            <rico:isInstantiationOf rdf:resource="record/042000"/>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Jean LE FRANC, 31 juillet 1669 - décembre 1681 (étude XXXVIII) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jean LE FRANC, 31 juillet 1669 - décembre 1681 (étude XXXVIII) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_042000</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_042000"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-042000">
+      <rico:isOrWasDescribedBy rdf:resource="record/042000"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Jean LE FRANC (étude XXXVIII)</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jean LE FRANC (étude XXXVIII)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1669-07-31</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-12-31</rico:endDate>
+      <rico:date xml:lang="fr">31 juillet 1669 - décembre 1681</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010165"/>
+      <rico:hasProvenance rdf:resource="agent/011407"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Attention : ce notaire n'a pas laissé de répertoire pour son activité dans l'étude XXXVIII</html:b>
+            </html:p>
+            <html:p>Accès aux instruments de recherche de tous les notaires de l’étude XXXVIII<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041998">Archives de l'étude XXXVIII</html:a>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_042000"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-042000-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-042000"/>
+            <rico:identifier>MC/ET/XXXVIII/4 - MC/ET/XXXVIII/8</rico:identifier>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Jean LE FRANC (étude XXXVIII)</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jean LE FRANC (étude XXXVIII)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1669-07-31</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-12-31</rico:endDate>
+            <rico:date xml:lang="fr">31 juillet 1669 - décembre 1681</rico:date>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010165"/>
+            <rico:hasProvenance rdf:resource="agent/011407"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_042000"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/042000-c1p6z0gpnryb--j5rnzu4rvkl7"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/042000-c1p6z0gpnryb--j5rnzu4rvkl7">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-042000"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Minutes de Jean LE FRANC</rico:title>
+      <rdfs:label xml:lang="fr">Minutes de Jean LE FRANC</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1669-07-31</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-12-31</rico:endDate>
+      <rico:date xml:lang="fr">31 juillet 1669 - décembre 1681</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010165"/>
+      <rico:hasProvenance rdf:resource="agent/011407"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gpnryb--j5rnzu4rvkl7"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/042000-c1p6z0gpnryb--j5rnzu4rvkl7-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/042000-c1p6z0gpnryb--j5rnzu4rvkl7"/>
+            <rico:identifier>MC/ET/XXXVIII/4 - MC/ET/XXXVIII/8</rico:identifier>
+            <rico:title xml:lang="fr">Minutes de Jean LE FRANC</rico:title>
+            <rdfs:label xml:lang="fr">Minutes de Jean LE FRANC</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1669-07-31</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-12-31</rico:endDate>
+            <rico:date xml:lang="fr">31 juillet 1669 - décembre 1681</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gpnryb--j5rnzu4rvkl7"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042000-c1p6z0gpoiyj-jns9m71qwaj5">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042000-c1p6z0gpnryb--j5rnzu4rvkl7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1669, 31 juillet - 1679, 23 août</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1669, 31 juillet - 1679, 23 août</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1669-07-31</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-08-23</rico:endDate>
+            <rico:date xml:lang="fr">31 juillet 1669 - 23 août 1679</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>1669, 31 juillet, 27 août, 16 et 24 octobre, 14 et 19 novembre, 18 décembre.</html:p>
+                  <html:p>1670, janvier à décembre (un ou deux actes à chaque mois).</html:p>
+                  <html:p>1671, septembre et 30 octobre, 7,11,17 et 19 mars, 27 mai, 10 juin, 9 août, 2 et 17 septembre 30 octobre.</html:p>
+                  <html:p>1672, 13 et 17 février, 1 et 30 avril, 7, 17, et 19 mai, 19 août et 8 septembre.</html:p>
+                  <html:p>1673 : quelques actes par mois.</html:p>
+                  <html:p>1674, 3 mars, 11 avril, 12 et 26 mai, 6 juin, 6 octobre, 24 et 25 novembre.</html:p>
+                  <html:p>1676, 27 mai et 25 septembre.</html:p>
+                  <html:p>1677, 9 et 23 mars, 19 juin, 6 et 13 juillet, 24 août, 24 septembre.</html:p>
+                  <html:p>1678, 17 et 27 janvier, 1 mars, 5 mai, 25 novembre.</html:p>
+                  <html:p>1679, 23 août.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010165"/>
+            <rico:hasProvenance rdf:resource="agent/011407"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gpoiyj-jns9m71qwaj5"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042000-c1p6z0gpoiyj-jns9m71qwaj5-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042000-c1p6z0gpoiyj-jns9m71qwaj5"/>
+                  <rico:identifier>MC/ET/XXXVIII/4</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1669, 31 juillet - 1679, 23 août</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1669, 31 juillet - 1679, 23 août</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1669-07-31</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-08-23</rico:endDate>
+                  <rico:date xml:lang="fr">31 juillet 1669 - 23 août 1679</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gpoiyj-jns9m71qwaj5"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042000-c1p6z0gpqh6b-z0x65g7ku5to">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042000-c1p6z0gpnryb--j5rnzu4rvkl7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1675, janvier - juin</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1675, janvier - juin</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1675-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1675-06-30</rico:endDate>
+            <rico:date xml:lang="fr">janvier - juin 1675</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010165"/>
+            <rico:hasProvenance rdf:resource="agent/011407"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gpqh6b-z0x65g7ku5to"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042000-c1p6z0gpqh6b-z0x65g7ku5to-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042000-c1p6z0gpqh6b-z0x65g7ku5to"/>
+                  <rico:identifier>MC/ET/XXXVIII/5</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1675, janvier - juin</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1675, janvier - juin</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1675-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1675-06-30</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - juin 1675</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gpqh6b-z0x65g7ku5to"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/042000-c1p6z0gprahv--1k23rtns8pcpj">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/042000-c1p6z0gpqh6b-z0x65g7ku5to"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Testament et inventaire après décès d'Etienne Bachot, docteur régent en la faculté de médecine de Paris. Legs d'un théorbe et de partitions musicales.</rico:title>
+                  <rdfs:label xml:lang="fr">Testament et inventaire après décès d'Etienne Bachot, docteur régent en la faculté de médecine de Paris. Legs d'un théorbe et de partitions musicales.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1688-05-17</rico:date>
+                  <rico:date xml:lang="fr">17 mai 1688</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Musique XVIIe siècle [2407 actes], par Madeleine Jurgens et le personnel du Minutier, 1954-1996 ( fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2009</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2011</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-8da7t9knp--ju2vtil7dkls"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+                  <rico:isRelatedTo>
+                     <rico:Activity>
+                        <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msj1t4q--erdp2b9cjr2g"/>
+                     </rico:Activity>
+                  </rico:isRelatedTo>
+                  <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msj1t4q--erdp2b9cjr2g"/>
+                  <rico:hasProvenance rdf:resource="agent/010165"/>
+                  <rico:hasProvenance rdf:resource="agent/011407"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gprahv--1k23rtns8pcpj"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/042000-c1p6z0gprahv--1k23rtns8pcpj-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/042000-c1p6z0gprahv--1k23rtns8pcpj"/>
+                        <rico:identifier>MC/ET/XXXVIII/5</rico:identifier>
+                        <rico:title xml:lang="fr">Testament et inventaire après décès d'Etienne Bachot, docteur régent en la faculté de médecine de Paris. Legs d'un théorbe et de partitions musicales.</rico:title>
+                        <rdfs:label xml:lang="fr">Testament et inventaire après décès d'Etienne Bachot, docteur régent en la faculté de médecine de Paris. Legs d'un théorbe et de partitions musicales.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1688-05-17</rico:date>
+                        <rico:date xml:lang="fr">17 mai 1688</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gprahv--1k23rtns8pcpj"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042000-c1p6z0gpsx4z--nmap8oscprjk">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042000-c1p6z0gpnryb--j5rnzu4rvkl7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1675, juillet - décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1675, juillet - décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1675-07-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1675-12-31</rico:endDate>
+            <rico:date xml:lang="fr">juillet - décembre 1675</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010165"/>
+            <rico:hasProvenance rdf:resource="agent/011407"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gpsx4z--nmap8oscprjk"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042000-c1p6z0gpsx4z--nmap8oscprjk-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042000-c1p6z0gpsx4z--nmap8oscprjk"/>
+                  <rico:identifier>MC/ET/XXXVIII/6</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1675, juillet - décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1675, juillet - décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1675-07-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1675-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">juillet - décembre 1675</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gpsx4z--nmap8oscprjk"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042000-c1p6z0gptowz-1hl7iyojo72z7">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042000-c1p6z0gpnryb--j5rnzu4rvkl7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1681, janvier - août</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1681, janvier - août</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-08-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - août 1681</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Attention : acte(s) coté(s) en Réserve</html:b>
+                  </html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010165"/>
+            <rico:hasProvenance rdf:resource="agent/011407"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gptowz-1hl7iyojo72z7"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042000-c1p6z0gptowz-1hl7iyojo72z7-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042000-c1p6z0gptowz-1hl7iyojo72z7"/>
+                  <rico:identifier>MC/ET/XXXVIII/7</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1681, janvier - août</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1681, janvier - août</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-08-31</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - août 1681</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gptowz-1hl7iyojo72z7"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/042000-c1p6z0gpukjv--14bhqxk7jifpr">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/042000-c1p6z0gptowz-1hl7iyojo72z7"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Dépôt d'une lettre missive du père Chérubin d'Orléans au sujet du binocle de Daniel Chorez.</rico:title>
+                  <rdfs:label xml:lang="fr">Dépôt d'une lettre missive du père Chérubin d'Orléans au sujet du binocle de Daniel Chorez.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-06-17</rico:date>
+                  <rico:date xml:lang="fr">17 juin 1681</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Cote originelle du document :</html:b>
+                        </html:p>
+                        <html:p>MC/ET/XXXVIII/7</html:p>
+                        <html:p>
+                           <html:b>Informations concernant le classement et la cotation du document :</html:b>
+                        </html:p>
+                        <html:p>Acte coté en Réserve.</html:p>
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Catalogue de la Réserve du Minutier central, 1984-1988 (dactylogramme entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2002</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2011</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:descriptiveNote rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:h4>Bibliographie</html:h4>
+                        <html:p>Notice et reproduction photographique partielle dans : 122 minutes d'histoire, actes des notaires de Paris, Paris, Archives nationales, Somogy, 2012, p.80-81.</html:p>
+                     </html:div>
+                  </rico:descriptiveNote>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bwnv7-ot62i2ixeny3"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntj3sufy--1gdg82iquvnqh"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Chorez, Daniel (158.-1659)</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Chorez, Daniel (158.-1659)</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Chorez, Daniel (158.-1659)</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Chérubin d'Orléans (1613-1697)</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Chérubin d'Orléans (1613-1697)</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Chérubin d'Orléans (1613-1697)</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:isRelatedTo>
+                     <rico:Activity>
+                        <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msiy4ta-49puw2zygzof"/>
+                     </rico:Activity>
+                  </rico:isRelatedTo>
+                  <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msiy4ta-49puw2zygzof"/>
+                  <rico:isRelatedTo>
+                     <rico:Activity>
+                        <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msikopd--xib7lmf6g7up"/>
+                     </rico:Activity>
+                  </rico:isRelatedTo>
+                  <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msikopd--xib7lmf6g7up"/>
+                  <rico:hasProvenance rdf:resource="agent/010165"/>
+                  <rico:hasProvenance rdf:resource="agent/011407"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gpukjv--14bhqxk7jifpr"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/042000-c1p6z0gpukjv--14bhqxk7jifpr-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/042000-c1p6z0gpukjv--14bhqxk7jifpr"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/042000-c1p6z0gpukjv--14bhqxk7jifpr-i2"/>
+                        <rico:identifier>MC/RS//669</rico:identifier>
+                        <rico:title xml:lang="fr">Dépôt d'une lettre missive du père Chérubin d'Orléans au sujet du binocle de Daniel Chorez.</rico:title>
+                        <rdfs:label xml:lang="fr">Dépôt d'une lettre missive du père Chérubin d'Orléans au sujet du binocle de Daniel Chorez.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-06-17</rico:date>
+                        <rico:date xml:lang="fr">17 juin 1681</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gpukjv--14bhqxk7jifpr"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/042000-c1p6z0gpukjv--14bhqxk7jifpr-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/042000-c1p6z0gpukjv--14bhqxk7jifpr"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/042000-c1p6z0gpukjv--14bhqxk7jifpr-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>FRAN_0159_08630_L#FRAN_0159_08633_L</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_042000/c1p6z0gpukjv--14bhqxk7jifpr/FRAN_0159_08630_L"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/042000-c1p6z0gpwqhf--ll0x6aigdqpc">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/042000-c1p6z0gptowz-1hl7iyojo72z7"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Dépôt par Claude Comiers d'Ambrun d'un placard de 1625 relatif aux lunettes d'approche de Daniel Chorez.</rico:title>
+                  <rdfs:label xml:lang="fr">Dépôt par Claude Comiers d'Ambrun d'un placard de 1625 relatif aux lunettes d'approche de Daniel Chorez.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-07-05</rico:date>
+                  <rico:date xml:lang="fr">5 juillet 1681</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Cote originelle du document :</html:b>
+                        </html:p>
+                        <html:p>MC/ET/XXXVIII/7</html:p>
+                        <html:p>
+                           <html:b>Informations concernant le classement et la cotation du document :</html:b>
+                        </html:p>
+                        <html:p>Acte coté en Réserve.</html:p>
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Catalogue de la Réserve du Minutier central, 1984-1988 (dactylogramme entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2002</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2011</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:descriptiveNote rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:h4>Bibliographie</html:h4>
+                        <html:p>Notice et reproduction photographique partielle dans : 122 minutes d'histoire, actes des notaires de Paris, Paris, Archives nationales, Somogy, 2012, p.80-81.</html:p>
+                     </html:div>
+                  </rico:descriptiveNote>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bwnv7-ot62i2ixeny3"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Chorez, Daniel (158.-1659)</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Chorez, Daniel (158.-1659)</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Chorez, Daniel (158.-1659)</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Comiers, Claude (....-1693)</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Comiers, Claude (....-1693)</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Comiers, Claude (....-1693)</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010165"/>
+                  <rico:hasProvenance rdf:resource="agent/011407"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gpwqhf--ll0x6aigdqpc"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/042000-c1p6z0gpwqhf--ll0x6aigdqpc-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/042000-c1p6z0gpwqhf--ll0x6aigdqpc"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/042000-c1p6z0gpwqhf--ll0x6aigdqpc-i2"/>
+                        <rico:identifier>MC/RS//670</rico:identifier>
+                        <rico:title xml:lang="fr">Dépôt par Claude Comiers d'Ambrun d'un placard de 1625 relatif aux lunettes d'approche de Daniel Chorez.</rico:title>
+                        <rdfs:label xml:lang="fr">Dépôt par Claude Comiers d'Ambrun d'un placard de 1625 relatif aux lunettes d'approche de Daniel Chorez.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-07-05</rico:date>
+                        <rico:date xml:lang="fr">5 juillet 1681</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gpwqhf--ll0x6aigdqpc"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/042000-c1p6z0gpwqhf--ll0x6aigdqpc-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/042000-c1p6z0gpwqhf--ll0x6aigdqpc"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/042000-c1p6z0gpwqhf--ll0x6aigdqpc-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>FRAN_0159_08634_L#FRAN_0159_08636_L</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_042000/c1p6z0gpwqhf--ll0x6aigdqpc/FRAN_0159_08634_L"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/042000-c1p6z0gpyx6r-1ixys6syidr91">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/042000-c1p6z0gpnryb--j5rnzu4rvkl7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1681, septembre - décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1681, septembre - décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-09-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-12-31</rico:endDate>
+            <rico:date xml:lang="fr">septembre - décembre 1681</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010165"/>
+            <rico:hasProvenance rdf:resource="agent/011407"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gpyx6r-1ixys6syidr91"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/042000-c1p6z0gpyx6r-1ixys6syidr91-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/042000-c1p6z0gpyx6r-1ixys6syidr91"/>
+                  <rico:identifier>MC/ET/XXXVIII/8</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1681, septembre - décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1681, septembre - décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-09-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">septembre - décembre 1681</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_042000/c1p6z0gpyx6r-1ixys6syidr91"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

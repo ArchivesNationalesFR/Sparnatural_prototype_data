@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/058284">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Dossiers de clients de l'étude XXVI (1790-1912) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XXVI (1790-1912) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Établi par Anne Brunet, stagiaire en master 1 «Technologies numériques appliquées à l'histoire » à l'École nationale des chartes, sous la direction de Marie-Françoise Limon-Bonnet, conservateur général du patrimoine, chargée du Minutier central des notaires de Paris.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition electronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-058284"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/058284-i1">
+            <rico:isInstantiationOf rdf:resource="record/058284"/>
+            <rico:title xml:lang="fr">Dossiers de clients de l'étude XXVI (1790-1912) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XXVI (1790-1912) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_058284</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_058284"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-058284">
+      <rico:isOrWasDescribedBy rdf:resource="record/058284"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds"/>
+      <rico:title xml:lang="fr">Dossiers de clients de l'étude XXVI</rico:title>
+      <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XXVI</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1790-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1790-1912</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires</html:b>: la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de</html:p>
+            <html:p>l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des</html:p>
+            <html:p>minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se</html:p>
+            <html:p>rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont</html:p>
+            <html:p>communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur</html:p>
+            <html:p>état matériel.</html:p>
+         </html:div>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>MC/DC/XXVI/1. Particuliers</html:p>
+            <html:p>MC/DC/XXVI/2. Titres</html:p>
+            <html:p>MC/DC/XXVI/3. Sociétés</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Autre(s) instrument(s) de recherche</html:h4>
+            <html:ul>
+               <html:li>Archives de l'étude XXVI</html:li>
+               <html:li>«Mélanges» (dossiers de clients de l'étude XXVI)</html:li>
+               <html:li>Archives de l'office notarial XXVI</html:li>
+            </html:ul>
+            <html:p>Archives de l'étude XXVI<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041742">Archives de l'étude XXVI</html:a>
+            </html:p>
+            <html:p>«Mélanges» (dossiers de clients de l'étude XXVI)<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050878">«Mélanges» (dossiers de clients) de l’étude XXVI. MC/ET/XXVI/939-MC/ET/XXVI/943, MC/ET/XXVI/1568-MC/ET/XXVI/1581 (1815-1936)</html:a>
+            </html:p>
+         </html:div>
+      </rico:descriptiveNote>
+      <rico:isRecordResourceAssociatedWithRecordResource rdf:resource="recordResource/top-041742"/>
+      <rico:isOrWasSubjectOf rdf:resource="record/041742"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041742"/>
+      <rico:isRecordResourceAssociatedWithRecordResource rdf:resource="recordResource/top-050878"/>
+      <rico:isOrWasSubjectOf rdf:resource="record/050878"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050878"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_058284"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-058284-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-058284"/>
+            <rico:identifier>MC/DC/XXVI/1-MC/DC/XXVI/3</rico:identifier>
+            <rico:title xml:lang="fr">Dossiers de clients de l'étude XXVI</rico:title>
+            <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XXVI</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1790-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1790-1912</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">3 cartons, 0,14 ml</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires</html:b>: la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de</html:p>
+                  <html:p>l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des</html:p>
+                  <html:p>minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se</html:p>
+                  <html:p>rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont</html:p>
+                  <html:p>communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur</html:p>
+                  <html:p>état matériel.</html:p>
+               </html:div>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Dépôt</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_058284"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/058284-c-jlxcubql-1tuvus0e34voj"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/058284-c-jk6jtess-40vmt3jwils2"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/058284-c-jnap4scb-19wquhhfdpi01"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/058284-c-jlxcubql-1tuvus0e34voj">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-058284"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Particuliers</rico:title>
+      <rdfs:label xml:lang="fr">Particuliers</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1790-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1790-1912</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:ul>
+               <html:li>Godefroy Durand</html:li>
+               <html:li>Edouard Leroy de Barres</html:li>
+               <html:li>Comte de Morny</html:li>
+               <html:li>Marie Alix Poisson</html:li>
+            </html:ul>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-jlxcubql-1tuvus0e34voj"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/058284-c-jlxcubql-1tuvus0e34voj-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/058284-c-jlxcubql-1tuvus0e34voj"/>
+            <rico:identifier>MC/DC/XXVI/1</rico:identifier>
+            <rico:title xml:lang="fr">Particuliers</rico:title>
+            <rdfs:label xml:lang="fr">Particuliers</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1790-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1790-1912</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-jlxcubql-1tuvus0e34voj"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058284-c-50aas3kff--3lhqlzte01hf">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058284-c-jlxcubql-1tuvus0e34voj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Godefroy Durand</rico:title>
+            <rdfs:label xml:lang="fr">Godefroy Durand</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1855-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1896-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1855-1896</rico:date>
+            <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+            <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name6"/>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Godefroy Durant, peintre :</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Durand, Godefroy</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Durand, Godefroy</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Durand, Godefroy</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+                  <rico:performsOrPerformed>
+                     <rico:Activity>
+                        <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msit6xq-1e7tbhtd3o7v6"/>
+                     </rico:Activity>
+                  </rico:performsOrPerformed>
+                  <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d699msit6xq-1e7tbhtd3o7v6"/>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d699mmxhwr0-4f15mrcy9b9z"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41cch--81zpek4vv4lp"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dc8p2-nyxarkw0ppoi"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bffx1--ohw07a50f03g"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8b42sa-2vo6rr7qrxfh"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aficf-avwqwtl95mym"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dv9j1-1wzteoks8ncyf"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-50aas3kff--3lhqlzte01hf"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058284-c-50aas3kff--3lhqlzte01hf-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058284-c-50aas3kff--3lhqlzte01hf"/>
+                  <rico:identifier>MC/DC/XXVI/1</rico:identifier>
+                  <rico:title xml:lang="fr">Godefroy Durand</rico:title>
+                  <rdfs:label xml:lang="fr">Godefroy Durand</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1855-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1896-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1855-1896</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-50aas3kff--3lhqlzte01hf"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058284-c-6fast2ti8-d8qrffc1wi3f">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058284-c-jlxcubql-1tuvus0e34voj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Edouard Leroy de Barres</rico:title>
+            <rdfs:label xml:lang="fr">Edouard Leroy de Barres</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1882-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1904-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1882-1904</rico:date>
+            <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+            <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name7"/>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Edouard Leroy de Barres, directeur de la Compagnie d'Assurance générale contre l'Incendie, demeurant 51, rue Cambon.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Leroy de Barres, Edouard</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Leroy de Barres, Edouard</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Leroy de Barres, Edouard</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nz92wq6p-15fyr8sy5nqce"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aw4it-19as7kymqwcs3"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8f8hn6-1cv55keqf50vh"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d699mmxhwr0-4f15mrcy9b9z"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-6fast2ti8-d8qrffc1wi3f"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058284-c-6fast2ti8-d8qrffc1wi3f-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058284-c-6fast2ti8-d8qrffc1wi3f"/>
+                  <rico:identifier>MC/DC/XXVI/1</rico:identifier>
+                  <rico:title xml:lang="fr">Edouard Leroy de Barres</rico:title>
+                  <rdfs:label xml:lang="fr">Edouard Leroy de Barres</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1882-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1904-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1882-1904</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-6fast2ti8-d8qrffc1wi3f"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058284-c-6l0x6lbte--1dv8ik8c37x9t">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058284-c-jlxcubql-1tuvus0e34voj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Comte Charles de Morny</rico:title>
+            <rdfs:label xml:lang="fr">Comte Charles de Morny</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1859-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1859-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1859</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Charles Auguste Louis Joseph Demorny, comte de Morny, président du Corps législatif, demeurant à l'hôtel de la présidence.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Demorny, Charles Auguste Louis Joseph</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Demorny, Charles Auguste Louis Joseph</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Demorny, Charles Auguste Louis Joseph</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+                  <rico:performsOrPerformed>
+                     <rico:Activity>
+                        <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl6xk75-11orc8pf2e2re"/>
+                     </rico:Activity>
+                  </rico:performsOrPerformed>
+                  <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl6xk75-11orc8pf2e2re"/>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-6l0x6lbte--1dv8ik8c37x9t"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058284-c-6l0x6lbte--1dv8ik8c37x9t-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058284-c-6l0x6lbte--1dv8ik8c37x9t"/>
+                  <rico:identifier>MC/DC/XXVI/1</rico:identifier>
+                  <rico:title xml:lang="fr">Comte Charles de Morny</rico:title>
+                  <rdfs:label xml:lang="fr">Comte Charles de Morny</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1859-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1859-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1859</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-6l0x6lbte--1dv8ik8c37x9t"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058284-c-5k2du110l--sn2m17y8ewzh">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058284-c-jlxcubql-1tuvus0e34voj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Poisson, Marie-Alix, veuve de Léopold de La Perelle.</rico:title>
+            <rdfs:label xml:lang="fr">Poisson, Marie-Alix, veuve de Léopold de La Perelle.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1790-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1790-1912</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Marie Alix Poisson, veuve de Léopold de La Perelle.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Poisson, Marie Alix</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Poisson, Marie Alix</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Poisson, Marie Alix</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Perelle, Léopold (de la)</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Perelle, Léopold (de la)</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Perelle, Léopold (de la)</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bp18s--llgw37gz8dup"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3m00w87l5p--n59ufveu4od0"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3m00w8d8du-pzakwhqg5tcm"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d699mmxhwr0-4f15mrcy9b9z"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-5k2du110l--sn2m17y8ewzh"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058284-c-5k2du110l--sn2m17y8ewzh-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058284-c-5k2du110l--sn2m17y8ewzh"/>
+                  <rico:identifier>MC/DC/XXVI/1</rico:identifier>
+                  <rico:title xml:lang="fr">Poisson, Marie-Alix, veuve de Léopold de La Perelle.</rico:title>
+                  <rdfs:label xml:lang="fr">Poisson, Marie-Alix, veuve de Léopold de La Perelle.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1790-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1790-1912</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-5k2du110l--sn2m17y8ewzh"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/058284-c-jk6jtess-40vmt3jwils2">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-058284"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Titres</rico:title>
+      <rdfs:label xml:lang="fr">Titres</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1861-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1871-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1861-1871</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:ul>
+               <html:li>Ferme de Moras (Seine-et-Marne)</html:li>
+               <html:li>Propriétés de Mme de Mortemart (Seine-Maritime)</html:li>
+            </html:ul>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-jk6jtess-40vmt3jwils2"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/058284-c-jk6jtess-40vmt3jwils2-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/058284-c-jk6jtess-40vmt3jwils2"/>
+            <rico:identifier>MC/DC/XXVI/2</rico:identifier>
+            <rico:title xml:lang="fr">Titres</rico:title>
+            <rdfs:label xml:lang="fr">Titres</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1861-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1871-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1861-1871</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-jk6jtess-40vmt3jwils2"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058284-c-4fgxind1y-99epcl33tsld">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058284-c-jk6jtess-40vmt3jwils2"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Ferme de Moras, sise à la Ferté-sous-Jouarre (Seine-et-Marne)</rico:title>
+            <rdfs:label xml:lang="fr">Ferme de Moras, sise à la Ferté-sous-Jouarre (Seine-et-Marne)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1837-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1871-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1837-1871</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Expropriation de Louise Françoise Constant, baronne Humbert de Flégny, propriétaire, demeurant à la Ferté-sous-Jouarre, possédant la ferme de Moras : estimations, affiche, décision d'expropriation.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3nttf2m1w-1j66tiku5a42e"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntb8r1j8-pfqcs6tkazic"/>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Humbert de Flégny, Louise Françoise Constant (baronne)</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Humbert de Flégny, Louise Françoise Constant (baronne)</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Humbert de Flégny, Louise Françoise Constant (baronne)</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89tt5o--dhoqf04g1o4n"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bp18s--llgw37gz8dup"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-4fgxind1y-99epcl33tsld"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058284-c-4fgxind1y-99epcl33tsld-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058284-c-4fgxind1y-99epcl33tsld"/>
+                  <rico:identifier>MC/DC/XXVI/2</rico:identifier>
+                  <rico:title xml:lang="fr">Ferme de Moras, sise à la Ferté-sous-Jouarre (Seine-et-Marne)</rico:title>
+                  <rdfs:label xml:lang="fr">Ferme de Moras, sise à la Ferté-sous-Jouarre (Seine-et-Marne)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1837-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1871-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1837-1871</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-4fgxind1y-99epcl33tsld"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058284-c-56uh4zu9i--1espv5ews8irx">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058284-c-jk6jtess-40vmt3jwils2"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Propriétés de Mme de Mortemart, née Nagu, sises dans la commune de Gonfreville-l'Orcher (Seine-Maritime).</rico:title>
+            <rdfs:label xml:lang="fr">Propriétés de Mme de Mortemart, née Nagu, sises dans la commune de Gonfreville-l'Orcher (Seine-Maritime).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1861-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1861-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1861</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:ul>
+                     <html:li>
+                        <html:b>Etat des propriétés</html:b>: bulletin de propriété, correspondance.</html:li>
+                  </html:ul>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Mortemart (Mme)</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Mortemart (Mme)</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Mortemart (Mme)</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntb8svpl-1sgeqirhtkz5g"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntsmzg37--1p7v7my79won6"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d699mmxhwr0-4f15mrcy9b9z"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-56uh4zu9i--1espv5ews8irx"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058284-c-56uh4zu9i--1espv5ews8irx-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058284-c-56uh4zu9i--1espv5ews8irx"/>
+                  <rico:identifier>MC/DC/XXVI/2</rico:identifier>
+                  <rico:title xml:lang="fr">Propriétés de Mme de Mortemart, née Nagu, sises dans la commune de Gonfreville-l'Orcher (Seine-Maritime).</rico:title>
+                  <rdfs:label xml:lang="fr">Propriétés de Mme de Mortemart, née Nagu, sises dans la commune de Gonfreville-l'Orcher (Seine-Maritime).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1861-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1861-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1861</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-56uh4zu9i--1espv5ews8irx"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/058284-c-jnap4scb-19wquhhfdpi01">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-058284"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Sociétés</rico:title>
+      <rdfs:label xml:lang="fr">Sociétés</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1899-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1900-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1899-1900</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:ul>
+               <html:li>Société nouvelle d'impressions en couleurs</html:li>
+            </html:ul>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-jnap4scb-19wquhhfdpi01"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/058284-c-jnap4scb-19wquhhfdpi01-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/058284-c-jnap4scb-19wquhhfdpi01"/>
+            <rico:identifier>MC/DC/XXVI/3</rico:identifier>
+            <rico:title xml:lang="fr">Sociétés</rico:title>
+            <rdfs:label xml:lang="fr">Sociétés</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1899-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1900-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1899-1900</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-jnap4scb-19wquhhfdpi01"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058284-c-51f5l9fny-pa5ifcaih65x">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058284-c-jnap4scb-19wquhhfdpi01"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Société nouvelle d'impressions en couleurs</rico:title>
+            <rdfs:label xml:lang="fr">Société nouvelle d'impressions en couleurs</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1899-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1900-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1899-1900</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Société nouvelle d'impressions en couleurs, exploitation des brevets Lesage français et belge, dont le siège social est à Bruxelles (Belgique).</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxk30in--c94xo1un1ah3"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxmupd8-1vca7ig0t7deb"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8f8hn6-1cv55keqf50vh"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d699mmxhwr0-4f15mrcy9b9z"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-51f5l9fny-pa5ifcaih65x"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058284-c-51f5l9fny-pa5ifcaih65x-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058284-c-51f5l9fny-pa5ifcaih65x"/>
+                  <rico:identifier>MC/DC/XXVI/3</rico:identifier>
+                  <rico:title xml:lang="fr">Société nouvelle d'impressions en couleurs</rico:title>
+                  <rdfs:label xml:lang="fr">Société nouvelle d'impressions en couleurs</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1899-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1900-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1899-1900</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058284/c-51f5l9fny-pa5ifcaih65x"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

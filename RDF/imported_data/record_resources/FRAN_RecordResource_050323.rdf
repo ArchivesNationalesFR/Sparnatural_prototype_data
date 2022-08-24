@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/050323">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XII. MC/ET/XII/843/A-MC/ET/XII/843/C (1567-1800) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XII. MC/ET/XII/843/A-MC/ET/XII/843/C (1567-1800) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, par Ernest Coyecque, Marie-Antoinette Fleury, Claire Béchu, conservateurs du patrimoine et Danis Habib, chargé d’études documentaires, sous la direction de Marie-Françoise Limon-Bonnet, conservateur général du patrimoine.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-050323"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050323-i1">
+            <rico:isInstantiationOf rdf:resource="record/050323"/>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XII. MC/ET/XII/843/A-MC/ET/XII/843/C (1567-1800) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XII. MC/ET/XII/843/A-MC/ET/XII/843/C (1567-1800) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d’information des Archives nationales. Il remplace l’instrument de recherche dactylographié connu en salle de lecture sous le numéro MC/27.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_050323</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050323"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-050323">
+      <rico:isOrWasDescribedBy rdf:resource="record/050323"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XII</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XII</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1567-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1567-1800</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010139"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l'étude XIIArchives de l'étude XII</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050323"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-050323-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-050323"/>
+            <rico:identifier>MC/ET/XII/843</rico:identifier>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XII</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XII</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1567-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1567-1800</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">0,30 m.l. ou 2 cartons (12,5 cm)</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010139"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Don</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050323"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/050323-c-5kjg6uobl--12j3ct1ph8700"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050323-c-5nuz1pton-eu28oolniw1y"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050323-c-5u5t2f362-p3l8uzjcu9vn"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050323-c-5wr8a4sqk--ukv2s4ihjfaa"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050323-c-5kjg6uobl--12j3ct1ph8700">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050323"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Divers dossiers.</rico:title>
+      <rdfs:label xml:lang="fr">Divers dossiers.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1582-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1787-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1582-1787</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>(1) Domaine d’Igny-le-Jard [auj. Igny-Comblizy (Marne)], 1582-1746.</html:p>
+            <html:p>(2) Requête au Lieutenant criminel au sujet de voies de fait. 1604.</html:p>
+            <html:p>(3) Succession de Marie Du Raynier, dame de La Loupe. 1691.</html:p>
+            <html:p>(4) Déclaration des héritages appartenant à Guillemin de Courchamp et tenus à cens du prince de Condé. XVIIIe siècle.</html:p>
+            <html:p>(5) Succession d’Armand Guillaume François de Gourgues. An V.</html:p>
+            <html:p>(6) Réception de Simon Perier comme syndic des merciers. Parchemin. 14 août 1743.</html:p>
+            <html:p>(7) Délibération des curé et marguilliers de l’église Saint-Eustache, relative au compte de 1787. 21 décembre 1788.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Marie Du Raynier, dame de La Loupe</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Marie Du Raynier, dame de La Loupe</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Marie Du Raynier, dame de La Loupe</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Guillemin de Courchamp</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Guillemin de Courchamp</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Guillemin de Courchamp</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Perier, Simon</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Perier, Simon</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Perier, Simon</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntkqcxee--1dpepfigg5y3g"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_026-d3nzuob2p9--5drolupwmzns"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Gourgues, Armand Guillaume François de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Gourgues, Armand Guillaume François de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Gourgues, Armand Guillaume François de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasProvenance rdf:resource="agent/010139"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050323/c-5kjg6uobl--12j3ct1ph8700"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050323-c-5kjg6uobl--12j3ct1ph8700-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050323-c-5kjg6uobl--12j3ct1ph8700"/>
+            <rico:identifier>MC/ET/XII/843/A</rico:identifier>
+            <rico:title xml:lang="fr">Divers dossiers.</rico:title>
+            <rdfs:label xml:lang="fr">Divers dossiers.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1582-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1787-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1582-1787</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050323/c-5kjg6uobl--12j3ct1ph8700"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050323-c-5nuz1pton-eu28oolniw1y">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050323"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Actes de ventes, arrêts, aveux et dénombrements.</rico:title>
+      <rdfs:label xml:lang="fr">Actes de ventes, arrêts, aveux et dénombrements.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1401-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-12-31</rico:endDate>
+      <rico:date xml:lang="fr">XVe-XVIIIe siècles</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Seigneurie du Moutier et de Saint-Sernin en Bourbonnais [Saint-Sernin-sur-Rance ?].</html:p>
+            <html:p>
+               <html:b>
+                  <html:i>Propriétaires successifs</html:i>
+               </html:b>:</html:p>
+            <html:p>Caillier (Pierre), receveur des Aides.</html:p>
+            <html:p>Pallière (Jean), marié à Marguerite Caillier.</html:p>
+            <html:p>Donnot, secrétaire du Roi.</html:p>
+            <html:p>Jacob (Bon).</html:p>
+            <html:p>Desbatisse (Claude), marchand bourgeois de Paris, acquéreur en 1720.</html:p>
+            <html:p>Desbatisse de Saint-Sornin (Claude Nicolas).</html:p>
+            <html:p>Desbatisse de Chezor (Jean-François).</html:p>
+            <html:p>Aubert (Françoise).</html:p>
+            <html:p>Domaine des Privaux adjugé à Bon (Jacob) pour la somme de 300 livres par le châtelain de Bessay [-sur-Allier ?]. 15 juin 1660.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Caillier, Pierre</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Caillier, Pierre</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Caillier, Pierre</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Pallière, Jean</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Pallière, Jean</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Pallière, Jean</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Donnot, secrétaire du Roi</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Donnot, secrétaire du Roi</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Donnot, secrétaire du Roi</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Bon, Jacob</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Bon, Jacob</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Bon, Jacob</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Desbatisse, Claude</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Desbatisse, Claude</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Desbatisse, Claude</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Desbatisse de Chezor, Jean-François</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Desbatisse de Chezor, Jean-François</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Desbatisse de Chezor, Jean-François</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Aubert, Françoise</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Aubert, Françoise</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Aubert, Françoise</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Desbatisse de Saint-Sornin, Claude Nicolas</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Desbatisse de Saint-Sornin, Claude Nicolas</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Desbatisse de Saint-Sornin, Claude Nicolas</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3nte2n65a-1j8cijdmsydgt"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntd1ajw1--1dbxnky7mnry7"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Caillier, Marguerite</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Caillier, Marguerite</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Caillier, Marguerite</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasProvenance rdf:resource="agent/010139"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050323/c-5nuz1pton-eu28oolniw1y"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050323-c-5nuz1pton-eu28oolniw1y-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050323-c-5nuz1pton-eu28oolniw1y"/>
+            <rico:identifier>MC/ET/XII/843/B</rico:identifier>
+            <rico:title xml:lang="fr">Actes de ventes, arrêts, aveux et dénombrements.</rico:title>
+            <rdfs:label xml:lang="fr">Actes de ventes, arrêts, aveux et dénombrements.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1401-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-12-31</rico:endDate>
+            <rico:date xml:lang="fr">XVe-XVIIIe siècles</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050323/c-5nuz1pton-eu28oolniw1y"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050323-c-5u5t2f362-p3l8uzjcu9vn">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050323"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Actes de ventes, arrêts, donations, échanges d’héritages, saisies réelles, enchère de quarantaine.</rico:title>
+      <rdfs:label xml:lang="fr">Actes de ventes, arrêts, donations, échanges d’héritages, saisies réelles, enchère de quarantaine.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1401-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-12-31</rico:endDate>
+      <rico:date xml:lang="fr">XVe-XVIIIe siècles</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>La Chaulme [Puy-de-Dôme].</html:p>
+            <html:p>Fief du Moutier : aveux et dénombrements, dixme des Chezeaux par Desbatisse de Chezor (Jean François).</html:p>
+            <html:p>Autres localités :</html:p>
+            <html:p>« Vente des trois quarts (…) en vingt héritages appelés communément l’Ile Myard, à présent vulgairement connue sous le nom de La Baume du Moutier ». 30 octobre 1607.</html:p>
+            <html:p>Paroisses de Bessay, Chemilly et Neuf-Église.</html:p>
+            <html:p>Bessay [-sur-Allier ?], cure.</html:p>
+            <html:p>Chemilly (Allier)., cure-réduction de cens pour invasion de l’Allier sur la pièce des Gouttes.</html:p>
+            <html:p>Neuf-Église (Puy-de-Dôme)</html:p>
+            <html:p>Saint-Sornin [Allier ?].</html:p>
+            <html:p>Domaine des Carillons et domaine des Minards à Bessay, Chemilly et Neuf-Église.</html:p>
+            <html:p>Domaine des Chapières, au terroir du Rousset, paroisse de Chemilly.</html:p>
+            <html:p>Domaine des Fourniers.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Chezor, Jean François</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Chezor, Jean François</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Chezor, Jean François</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntpi2h9p--ti9qvnd8qkdz"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntd1ajw1--1dbxnky7mnry7"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntd1u1yt-1qfemhjgf020i"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntpjorb6--n82affnr294x"/>
+      <rico:hasProvenance rdf:resource="agent/010139"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050323/c-5u5t2f362-p3l8uzjcu9vn"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050323-c-5u5t2f362-p3l8uzjcu9vn-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050323-c-5u5t2f362-p3l8uzjcu9vn"/>
+            <rico:identifier>MC/ET/XII/843/C</rico:identifier>
+            <rico:title xml:lang="fr">Actes de ventes, arrêts, donations, échanges d’héritages, saisies réelles, enchère de quarantaine.</rico:title>
+            <rdfs:label xml:lang="fr">Actes de ventes, arrêts, donations, échanges d’héritages, saisies réelles, enchère de quarantaine.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1401-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-12-31</rico:endDate>
+            <rico:date xml:lang="fr">XVe-XVIIIe siècles</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050323/c-5u5t2f362-p3l8uzjcu9vn"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050323-c-5wr8a4sqk--ukv2s4ihjfaa">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050323"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Baux à cens.</rico:title>
+      <rdfs:label xml:lang="fr">Baux à cens.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1567-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1567-1800</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Bail à cens par Antoine de Chambord au profit de Claude Cavillon d’une terre en Bourbonnais. 1567-1568.</html:p>
+            <html:p>Baux à cens par Antoine de Chambord seigneur de Changy «Copie du talamus tiré de la chambre du Bourbonnois. C’est le livre des abbatements…» (copie du 15 mars 1475).</html:p>
+            <html:p>Bail à ferme de la moitié de la terre du petit Moutier Jacob [en Bourbonnais] par Desbatisse de Chezor (Jean François) à sa femme. 1783.</html:p>
+            <html:p>Vente de la terre de Rollat, paroisse de Saint-Rémy, district de Gannat (Allier), par Sébastien de Rollat. 1783-1800.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Chambord, Antoine de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Chambord, Antoine de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Chambord, Antoine de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Cavillon, Claude</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Cavillon, Claude</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Cavillon, Claude</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Desbatisse de Chezor, Jean François</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Desbatisse de Chezor, Jean François</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Desbatisse de Chezor, Jean François</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntd2d1ag-msdsc47gaitq"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Rollat, Sébastien de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Rollat, Sébastien de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Rollat, Sébastien de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasProvenance rdf:resource="agent/010139"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050323/c-5wr8a4sqk--ukv2s4ihjfaa"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050323-c-5wr8a4sqk--ukv2s4ihjfaa-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050323-c-5wr8a4sqk--ukv2s4ihjfaa"/>
+            <rico:identifier>MC/ET/XII/843/D</rico:identifier>
+            <rico:title xml:lang="fr">Baux à cens.</rico:title>
+            <rdfs:label xml:lang="fr">Baux à cens.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1567-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1567-1800</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050323/c-5wr8a4sqk--ukv2s4ihjfaa"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

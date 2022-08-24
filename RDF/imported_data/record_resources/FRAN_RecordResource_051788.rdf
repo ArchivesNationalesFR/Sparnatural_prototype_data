@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/051788">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Images des répertoires du notaire René Adrien Panhard pour l'étude XIV : MC/RE/XIV/18 - MC/RE/XIV/19</rico:title>
+      <rdfs:label xml:lang="fr">Images des répertoires du notaire René Adrien Panhard pour l'étude XIV : MC/RE/XIV/18 - MC/RE/XIV/19</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, notices préparées par Thierry Boudignon, chargé d'études documentaires, et Marie-France Nivet, technicienne de recherche, puis Nathalie Jourdain, adjointe administrative principale.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Deuxième édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2017-09</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Corrections et ajouts en vue de la mise en ligne sur la SIV, N. Jourdain</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-051788"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051788-i1">
+            <rico:isInstantiationOf rdf:resource="record/051788"/>
+            <rico:title xml:lang="fr">Images des répertoires du notaire René Adrien Panhard pour l'étude XIV : MC/RE/XIV/18 - MC/RE/XIV/19</rico:title>
+            <rdfs:label xml:lang="fr">Images des répertoires du notaire René Adrien Panhard pour l'étude XIV : MC/RE/XIV/18 - MC/RE/XIV/19</rdfs:label>
+            <rico:history xml:lang="fr">8 septembre 2004</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_051788</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051788"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-051788">
+      <rico:isOrWasDescribedBy rdf:resource="record/051788"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Images des répertoires du notaire René Adrien Panhard pour l'étude XIV</rico:title>
+      <rdfs:label xml:lang="fr">Images des répertoires du notaire René Adrien Panhard pour l'étude XIV</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1864-08-06</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1870-07-14</rico:endDate>
+      <rico:date xml:lang="fr">6 août 1864 - 14 juillet 1870</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010141"/>
+      <rico:hasProvenance rdf:resource="agent/010831"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Images des répertoires de l’étude XIVArchives de l'étude XIV</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8f3jla--to36ja96m31q"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051788"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-051788-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-051788"/>
+            <rico:identifier>MC/RE/XIV/18 - MC/RE/XIV/19</rico:identifier>
+            <rico:title xml:lang="fr">Images des répertoires du notaire René Adrien Panhard pour l'étude XIV</rico:title>
+            <rdfs:label xml:lang="fr">Images des répertoires du notaire René Adrien Panhard pour l'étude XIV</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1864-08-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1870-07-14</rico:endDate>
+            <rico:date xml:lang="fr">6 août 1864 - 14 juillet 1870</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">2 registres</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/010831"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Registres entrés aux Archives nationales en 1960.</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051788"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/051788-c1ufy3nty7vc-ib32oqd4mqzj"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/051788-c1ufy3ntyoug-13z0dea2azusg"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/051788-c1ufy3nty7vc-ib32oqd4mqzj">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-051788"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+      <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période du 6 août 1864 au 13 juillet 1866</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 6 août 1864 au 13 juillet 1866</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1864-08-06</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-07-13</rico:endDate>
+      <rico:date xml:lang="fr">6 août 1864 - 13 juillet 1866</rico:date>
+      <rico:structure rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+      </rico:structure>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Le registre contient aussi le répertoire du notaire <html:b>Thibault Rémond Poumet</html:b>pour la période du 23 février 1855 au 4 août 1864.</html:p>
+            <html:p>Le répertoire contient les informations suivantes : 1. le n° de l'acte dans l'année ; 2. date du jour ; 3. nature de l'acte passé en brevet ; 4. nature de l'acte passé en minute ; 5. nom, prénom, domicile des parties, indication sur la situation et les prix des biens ; 6. date d'enregistrement de l'acte ; 7. droits d'enregistrement.</html:p>
+            <html:p>
+               <html:b>Attention : seuls les actes passés en</html:b>
+               <html:b>
+                  <html:i>minute</html:i>
+               </html:b>
+               <html:b>sont conservés ; les actes mentionnés dans le répertoire comme passés en simple</html:b>
+               <html:b>
+                  <html:i>brevet</html:i>
+               </html:b>
+               <html:b>(colonne 3) ne sont pas conservés par les notaires et ne sont donc pas versés au Minutier (ils sont remis aux clients).</html:b>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010141"/>
+      <rico:hasProvenance rdf:resource="agent/010831"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3nty7vc-ib32oqd4mqzj"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051788-c1ufy3nty7vc-ib32oqd4mqzj-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3nty7vc-ib32oqd4mqzj"/>
+            <rico:identifier>MC/RE/XIV/18</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période du 6 août 1864 au 13 juillet 1866</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 6 août 1864 au 13 juillet 1866</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1864-08-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-07-13</rico:endDate>
+            <rico:date xml:lang="fr">6 août 1864 - 13 juillet 1866</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Ce répertoire comporte 43 feuillets et fait partie d'un registre de 303 feuillets de papier manuscrits, hauteur 35,5 x largeur 25 cm, foliotés par le tribunal de 1ère instance de Paris. Le registre est en état moyen. La reliure est à consolider.</html:p>
+            </rico:instantiationExtent>
+            <rico:structure rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+            </rico:structure>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3nty7vc-ib32oqd4mqzj"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051788-c1ufy3ntyio8-13rz5x620o91a">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051788-c1ufy3nty7vc-ib32oqd4mqzj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 6 août au 31 décembre 1864</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 6 août au 31 décembre 1864</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1864-08-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1864-12-31</rico:endDate>
+            <rico:date xml:lang="fr">6 août - 31 décembre 1864</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/010831"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntyio8-13rz5x620o91a"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntyio8-13rz5x620o91a-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntyio8-13rz5x620o91a"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051788-c1ufy3ntyio8-13rz5x620o91a-i2"/>
+                  <rico:identifier>261 v°-272 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 6 août au 31 décembre 1864</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 6 août au 31 décembre 1864</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1864-08-06</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1864-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">6 août - 31 décembre 1864</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">12 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntyio8-13rz5x620o91a"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntyio8-13rz5x620o91a-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntyio8-13rz5x620o91a"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051788-c1ufy3ntyio8-13rz5x620o91a-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_014MIC07251_L.jpg#DAFANCH96_014MIC07262_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051788/c1ufy3ntyio8-13rz5x620o91a/DAFANCH96_014MIC07251_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051788-c1ufy3ntykzk--z7808k4w0ibz">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051788-c1ufy3nty7vc-ib32oqd4mqzj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 30 décembre 1865</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 30 décembre 1865</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1865-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1865-12-30</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 30 décembre 1865</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/010831"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntykzk--z7808k4w0ibz"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntykzk--z7808k4w0ibz-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntykzk--z7808k4w0ibz"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051788-c1ufy3ntykzk--z7808k4w0ibz-i2"/>
+                  <rico:identifier>272 v°-292 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 30 décembre 1865</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 30 décembre 1865</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1865-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1865-12-30</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 30 décembre 1865</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">21 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntykzk--z7808k4w0ibz"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntykzk--z7808k4w0ibz-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntykzk--z7808k4w0ibz"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051788-c1ufy3ntykzk--z7808k4w0ibz-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_014MIC07263_L.jpg#DAFANCH96_014MIC07283_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051788/c1ufy3ntykzk--z7808k4w0ibz/DAFANCH96_014MIC07263_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051788-c1ufy3ntymj4-d9nwyl1eoasq">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051788-c1ufy3nty7vc-ib32oqd4mqzj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 13 juillet 1866</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 13 juillet 1866</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-01-03</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-07-13</rico:endDate>
+            <rico:date xml:lang="fr">3 janvier - 13 juillet 1866</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/010831"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntymj4-d9nwyl1eoasq"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntymj4-d9nwyl1eoasq-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntymj4-d9nwyl1eoasq"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051788-c1ufy3ntymj4-d9nwyl1eoasq-i2"/>
+                  <rico:identifier>292 v°-302 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 13 juillet 1866</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 13 juillet 1866</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-01-03</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-07-13</rico:endDate>
+                  <rico:date xml:lang="fr">3 janvier - 13 juillet 1866</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">11 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntymj4-d9nwyl1eoasq"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntymj4-d9nwyl1eoasq-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntymj4-d9nwyl1eoasq"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051788-c1ufy3ntymj4-d9nwyl1eoasq-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_014MIC07283_L.jpg#DAFANCH96_014MIC07293_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051788/c1ufy3ntymj4-d9nwyl1eoasq/DAFANCH96_014MIC07283_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/051788-c1ufy3ntyoug-13z0dea2azusg">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-051788"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+      <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période du 13 juillet 1866 au 14 juillet 1870</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 13 juillet 1866 au 14 juillet 1870</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-07-13</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1870-07-14</rico:endDate>
+      <rico:date xml:lang="fr">13 juillet 1866 - 14 juillet 1870</rico:date>
+      <rico:structure rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+      </rico:structure>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Le registre contient aussi le répertoire du notaire <html:b>Marie Louis Ernest Pitaux</html:b>pour la période de 16 juillet 1870 au 24 septembre 1873.</html:p>
+            <html:p>Le répertoire contient les informations suivantes : 1. le n° de l'acte dans l'année ; 2. date du jour ; 3. nature de l'acte passé en brevet ; 4. nature de l'acte passé en minute ; 5. nom, prénom, domicile des parties, indication sur la situation et les prix des biens ; 6. date d'enregistrement de l'acte ; 7. droits d'enregistrement.</html:p>
+            <html:p>
+               <html:b>Attention : seuls les actes passés en</html:b>
+               <html:b>
+                  <html:i>minute</html:i>
+               </html:b>
+               <html:b>sont conservés ; les actes mentionnés dans le répertoire comme passés en simple</html:b>
+               <html:b>
+                  <html:i>brevet</html:i>
+               </html:b>
+               <html:b>(colonne 3) ne sont pas conservés par les notaires et ne sont donc pas versés au Minutier (ils sont remis aux clients).</html:b>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010141"/>
+      <rico:hasProvenance rdf:resource="agent/010831"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntyoug-13z0dea2azusg"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntyoug-13z0dea2azusg-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntyoug-13z0dea2azusg"/>
+            <rico:identifier>MC/RE/XIV/19</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période du 13 juillet 1866 au 14 juillet 1870</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 13 juillet 1866 au 14 juillet 1870</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-07-13</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1870-07-14</rico:endDate>
+            <rico:date xml:lang="fr">13 juillet 1866 - 14 juillet 1870</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Ce répertoire est composé de 75 feuillets et fait partie d'un registre de 151 feuillets de papier manuscrits, hauteur 35,5 x largeur 25 cm, foliotés par le tribunal de 1ère instance de Paris. Le registre est en état moyen. La reliure est à refaire. Le feuillet 48 est déchiré. les feuillets de 1 à 8 sont en partie déreliés.</html:p>
+            </rico:instantiationExtent>
+            <rico:structure rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+            </rico:structure>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntyoug-13z0dea2azusg"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051788-c1ufy3ntyr5s--12633fz0gm7av">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051788-c1ufy3ntyoug-13z0dea2azusg"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 13 juillet au 29 décembre 1866</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 13 juillet au 29 décembre 1866</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-07-13</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-12-29</rico:endDate>
+            <rico:date xml:lang="fr">13 juillet - 29 décembre 1866</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/010831"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntyr5s--12633fz0gm7av"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntyr5s--12633fz0gm7av-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntyr5s--12633fz0gm7av"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051788-c1ufy3ntyr5s--12633fz0gm7av-i2"/>
+                  <rico:identifier>1 r°-8 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 13 juillet au 29 décembre 1866</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 13 juillet au 29 décembre 1866</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-07-13</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-12-29</rico:endDate>
+                  <rico:date xml:lang="fr">13 juillet - 29 décembre 1866</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">8 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntyr5s--12633fz0gm7av"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntyr5s--12633fz0gm7av-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntyr5s--12633fz0gm7av"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051788-c1ufy3ntyr5s--12633fz0gm7av-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_014MIC07298_L.jpg#DAFANCH96_014MIC07306_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051788/c1ufy3ntyr5s--12633fz0gm7av/DAFANCH96_014MIC07298_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051788-c1ufy3ntyspc-1ds0ooo9zkwqi">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051788-c1ufy3ntyoug-13z0dea2azusg"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1867</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1867</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1867-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1867-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 31 décembre 1867</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/010831"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntyspc-1ds0ooo9zkwqi"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntyspc-1ds0ooo9zkwqi-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntyspc-1ds0ooo9zkwqi"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051788-c1ufy3ntyspc-1ds0ooo9zkwqi-i2"/>
+                  <rico:identifier>8 v°-26 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1867</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1867</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1867-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1867-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1867</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">19 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntyspc-1ds0ooo9zkwqi"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntyspc-1ds0ooo9zkwqi-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntyspc-1ds0ooo9zkwqi"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051788-c1ufy3ntyspc-1ds0ooo9zkwqi-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_014MIC07306_L.jpg#DAFANCH96_014MIC07325_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051788/c1ufy3ntyspc-1ds0ooo9zkwqi/DAFANCH96_014MIC07306_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051788-c1ufy3ntyv0o--1s4an5buskr0x">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051788-c1ufy3ntyoug-13z0dea2azusg"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1868</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1868</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 31 décembre 1868</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/010831"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntyv0o--1s4an5buskr0x"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntyv0o--1s4an5buskr0x-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntyv0o--1s4an5buskr0x"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051788-c1ufy3ntyv0o--1s4an5buskr0x-i2"/>
+                  <rico:identifier>26 v°- 45 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1868</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1868</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1868</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">20 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntyv0o--1s4an5buskr0x"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntyv0o--1s4an5buskr0x-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntyv0o--1s4an5buskr0x"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051788-c1ufy3ntyv0o--1s4an5buskr0x-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_014MIC07325_L.jpg#DAFANCH96_014MIC07343_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051788/c1ufy3ntyv0o--1s4an5buskr0x/DAFANCH96_014MIC07325_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051788-c1ufy3ntywk8--14mnkf4xdqlet">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051788-c1ufy3ntyoug-13z0dea2azusg"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1869</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1869</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1869-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1869-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 31 décembre 1869</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/010831"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntywk8--14mnkf4xdqlet"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntywk8--14mnkf4xdqlet-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntywk8--14mnkf4xdqlet"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051788-c1ufy3ntywk8--14mnkf4xdqlet-i2"/>
+                  <rico:identifier>45 r°-63 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1869</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1869</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1869-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1869-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1869</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">19 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntywk8--14mnkf4xdqlet"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntywk8--14mnkf4xdqlet-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntywk8--14mnkf4xdqlet"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051788-c1ufy3ntywk8--14mnkf4xdqlet-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_014MIC07343_L.jpg#DAFANCH96_014MIC07363_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051788/c1ufy3ntywk8--14mnkf4xdqlet/DAFANCH96_014MIC07343_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051788-c1ufy3ntyy3s--15cumz6q1e45p">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051788-c1ufy3ntyoug-13z0dea2azusg"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 14 juillet 1870</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 14 juillet 1870</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1870-01-03</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1870-07-14</rico:endDate>
+            <rico:date xml:lang="fr">3 janvier - 14 juillet 1870</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/010831"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntyy3s--15cumz6q1e45p"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntyy3s--15cumz6q1e45p-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntyy3s--15cumz6q1e45p"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051788-c1ufy3ntyy3s--15cumz6q1e45p-i2"/>
+                  <rico:identifier>64 r°-75 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 14 juillet 1870</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 14 juillet 1870</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1870-01-03</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1870-07-14</rico:endDate>
+                  <rico:date xml:lang="fr">3 janvier - 14 juillet 1870</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">12 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051788/c1ufy3ntyy3s--15cumz6q1e45p"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051788-c1ufy3ntyy3s--15cumz6q1e45p-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051788-c1ufy3ntyy3s--15cumz6q1e45p"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051788-c1ufy3ntyy3s--15cumz6q1e45p-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_014MIC07363_L.jpg#DAFANCH96_014MIC07374_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051788/c1ufy3ntyy3s--15cumz6q1e45p/DAFANCH96_014MIC07363_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+   </rico:RecordResource>
+</rdf:RDF>

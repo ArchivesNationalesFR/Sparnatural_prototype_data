@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rico="https://www.ica.org/standards/RiC/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:isni="https://isni.org/ontology#" xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/012436">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#AuthorityRecord"/>
+      <rico:describesOrDescribed rdf:resource="agent/012436"/>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl002"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl003"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-09-30</rico:creationDate>
+      <rico:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-09-30</rico:lastModificationDate>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:name xml:lang="fr">Dérivation
+                (Migration ETANOT)</rico:name>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-09-30</rico:date>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/012436">
+            <rico:isInstantiationOf rdf:resource="record/012436"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_NP_012436</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/NP/FRAN_NP_012436"/>
+            <rico:identifier>FRDAFANCH00MC_NANOTAIRE02312</rico:identifier>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl011"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:Agent rdf:about="agent/012436">
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+      <rico:isOrWasDescribedBy rdf:resource="record/012436"/>
+      <rdfs:label xml:lang="fr">Duparc, Noël</rdfs:label>
+      <rico:hasOrHadAgentName>
+         <rico:AgentName rdf:about="agentName/012436-Duparc%2C%20No%C3%ABl">
+            <rdfs:label xml:lang="fr">Duparc, Noël</rdfs:label>
+            <rico:textualValue xml:lang="fr">Duparc, Noël</rico:textualValue>
+            <rico:isOrWasAgentNameOf rdf:resource="agent/012436"/>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl002"/>
+            <rico:type xml:lang="fr">nom d'agent : forme préférée</rico:type>
+         </rico:AgentName>
+      </rico:hasOrHadAgentName>
+      <rico:hasOrHadAgentName>
+         <rico:AgentName rdf:about="agentName/012436-Du%20parc%2C%20No%C3%ABl">
+            <rdfs:label xml:lang="fr">Du parc, Noël</rdfs:label>
+            <rico:textualValue xml:lang="fr">Du parc, Noël</rico:textualValue>
+            <rico:isOrWasAgentNameOf rdf:resource="agent/012436"/>
+         </rico:AgentName>
+      </rico:hasOrHadAgentName>
+      <rico:agentIsTargetOfPerformanceRelation><rico:PerformanceRelation rdf:about="performanceRelation/012436-d3nyu9x713-9kcjiv44l4wh-16701021-16810412"><rico:performanceRelationHasTarget rdf:resource="agent/012436"/><rico:performanceRelationHasSource><rico:Activity><rico:activityIsSourceOfPerformanceRelation rdf:resource="performanceRelation/012436-d3nyu9x713-9kcjiv44l4wh-16701021-16810412"/><rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3nyu9x713-9kcjiv44l4wh"/></rico:Activity></rico:performanceRelationHasSource><rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1670-10-21</rico:beginningDate><rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1681-04-12</rico:endDate></rico:PerformanceRelation></rico:agentIsTargetOfPerformanceRelation><rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3nyu9x713-9kcjiv44l4wh"/>
+      <rico:personIsTargetOfMembershipRelation rdf:resource="membershipRelation/010133-012436-16740101-16771231"/><rico:isOrWasMemberOf rdf:resource="agent/010133"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/041219-012436"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-041219"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/055315-012436"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-055315"/>
+   </rico:Agent>
+</rdf:RDF>

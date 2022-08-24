@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041985">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Luc ROUVEAU, 16 février 1600 - 1646 (étude XXXVII) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Luc ROUVEAU, 16 février 1600 - 1646 (étude XXXVII) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-18</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">1ère édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041985"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041985-i1">
+            <rico:isInstantiationOf rdf:resource="record/041985"/>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Luc ROUVEAU, 16 février 1600 - 1646 (étude XXXVII) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Luc ROUVEAU, 16 février 1600 - 1646 (étude XXXVII) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041985</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041985"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041985">
+      <rico:isOrWasDescribedBy rdf:resource="record/041985"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Luc ROUVEAU (étude XXXVII)</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Luc ROUVEAU (étude XXXVII)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-02-16</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1646-12-31</rico:endDate>
+      <rico:date xml:lang="fr">16 février 1600 - 1646</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010164"/>
+      <rico:hasProvenance rdf:resource="agent/010749"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l’étude XXXVIIArchives de l'étude XXXVII</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041985"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041985-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041985"/>
+            <rico:identifier>MC/ET/XXXVII/1 - MC/ET/XXXVII/2, MC/RE/XXXVII/1 - MC/RE/XXXVII/23</rico:identifier>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Luc ROUVEAU (étude XXXVII)</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Luc ROUVEAU (étude XXXVII)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-02-16</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1646-12-31</rico:endDate>
+            <rico:date xml:lang="fr">16 février 1600 - 1646</rico:date>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010164"/>
+            <rico:hasProvenance rdf:resource="agent/010749"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041985"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/041985-c1p6yytovtaz--i3dnnaw99h52"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/041985-c1p6yytoy7q3--17wh3w41j7o04"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041985-c1p6yytovtaz--i3dnnaw99h52">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041985"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Minutes de Luc ROUVEAU</rico:title>
+      <rdfs:label xml:lang="fr">Minutes de Luc ROUVEAU</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1646-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1600 - 1646</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010164"/>
+      <rico:hasProvenance rdf:resource="agent/010749"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytovtaz--i3dnnaw99h52"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041985-c1p6yytovtaz--i3dnnaw99h52-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041985-c1p6yytovtaz--i3dnnaw99h52"/>
+            <rico:identifier>MC/ET/XXXVII/1 - MC/ET/XXXVII/2</rico:identifier>
+            <rico:title xml:lang="fr">Minutes de Luc ROUVEAU</rico:title>
+            <rdfs:label xml:lang="fr">Minutes de Luc ROUVEAU</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1646-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1600 - 1646</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytovtaz--i3dnnaw99h52"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041985-c1p6yytowkb7--5xtd79t6q4r5">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041985-c1p6yytovtaz--i3dnnaw99h52"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1600 - 1615</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1600 - 1615</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1615-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1600 - 1615</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Ancien notaire de Belleville.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010164"/>
+            <rico:hasProvenance rdf:resource="agent/010749"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytowkb7--5xtd79t6q4r5"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041985-c1p6yytowkb7--5xtd79t6q4r5-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041985-c1p6yytowkb7--5xtd79t6q4r5"/>
+                  <rico:identifier>MC/ET/XXXVII/1</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1600 - 1615</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1600 - 1615</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1615-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1600 - 1615</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytowkb7--5xtd79t6q4r5"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041985-c1p6yytoxeej-b96nsnmymwm7">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041985-c1p6yytovtaz--i3dnnaw99h52"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1616 - 1646</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1616 - 1646</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1616-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1646-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1616 - 1646</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Ancien notaire de Belleville.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010164"/>
+            <rico:hasProvenance rdf:resource="agent/010749"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytoxeej-b96nsnmymwm7"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041985-c1p6yytoxeej-b96nsnmymwm7-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041985-c1p6yytoxeej-b96nsnmymwm7"/>
+                  <rico:identifier>MC/ET/XXXVII/2</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1616 - 1646</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1616 - 1646</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1616-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1646-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1616 - 1646</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytoxeej-b96nsnmymwm7"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041985-c1p6yytoy7q3--17wh3w41j7o04">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041985"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Répertoire(s) de Luc ROUVEAU</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire(s) de Luc ROUVEAU</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-02-16</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-08-13</rico:endDate>
+      <rico:date xml:lang="fr">16 février 1600 - 13 août 1805</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010164"/>
+      <rico:hasProvenance rdf:resource="agent/010749"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytoy7q3--17wh3w41j7o04"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041985-c1p6yytoy7q3--17wh3w41j7o04-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041985-c1p6yytoy7q3--17wh3w41j7o04"/>
+            <rico:identifier>MC/RE/XXXVII/1 - MC/RE/XXXVII/23</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire(s) de Luc ROUVEAU</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire(s) de Luc ROUVEAU</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-02-16</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-08-13</rico:endDate>
+            <rico:date xml:lang="fr">16 février 1600 - 13 août 1805</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytoy7q3--17wh3w41j7o04"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041985-c1p6yytoyu3n--fkc4ffk0jz9w">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041985-c1p6yytoy7q3--17wh3w41j7o04"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+            <rico:title xml:lang="fr">Répertoire. 1600, 22 mars - 1724, 8 avril</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire. 1600, 22 mars - 1724, 8 avril</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-03-22</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1724-04-08</rico:endDate>
+            <rico:date xml:lang="fr">22 mars 1600 - 8 avril 1724</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Répertoire des notaires Luc Rouveau ( 22 mars 1600-29 octobre 1646), Georges Rouveau (4 juin 1647-12 septembre 1682), Philippe Rouveau (18 septembre 1685-8 avril 1724).</html:p>
+                  <html:p>Tabellionage du Pré Saint-Gervais et de La Villette Saint-Denis. Le répertoire RE/XXXVII/2 est une copie de ce répertoire.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement et la cotation :</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux mentions d'actes contenues dans le répertoire. Parmi celles-ci, certaines peuvent y être décrites, de manière plus ou moins détaillée. Pour consulter l'acte proprement dit, il convient de rechercher la cote au niveau des articles (registre ou liasse) des minutes du notaire (cote de type 'MC/ET').</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010164"/>
+            <rico:hasProvenance rdf:resource="agent/010749"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytoyu3n--fkc4ffk0jz9w"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041985-c1p6yytoyu3n--fkc4ffk0jz9w-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041985-c1p6yytoyu3n--fkc4ffk0jz9w"/>
+                  <rico:identifier>MC/RE/XXXVII/1</rico:identifier>
+                  <rico:title xml:lang="fr">Répertoire. 1600, 22 mars - 1724, 8 avril</rico:title>
+                  <rdfs:label xml:lang="fr">Répertoire. 1600, 22 mars - 1724, 8 avril</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-03-22</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1724-04-08</rico:endDate>
+                  <rico:date xml:lang="fr">22 mars 1600 - 8 avril 1724</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytoyu3n--fkc4ffk0jz9w"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041985-c1p6yytp0akj--3gah82h010bt">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041985-c1p6yytoy7q3--17wh3w41j7o04"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+            <rico:title xml:lang="fr">Répertoire. 1600, 22 mars - 1724, 8 avril</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire. 1600, 22 mars - 1724, 8 avril</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-03-22</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1724-04-08</rico:endDate>
+            <rico:date xml:lang="fr">22 mars 1600 - 8 avril 1724</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Répertoire des notaires Luc Rouveau (22 mars 1600-29 octobre 1646), Georges Rouveau (4 juin 1647-12 septembre 1682), Philippe Rouveau (18 septembre 1685- 8 avril 1724).</html:p>
+                  <html:p>Tabellionage du Pré Saint-Gervais et de La Villette Saint-Denis. Le présent répertoire est une copie du RE/XXXVII/1.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement et la cotation :</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux mentions d'actes contenues dans le répertoire. Parmi celles-ci, certaines peuvent y être décrites, de manière plus ou moins détaillée. Pour consulter l'acte proprement dit, il convient de rechercher la cote au niveau des articles (registre ou liasse) des minutes du notaire (cote de type 'MC/ET').</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010164"/>
+            <rico:hasProvenance rdf:resource="agent/010749"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytp0akj--3gah82h010bt"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041985-c1p6yytp0akj--3gah82h010bt-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041985-c1p6yytp0akj--3gah82h010bt"/>
+                  <rico:identifier>MC/RE/XXXVII/2</rico:identifier>
+                  <rico:title xml:lang="fr">Répertoire. 1600, 22 mars - 1724, 8 avril</rico:title>
+                  <rdfs:label xml:lang="fr">Répertoire. 1600, 22 mars - 1724, 8 avril</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-03-22</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1724-04-08</rico:endDate>
+                  <rico:date xml:lang="fr">22 mars 1600 - 8 avril 1724</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytp0akj--3gah82h010bt"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041985-c1p6yytp1oq3--rukyewq9yxyt">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041985-c1p6yytoy7q3--17wh3w41j7o04"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+            <rico:title xml:lang="fr">Répertoire. 1600, 16 février - 1784, 7 décembre</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire. 1600, 16 février - 1784, 7 décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-02-16</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1784-12-07</rico:endDate>
+            <rico:date xml:lang="fr">16 février 1600 - 7 décembre 1784</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Répertoire des notaires Luc Rouveau (16 février 1600-15 octobre 1646), Georges Rouveau (1er juillet 1647-31 octobre 1682), Philippe Rouveau (1er novembre 1682-1er mars 1727), Antoine Rouveau (17 mars 1727-14 novembre 1765) , Pierre Rouveau (8 février 1766-7 décembre 1784).</html:p>
+                  <html:p>Répertoire méthodique, par type d'acte et par année, des minutes du greffe et tabellionage de la prévôté de Maulny à Belleville et dépendances.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement et la cotation :</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux mentions d'actes contenues dans le répertoire. Parmi celles-ci, certaines peuvent y être décrites, de manière plus ou moins détaillée. Pour consulter l'acte proprement dit, il convient de rechercher la cote au niveau des articles (registre ou liasse) des minutes du notaire (cote de type 'MC/ET').</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010164"/>
+            <rico:hasProvenance rdf:resource="agent/010749"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytp1oq3--rukyewq9yxyt"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041985-c1p6yytp1oq3--rukyewq9yxyt-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041985-c1p6yytp1oq3--rukyewq9yxyt"/>
+                  <rico:identifier>MC/RE/XXXVII/7</rico:identifier>
+                  <rico:title xml:lang="fr">Répertoire. 1600, 16 février - 1784, 7 décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Répertoire. 1600, 16 février - 1784, 7 décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-02-16</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1784-12-07</rico:endDate>
+                  <rico:date xml:lang="fr">16 février 1600 - 7 décembre 1784</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytp1oq3--rukyewq9yxyt"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041985-c1p6yytp3j2z-jtg2o6rh2gu8">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041985-c1p6yytoy7q3--17wh3w41j7o04"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+            <rico:title xml:lang="fr">Répertoire. 1604, 9 janvier - 1784</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire. 1604, 9 janvier - 1784</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1604-01-09</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1784-12-31</rico:endDate>
+            <rico:date xml:lang="fr">9 janvier 1604 - 1784</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Répertoire des notaires Luc Rouveau (9 janvier 1604-10 octobre 1639), Georges Rouveau (6 août 1650-23 novembre 1682), Philippe Rouveau (23 novembre 1682-1er mars 1727), Antoine Rouveau (17 mars 1727-14 novembre 1765) Pierre Rouveau (9 décembre 1765-31 décembre 1784).</html:p>
+                  <html:p>Répertoire méthodique, par types d'actes et par année, des minutes du greffe du ' Pré Saint-Gervais, La Villette Saint Denis à Pantin en partie de Belleville sur Sablon et dépendances.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement et la cotation :</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux mentions d'actes contenues dans le répertoire. Parmi celles-ci, certaines peuvent y être décrites, de manière plus ou moins détaillée. Pour consulter l'acte proprement dit, il convient de rechercher la cote au niveau des articles (registre ou liasse) des minutes du notaire (cote de type 'MC/ET').</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010164"/>
+            <rico:hasProvenance rdf:resource="agent/010749"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytp3j2z-jtg2o6rh2gu8"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041985-c1p6yytp3j2z-jtg2o6rh2gu8-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041985-c1p6yytp3j2z-jtg2o6rh2gu8"/>
+                  <rico:identifier>MC/RE/XXXVII/8</rico:identifier>
+                  <rico:title xml:lang="fr">Répertoire. 1604, 9 janvier - 1784</rico:title>
+                  <rdfs:label xml:lang="fr">Répertoire. 1604, 9 janvier - 1784</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1604-01-09</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1784-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">9 janvier 1604 - 1784</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytp3j2z-jtg2o6rh2gu8"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041985-c1p6yytp58t7-g144msjgny2b">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041985-c1p6yytoy7q3--17wh3w41j7o04"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Etat sommaire des archives de l'étude. 1606, 27 février - an XIII, thermidor</rico:title>
+            <rdfs:label xml:lang="fr">Etat sommaire des archives de l'étude. 1606, 27 février - an XIII, thermidor</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-08-13</rico:date>
+            <rico:date xml:lang="fr">27 février 1606 - 25 thermidor an XIII (13 août 1805)</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Etat des minutes manquantes 'd'aprés la vérification sur les répertoires', pour les tabellionnage de Saint-Lazare, de Menilmontant, de Belleville, de Maulny et le notariat royal de Belleville, concernant les notaires Antoine Rouveau, Luc Rouveau, Georges Rouveau, Philippe Rouveau, Pierre Rouveau.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement et la cotation :</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux mentions d'actes contenues dans le répertoire. Parmi celles-ci, certaines peuvent y être décrites, de manière plus ou moins détaillée. Pour consulter l'acte proprement dit, il convient de rechercher la cote au niveau des articles (registre ou liasse) des minutes du notaire (cote de type 'MC/ET').</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010164"/>
+            <rico:hasProvenance rdf:resource="agent/010749"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytp58t7-g144msjgny2b"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041985-c1p6yytp58t7-g144msjgny2b-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041985-c1p6yytp58t7-g144msjgny2b"/>
+                  <rico:identifier>MC/RE/XXXVII/23</rico:identifier>
+                  <rico:title xml:lang="fr">Etat sommaire des archives de l'étude. 1606, 27 février - an XIII, thermidor</rico:title>
+                  <rdfs:label xml:lang="fr">Etat sommaire des archives de l'étude. 1606, 27 février - an XIII, thermidor</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-08-13</rico:date>
+                  <rico:date xml:lang="fr">27 février 1606 - 25 thermidor an XIII (13 août 1805)</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041985/c1p6yytp58t7-g144msjgny2b"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

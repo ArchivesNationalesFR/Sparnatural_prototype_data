@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041139">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Roger ROHART, 17 novembre 1509 - 19 mars 1510 (étude III) : Répertoire numérique détaillé exhaustif</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Roger ROHART, 17 novembre 1509 - 19 mars 1510 (étude III) : Répertoire numérique détaillé exhaustif</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-18</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Etabli par Marie-Françoise Limon-Bonnet, conservateur général du patrimoine, responsable du Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">2e édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-09-27</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Analyse de tous les fragments de minutes restants, Marie-Françoise Limon-Bonnet</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041139"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041139-i1">
+            <rico:isInstantiationOf rdf:resource="record/041139"/>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Roger ROHART, 17 novembre 1509 - 19 mars 1510 (étude III) : Répertoire numérique détaillé exhaustif</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Roger ROHART, 17 novembre 1509 - 19 mars 1510 (étude III) : Répertoire numérique détaillé exhaustif</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041139</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041139"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041139">
+      <rico:isOrWasDescribedBy rdf:resource="record/041139"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Roger ROHART (étude III)</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Roger ROHART (étude III)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1509-11-17</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-03-19</rico:endDate>
+      <rico:date xml:lang="fr">17 novembre 1509 - 19 mars 1510</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010717"/>
+      <rico:hasProvenance rdf:resource="agent/010130"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>*****</html:b>
+            </html:p>
+            <html:p>
+               <html:b>Attention : ce notaire n'a pas laissé de répertoire pour son activité dans l'étude III</html:b>
+            </html:p>
+            <html:p>Accès aux instruments de recherche de tous les notaires de l’étude III<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041137">Archives de l'étude III</html:a>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:history rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Informations sur l’évaluation</html:h4>
+            <html:p>néant</html:p>
+         </html:div>
+      </rico:history>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041139"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041139-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041139"/>
+            <rico:identifier>MC/ET/III/1</rico:identifier>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Roger ROHART (étude III)</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Roger ROHART (étude III)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1509-11-17</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-03-19</rico:endDate>
+            <rico:date xml:lang="fr">17 novembre 1509 - 19 mars 1510</rico:date>
+            <rico:carrierExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">A évaluer ML</html:p>
+            </rico:carrierExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">A évaluer ML</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010717"/>
+            <rico:hasProvenance rdf:resource="agent/010130"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:p>Versement</html:p>
+                  </html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Informations sur l’évaluation</html:h4>
+                     <html:p>néant</html:p>
+                  </html:div>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041139"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/041139-c1p6sbmz9hvn--1o0pyulqrwahw"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041139-c1p6sbmz9hvn--1o0pyulqrwahw">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041139"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Minutes de Roger ROHART</rico:title>
+      <rdfs:label xml:lang="fr">Minutes de Roger ROHART</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1509-11-17</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-03-19</rico:endDate>
+      <rico:date xml:lang="fr">17 novembre 1509 - 19 mars 1510</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010717"/>
+      <rico:hasProvenance rdf:resource="agent/010130"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c1p6sbmz9hvn--1o0pyulqrwahw"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041139-c1p6sbmz9hvn--1o0pyulqrwahw-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041139-c1p6sbmz9hvn--1o0pyulqrwahw"/>
+            <rico:identifier>MC/ET/III/1</rico:identifier>
+            <rico:title xml:lang="fr">Minutes de Roger ROHART</rico:title>
+            <rdfs:label xml:lang="fr">Minutes de Roger ROHART</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1509-11-17</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-03-19</rico:endDate>
+            <rico:date xml:lang="fr">17 novembre 1509 - 19 mars 1510</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c1p6sbmz9hvn--1o0pyulqrwahw"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041139-c1p6sbmzab77-14gx7is9yug33">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmz9hvn--1o0pyulqrwahw"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1509, 17 novembre - 1510, 19 mars</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1509, 17 novembre - 1510, 19 mars</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1509-11-17</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-03-19</rico:endDate>
+            <rico:date xml:lang="fr">17 novembre 1509 - 19 mars 1510</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Fragments des minutiers des notaires Hervy et Roger Rohart, 19 pièces.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description correspond aux minutes d'actes. Toutes les minutes ont été décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010717"/>
+            <rico:hasProvenance rdf:resource="agent/010130"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c1p6sbmzab77-14gx7is9yug33"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041139-c1p6sbmzab77-14gx7is9yug33-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rico:identifier>MC/ET/III/1</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1509, 17 novembre - 1510, 19 mars</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1509, 17 novembre - 1510, 19 mars</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1509-11-17</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-03-19</rico:endDate>
+                  <rico:date xml:lang="fr">17 novembre 1509 - 19 mars 1510</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Document détérioré.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c1p6sbmzab77-14gx7is9yug33"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehiyx889-1bll13orf37o9">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Bail de terre à Saint-Ouen concernant Jacques Olivier, président au Parlement.</rico:title>
+                  <rdfs:label xml:lang="fr">Bail de terre à Saint-Ouen concernant Jacques Olivier, président au Parlement.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1509-11-18</rico:date>
+                  <rico:date xml:lang="fr">18 novembre 1509</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Fichier dit 'général' XVIe siècle (env. 30.000 actes), par le personnel du Minutier, 1930-1999 (fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2008</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2018 (Marie-Françoise Limon-Bonnet)</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehiyx889-1bll13orf37o9"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehiyx889-1bll13orf37o9-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehiyx889-1bll13orf37o9"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Bail de terre à Saint-Ouen concernant Jacques Olivier, président au Parlement.</rico:title>
+                        <rdfs:label xml:lang="fr">Bail de terre à Saint-Ouen concernant Jacques Olivier, président au Parlement.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1509-11-18</rico:date>
+                        <rico:date xml:lang="fr">18 novembre 1509</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehiyx889-1bll13orf37o9"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehiz0p78-1l3ahz0gcqcn1">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Testament de Gabriel Aussel, menuisier, natif de Souaistre, en Artois. Mentions d'un marché pour une épinette valant 4 livres 5 sols sur lesquels il a reçu 20 sols et de la vente d'une autre épinette à un imprimeur.</rico:title>
+                  <rdfs:label xml:lang="fr">Testament de Gabriel Aussel, menuisier, natif de Souaistre, en Artois. Mentions d'un marché pour une épinette valant 4 livres 5 sols sur lesquels il a reçu 20 sols et de la vente d'une autre épinette à un imprimeur.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1509-12-12</rico:date>
+                  <rico:date xml:lang="fr">12 décembre 1509</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Étude III, contrats de mariages, testaments, inventaires après décès, 1518-1519, 1530-1589 (ET/III/1 à 73, 117 à 217, 299-300, 342 soit 657 actes). (fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>ou</html:p>
+                        <html:p>La musique au XVIe siècle, 23 actes concernant les musiciens dans les minutes du notaire Michel de Felin, par Madeleine Jurgens et Isabelle Pebay, 1976 (dactylogramme entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2004</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2018 (Marie-Françoise Limon-Bonnet)</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-8da7t9knp--ju2vtil7dkls"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntpfw8zg--1bhpd67tmupvd"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Aussel, Gabriel</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Aussel, Gabriel</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Aussel, Gabriel</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msjk6px-1991l3mvmuk67"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d699msjk6px-1991l3mvmuk67"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehiz0p78-1l3ahz0gcqcn1"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehiz0p78-1l3ahz0gcqcn1-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehiz0p78-1l3ahz0gcqcn1"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Testament de Gabriel Aussel, menuisier, natif de Souaistre, en Artois. Mentions d'un marché pour une épinette valant 4 livres 5 sols sur lesquels il a reçu 20 sols et de la vente d'une autre épinette à un imprimeur.</rico:title>
+                        <rdfs:label xml:lang="fr">Testament de Gabriel Aussel, menuisier, natif de Souaistre, en Artois. Mentions d'un marché pour une épinette valant 4 livres 5 sols sur lesquels il a reçu 20 sols et de la vente d'une autre épinette à un imprimeur.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1509-12-12</rico:date>
+                        <rico:date xml:lang="fr">12 décembre 1509</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehiz0p78-1l3ahz0gcqcn1"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehiz34zh-eucksdzpzq2u">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte. "C'est assavoir presentement la somme de 28 s. parisis et//le surplus du jourd'uy en ung mois 8 s. parisis //par chacun mois après ensuivant encores 8 s. parisis //jusques à fin de payé et moyennant led. Lienard // Barbe sera tenu dedans duy en ung an prochain venant // faire ung voyage à pied jusques au mont Sainct // Michel pour l'âme dud. deffunct et en apporter // certiffication signée de l'abbé ou couvent de l'eglise et //abbaye dud. lieu à lad. vefve..."</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte. "C'est assavoir presentement la somme de 28 s. parisis et//le surplus du jourd'uy en ung mois 8 s. parisis //par chacun mois après ensuivant encores 8 s. parisis //jusques à fin de payé et moyennant led. Lienard // Barbe sera tenu dedans duy en ung an prochain venant // faire ung voyage à pied jusques au mont Sainct // Michel pour l'âme dud. deffunct et en apporter // certiffication signée de l'abbé ou couvent de l'eglise et //abbaye dud. lieu à lad. vefve..."</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-08</rico:date>
+                  <rico:date xml:lang="fr">8 janvier 1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehiz34zh-eucksdzpzq2u"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehiz34zh-eucksdzpzq2u-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehiz34zh-eucksdzpzq2u"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte. "C'est assavoir presentement la somme de 28 s. parisis et//le surplus du jourd'uy en ung mois 8 s. parisis //par chacun mois après ensuivant encores 8 s. parisis //jusques à fin de payé et moyennant led. Lienard // Barbe sera tenu dedans duy en ung an prochain venant // faire ung voyage à pied jusques au mont Sainct // Michel pour l'âme dud. deffunct et en apporter // certiffication signée de l'abbé ou couvent de l'eglise et //abbaye dud. lieu à lad. vefve..."</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte. "C'est assavoir presentement la somme de 28 s. parisis et//le surplus du jourd'uy en ung mois 8 s. parisis //par chacun mois après ensuivant encores 8 s. parisis //jusques à fin de payé et moyennant led. Lienard // Barbe sera tenu dedans duy en ung an prochain venant // faire ung voyage à pied jusques au mont Sainct // Michel pour l'âme dud. deffunct et en apporter // certiffication signée de l'abbé ou couvent de l'eglise et //abbaye dud. lieu à lad. vefve..."</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-08</rico:date>
+                        <rico:date xml:lang="fr">8 janvier 1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehiz34zh-eucksdzpzq2u"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehiz5hq0-5emj8mrg4t6m">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-14</rico:date>
+                  <rico:date xml:lang="fr">14 janvier 1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehiz5hq0-5emj8mrg4t6m"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehiz5hq0-5emj8mrg4t6m-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehiz5hq0-5emj8mrg4t6m"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-14</rico:date>
+                        <rico:date xml:lang="fr">14 janvier 1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehiz5hq0-5emj8mrg4t6m"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehiz7qsu--x144jlvfg1zg">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte. "entre aultres parolles iceluy // ... dist audit prisonnier qu'il avoit esté prié et // requis par aucuns de ses amys de venir parler a luy //en luy demandant qu'il vouloit dire et le priant que // desormais ilz ne eussent plus de procès ensemble ains // que dorésenavant il voulust vivre comme les aultres// paroissiens et faire son devoir envers luy comme // envers son curé ainsi qu'il estoit teny en luy offrant // par icelluy curé faire toute la gracieuseté qu'il // pouroit souffrir et porter touchant le cas dont icelluy // Buissonnier estoit prisonnier ; après lesquelles gracieuses remonstrances led. Buissonnet en la présence d'iceulx // atestans dist aud. curé fièrement et du courage malvenu // qu'il fist du pis qu'il pourroit et qu'il ne seroit pas tousjours // ceans prisonnier ; et pour ce que lesd. atestants..."</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte. "entre aultres parolles iceluy // ... dist audit prisonnier qu'il avoit esté prié et // requis par aucuns de ses amys de venir parler a luy //en luy demandant qu'il vouloit dire et le priant que // desormais ilz ne eussent plus de procès ensemble ains // que dorésenavant il voulust vivre comme les aultres// paroissiens et faire son devoir envers luy comme // envers son curé ainsi qu'il estoit teny en luy offrant // par icelluy curé faire toute la gracieuseté qu'il // pouroit souffrir et porter touchant le cas dont icelluy // Buissonnier estoit prisonnier ; après lesquelles gracieuses remonstrances led. Buissonnet en la présence d'iceulx // atestans dist aud. curé fièrement et du courage malvenu // qu'il fist du pis qu'il pourroit et qu'il ne seroit pas tousjours // ceans prisonnier ; et pour ce que lesd. atestants..."</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-31</rico:endDate>
+                  <rico:date xml:lang="fr">janvier 1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehiz7qsu--x144jlvfg1zg"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehiz7qsu--x144jlvfg1zg-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehiz7qsu--x144jlvfg1zg"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte. "entre aultres parolles iceluy // ... dist audit prisonnier qu'il avoit esté prié et // requis par aucuns de ses amys de venir parler a luy //en luy demandant qu'il vouloit dire et le priant que // desormais ilz ne eussent plus de procès ensemble ains // que dorésenavant il voulust vivre comme les aultres// paroissiens et faire son devoir envers luy comme // envers son curé ainsi qu'il estoit teny en luy offrant // par icelluy curé faire toute la gracieuseté qu'il // pouroit souffrir et porter touchant le cas dont icelluy // Buissonnier estoit prisonnier ; après lesquelles gracieuses remonstrances led. Buissonnet en la présence d'iceulx // atestans dist aud. curé fièrement et du courage malvenu // qu'il fist du pis qu'il pourroit et qu'il ne seroit pas tousjours // ceans prisonnier ; et pour ce que lesd. atestants..."</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte. "entre aultres parolles iceluy // ... dist audit prisonnier qu'il avoit esté prié et // requis par aucuns de ses amys de venir parler a luy //en luy demandant qu'il vouloit dire et le priant que // desormais ilz ne eussent plus de procès ensemble ains // que dorésenavant il voulust vivre comme les aultres// paroissiens et faire son devoir envers luy comme // envers son curé ainsi qu'il estoit teny en luy offrant // par icelluy curé faire toute la gracieuseté qu'il // pouroit souffrir et porter touchant le cas dont icelluy // Buissonnier estoit prisonnier ; après lesquelles gracieuses remonstrances led. Buissonnet en la présence d'iceulx // atestans dist aud. curé fièrement et du courage malvenu // qu'il fist du pis qu'il pourroit et qu'il ne seroit pas tousjours // ceans prisonnier ; et pour ce que lesd. atestants..."</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-31</rico:endDate>
+                        <rico:date xml:lang="fr">janvier 1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehiz7qsu--x144jlvfg1zg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehiz9wiz--j82173bgo61w">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte. "... en s'en allant dud. Chastellet// de huit à neuf heures au soir il la trouvoit close // et fermée ; et aussu que souventesfois il a esté faire //... dud. guet pour led. Amaulry et ordinairement // trouvoit lad. porte close et fermée. Et sy la treuve // encores ordinairement à présent close et fermée de nuyt quant à lad. heure y va et vients oud. chastellet. Dit // oultre que icelle porte est très nécessaire et convenable //..."</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte. "... en s'en allant dud. Chastellet// de huit à neuf heures au soir il la trouvoit close // et fermée ; et aussu que souventesfois il a esté faire //... dud. guet pour led. Amaulry et ordinairement // trouvoit lad. porte close et fermée. Et sy la treuve // encores ordinairement à présent close et fermée de nuyt quant à lad. heure y va et vients oud. chastellet. Dit // oultre que icelle porte est très nécessaire et convenable //..."</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-15</rico:date>
+                  <rico:date xml:lang="fr">15 janvier 1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehiz9wiz--j82173bgo61w"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehiz9wiz--j82173bgo61w-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehiz9wiz--j82173bgo61w"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte. "... en s'en allant dud. Chastellet// de huit à neuf heures au soir il la trouvoit close // et fermée ; et aussu que souventesfois il a esté faire //... dud. guet pour led. Amaulry et ordinairement // trouvoit lad. porte close et fermée. Et sy la treuve // encores ordinairement à présent close et fermée de nuyt quant à lad. heure y va et vients oud. chastellet. Dit // oultre que icelle porte est très nécessaire et convenable //..."</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte. "... en s'en allant dud. Chastellet// de huit à neuf heures au soir il la trouvoit close // et fermée ; et aussu que souventesfois il a esté faire //... dud. guet pour led. Amaulry et ordinairement // trouvoit lad. porte close et fermée. Et sy la treuve // encores ordinairement à présent close et fermée de nuyt quant à lad. heure y va et vients oud. chastellet. Dit // oultre que icelle porte est très nécessaire et convenable //..."</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-15</rico:date>
+                        <rico:date xml:lang="fr">15 janvier 1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehiz9wiz--j82173bgo61w"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehizeuja--1o825n4ledg0z">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte. "... Ceste quittance faicte moiennant la somme de six livres // tournois qui ont esté baillez et payez contant aud. // Hyversois présent les notaires soubsignez dont .."</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte. "... Ceste quittance faicte moiennant la somme de six livres // tournois qui ont esté baillez et payez contant aud. // Hyversois présent les notaires soubsignez dont .."</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-02-06</rico:date>
+                  <rico:date xml:lang="fr">6 février 1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizeuja--1o825n4ledg0z"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehizeuja--1o825n4ledg0z-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehizeuja--1o825n4ledg0z"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte. "... Ceste quittance faicte moiennant la somme de six livres // tournois qui ont esté baillez et payez contant aud. // Hyversois présent les notaires soubsignez dont .."</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte. "... Ceste quittance faicte moiennant la somme de six livres // tournois qui ont esté baillez et payez contant aud. // Hyversois présent les notaires soubsignez dont .."</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-02-06</rico:date>
+                        <rico:date xml:lang="fr">6 février 1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizeuja--1o825n4ledg0z"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehizha0k-1i4ai51u6wv2v">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte. "...lesquelz cas led. Le Large estoit détenu Prisonnier // es prisons du roy notre sire ou Chastelet dud... Ceste quictance faicte moiennant la somme de douze escuz d'or // que led. Pierre Ysaac en confesse avoir eu et receuz //..."</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte. "...lesquelz cas led. Le Large estoit détenu Prisonnier // es prisons du roy notre sire ou Chastelet dud... Ceste quictance faicte moiennant la somme de douze escuz d'or // que led. Pierre Ysaac en confesse avoir eu et receuz //..."</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-31</rico:date>
+                  <rico:date xml:lang="fr">31 janvier 1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizha0k-1i4ai51u6wv2v"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehizha0k-1i4ai51u6wv2v-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehizha0k-1i4ai51u6wv2v"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte. "...lesquelz cas led. Le Large estoit détenu Prisonnier // es prisons du roy notre sire ou Chastelet dud... Ceste quictance faicte moiennant la somme de douze escuz d'or // que led. Pierre Ysaac en confesse avoir eu et receuz //..."</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte. "...lesquelz cas led. Le Large estoit détenu Prisonnier // es prisons du roy notre sire ou Chastelet dud... Ceste quictance faicte moiennant la somme de douze escuz d'or // que led. Pierre Ysaac en confesse avoir eu et receuz //..."</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-31</rico:date>
+                        <rico:date xml:lang="fr">31 janvier 1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizha0k-1i4ai51u6wv2v"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehizjf4q--1tpuyl6bditbq">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte. "Honnorables hommes maistre Pierre Leconte , Roger d'.... et Loys Gilles procureurs ou Chastellet de Paris."</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte. "Honnorables hommes maistre Pierre Leconte , Roger d'.... et Loys Gilles procureurs ou Chastellet de Paris."</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-02-21</rico:date>
+                  <rico:date xml:lang="fr">21 février 1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizjf4q--1tpuyl6bditbq"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehizjf4q--1tpuyl6bditbq-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehizjf4q--1tpuyl6bditbq"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte. "Honnorables hommes maistre Pierre Leconte , Roger d'.... et Loys Gilles procureurs ou Chastellet de Paris."</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte. "Honnorables hommes maistre Pierre Leconte , Roger d'.... et Loys Gilles procureurs ou Chastellet de Paris."</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-02-21</rico:date>
+                        <rico:date xml:lang="fr">21 février 1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizjf4q--1tpuyl6bditbq"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehizliq2-x4nvt0dnw71i">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-03-06</rico:date>
+                  <rico:date xml:lang="fr">6 mars 1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizliq2-x4nvt0dnw71i"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehizliq2-x4nvt0dnw71i-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehizliq2-x4nvt0dnw71i"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-03-06</rico:date>
+                        <rico:date xml:lang="fr">6 mars 1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizliq2-x4nvt0dnw71i"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehiznmmd-qxsbs08t1s2s">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-03-06</rico:date>
+                  <rico:date xml:lang="fr">6 mars 1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehiznmmd-qxsbs08t1s2s"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehiznmmd-qxsbs08t1s2s-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehiznmmd-qxsbs08t1s2s"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-03-06</rico:date>
+                        <rico:date xml:lang="fr">6 mars 1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehiznmmd-qxsbs08t1s2s"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehizprfl-pdv6r8ur8lhd">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-03-19</rico:date>
+                  <rico:date xml:lang="fr">19 mars 1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizprfl-pdv6r8ur8lhd"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehizprfl-pdv6r8ur8lhd-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehizprfl-pdv6r8ur8lhd"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-03-19</rico:date>
+                        <rico:date xml:lang="fr">19 mars 1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizprfl-pdv6r8ur8lhd"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehizruez--d73lh8iubvqi">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizruez--d73lh8iubvqi"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehizruez--d73lh8iubvqi-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehizruez--d73lh8iubvqi"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizruez--d73lh8iubvqi"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehizty0a--1n7ulmfc5959i">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-03-08</rico:date>
+                  <rico:date xml:lang="fr">8 mars 1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizty0a--1n7ulmfc5959i"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehizty0a--1n7ulmfc5959i-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehizty0a--1n7ulmfc5959i"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-03-08</rico:date>
+                        <rico:date xml:lang="fr">8 mars 1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizty0a--1n7ulmfc5959i"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehizw0op-13kmny8kml98u">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-02-28</rico:date>
+                  <rico:date xml:lang="fr">28 février 1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizw0op-13kmny8kml98u"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehizw0op-13kmny8kml98u-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehizw0op-13kmny8kml98u"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-02-28</rico:date>
+                        <rico:date xml:lang="fr">28 février 1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizw0op-13kmny8kml98u"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehizy2g7--lqmftfvgvkgv">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizy2g7--lqmftfvgvkgv"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehizy2g7--lqmftfvgvkgv-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehizy2g7--lqmftfvgvkgv"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehizy2g7--lqmftfvgvkgv"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehj005fk-2ttcnvp1zlgo">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehj005fk-2ttcnvp1zlgo"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehj005fk-2ttcnvp1zlgo-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehj005fk-2ttcnvp1zlgo"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehj005fk-2ttcnvp1zlgo"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehj027t0--6uzypgcaqqyh">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-02-27</rico:date>
+                  <rico:date xml:lang="fr">27 février 1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehj027t0--6uzypgcaqqyh"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehj027t0--6uzypgcaqqyh-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehj027t0--6uzypgcaqqyh"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-02-27</rico:date>
+                        <rico:date xml:lang="fr">27 février 1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehj027t0--6uzypgcaqqyh"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041139-c-75ehj04ase--157v6wnnfbmcw">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041139-c1p6sbmzab77-14gx7is9yug33"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                  <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1510</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Acte signalé par le personnel du Minutier central des notaires de Paris.</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2018 (Marie-Françoise Limon-Bonnet).</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf71ft--g29dbl18lewt"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Olivier, Jacques</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Olivier, Jacques</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl72qsa--ekenid4c2nma"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010717"/>
+                  <rico:hasProvenance rdf:resource="agent/010130"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehj04ase--157v6wnnfbmcw"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041139-c-75ehj04ase--157v6wnnfbmcw-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041139-c-75ehj04ase--157v6wnnfbmcw"/>
+                        <rico:identifier>MC/ET/III/1</rico:identifier>
+                        <rico:title xml:lang="fr">Fragment d'acte.</rico:title>
+                        <rdfs:label xml:lang="fr">Fragment d'acte.</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1510-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1510</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041139/c-75ehj04ase--157v6wnnfbmcw"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

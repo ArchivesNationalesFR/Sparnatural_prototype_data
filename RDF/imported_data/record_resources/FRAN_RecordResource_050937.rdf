@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/050937">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXXIV. MC/ET/XXXIV/936 (1675-1793) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXXIV. MC/ET/XXXIV/936 (1675-1793) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, par Ernest Coyecque, Marie-Antoinette Fleury, Claire Béchu, conservateurs du patrimoine et Danis Habib, chargé d’études documentaires, sous la direction de Marie-Françoise Limon-Bonnet, conservateur général du patrimoine.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-050937"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050937-i1">
+            <rico:isInstantiationOf rdf:resource="record/050937"/>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXXIV. MC/ET/XXXIV/936 (1675-1793) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXXIV. MC/ET/XXXIV/936 (1675-1793) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d’information des Archives nationales. Il remplace l’instrument de recherche dactylographié connu en salle de lecture sous le numéro MC/27.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_050937</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050937"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-050937">
+      <rico:isOrWasDescribedBy rdf:resource="record/050937"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXXIV</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXXIV</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1675-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1793-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1675-1793</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010161"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l'étude XXXIVArchives de l'étude XXXIV</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050937"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-050937-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-050937"/>
+            <rico:identifier>MC/ET/XXXIV/936</rico:identifier>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXXIV</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXXIV</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1675-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1793-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1675-1793</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">0,10 m.l. ou 1 carton (boîte 10 cm)</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Don</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050937"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/050937-c-a24ul2559-6jiqn66kipga"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050937-c-a24ul2559-6jiqn66kipga">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050937"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Testaments.</rico:title>
+      <rdfs:label xml:lang="fr">Testaments.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1675-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1793-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1675-1793</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Testament olographe de Marie de Saint-Just, veuve de Jacques de Mornay. 11 avril 1675.</html:p>
+            <html:p>Testament olographe de Gilles Du Port, protonotaire apostolique. 1er février 1667.</html:p>
+            <html:p>Pseudo-codicilles olographes de Jacques Du Mesnil, officier de M. de Verneuil et de Michel Roquemont, mousquetaire du Roi, faisant toute réserve sur l’acquiescement qu’ils ont dû donner à leur condamnation au bannissement pour être mis en liberté ; ils usent de ce stratagème, aucun notaire n’ayant voulu recevoir leur protestation, dont l’original est joint aux deux codicilles. 12 avril 1696.</html:p>
+            <html:p>Testament olographe de Marguerite Chastelain, femme de Christophe Aubery, seigneur de La Mothe. 30 septembre 1706.</html:p>
+            <html:p>État des droits immobiliers d’établissement religieux, Notre-Dame, Saint-Denis-de-la-Châtre, Abbaye Saint-Victor, etc… (XVIIe-XVIIIe siècles) établi en 1793 (76 feuillets, les premiers gravement détériorés par les rongeurs). Incomplet.</html:p>
+            <html:p>Projet de contrat de mariage signé des parties, mais pas sous forme d’acte notarié (XVIIIe siècle).</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Saint-Just, Marie de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Saint-Just, Marie de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Saint-Just, Marie de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Mornay, Jacques de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Mornay, Jacques de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Mornay, Jacques de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Du Port, Gilles</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Du Port, Gilles</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Du Port, Gilles</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Verneuil, de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Verneuil, de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Verneuil, de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Roquemont, Michel</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Roquemont, Michel</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Roquemont, Michel</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Chastelain, Marguerite</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Chastelain, Marguerite</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Chastelain, Marguerite</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Aubery, Christophe</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Aubery, Christophe</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Aubery, Christophe</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-8da7t9knp--ju2vtil7dkls"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bh85k-zoce6yspjkhr"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_024-d3m0bqhogxd--1utqa4ew20c5u"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_024-d3nyvouy4m--dcsswp1uzjg"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_024-d3nyvpdmw0--9e6qrupjij8o"/>
+      <rico:hasProvenance rdf:resource="agent/010161"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050937/c-a24ul2559-6jiqn66kipga"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050937-c-a24ul2559-6jiqn66kipga-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050937-c-a24ul2559-6jiqn66kipga"/>
+            <rico:identifier>MC/ET/XXXIV/936</rico:identifier>
+            <rico:title xml:lang="fr">Testaments.</rico:title>
+            <rdfs:label xml:lang="fr">Testaments.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1675-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1793-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1675-1793</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050937/c-a24ul2559-6jiqn66kipga"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041699">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Archives de l'étude XXIV : Inventaire de regroupement (état des fonds d'archives publiques et privées de l'étude)</rico:title>
+      <rdfs:label xml:lang="fr">Archives de l'étude XXIV : Inventaire de regroupement (état des fonds d'archives publiques et privées de l'étude)</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:p xml:lang="fr">Instrument de recherche de regroupement, 17 septembre 2020 (Marie-Françoise Limon-Bonnet)</html:p>
+      </rico:descriptiveNote>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">2e édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041699"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041699-i1">
+            <rico:isInstantiationOf rdf:resource="record/041699"/>
+            <rico:title xml:lang="fr">Archives de l'étude XXIV : Inventaire de regroupement (état des fonds d'archives publiques et privées de l'étude)</rico:title>
+            <rdfs:label xml:lang="fr">Archives de l'étude XXIV : Inventaire de regroupement (état des fonds d'archives publiques et privées de l'étude)</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041699</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041699"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041699">
+      <rico:isOrWasDescribedBy rdf:resource="record/041699"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds"/>
+      <rico:title xml:lang="fr">Etude XXIV</rico:title>
+      <rdfs:label xml:lang="fr">Etude XXIV</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1560-04-18</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+      <rico:date xml:lang="fr">18 avril 1560 - 1924</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Liste des instruments de recherche par notaire :Minutes et répertoires du notaire Pierre DUTOT (18 avril 1560 - 4 décembre 1581) Minutes et répertoires du notaire Guillaume CANTO (4 mars 1561 - 27 novembre 1563) Minutes et répertoires du notaire Philippe TULLOUE (25 avril 1576 - 20 août 1618) Minutes et répertoires du notaire Nicolas HERVÉ (21 mai 1576 - 29 octobre 1578) Minutes et répertoires du notaire Antoine DES QUATREVAULX (20 mars 1579 - décembre 1617) Minutes et répertoires du notaire Robert TULLOUE (2 janvier 1606 - 16 septembre 1638) Minutes et répertoires du notaire Jean DES QUATREVAULX (16 juin 1607 - 20 janvier 1629) Minutes et répertoires du notaire Jean II CHAPELLAIN (9 juillet 1610 - 18 août 1640) Minutes et répertoires du notaire Jean III CHAPELLAIN (6 novembre 1638 - 9 juin 1645) Minutes et répertoires du notaire Charles DUPUIS (10 juin 1645 - 26 avril 1688) Minutes et répertoires du notaire Jacques II LE NORMAND (27 avril 1688 - 26 juillet 1701) Minutes et répertoires du notaire Jacques Mathieu BRIÈRE (27 juillet 1701 - 18 mars 1710) Minutes et répertoires du notaire Damien DUPONT (20 mars 1710 - 14 décembre 1739) Minutes et répertoires du notaire Damien Louis DUPONT (15 décembre 1739 - 2 juillet 1766) Minutes et répertoires du notaire Jean Antoine DOSFANT (5 juillet 1766 - 14 octobre 1791) Minutes et répertoires du notaire Antoine CHARPENTIER (15 octobre 1791 - 10 décembre 1803) Minutes et répertoires du notaire Louis Auguste LAHURE (17 décembre 1803 - 4 avril 1826) Minutes et répertoires du notaire Hercule FOURCHY (5 avril 1826 - 16 août 1829) Minutes et répertoires du notaire Charles Édouard PATINOT (30 septembre 1829 - 16 janvier 1841) Minutes et répertoires du notaire Edme François FAISEAU-LAVANNE (16 janvier 1841 - 28 décembre 1864) Minutes et répertoires du notaire Pierre MOREAU (29 décembre 1864 - 18 février 1892) Minutes et répertoires du notaire Raymond Marie Joseph PÉRONNE (20 février 1892 - décembre 1905) Images des répertoires de l'étude XXIV :Images des répertoires du notaire Philippe Tulloue (1587 - 1602) Images du répertoire du notaire Antoine Des Quatrevaulx (20 mars 1579 - 31 décembre 1617) Images du répertoire du notaire Jean Des Quatrevaulx (1607 - 1628) Images du répertoire du notaire Robert Tulloue (2 janvier 1606 - septembre 1638) Images du répertoire du notaire Jean II Chapellain (juillet 1610 - mai 1645) Images du répertoire du notaire Charles Dupuis (juin 1645 - avril 1688) Images du répertoire du notaire Jacques II Le Normand (27 avril 1688 - 26 juillet 1701) Images du répertoire du notaire Jacques Mathieu Brière (27 juillet 1701 - 18 mars 1710) Images du répertoire du notaire Damien Dupont (20 mars 1710 - 14 décembre 1739) Images du répertoire du notaire Damien Louis Dupont (15 décembre 1739 - 2 juillet 1766) Images des répertoires du notaire Jean Antoine Dosfant (5 juillet 1766 - 14 octobre 1791) Images des répertoires du notaire Antoine Charpentier (15 octobre 1791 - 10 décembre 1803) Images des répertoires du notaire Louis Auguste Lahure (17 décembre 1803 - 4 avril 1826) Images des répertoires du notaire Hercule Fourchy (5 avril 1826 - 16 août 1829) Images des répertoires du notaire Charles Édouard Patinot (30 septembre 1829 - 16 janvier 1841) Images des répertoires du notaire Edme François Faiseau-Lavanne (16 janvier 1841 - 29 janvier 1859) Images du répertoire du notaire Pierre Moreau (4 novembre 1880 - 18 février 1892) Images des répertoires du notaire Raymond Marie Joseph Péronne (20 février 1892 - 22 décembre 1905) Liste des instruments de recherche pour les autres archives de l'étude (archives privées)«Mélanges» (dossiers de clients) de l’étude XXIV (1606-1923) Dossiers de clients de l'étude XXIV (1790-1924)</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041699"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041699-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041699"/>
+            <rico:identifier>MC/ET/XXIV/1 - MC/ET/XXIV/1575, MC/RE/XXIV/1 - MC/RE/XXIV/29, MC/DC/XXIV/1-MC/DC/XXIV/3</rico:identifier>
+            <rico:title xml:lang="fr">Etude XXIV</rico:title>
+            <rdfs:label xml:lang="fr">Etude XXIV</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1560-04-18</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+            <rico:date xml:lang="fr">18 avril 1560 - 1924</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">n</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement, don</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041699"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

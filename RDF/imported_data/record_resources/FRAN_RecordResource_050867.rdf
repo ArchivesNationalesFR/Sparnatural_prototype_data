@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/050867">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XVIII. MC/ET/XVIII/1094-MC/ET/XVIII/1097 (1583-1802) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XVIII. MC/ET/XVIII/1094-MC/ET/XVIII/1097 (1583-1802) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, par Ernest Coyecque, Marie-Antoinette Fleury, Claire Béchu, conservateurs du patrimoine et Danis Habib, chargé d’études documentaires, sous la direction de Marie-Françoise Limon-Bonnet, conservateur général du patrimoine.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-050867"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050867-i1">
+            <rico:isInstantiationOf rdf:resource="record/050867"/>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XVIII. MC/ET/XVIII/1094-MC/ET/XVIII/1097 (1583-1802) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XVIII. MC/ET/XVIII/1094-MC/ET/XVIII/1097 (1583-1802) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d’information des Archives nationales. Il remplace l’instrument de recherche dactylographié connu en salle de lecture sous le numéro MC/27.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_050867</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050867"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-050867">
+      <rico:isOrWasDescribedBy rdf:resource="record/050867"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XVIII</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XVIII</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1583-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1583-1802</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010145"/>
+      <rico:hasProvenance rdf:resource="agent/010880"/>
+      <rico:hasProvenance rdf:resource="agent/012502"/>
+      <rico:hasProvenance rdf:resource="agent/012498"/>
+      <rico:hasProvenance rdf:resource="agent/010388"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l'étude XVIIIArchives de l'étude XVIII</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050867"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-050867-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-050867"/>
+            <rico:identifier>MC/ET/XVIII/1094-MC/ET/XVIII/1097</rico:identifier>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XVIII</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XVIII</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1583-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1583-1802</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">0,12 m.l. ou 1 carton (boîte 12 cm)</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010145"/>
+            <rico:hasProvenance rdf:resource="agent/010880"/>
+            <rico:hasProvenance rdf:resource="agent/012502"/>
+            <rico:hasProvenance rdf:resource="agent/012498"/>
+            <rico:hasProvenance rdf:resource="agent/010388"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Don</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050867"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/050867-c-2goakk2m6--1rp1syrdvyy3a"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050867-c-2lf7hxniq-14x9pir1o4bbo"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050867-c-2mp3btwlt--1w9kfbbqzmsf3"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050867-c-2okuidwqs--k097152p261g"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050867-c-2goakk2m6--1rp1syrdvyy3a">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050867"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Expéditions et brevets de divers notaires.</rico:title>
+      <rdfs:label xml:lang="fr">Expéditions et brevets de divers notaires.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1583-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1674-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1583-1674</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010880"/>
+      <rico:hasProvenance rdf:resource="agent/012498"/>
+      <rico:hasProvenance rdf:resource="agent/010388"/>
+      <rico:hasProvenance rdf:resource="agent/012502"/>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>
+                  <html:i>Notaires</html:i>
+               </html:b>:</html:p>
+            <html:p>Perier (Thomas), étude XI. 1583, 19 février.</html:p>
+            <html:p>Haultdesens (Laurent II), étude LIV. 1613, 8 février (expédition apportée à Perier le 14 avril 1633).</html:p>
+            <html:p>Perier (Philippe), étude XI. 1631à 1635.</html:p>
+            <html:p>Charles (Jean II), étude XVIII. 1634.</html:p>
+            <html:p>Chalon (Christophe), étude XVIII. 1644 à 1668.</html:p>
+            <html:p>Groyn (Michel), étude CXVII. 1642 et 1649.</html:p>
+            <html:p>Quarré (Charles II), étude XLIII. 1666 et 1667.</html:p>
+            <html:p>Saint-Jean (Jean), étude XLVII. 1667.</html:p>
+            <html:p>Vincent (Louis Henri), étude XVIII. 1670 à 1674.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSomeMembersWithRecordState rdf:resource="recordState/FRAN_RI_001-d3m00w6tom1--17yz38y8bszt8"/>
+      <rico:hasProvenance rdf:resource="agent/010145"/>
+      <rico:hasProvenance rdf:resource="agent/010880"/>
+      <rico:hasProvenance rdf:resource="agent/012502"/>
+      <rico:hasProvenance rdf:resource="agent/012498"/>
+      <rico:hasProvenance rdf:resource="agent/010388"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050867/c-2goakk2m6--1rp1syrdvyy3a"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050867-c-2goakk2m6--1rp1syrdvyy3a-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050867-c-2goakk2m6--1rp1syrdvyy3a"/>
+            <rico:identifier>MC/ET/XVIII/1094</rico:identifier>
+            <rico:title xml:lang="fr">Expéditions et brevets de divers notaires.</rico:title>
+            <rdfs:label xml:lang="fr">Expéditions et brevets de divers notaires.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1583-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1674-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1583-1674</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010880"/>
+            <rico:hasProvenance rdf:resource="agent/012498"/>
+            <rico:hasProvenance rdf:resource="agent/010388"/>
+            <rico:hasProvenance rdf:resource="agent/012502"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050867/c-2goakk2m6--1rp1syrdvyy3a"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050867-c-2lf7hxniq-14x9pir1o4bbo">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050867"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Seigneuries.</rico:title>
+      <rdfs:label xml:lang="fr">Seigneuries.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1634-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1773-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1634-1773</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Seigneuries de Bruyère, L’Hôpital de Bernes, May, Mesnil-Sainte-Honorine, Morangle, Nointel, Persan, Le Plessis-Placy, Rieux, Rouvres-en-Multien, Rozoy, Saint-Jean-des-deux-Jumeaux, Varinfroy, Vincy : aveux et dénombrements. 1634-1773.</html:p>
+            <html:p>
+               <html:i>Arrest du Conseil du Roy qui prouve la noblesse d'extraction et la généalogie de messieurs Guillaume Heurtault, écuyer sieur de Merolles, et Pierre Heurtault, écuyer sieur de Baignoux (…)</html:i>. Imprimé, 4 pages, 16 octobre 1708.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010145"/>
+      <rico:hasProvenance rdf:resource="agent/010880"/>
+      <rico:hasProvenance rdf:resource="agent/012502"/>
+      <rico:hasProvenance rdf:resource="agent/012498"/>
+      <rico:hasProvenance rdf:resource="agent/010388"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050867/c-2lf7hxniq-14x9pir1o4bbo"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050867-c-2lf7hxniq-14x9pir1o4bbo-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050867-c-2lf7hxniq-14x9pir1o4bbo"/>
+            <rico:identifier>MC/ET/XVIII/1095</rico:identifier>
+            <rico:title xml:lang="fr">Seigneuries.</rico:title>
+            <rdfs:label xml:lang="fr">Seigneuries.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1634-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1773-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1634-1773</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050867/c-2lf7hxniq-14x9pir1o4bbo"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050867-c-2mp3btwlt--1w9kfbbqzmsf3">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050867"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Mademoiselle Raucourt, actrice de théâtre.</rico:title>
+      <rdfs:label xml:lang="fr">Mademoiselle Raucourt, actrice de théâtre.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1791-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1791-1802</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Saucerotte, Françoise Marie Antoinette Josèphe, dite Mademoiselle Raucourt, actrice de théâtre : procuration, obligation, vente, etc.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Saucerotte, Françoise Marie Antoinette Josèphe</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Saucerotte, Françoise Marie Antoinette Josèphe</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Saucerotte, Françoise Marie Antoinette Josèphe</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Raucourt, Mademoiselle</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Raucourt, Mademoiselle</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Raucourt, Mademoiselle</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8e0yqp-1qnzg5md0cw8q"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8efxut-73bdmxk10sbw"/>
+      <rico:hasProvenance rdf:resource="agent/010145"/>
+      <rico:hasProvenance rdf:resource="agent/010880"/>
+      <rico:hasProvenance rdf:resource="agent/012502"/>
+      <rico:hasProvenance rdf:resource="agent/012498"/>
+      <rico:hasProvenance rdf:resource="agent/010388"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050867/c-2mp3btwlt--1w9kfbbqzmsf3"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050867-c-2mp3btwlt--1w9kfbbqzmsf3-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050867-c-2mp3btwlt--1w9kfbbqzmsf3"/>
+            <rico:identifier>MC/ET/XVIII/1096</rico:identifier>
+            <rico:title xml:lang="fr">Mademoiselle Raucourt, actrice de théâtre.</rico:title>
+            <rdfs:label xml:lang="fr">Mademoiselle Raucourt, actrice de théâtre.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1791-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1791-1802</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050867/c-2mp3btwlt--1w9kfbbqzmsf3"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050867-c-2okuidwqs--k097152p261g">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050867"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Commandements, procédure, procuration, succession, etc.</rico:title>
+      <rdfs:label xml:lang="fr">Commandements, procédure, procuration, succession, etc.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1585-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1667-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1585-1667</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>(1) Commandements, procédure, procuration des Minimes de Nijon (Haute-Marne). Deux actes de transport. 1585-1625.</html:p>
+            <html:p>(2) Baudouin, notaire. Reçu de partie d’une somme due à la ville de Clamecy, transférée à Hélie Grosset, commissaire des guerres.</html:p>
+            <html:p>(3) Note relative à la succession de Louis de Falconis, seigneur de Charentonneau, Alfort, Pont-de-Charenton en partie (inventaire du 2 avril 1667).</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8efxut-73bdmxk10sbw"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Grosset, Hélie</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Grosset, Hélie</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Grosset, Hélie</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Falconis, Louis de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Falconis, Louis de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Falconis, Louis de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntkx53wz--17hpmoxecpki4"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntnjijas-1zwkfb9noqhc"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3m08yywdxw--1hmatkntz3dy"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxfal9l-z4hg3pw57j2b"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxfht8b--qqyqkq0g9z4g"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxfd667-xbd4he5dl4i1"/>
+      <rico:hasProvenance rdf:resource="agent/010145"/>
+      <rico:hasProvenance rdf:resource="agent/010880"/>
+      <rico:hasProvenance rdf:resource="agent/012502"/>
+      <rico:hasProvenance rdf:resource="agent/012498"/>
+      <rico:hasProvenance rdf:resource="agent/010388"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050867/c-2okuidwqs--k097152p261g"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050867-c-2okuidwqs--k097152p261g-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050867-c-2okuidwqs--k097152p261g"/>
+            <rico:identifier>MC/ET/XVIII/1097</rico:identifier>
+            <rico:title xml:lang="fr">Commandements, procédure, procuration, succession, etc.</rico:title>
+            <rdfs:label xml:lang="fr">Commandements, procédure, procuration, succession, etc.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1585-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1667-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1585-1667</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050867/c-2okuidwqs--k097152p261g"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

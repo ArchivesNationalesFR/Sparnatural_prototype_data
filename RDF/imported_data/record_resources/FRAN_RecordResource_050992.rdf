@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/050992">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXXVIII. MC/ET/XXXVIII/903 (1739-1861). : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXXVIII. MC/ET/XXXVIII/903 (1739-1861). : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, par Ernest Coyecque, Marie-Antoinette Fleury, Claire Béchu, conservateurs du patrimoine et Danis Habib, chargé d’études documentaires, sous la direction de Marie-Françoise Limon-Bonnet, conservateur général du patrimoine.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-050992"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050992-i1">
+            <rico:isInstantiationOf rdf:resource="record/050992"/>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXXVIII. MC/ET/XXXVIII/903 (1739-1861). : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXXVIII. MC/ET/XXXVIII/903 (1739-1861). : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d’information des Archives nationales. Il remplace l’instrument de recherche dactylographié connu en salle de lecture sous le numéro MC/27.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_050992</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050992"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-050992">
+      <rico:isOrWasDescribedBy rdf:resource="record/050992"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXXVIII</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXXVIII</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1739-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1861-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1739-1861</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010165"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l'étude XXXVIIIArchives de l'étude XXXVIII</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050992"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-050992-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-050992"/>
+            <rico:identifier>MC/ET/XXXVIII/903</rico:identifier>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXXVIII</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXXVIII</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1739-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1861-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1739-1861</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">0,10 ml ou 1 carton (boîte 10 cm)</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010165"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Don</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050992"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/050992-c-2g2pe0xfc--1sfw9bo96h6j5"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050992-c-2ukdj9w2v--100d219659l1k"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050992-c-2g2pe0xfc--1sfw9bo96h6j5">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050992"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Dossier Jean Louis Cornillier, procureur, et autres dossiers de clients.</rico:title>
+      <rdfs:label xml:lang="fr">Dossier Jean Louis Cornillier, procureur, et autres dossiers de clients.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1738-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1798-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1738-1798</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>1.- « Plan des domaines de Villepartour et de Monceau, canton de Tournan », carte entoilée (48 x 66 cm) et plié en accordéon sous forme d’un petit portefeuille (17 x 12 cm).</html:p>
+            <html:p>2.- Partage de la succession de Marie Thurin, veuve Le Page : minute, incomplète de la fin, le nom du notaire ayant par suite disparu. 12 septembre 1738.</html:p>
+            <html:p>3.- Jean Louis Cornillier, procureur du Châtelet de Paris : constitution de rentes, quittances d’arrérages de rentes, contrat de vente, promesse de vente de l’office de procureur, divers reçus, contrat de mariage, testaments, partage de succession, etc. 1754 à 1770.</html:p>
+            <html:p>4.- Brevet d’admission de Marie Jeanne Renée de Bombelles à l’un des deux cent cinquante placés de la maison royale de Saint-Louis à Saint-Cyr, parchemin (25 x 33 cm). 31 mai 1762.</html:p>
+            <html:p>5.- Constitution d’une rente foncière de 150 l. rachetable pour 3000 l. par Marie Angélique de Ficte de Soucy, sous-gouvernante des Enfants de France, veuve de Louis Eléonor, baron de Mackau, ancien ministre plénipotentiaire du Roi à la diète générale de l’Empire, demeurant à Versailles, à Marie Jeanne Renée de Bombelles, demoiselle élevée en la maison royale de Saint-Louis à Saint-Cyr, caution d’Armand François Joseph de Ficte de Soucy, chevalier de Saint-Louis, à Vitry (la somme de 3000 l. remise par la dépositaire de la maison de Saint-Louis à l’intendant de la maison, demeurant à l’hôtel de Saint-Cyr, rue des Grands-Augustins, provenant du don du Roi à Renée Bombelles « en considération de ce qu’elle a eu l’honneur d’être élevée en ladite royale maison et dont est fait le présent emploi conformément à l’avis du conseil établi pour la direction du temporel de ladite maison… ». 5 juillet 1773.</html:p>
+            <html:p>6.- Louis Laurent Joseph Imbert, huissier audiencier et priseur patenté au tribunal de Cassation : états de saisies de meubles, placards de vente, procès-verbaux de ventes, etc. 1793-1798.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Thurin, Marie</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Thurin, Marie</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Thurin, Marie</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Le Page (veuve)</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Le Page (veuve)</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Le Page (veuve)</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Cornillier, Jean Louis</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Cornillier, Jean Louis</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Cornillier, Jean Louis</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Bombelles, Marie Jeanne Renée de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Bombelles, Marie Jeanne Renée de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Bombelles, Marie Jeanne Renée de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Ficte de Soucy, Marie Angélique de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Ficte de Soucy, Marie Angélique de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Ficte de Soucy, Marie Angélique de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Mackau, Louis Eléonor de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Mackau, Louis Eléonor de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Mackau, Louis Eléonor de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Ficte de Soucy, Armand François Joseph de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Ficte de Soucy, Armand François Joseph de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Ficte de Soucy, Armand François Joseph de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Imbert, Louis Laurent Joseph</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Imbert, Louis Laurent Joseph</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Imbert, Louis Laurent Joseph</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:isRelatedTo>
+         <rico:Activity>
+            <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msj86wk-9mckogmz1ztg"/>
+         </rico:Activity>
+      </rico:isRelatedTo>
+      <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msj86wk-9mckogmz1ztg"/>
+      <rico:isRelatedTo>
+         <rico:Activity>
+            <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl74hdl-6vhnk4hry8uj"/>
+         </rico:Activity>
+      </rico:isRelatedTo>
+      <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d3m0bl74hdl-6vhnk4hry8uj"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_026-d3nzugydw6-1s3rrlwpw0vi3"/>
+      <rico:hasOrHadSubject rdf:resource="agent/FRAN_RI_013-d3m0bo5j02j--r2th4vqi3s49"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntcjz41s-1s0l3cwmfm9ol"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntu4ne5a-1fovogmktajkw"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntu51cee--wrvelxp49su1"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxfr9dt--ysud2pjsm6a2"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzb98tbm-1nylhhggf09fy"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89r14z-1fb7upmwc7u9n"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dc8p2-nyxarkw0ppoi"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bd2c9-e47vue9hkip7"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89lgo1-7iazj0zqu03g"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-8da7t9knp--ju2vtil7dkls"/>
+      <rico:hasProvenance rdf:resource="agent/010165"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050992/c-2g2pe0xfc--1sfw9bo96h6j5"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050992-c-2g2pe0xfc--1sfw9bo96h6j5-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050992-c-2g2pe0xfc--1sfw9bo96h6j5"/>
+            <rico:identifier>MC/ET/XXXVIII/903/A</rico:identifier>
+            <rico:title xml:lang="fr">Dossier Jean Louis Cornillier, procureur, et autres dossiers de clients.</rico:title>
+            <rdfs:label xml:lang="fr">Dossier Jean Louis Cornillier, procureur, et autres dossiers de clients.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1738-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1798-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1738-1798</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050992/c-2g2pe0xfc--1sfw9bo96h6j5"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050992-c-2ukdj9w2v--100d219659l1k">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050992"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Dossier Antoine François Habeneck, chef d'orchestre.</rico:title>
+      <rdfs:label xml:lang="fr">Dossier Antoine François Habeneck, chef d'orchestre.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1791-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1861-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1791-1861</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Antoine François Habeneck, chef d'orchestre, professeur au Conservatoire de musique de Paris : distinctions et divers brevets, extrait des registres des délibérations du Directoire (1796), contrat de mariage, acte de décès, inventaire après décès, liquidation, feuille de présence des artistes (avec leurs signatures) à la répétition du 4 octobre 1836, correspondance diverse sur sa carrière (dont un extrait incomplet d’une lettre d’Anisson du Perron [Jacques Louis Laurent ?] du 19 octobre 1791), lettres d’ordre privé d’éditeurs et de compositeurs (Georges Julien Sieber, Giacomo Meyerbeer, Luigi Cherubini, etc.). 1791-1861.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Habeneck, Antoine François</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Habeneck, Antoine François</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Habeneck, Antoine François</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Anisson du Perron, Jacques Louis Laurent</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Anisson du Perron, Jacques Louis Laurent</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Anisson du Perron, Jacques Louis Laurent</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Sieber, Georges Julien</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Sieber, Georges Julien</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Sieber, Georges Julien</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Meyerbeer, Giacomo</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Meyerbeer, Giacomo</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Meyerbeer, Giacomo</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Cherubini, Luigi</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Cherubini, Luigi</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Cherubini, Luigi</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:isRelatedTo>
+         <rico:Activity>
+            <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msjgg0x-1b8f6hw6bkvph"/>
+         </rico:Activity>
+      </rico:isRelatedTo>
+      <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msjgg0x-1b8f6hw6bkvph"/>
+      <rico:isRelatedTo>
+         <rico:Activity>
+            <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msjks42-vqaztu16yf9j"/>
+         </rico:Activity>
+      </rico:isRelatedTo>
+      <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msjks42-vqaztu16yf9j"/>
+      <rico:isRelatedTo>
+         <rico:Activity>
+            <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msjsrq5--1mbyt7s1ucsrc"/>
+         </rico:Activity>
+      </rico:isRelatedTo>
+      <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msjsrq5--1mbyt7s1ucsrc"/>
+      <rico:isRelatedTo>
+         <rico:Activity>
+            <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msjeadm-1itg66q91czf6"/>
+         </rico:Activity>
+      </rico:isRelatedTo>
+      <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msjeadm-1itg66q91czf6"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bh85k-zoce6yspjkhr"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89kj1g-1sbn6fcuvb0xq"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aosw6--1tccysg7gm8n0"/>
+      <rico:hasOrHadSubject rdf:resource="agent/FRAN_RI_013-d3m0bo6jzxi-unt91otv3oc9"/>
+      <rico:hasProvenance rdf:resource="agent/010165"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050992/c-2ukdj9w2v--100d219659l1k"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050992-c-2ukdj9w2v--100d219659l1k-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050992-c-2ukdj9w2v--100d219659l1k"/>
+            <rico:identifier>MC/ET/XXXVIII/903/B</rico:identifier>
+            <rico:title xml:lang="fr">Dossier Antoine François Habeneck, chef d'orchestre.</rico:title>
+            <rdfs:label xml:lang="fr">Dossier Antoine François Habeneck, chef d'orchestre.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1791-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1861-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1791-1861</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050992/c-2ukdj9w2v--100d219659l1k"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041406">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Jacques DUCHESNE, 2 janvier 1653 - 4 avril 1657 (étude XIII) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jacques DUCHESNE, 2 janvier 1653 - 4 avril 1657 (étude XIII) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-18</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">1ère édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041406"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041406-i1">
+            <rico:isInstantiationOf rdf:resource="record/041406"/>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Jacques DUCHESNE, 2 janvier 1653 - 4 avril 1657 (étude XIII) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jacques DUCHESNE, 2 janvier 1653 - 4 avril 1657 (étude XIII) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041406</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041406"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041406">
+      <rico:isOrWasDescribedBy rdf:resource="record/041406"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Jacques DUCHESNE (étude XIII)</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jacques DUCHESNE (étude XIII)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1653-01-02</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-04-04</rico:endDate>
+      <rico:date xml:lang="fr">2 janvier 1653 - 4 avril 1657</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010140"/>
+      <rico:hasProvenance rdf:resource="agent/012392"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l’étude XIIIArchives de l'étude XIII</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041406"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041406-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041406"/>
+            <rico:identifier>MC/ET/XIII/54 - MC/ET/XIII/58, MC/RE/XIII/3</rico:identifier>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Jacques DUCHESNE (étude XIII)</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jacques DUCHESNE (étude XIII)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1653-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-04-04</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier 1653 - 4 avril 1657</rico:date>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010140"/>
+            <rico:hasProvenance rdf:resource="agent/012392"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041406"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/041406-c1p6un8rv0p7-14ow4xtbra90z"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/041406-c1p6un8s3cur--f9nq80s2b5pu"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041406-c1p6un8rv0p7-14ow4xtbra90z">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041406"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Minutes de Jacques DUCHESNE</rico:title>
+      <rdfs:label xml:lang="fr">Minutes de Jacques DUCHESNE</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1653-01-03</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-12-31</rico:endDate>
+      <rico:date xml:lang="fr">3 janvier 1653 - 1656</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010140"/>
+      <rico:hasProvenance rdf:resource="agent/012392"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041406/c1p6un8rv0p7-14ow4xtbra90z"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041406-c1p6un8rv0p7-14ow4xtbra90z-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041406-c1p6un8rv0p7-14ow4xtbra90z"/>
+            <rico:identifier>MC/ET/XIII/54 - MC/ET/XIII/58</rico:identifier>
+            <rico:title xml:lang="fr">Minutes de Jacques DUCHESNE</rico:title>
+            <rdfs:label xml:lang="fr">Minutes de Jacques DUCHESNE</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1653-01-03</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-12-31</rico:endDate>
+            <rico:date xml:lang="fr">3 janvier 1653 - 1656</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041406/c1p6un8rv0p7-14ow4xtbra90z"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041406-c1p6un8rw3a3--u96pvcz5zrx3">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041406-c1p6un8rv0p7-14ow4xtbra90z"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1653, 3 janvier - juin</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1653, 3 janvier - juin</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1653-01-03</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1653-06-30</rico:endDate>
+            <rico:date xml:lang="fr">3 janvier - juin 1653</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010140"/>
+            <rico:hasProvenance rdf:resource="agent/012392"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041406/c1p6un8rw3a3--u96pvcz5zrx3"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041406-c1p6un8rw3a3--u96pvcz5zrx3-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041406-c1p6un8rw3a3--u96pvcz5zrx3"/>
+                  <rico:identifier>MC/ET/XIII/54</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1653, 3 janvier - juin</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1653, 3 janvier - juin</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1653-01-03</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1653-06-30</rico:endDate>
+                  <rico:date xml:lang="fr">3 janvier - juin 1653</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041406/c1p6un8rw3a3--u96pvcz5zrx3"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041406-c1p6un8rx86b--12nhfrhi5w0iy">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041406-c1p6un8rv0p7-14ow4xtbra90z"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1653, juillet - décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1653, juillet - décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1653-07-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1653-12-31</rico:endDate>
+            <rico:date xml:lang="fr">juillet - décembre 1653</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010140"/>
+            <rico:hasProvenance rdf:resource="agent/012392"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041406/c1p6un8rx86b--12nhfrhi5w0iy"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041406-c1p6un8rx86b--12nhfrhi5w0iy-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041406-c1p6un8rx86b--12nhfrhi5w0iy"/>
+                  <rico:identifier>MC/ET/XIII/55</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1653, juillet - décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1653, juillet - décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1653-07-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1653-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">juillet - décembre 1653</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041406/c1p6un8rx86b--12nhfrhi5w0iy"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041406-c1p6un8ry97n-wxjdgd3tnhs7">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041406-c1p6un8rv0p7-14ow4xtbra90z"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1654, janvier - juin</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1654, janvier - juin</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1654-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1654-06-30</rico:endDate>
+            <rico:date xml:lang="fr">janvier - juin 1654</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010140"/>
+            <rico:hasProvenance rdf:resource="agent/012392"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041406/c1p6un8ry97n-wxjdgd3tnhs7"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041406-c1p6un8ry97n-wxjdgd3tnhs7-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041406-c1p6un8ry97n-wxjdgd3tnhs7"/>
+                  <rico:identifier>MC/ET/XIII/56</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1654, janvier - juin</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1654, janvier - juin</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1654-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1654-06-30</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - juin 1654</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041406/c1p6un8ry97n-wxjdgd3tnhs7"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041406-c1p6un8rz9h7-e9s3qedq8gpg">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041406-c1p6un8rv0p7-14ow4xtbra90z"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1654, juillet - décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1654, juillet - décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1654-07-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1654-12-31</rico:endDate>
+            <rico:date xml:lang="fr">juillet - décembre 1654</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010140"/>
+            <rico:hasProvenance rdf:resource="agent/012392"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041406/c1p6un8rz9h7-e9s3qedq8gpg"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041406-c1p6un8rz9h7-e9s3qedq8gpg-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041406-c1p6un8rz9h7-e9s3qedq8gpg"/>
+                  <rico:identifier>MC/ET/XIII/57</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1654, juillet - décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1654, juillet - décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1654-07-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1654-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">juillet - décembre 1654</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041406/c1p6un8rz9h7-e9s3qedq8gpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041406-c1p6un8s09qr--1vnhh69ufurz9">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041406-c1p6un8rv0p7-14ow4xtbra90z"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1656</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1656</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1656</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>L'anné 1656 compte 29 actes enveloppés dans une chemise où on lit : ' Nota, le sieur Duchesne a resigné à la fin de 1655 son office en faveur du sieur La Jarrie et s'est ensuite absenté. La Jarrie a poursivy sa reception et n'a pu être reçus. Ensuite Duchesne est revenu en aout et continué d'exercer comme notaire jusqu'en avril 1657 qu'il a vendu à Maistre Ruin, c'est pour cela qu'il n'y a pas de minuttes en 1656 avant le mois d'aoust '.</html:p>
+                  <html:p>1656, 5 février : acte signé en premier par Hervé Bergeon (considéré comme substituant) ; 8 avril, 22 mai, 14 et 26 juillet, actes signés par René David (considéré comme substituant) ; 17 juin, signé par les parties seulement.</html:p>
+                  <html:p>1656, 5 août, 9 novembre à 29 décembre : actes signés par Jacques Duchesne.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010140"/>
+            <rico:hasProvenance rdf:resource="agent/012392"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041406/c1p6un8s09qr--1vnhh69ufurz9"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041406-c1p6un8s09qr--1vnhh69ufurz9-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041406-c1p6un8s09qr--1vnhh69ufurz9"/>
+                  <rico:identifier>MC/ET/XIII/58</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1656</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1656</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1656</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041406/c1p6un8s09qr--1vnhh69ufurz9"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041406-c1p6un8s3cur--f9nq80s2b5pu">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041406"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Répertoire(s) de Jacques DUCHESNE</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire(s) de Jacques DUCHESNE</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1646-04-07</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1728-04-30</rico:endDate>
+      <rico:date xml:lang="fr">7 avril 1646 - avril 1728</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010140"/>
+      <rico:hasProvenance rdf:resource="agent/012392"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041406/c1p6un8s3cur--f9nq80s2b5pu"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041406-c1p6un8s3cur--f9nq80s2b5pu-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041406-c1p6un8s3cur--f9nq80s2b5pu"/>
+            <rico:identifier>MC/RE/XIII/3</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire(s) de Jacques DUCHESNE</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire(s) de Jacques DUCHESNE</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1646-04-07</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1728-04-30</rico:endDate>
+            <rico:date xml:lang="fr">7 avril 1646 - avril 1728</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041406/c1p6un8s3cur--f9nq80s2b5pu"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041406-c1p6un8s4dw3--7yqj5igdyxao">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041406-c1p6un8s3cur--f9nq80s2b5pu"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+            <rico:title xml:lang="fr">Répertoire. 1646, 7 avril - 1728, avril</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire. 1646, 7 avril - 1728, avril</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1646-04-07</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1728-04-30</rico:endDate>
+            <rico:date xml:lang="fr">7 avril 1646 - avril 1728</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Répertoire des notaires Pierre Haffrey (7 avril 1646-11 décembre 1652), Jacques Duchesne (2 janvier 1653-4 avril 1657), Charles Bourdin (5 août 1674-17 novembre 1675), Mathieu Goudin (15 janvier 1714 - avril 1728).</html:p>
+                  <html:p>Répertoire chronologique de Pierre Haffrey : minutes (7 avril 1646-11 décembre 1652).</html:p>
+                  <html:p>Répertoire chronologique de Jacques Duchesne : minutes (2 janvier 1653-4 avril 1657). Répertoire chronologique de Charles Bourdin : minutes (5 août 1674-17 novembre 1675).</html:p>
+                  <html:p>Répertoire chronologique de Mathieu Goudin : minutes de constitutions de rentes (15 janvier 1714-avril 1728).</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement et la cotation :</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux mentions d'actes contenues dans le répertoire. Parmi celles-ci, certaines peuvent y être décrites, de manière plus ou moins détaillée. Pour consulter l'acte proprement dit, il convient de rechercher la cote au niveau des articles (registre ou liasse) des minutes du notaire (cote de type 'MC/ET').</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010140"/>
+            <rico:hasProvenance rdf:resource="agent/012392"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041406/c1p6un8s4dw3--7yqj5igdyxao"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041406-c1p6un8s4dw3--7yqj5igdyxao-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041406-c1p6un8s4dw3--7yqj5igdyxao"/>
+                  <rico:identifier>MC/RE/XIII/3</rico:identifier>
+                  <rico:title xml:lang="fr">Répertoire. 1646, 7 avril - 1728, avril</rico:title>
+                  <rdfs:label xml:lang="fr">Répertoire. 1646, 7 avril - 1728, avril</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1646-04-07</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1728-04-30</rico:endDate>
+                  <rico:date xml:lang="fr">7 avril 1646 - avril 1728</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041406/c1p6un8s4dw3--7yqj5igdyxao"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

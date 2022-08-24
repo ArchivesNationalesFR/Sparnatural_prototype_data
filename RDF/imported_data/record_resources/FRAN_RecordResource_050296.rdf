@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/050296">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude IX. MC/ET/IX/891-MC/ET/IX/894/B (1781-1805) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude IX. MC/ET/IX/891-MC/ET/IX/894/B (1781-1805) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, par Ernest Coyecque, Marie-Antoinette Fleury, Claire Béchu, conservateurs du patrimoine et Danis Habib, chargé d’études documentaires, sous la direction de Marie-Françoise Limon-Bonnet, conservateur général du patrimoine.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-050296"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050296-i1">
+            <rico:isInstantiationOf rdf:resource="record/050296"/>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude IX. MC/ET/IX/891-MC/ET/IX/894/B (1781-1805) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude IX. MC/ET/IX/891-MC/ET/IX/894/B (1781-1805) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_050296</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050296"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-050296">
+      <rico:isOrWasDescribedBy rdf:resource="record/050296"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude IX</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude IX</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1781-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1781-1805</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010136"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Autres documents de l'étude</html:b>(dossiers de clients, comptabilité...) : s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l'étude IXArchives de l'étude IX</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050296"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-050296-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-050296"/>
+            <rico:identifier>MC/ET/IX/891-MC/ET/IX/894/B</rico:identifier>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude IX</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude IX</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1781-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1781-1805</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">0,20 m.l. ou 2 cartons (boîtes 10 cm)</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010136"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Autres documents de l'étude</html:b>(dossiers de clients, comptabilité...) : s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Don</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050296"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/050296-c-7bui2zutp--1tvq24li152t5"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050296-c-7m8ttjteo-11aadn5mn0d9a"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050296-c-7tgeydx0c--sa0xa7je5oti"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050296-c-7xtfbuhit--11ny6x7d0itxb"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050296-c-7zr4i0ztj--l7uh55ppapsi"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050296-c-7bui2zutp--1tvq24li152t5">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050296"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Inventaire d’Élisabeth Louise Richard.</rico:title>
+      <rdfs:label xml:lang="fr">Inventaire d’Élisabeth Louise Richard.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1781-11-07</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1781-11-22</rico:endDate>
+      <rico:date xml:lang="fr">7 novembre 1781-22 novembre 1781</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Inventaire d’Élisabeth Louise Richard, épouse de Simon Claude Amable, baron de Tubeuf de Blanzat. Pluche, notaire à Chartres. 1781, 7 à 22 novembre. Expédition chez le notaire Abraham Silly [notaire du 6 novembre 1781 au 25 octobre 1804].</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Richard, Élisabeth Louise</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Richard, Élisabeth Louise</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Richard, Élisabeth Louise</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Tubeuf de Blanzat, Simon Claude Amable de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Tubeuf de Blanzat, Simon Claude Amable de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Tubeuf de Blanzat, Simon Claude Amable de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Pluche</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Pluche</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Pluche</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d5bdpjzh6i-udgjpjglwnmw"/>
+      <rico:hasProvenance rdf:resource="agent/010136"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050296/c-7bui2zutp--1tvq24li152t5"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050296-c-7bui2zutp--1tvq24li152t5-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050296-c-7bui2zutp--1tvq24li152t5"/>
+            <rico:identifier>MC/ET/IX/891</rico:identifier>
+            <rico:title xml:lang="fr">Inventaire d’Élisabeth Louise Richard.</rico:title>
+            <rdfs:label xml:lang="fr">Inventaire d’Élisabeth Louise Richard.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1781-11-07</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1781-11-22</rico:endDate>
+            <rico:date xml:lang="fr">7 novembre 1781-22 novembre 1781</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050296/c-7bui2zutp--1tvq24li152t5"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050296-c-7m8ttjteo-11aadn5mn0d9a">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050296"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Registre de créances de Baudard de Saint-James.</rico:title>
+      <rdfs:label xml:lang="fr">Registre de créances de Baudard de Saint-James.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1793-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1813-06-22</rico:endDate>
+      <rico:date xml:lang="fr">1793-22 juin 1813</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Créanciers de Claude Baudard de Saint-James. Délibération, 21 ventôse an II au 22 juin 1813.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Baudard de Saint-James</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Baudard de Saint-James</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Baudard de Saint-James</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasProvenance rdf:resource="agent/010136"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050296/c-7m8ttjteo-11aadn5mn0d9a"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050296-c-7m8ttjteo-11aadn5mn0d9a-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050296-c-7m8ttjteo-11aadn5mn0d9a"/>
+            <rico:identifier>MC/ET/IX/892</rico:identifier>
+            <rico:title xml:lang="fr">Registre de créances de Baudard de Saint-James.</rico:title>
+            <rdfs:label xml:lang="fr">Registre de créances de Baudard de Saint-James.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1793-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1813-06-22</rico:endDate>
+            <rico:date xml:lang="fr">1793-22 juin 1813</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050296/c-7m8ttjteo-11aadn5mn0d9a"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050296-c-7tgeydx0c--sa0xa7je5oti">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050296"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Prince de Salm-Kyrbourg.</rico:title>
+      <rdfs:label xml:lang="fr">Prince de Salm-Kyrbourg.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1784-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1784-1805</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registre de créances et succession de Salm-Kyrbourg.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Salm-Kyrbourg, prince</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Salm-Kyrbourg, prince</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Salm-Kyrbourg, prince</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasProvenance rdf:resource="agent/010136"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050296/c-7tgeydx0c--sa0xa7je5oti"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050296-c-7tgeydx0c--sa0xa7je5oti-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050296-c-7tgeydx0c--sa0xa7je5oti"/>
+            <rico:identifier>MC/ET/IX/893</rico:identifier>
+            <rico:title xml:lang="fr">Prince de Salm-Kyrbourg.</rico:title>
+            <rdfs:label xml:lang="fr">Prince de Salm-Kyrbourg.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1784-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1784-1805</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050296/c-7tgeydx0c--sa0xa7je5oti"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050296-c-7ulpatv5c-4gwvf49s2eot">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050296-c-7tgeydx0c--sa0xa7je5oti"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Registre de créances de Salm-Kyrbourg.</rico:title>
+            <rdfs:label xml:lang="fr">Registre de créances de Salm-Kyrbourg.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1796-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1796-1805</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Créanciers du prince de Salm-Kyrbourg. Délibération, 18-19 pluviôse an V, à 16 frimaire an XIII.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010136"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050296/c-7ulpatv5c-4gwvf49s2eot"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050296-c-7ulpatv5c-4gwvf49s2eot-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050296-c-7ulpatv5c-4gwvf49s2eot"/>
+                  <rico:identifier>MC/ET/IX/893/A</rico:identifier>
+                  <rico:title xml:lang="fr">Registre de créances de Salm-Kyrbourg.</rico:title>
+                  <rdfs:label xml:lang="fr">Registre de créances de Salm-Kyrbourg.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1796-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1796-1805</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050296/c-7ulpatv5c-4gwvf49s2eot"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050296-c-7wogx4pt7--vb6zifyzmnq7">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050296-c-7tgeydx0c--sa0xa7je5oti"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Succession de Salm-Kyrbourg.</rico:title>
+            <rdfs:label xml:lang="fr">Succession de Salm-Kyrbourg.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1784-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1795-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1784-1795</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Honoraires et déboursés dus au notaire Silly par le prince de Salm-Kyrbourg et par sa succession.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010136"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050296/c-7wogx4pt7--vb6zifyzmnq7"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050296-c-7wogx4pt7--vb6zifyzmnq7-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050296-c-7wogx4pt7--vb6zifyzmnq7"/>
+                  <rico:identifier>MC/ET/IX/893/B</rico:identifier>
+                  <rico:title xml:lang="fr">Succession de Salm-Kyrbourg.</rico:title>
+                  <rdfs:label xml:lang="fr">Succession de Salm-Kyrbourg.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1784-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1795-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1784-1795</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050296/c-7wogx4pt7--vb6zifyzmnq7"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050296-c-7xtfbuhit--11ny6x7d0itxb">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050296"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Inventaire du notaire Joseph Marie Bauchau.</rico:title>
+      <rdfs:label xml:lang="fr">Inventaire du notaire Joseph Marie Bauchau.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1824-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1824-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1824</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Inventaire du mobilier de Joseph Marie Bauchau, notaire à Paris [du 10 février 1818 au 3 novembre 1824, auj. étude notariale CI], disparu en 1824 et déclaré démissionnaire d'office en 1825 : tableaux, dessins, libraires, etc.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Bauchau, Joseph Marie</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Bauchau, Joseph Marie</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Bauchau, Joseph Marie</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+      <rico:hasProvenance rdf:resource="agent/010136"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050296/c-7xtfbuhit--11ny6x7d0itxb"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050296-c-7xtfbuhit--11ny6x7d0itxb-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050296-c-7xtfbuhit--11ny6x7d0itxb"/>
+            <rico:identifier>MC/ET/IX/894/A</rico:identifier>
+            <rico:title xml:lang="fr">Inventaire du notaire Joseph Marie Bauchau.</rico:title>
+            <rdfs:label xml:lang="fr">Inventaire du notaire Joseph Marie Bauchau.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1824-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1824-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1824</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050296/c-7xtfbuhit--11ny6x7d0itxb"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050296-c-7zr4i0ztj--l7uh55ppapsi">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050296"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Emprunts du Trésor.</rico:title>
+      <rdfs:label xml:lang="fr">Emprunts du Trésor.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1781-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1790-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1781-1790</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Emprunts du Trésor : honoraires dus aux notaires, état des sommes portées au Trésor dans divers emprunts pour lesquels des contrats de constitution ont été établis par le notaire Silly.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8e0yqp-1qnzg5md0cw8q"/>
+      <rico:hasProvenance rdf:resource="agent/010136"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050296/c-7zr4i0ztj--l7uh55ppapsi"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050296-c-7zr4i0ztj--l7uh55ppapsi-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050296-c-7zr4i0ztj--l7uh55ppapsi"/>
+            <rico:identifier>MC/ET/IX/894/B</rico:identifier>
+            <rico:title xml:lang="fr">Emprunts du Trésor.</rico:title>
+            <rdfs:label xml:lang="fr">Emprunts du Trésor.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1781-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1790-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1781-1790</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050296/c-7zr4i0ztj--l7uh55ppapsi"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

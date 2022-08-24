@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/050309">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude X. MC/ET/X/906 (1616-1841) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude X. MC/ET/X/906 (1616-1841) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2015</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, par Ernest Coyecque, Marie-Antoinette Fleury, Claire Béchu, conservateurs du patrimoine et Danis Habib, chargé d’études documentaires, sous la direction de Marie-Françoise Limon-Bonnet, conservateur général du patrimoine.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">2e édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-050309"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050309-i1">
+            <rico:isInstantiationOf rdf:resource="record/050309"/>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude X. MC/ET/X/906 (1616-1841) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude X. MC/ET/X/906 (1616-1841) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d’information des Archives nationales. Il remplace l’instrument de recherche dactylographié connu en salle de lecture sous le numéro MC/27.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_050309</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050309"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-050309">
+      <rico:isOrWasDescribedBy rdf:resource="record/050309"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude X</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude X</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1616-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1841-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1616-1841</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010137"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Autres documents de l'étude</html:b>(dossiers de clients, comptabilité...) : s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l'étude XArchives de l'étude X</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050309"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-050309-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-050309"/>
+            <rico:identifier>MC/ET/X/906</rico:identifier>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude X</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude X</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1616-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1841-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1616-1841</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">0,10 m.l. ou 1 carton.</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010137"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Autres documents de l'étude</html:b>(dossiers de clients, comptabilité...) : s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Don</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050309"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/050309-c-5m9r0q980--tknw6jw6ugay"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050309-c-5m9r0q980--tknw6jw6ugay">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050309"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Divers dossiers.</rico:title>
+      <rdfs:label xml:lang="fr">Divers dossiers.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1616-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1841-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1616-1841</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>(1) Église Saint-Leu-Saint-Gilles. Concessions de bancs. 1616-1665.</html:p>
+            <html:p>(2) Mise en adjudication de rentes et d’une maison rue de Lourcine. Manuscrit, imprimé. 1761.</html:p>
+            <html:p>(3) Corps des orfèvres de Paris : comptabilité, droit de main-d’œuvre, souscription pour la construction d’un vaisseau, bâtiment et mobilier. 1781-1784.</html:p>
+            <html:p>(4) Partage en soixante-dix parts d’une maison, entre les héritiers Tronson (XVIIe siècle).</html:p>
+            <html:p>(5) Étiquette sous forme d’une carte de visite de Marrot, écrivain public, rédacteur, s. d.</html:p>
+            <html:p>(6) Vente de biens de Lallemand de Nantouillet (Seine-et-Marne), «ci-devant grand maître des cérémonies chez le dernier tyran, émigré». Ans III à VII.</html:p>
+            <html:p>(7) Vente d’un local attaché au cabinet littéraire de Brigitte Mathey, au Palais-Royal. 1812.</html:p>
+            <html:p>(8) <html:i>Mémoire adressé au Roi en juillet 1814 par M. Carnot, suivi du discours… au Tribunal, le 2 floréal an XII.</html:i>, juin 1815, 124 pages, in-8°.</html:p>
+            <html:p>(9) <html:i>Les Yeux ouverts sur la vérité et sur le départ, au clair de lune, le 20 mars 1815, à une heure du matin, contenant…</html:i>, mai 1815, 90 pages, in-8°.</html:p>
+            <html:p>(10) <html:i>Mémoire justificatif pour le compte de</html:i>[Jean Denis] <html:i>Lanjuinais pair de France… dénoncé par quatre de ses collègues pour avoir imprimé et publié son opinion sur le projet de la loi nouvelle concernant des mesures de sûreté générale, avec des notes sur…Réfutation de l’opinion de M. le comte Lanjuinais, etc…</html:i>
+               <html:i>par M. Maurice M. Delaunay</html:i>, décembre 1815, 42 pages, in-8°.</html:p>
+            <html:p>(11) « Proclamation aux soldats bavarois d’Eugène Napoléon, duc de Bavière », manuscrit non daté.</html:p>
+            <html:p>(12) «Mémoire» pour les proscrits de 1816, manuscrit.</html:p>
+            <html:p>(13) « Deuxième partie du rapport du duc d’Otrante au Roi », manuscrit non daté.</html:p>
+            <html:p>(14) Chansons politiques, anti-royalistes : « Les on-dit sur le retour de Louis XVIII », manuscrit non daté.</html:p>
+            <html:p>(15) Alphonse Perregaux. Nominations à différentes dignités et différents grades, Légion d’Honneur, Pairie, Garde nationale, Chambellan, Couronne de Westphalie, Conseil d’État, etc. An XIII-1837.</html:p>
+            <html:p>(16) Reçus et garanties de L. C. Nieuwenhuys relatif à la vente de deux tableaux de Van Dyck, 1841.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Tronson (heritiers)</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Tronson (heritiers)</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Tronson (heritiers)</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Marrot, écrivain public</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Marrot, écrivain public</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Marrot, écrivain public</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Lallemand</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Lallemand</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Lallemand</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Mathey, Brigitte</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Mathey, Brigitte</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Mathey, Brigitte</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Otrante, duc d'</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Otrante, duc d'</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Otrante, duc d'</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Napoléon, Eugène duc de Bavière</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Napoléon, Eugène duc de Bavière</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Napoléon, Eugène duc de Bavière</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Nieuwenhuys, L. C.</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Nieuwenhuys, L. C.</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Nieuwenhuys, L. C.</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Perregaux, Alphonse</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Perregaux, Alphonse</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Perregaux, Alphonse</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3nttgmf2f--11zrum86vsqe8"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzbteaao-abu9qnch366n"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Maurice</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Maurice</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Maurice</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Delaunay</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Delaunay</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Delaunay</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Lanjuinais, Jean Denis</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Lanjuinais, Jean Denis</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Lanjuinais, Jean Denis</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasProvenance rdf:resource="agent/010137"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050309/c-5m9r0q980--tknw6jw6ugay"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050309-c-5m9r0q980--tknw6jw6ugay-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050309-c-5m9r0q980--tknw6jw6ugay"/>
+            <rico:identifier>MC/ET/X/906</rico:identifier>
+            <rico:title xml:lang="fr">Divers dossiers.</rico:title>
+            <rdfs:label xml:lang="fr">Divers dossiers.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1616-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1841-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1616-1841</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050309/c-5m9r0q980--tknw6jw6ugay"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

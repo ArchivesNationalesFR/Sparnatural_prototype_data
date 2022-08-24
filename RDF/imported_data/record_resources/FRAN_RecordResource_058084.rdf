@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/058084">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Dossiers de clients de l'étude XVII (1606-1924) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XVII (1606-1924) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Établi par Lucas Terriel, étudiant en master « Technologies numériques appliquées à l’histoire » à l’École nationale des chartes sous la direction de Marie-Françoise Limon-Bonnet, conservateur général, chargée du Minutier central des notaires de Paris.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Deuxième édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2019-07</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Repris par Marie-Françoise Limon-Bonnet</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2021-10</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Article MC/DC/XVII/9 ajouté par Romain Le Gendre</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-058084"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/058084-i1">
+            <rico:isInstantiationOf rdf:resource="record/058084"/>
+            <rico:title xml:lang="fr">Dossiers de clients de l'étude XVII (1606-1924) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XVII (1606-1924) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_058084</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_058084"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-058084">
+      <rico:isOrWasDescribedBy rdf:resource="record/058084"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire numérique détaillé</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1606-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1606-1924</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010144"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>ces archives privées sont communicables aux mêmes conditions que les minutes et répertoires des notaires.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des conditions de communicabilité.</html:p>
+      </rico:conditionsOfUse>
+      <rico:structure rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les cartons de l’étude XVII se présentaient sous la forme d’un fonds succinctement pré-classé avec certaines pièces en vrac. Dans un premier temps, les tâches de reconditionnement élémentaires ont été effectués : dépoussiérage, systèmes d’attaches remplacées et mise en place de chemises neutres pour les dossiers les plus abîmés. Le classement du fonds a été réalisé par la constitution de trois sous-séries distinctes : successions, particuliers et titres de propriété. À l’intérieur de ces sous-séries, le choix a été de classer les dossiers par ordre chronologique notamment pour ce qui concerne les sous-séries successions et particuliers en raison du faible volume que représente le fonds dans son ensemble. Le niveau de description retenu pour la rédaction de l’instrument de recherche est celui du "dossier" se justifiant par la redondance de certaines pièces, comme les quittances et les comptes dans le cadre des successions.</html:p>
+      </rico:structure>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Autres archives de l'étudeArchives de l'étude XVII</html:p>
+      </rico:scopeAndContent>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Document(s) en relation</html:h4>
+            <html:p>-Les Archives nationales conservent des fonds d’archives privés : sur la Famille de Rochechouart en (431AP) ainsi que les Papiers Crussol d'Uzès (T 234). Sur la branche d’Orléans de la Maison de France (AP/300) et (AP/300(I-VI), et sur Charles-Maurice de Talleyrand (215AP) pour croiser avec MC/DC/XVII/1. On pourra consulter les fonds de la famille de Caumont La Force (353AP) pour croiser avec les documents du MC/DC/XVII/6.</html:p>
+            <html:p>-Les Archives départementales de la Seine-Maritime conservent l’acte de décès du duc de Riánsares.</html:p>
+         </html:div>
+      </rico:descriptiveNote>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Bibliographie</html:h4>
+            <html:p>- <html:b>Duchesse d’Uzès</html:b>:</html:p>
+            <html:p>BRISSAC (Duc de), <html:i>La duchesse d'Uzès</html:i>, 1950.</html:p>
+            <html:p>DÉMOREST (Michel), <html:i>La dynastie de Crussol et de Crussol d'Uzès</html:i>, 2008.</html:p>
+            <html:p>GMELINE (Patrick de), <html:i>La Duchesse d'Uzès</html:i>, 1986-2002.</html:p>
+            <html:p>MARTIN (Georges), <html:i>Histoire et généalogie de la maison de Rochechouart</html:i>, 1990.</html:p>
+            <html:p>UZES (Duchesse d’), <html:i>Souvenirs de la duchesse d'Uzès, née Mortemart</html:i>, 1939.</html:p>
+            <html:p>VIÉ (Anne), <html:i>Le Duché d'Uzès</html:i>, 2001.</html:p>
+            <html:p>- <html:b>Edmée Charlotte Antonine Nompart, comtesse de Caumont de La Force, née Vischer de Celles (de)</html:b>(1812-1856) :</html:p>
+            <html:p>COUTURA (Johel), "Une source fondamentale pour l’étude de Blaye et du Vitrezais : le fonds La Force aux Archives nationales (XIIIe-XXe s.)", dans <html:i>Les cahiers du Vitrezais</html:i>, tome 39, février 1982, pp. 15-84.</html:p>
+            <html:p>- <html:b>Charles II, duc de Brunswick (1804-1873)</html:b>:</html:p>
+            <html:p>BOUILLET (Marie-Nicolas), CHASSANG (Alexis), dir., « Charles II de Brunswick » dans <html:i>Dictionnaire universel d’histoire et de géographie</html:i>, 1878.</html:p>
+            <html:p>CHALTAS, <html:i>Le Duc Charles de Brunswick avant et depuis la Révolution de Brunswick en septembre 1830,</html:i>1832.</html:p>
+            <html:p>- <html:b>Charles-Maurice de Talleyrand-Périgord (1754-1838)</html:b>:</html:p>
+            <html:p>LACOUR-GAYET (Georges), <html:i>Talleyrand</html:i>, 1930, rééd. en 1991.</html:p>
+            <html:p>WARESQUIEL (Emmanuel de), <html:i>Talleyrand : Le Prince immobile</html:i>, 2003.</html:p>
+            <html:p>- <html:b>Alexandre Daniel, baron de Talleyrand-Périgord (1776-1839)</html:b>:</html:p>
+            <html:p>« Alexandre-Daniel de Talleyrand-Périgord », dans ROBERT (Adolphe) et COUGNY (Gaston), <html:i>Dictionnaire des parlementaires français</html:i>, 1889-1891.</html:p>
+         </html:div>
+      </rico:descriptiveNote>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_058084"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-058084-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-058084"/>
+            <rico:identifier>MC/DC/XVII/1-MC/DC/XVII/9</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire numérique détaillé</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1606-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1606-1924</rico:date>
+            <rico:carrierExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">8 cartons de dimensions variées</html:p>
+            </rico:carrierExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">1,20 mètre linéaire soit 8 articles</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010144"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>ces archives privées sont communicables aux mêmes conditions que les minutes et répertoires des notaires.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des conditions de communicabilité.</html:p>
+            </rico:conditionsOfUse>
+            <rico:structure rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les cartons de l’étude XVII se présentaient sous la forme d’un fonds succinctement pré-classé avec certaines pièces en vrac. Dans un premier temps, les tâches de reconditionnement élémentaires ont été effectués : dépoussiérage, systèmes d’attaches remplacées et mise en place de chemises neutres pour les dossiers les plus abîmés. Le classement du fonds a été réalisé par la constitution de trois sous-séries distinctes : successions, particuliers et titres de propriété. À l’intérieur de ces sous-séries, le choix a été de classer les dossiers par ordre chronologique notamment pour ce qui concerne les sous-séries successions et particuliers en raison du faible volume que représente le fonds dans son ensemble. Le niveau de description retenu pour la rédaction de l’instrument de recherche est celui du "dossier" se justifiant par la redondance de certaines pièces, comme les quittances et les comptes dans le cadre des successions.</html:p>
+            </rico:structure>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Historique de la conservation</html:h4>
+                     <html:p>Conservé à l'étude jusqu'à l'entrée aux Archives nationales. A ensuite été conservé temporairement aux ANMT (Archives nationales du Monde du Travail) à Roubaix jusqu'en 2015, date de son retour sur le site de Paris.</html:p>
+                  </html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:p>Dépôt. Remis par l'étude dans les années 1970 au Minutier central. Conservé en l'état (non classé) aux ANMT (Archives nationales du Monde du Travail) à Roubaix pour raison de manque de place à Paris. Déménagé vers les magasins du Minutier central des notaires de Paris en 2015, traité en 2019.</html:p>
+                  </html:div>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_058084"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/058084-c-j9gni2f30--1rup0tr1eiper"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/058084-c-j9gni2f30--1rup0tr1eiper">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-058084"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Dossiers de clients de l'étude XVII</rico:title>
+      <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XVII</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1606-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1606-1924</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>MC/DC/XVII/1-MC/DC/XVII/6 : Successions</html:p>
+            <html:p>MC/DC/XVII/7 : Particuliers</html:p>
+            <html:p>MC/DC/XVII/8 : Titres de propriétés</html:p>
+            <html:p>MC/DC/XVII/9 : Généalogies</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010144"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-j9gni2f30--1rup0tr1eiper"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/058084-c-j9gni2f30--1rup0tr1eiper-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/058084-c-j9gni2f30--1rup0tr1eiper"/>
+            <rico:identifier>MC/DC/XVII/1-MC/DC/XVII/9</rico:identifier>
+            <rico:title xml:lang="fr">Dossiers de clients de l'étude XVII</rico:title>
+            <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XVII</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1606-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1606-1924</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-j9gni2f30--1rup0tr1eiper"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058084-c-jf3ofrol5--1vscft42v9g90">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-j9gni2f30--1rup0tr1eiper"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Successions (les dossiers de successions sont classés dans l'ordre des dossiers comportant les pièces les plus anciennes)</rico:title>
+            <rdfs:label xml:lang="fr">Successions (les dossiers de successions sont classés dans l'ordre des dossiers comportant les pièces les plus anciennes)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1606-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1910-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1606-1910</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>Albert Claude Bourdillat</html:p>
+                  <html:p>Jean Pierre Napoléon Caron</html:p>
+                  <html:p>Marie Adèle Delvany, épouse Cassière</html:p>
+                  <html:p>Louis Joseph Deshayes</html:p>
+                  <html:p>Jean Etienne Driancourt</html:p>
+                  <html:p>Jean Alexis Duclos</html:p>
+                  <html:p>Louis Lambert Gabillot</html:p>
+                  <html:p>Pierre Marie Gabillot</html:p>
+                  <html:p>Antoinette Gélot</html:p>
+                  <html:p>Marie Céline Le Boucher, épouse Le Roux</html:p>
+                  <html:p>Jean-Baptiste Martin</html:p>
+                  <html:p>Pierre Théophile Morel</html:p>
+                  <html:p>Marie Adrienne Anne Victurnienne Clémentine de Rochechouart-Mortemart, duchesse d'Uzès</html:p>
+                  <html:p>Edmée Charlotte Antonine de Vischer de Celles, comtesse Nompar de Caumont de La Force</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010144"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-jf3ofrol5--1vscft42v9g90"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058084-c-jf3ofrol5--1vscft42v9g90-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058084-c-jf3ofrol5--1vscft42v9g90"/>
+                  <rico:identifier>MC/DC/XVII/1-MC/DC/XVII/6</rico:identifier>
+                  <rico:title xml:lang="fr">Successions (les dossiers de successions sont classés dans l'ordre des dossiers comportant les pièces les plus anciennes)</rico:title>
+                  <rdfs:label xml:lang="fr">Successions (les dossiers de successions sont classés dans l'ordre des dossiers comportant les pièces les plus anciennes)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1606-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1910-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1606-1910</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-jf3ofrol5--1vscft42v9g90"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-1k73inrxeo--14301xo3uttce">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-jf3ofrol5--1vscft42v9g90"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Uzès, Marie Adrienne Anne Victurnienne Clémentine de Rochechouart-Mortemart (1847-1933, duchesse d'), décédée en 1933. Le dossier concerne moins sa succession que les titres de ses propriétés, en particulier de son hôtel de l'avenue des Champs-Elysées ainsi que ceux des précédents propriétaires des terrains et immeubles concernés. Voir aussi les dossiers Colombat, Mouton et Riansares en MC/DC/XVII/7.</rico:title>
+                  <rdfs:label xml:lang="fr">Uzès, Marie Adrienne Anne Victurnienne Clémentine de Rochechouart-Mortemart (1847-1933, duchesse d'), décédée en 1933. Le dossier concerne moins sa succession que les titres de ses propriétés, en particulier de son hôtel de l'avenue des Champs-Elysées ainsi que ceux des précédents propriétaires des terrains et immeubles concernés. Voir aussi les dossiers Colombat, Mouton et Riansares en MC/DC/XVII/7.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1606-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1885-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1606-1885</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Anciens titres d’hôtel, 1606-1872 ; vente Walon à M. et Mme Jaillot d’une maison située rue des Fossés [-Saint-Germain], 1719-1766 ; contrat de vente par M. de Sainte-Foy à M. de Talleyrand-Périgord de deux portions de terrain sur l’ancienne pépinière du roi situé à Artois (Pas-de-Calais), 20 avril 1792 ; contrat de vente de Charles Maurice de Talleyrand-Périgord à Alexandre Daniel de Talleyrand-Périgord, baron de Talleyrand, d’une maison située 20, avenue des Champs-Élysées, 28 août 1815 ; transport par M. de Talleyrand à M. Petit, 24 février 1820 ; contrat de mariage entre M. de Beaunay et Mme Dupré, 28 janvier 1832 ; vente par M. Ledoyen au duc de Brunswick, 30 janvier 1833 ; vente par M. et Mme Ledoyen au duc de Brunswick, 17 mai 1833 ; inventaire après décès de Mme Lallemand, 11 avril 1834 ; extrait du contrat de mariage entre M. et Mme Raymond, 3 mai 1839 ; transport de 24 000 francs par Mme Raymond à M. Dupré sur M. Leroy, 17 août 1840 ; transport par M. Delporte à Mme de Beaunay , 17 juillet 1844 ; compte de surcharge de mitoyenneté entre M. Meuron et M. Leroy, 12 novembre 1846 ; inventaire après décès de Mme Brouillet, 21 septembre 1849 ; pièces d’inventaire après décès de M. Collot, 1856-1865; cahier des charges par le comte de Caumont de La Force, 12 juin 1856 ; quittances ; acceptation de remploi par Mme de Casteja, 14 janvier 1859 ; prorogation par M. et Mme Leroy à M. le duc de Riánsares , 5 février 1862 ; compte de mitoyenneté entre M. Chamoulleau au duc de Riánsares, 4 avril 1863 ; remboursement des prêts du Crédit foncier et hypothèques sur l’hôtel situé rue de Ponthieu, 1872 ; constatation d’emploi par M. et Mme Caudebec, 12 juin 1872 ; vente par le duc de Riánsares et Marie Christine de Bourbon à M. Alberti de deux hôtels situés avenue des Champs-Elysées et rue de Ponthieu, 15 février 1873 ; pièces d’inventaire après décès d’Appoline Augustine Thérut, 6 juin 1884.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-1k73inrxeo--14301xo3uttce"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-1k73inrxeo--14301xo3uttce-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-1k73inrxeo--14301xo3uttce"/>
+                        <rico:identifier>MC/DC/XVII/1</rico:identifier>
+                        <rico:title xml:lang="fr">Uzès, Marie Adrienne Anne Victurnienne Clémentine de Rochechouart-Mortemart (1847-1933, duchesse d'), décédée en 1933. Le dossier concerne moins sa succession que les titres de ses propriétés, en particulier de son hôtel de l'avenue des Champs-Elysées ainsi que ceux des précédents propriétaires des terrains et immeubles concernés. Voir aussi les dossiers Colombat, Mouton et Riansares en MC/DC/XVII/7.</rico:title>
+                        <rdfs:label xml:lang="fr">Uzès, Marie Adrienne Anne Victurnienne Clémentine de Rochechouart-Mortemart (1847-1933, duchesse d'), décédée en 1933. Le dossier concerne moins sa succession que les titres de ses propriétés, en particulier de son hôtel de l'avenue des Champs-Elysées ainsi que ceux des précédents propriétaires des terrains et immeubles concernés. Voir aussi les dossiers Colombat, Mouton et Riansares en MC/DC/XVII/7.</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1606-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1885-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1606-1885</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-1k73inrxeo--14301xo3uttce"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-2s77zs1nf-4fem95o6ce9">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-jf3ofrol5--1vscft42v9g90"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Martin, Jean Baptiste, décédé le 30 août 1781</rico:title>
+                  <rdfs:label xml:lang="fr">Martin, Jean Baptiste, décédé le 30 août 1781</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1721-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1783-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1721-1783</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Acte de succession, 29 juillet 1721 ; arrêt de la cour des aides concernant Pierre Wallon et Marie Magdeleine Wallon, 17 mai 1743 ; attestation de rente, 21 octobre 1767 ; inventaire après décès de Jean Martin, conseiller du roi, inspecteur des vins, 16 novembre 1775 ; extrait du registre mortuaire de l’église Saint-Eustache, 23 février 1782 ; extrait de la grosse sur la sentence concernant liquidation de Jean-Baptiste Martin, 18 octobre 1783.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-2s77zs1nf-4fem95o6ce9"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-2s77zs1nf-4fem95o6ce9-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-2s77zs1nf-4fem95o6ce9"/>
+                        <rico:identifier>MC/DC/XVII/2</rico:identifier>
+                        <rico:title xml:lang="fr">Martin, Jean Baptiste, décédé le 30 août 1781</rico:title>
+                        <rdfs:label xml:lang="fr">Martin, Jean Baptiste, décédé le 30 août 1781</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1721-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1783-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1721-1783</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-2s77zs1nf-4fem95o6ce9"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-2s77zubc6-1vqw86azba95k">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-jf3ofrol5--1vscft42v9g90"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Gabillot, Louis Lambert, décédé le 12 septembre 1866</rico:title>
+                  <rdfs:label xml:lang="fr">Gabillot, Louis Lambert, décédé le 12 septembre 1866</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1777-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1777-1866</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Renonciation de Jean Nicolas Bideault, marchand de vin, et de Marie Marguerite Clemem, sa femme, veuve en premières noces de Jean Rolam, demeurant ensemble à Villejuif (Val-de-Marne), 25 janvier 1783 ; partage des biens de Marie Jeanne Cauchoil, veuve en premières noces de Jean Thibault,et en secondes noces de Jérôme Varrengue, demeurant à Villejuif (Val-de-Marne), 10 août 1807 ; contrat de mariage entre Louis Huard, cultivateur, demeurant à Villejuif (Val-de-Marne), et Marie Louise Catherine Fleury, demeurant à Villejuif, 1er mars 1812 ; partage des biens provenant de la succession de Marie Louise Thibault, 1er octobre 1813 ; inventaire après décès de Jean Louis Huart, 8 juin 1814 ; vente par François Fiallon, maçon entrepreneur de bâtiments, et Marie Antoinette Bonnelais, sa femme, demeurant à Vitry-sur-Seine (Val-de-Marne), d'un terrain situé sentier de Thiais (Val-de-Marne), à Léonard George, entrepreneur de bâtiments, 22 mai 1825 ; état des opérations et liquidation, 26 septembre 1830 ; vente par Léonard George, entrepreneur de bâtiments, du sentier de Thiais (Val-de-Marne), à Simon Pierre Bisson, aubergiste, demeurant 16, rue du Four, 2 avril 1835 ; contrat de mariage entre Pierre Jacques Lamotte, marchand de fourrage, demeurant à Villejuif (Val-de-Marne) et Marie Louise Celeste Gabillot, couturière, demeurant à Villejuif (Val-de-Marne), 24 avril 1842 ; quittances ; comptes ; correspondance.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-2s77zubc6-1vqw86azba95k"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-2s77zubc6-1vqw86azba95k-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-2s77zubc6-1vqw86azba95k"/>
+                        <rico:identifier>MC/DC/XVII/2</rico:identifier>
+                        <rico:title xml:lang="fr">Gabillot, Louis Lambert, décédé le 12 septembre 1866</rico:title>
+                        <rdfs:label xml:lang="fr">Gabillot, Louis Lambert, décédé le 12 septembre 1866</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1777-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1777-1866</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-2s77zubc6-1vqw86azba95k"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-2s77zvtwb-ouewzit5388b">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-jf3ofrol5--1vscft42v9g90"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Decant, Marie Amable Palmyre, épouse Gélot</rico:title>
+                  <rdfs:label xml:lang="fr">Decant, Marie Amable Palmyre, épouse Gélot</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1788-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1879-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1788-1879</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Résidus, 1788-1879 ; vente de Louise Potier, veuve de Jean Louis Drouhot, demeurant à Vitry-sur-Seine, à Jean Marie Decant d’une pièce de terre située à Vitry-sur-Seine, 31 août 1815 ; transport de droits immobiliers de Jean Marie Decant à ses enfants, 11 février 1843 ; partage entre Antoine Gélot et Eugène Jean Marie Decant, 17 juin 1849.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-2s77zvtwb-ouewzit5388b"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-2s77zvtwb-ouewzit5388b-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-2s77zvtwb-ouewzit5388b"/>
+                        <rico:identifier>MC/DC/XVII/2</rico:identifier>
+                        <rico:title xml:lang="fr">Decant, Marie Amable Palmyre, épouse Gélot</rico:title>
+                        <rdfs:label xml:lang="fr">Decant, Marie Amable Palmyre, épouse Gélot</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1788-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1879-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1788-1879</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-2s77zvtwb-ouewzit5388b"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-589mgxe8g-1736rs83lrnc7">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-jf3ofrol5--1vscft42v9g90"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Duclos, Jean Alexis, décédé le 12 octobre 1881</rico:title>
+                  <rdfs:label xml:lang="fr">Duclos, Jean Alexis, décédé le 12 octobre 1881</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1892-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1801-1892</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Donations et partages, 13 octobre 1830 ; vente par Guy de Gisors à Madame George d’une maison situé rue de la Petite-Fontaine à Vitry-sur-Seine, 15 décembre 1830 ; pièces diverses, factures et comptes, 1837-1889 ; enchères et adjudications ; vente par M. et Mme Delacître à M. Duclos d’une pièce de terre labourable situé à Thiais, 27 décembre 1840 ; quittances ; cahiers de charges ; vente par M. Jacquet à M. Sergent d’une pièce de terre de deux hectares situé à Vitry-sur-Seine, 13 octobre 1860 ; obligations ; bail consenti par M. Duclos aux époux Foulon, 11 février 1881 ; concessions ; assurances ; titres de propriété.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-589mgxe8g-1736rs83lrnc7"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-589mgxe8g-1736rs83lrnc7-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-589mgxe8g-1736rs83lrnc7"/>
+                        <rico:identifier>MC/DC/XVII/3</rico:identifier>
+                        <rico:title xml:lang="fr">Duclos, Jean Alexis, décédé le 12 octobre 1881</rico:title>
+                        <rdfs:label xml:lang="fr">Duclos, Jean Alexis, décédé le 12 octobre 1881</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1892-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1801-1892</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-589mgxe8g-1736rs83lrnc7"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-589mgzvji-m2h24q6y3gda">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-jf3ofrol5--1vscft42v9g90"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Driancourt, Jean Etienne, décédé le 1 septembre 1877</rico:title>
+                  <rdfs:label xml:lang="fr">Driancourt, Jean Etienne, décédé le 1 septembre 1877</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1878-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1802-1878</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Donation par M. Driancourt à Anne Florentine Duclos, son épouse, 6 novembre 1875 ; obligation par les héritiers Driancourt à Henriette Pauline Forest, 28 février 1878.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-589mgzvji-m2h24q6y3gda"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-589mgzvji-m2h24q6y3gda-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-589mgzvji-m2h24q6y3gda"/>
+                        <rico:identifier>MC/DC/XVII/3</rico:identifier>
+                        <rico:title xml:lang="fr">Driancourt, Jean Etienne, décédé le 1 septembre 1877</rico:title>
+                        <rdfs:label xml:lang="fr">Driancourt, Jean Etienne, décédé le 1 septembre 1877</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1878-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1802-1878</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-589mgzvji-m2h24q6y3gda"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-5wujn8dzn-1qys6k0dyhvwb">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-jf3ofrol5--1vscft42v9g90"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Morel, Pierre Théophile</rico:title>
+                  <rdfs:label xml:lang="fr">Morel, Pierre Théophile</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1860-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1812-1860</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Cahier des charges d’une maison et d’une pièce de terre située à Vitry (Val-de-Marne), 19 mars 1812 ; cahier des charges d’une maison située à Ivry (Val-de-Marne), 27 avril 1836 ; cahier des charges d’une maison située rue de la Roquette, 7 janvier 1860 ; titres de propriété de la maison située 2, rue Duroc, 1807-1818 ; titres de propriété d’une maison située 57, route de Neuilly, 1826-1840 ; relevés cadastraux d’Auteuil et Boulogne [plans], 1842-1847 ; comptes et correspondances avec M. Hourtaut, 1827-1849 ; notes de frais d’avoués, 1832-1849 ; instance avec Auteuil au sujet d’une portion de terrain prise à Pierre Théophile Morel, 1851 ; titres de propriété 39, rue des Fossés-Saint-Germain-l’Auxerrois, 1843-1852 ; location au profit de M. Saule de Boulogne de terres situées à Auteuil, 1836-1854.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-5wujn8dzn-1qys6k0dyhvwb"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-5wujn8dzn-1qys6k0dyhvwb-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-5wujn8dzn-1qys6k0dyhvwb"/>
+                        <rico:identifier>MC/DC/XVII/4</rico:identifier>
+                        <rico:title xml:lang="fr">Morel, Pierre Théophile</rico:title>
+                        <rdfs:label xml:lang="fr">Morel, Pierre Théophile</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1860-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1812-1860</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-5wujn8dzn-1qys6k0dyhvwb"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-7um2ou58s-tehhhyw526u">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-jf3ofrol5--1vscft42v9g90"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Gabillot, Pierre Marie, décédé le 21 septembre 1873</rico:title>
+                  <rdfs:label xml:lang="fr">Gabillot, Pierre Marie, décédé le 21 septembre 1873</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1815-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1873-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1815-1873</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Adjudication, 5 mars 1815 ; vente à Nicolas Claude Claudon, bourrelier, et à Marie Geneviève Huard, sa femme, demeurant ensemble à Villejuif (Val-de-Marne) de trois pièces de terre situées sur le terroir de Villejuif et Vitry (Val-de-Marne), 4 septembre 1819 ; vente à Pierre Marie Gabillot et à Marie Françoise Mayeux, sa femme, demeurant ensemble à Villejuif de terrains labourables à Villejuif, 20 février 1822 ; adjudication à la requête des héritiers Vigouroux au profit de Pierre Marie Gabillot, 19 mai 1822 ; adjudication par Julie Catherine Servatine, née Weyell à Pierre Marie Gabillot, 18 août 1822 ; adjudication à la requête du mandataire des héritiers Chibault au profit de Pierre Marie Gabillot, 26 février 1823 ; vente d’une pièce de terre à Villejuif à Pierre Marie Gabillot, 23 mars 1823 ; vente de terrains cultivables à Nicolas Claude Claudon, bourrelier, demeurant à Villejuif, 29 avril 1830 ; notoriété après décès de Pierre Pays, cultivateur, 29 avril 1830 ; adjudication Delaporte, 28 février 1836 ; échange entre les époux Rosière et les époux Gabillot, 6 et 8 juin 1838 ; comptes ; brouillons ; état des propriétés de Pierre Marie Gabillot, non daté.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-7um2ou58s-tehhhyw526u"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-7um2ou58s-tehhhyw526u-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-7um2ou58s-tehhhyw526u"/>
+                        <rico:identifier>MC/DC/XVII/5</rico:identifier>
+                        <rico:title xml:lang="fr">Gabillot, Pierre Marie, décédé le 21 septembre 1873</rico:title>
+                        <rdfs:label xml:lang="fr">Gabillot, Pierre Marie, décédé le 21 septembre 1873</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1815-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1873-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1815-1873</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-7um2ou58s-tehhhyw526u"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-7v02roszt--k8wm74rsxk6x">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-jf3ofrol5--1vscft42v9g90"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Deshayes, Louis Joseph</rico:title>
+                  <rdfs:label xml:lang="fr">Deshayes, Louis Joseph</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1825-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1889-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1825-1889</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Contrat de mariage de Jean Etienne Joseph Corbert et Eléonore Métra, veuve de Pierre Clot, 16 juin 1832 ; conventions ; bordereaux d’inscriptions d’hypothèques ; vente de Joseph Millet à Henri Clot d’une pièce de terre, treillages et vigne, située sur la commune de Meylan (Isère), au mas de Clapier, 26 mars 1849 ; contrat de mariage de Louis Métra et Annette Reverdy, née Lacombe, 19 avril 1856 ; comptes ; dénonciation de titres ; comptes ; assurances ; obligations, quittances et subrogation, correspondance.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-7v02roszt--k8wm74rsxk6x"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-7v02roszt--k8wm74rsxk6x-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-7v02roszt--k8wm74rsxk6x"/>
+                        <rico:identifier>MC/DC/XVII/5</rico:identifier>
+                        <rico:title xml:lang="fr">Deshayes, Louis Joseph</rico:title>
+                        <rdfs:label xml:lang="fr">Deshayes, Louis Joseph</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1825-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1889-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1825-1889</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-7v02roszt--k8wm74rsxk6x"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-7v02rqjs8--4csqwly3fkso">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-jf3ofrol5--1vscft42v9g90"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Bourdillat, Albert Claude, décédé le 26 juillet 1883</rico:title>
+                  <rdfs:label xml:lang="fr">Bourdillat, Albert Claude, décédé le 26 juillet 1883</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1828-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1880-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1828-1880</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Comptes et quittances, 1828-1880 ; bourse, 1870-1883 ; affaire Latruffe et Morin, 11 septembre 1883 ; créances, 1883-1888.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-7v02rqjs8--4csqwly3fkso"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-7v02rqjs8--4csqwly3fkso-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-7v02rqjs8--4csqwly3fkso"/>
+                        <rico:identifier>MC/DC/XVII/5</rico:identifier>
+                        <rico:title xml:lang="fr">Bourdillat, Albert Claude, décédé le 26 juillet 1883</rico:title>
+                        <rdfs:label xml:lang="fr">Bourdillat, Albert Claude, décédé le 26 juillet 1883</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1828-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1880-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1828-1880</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-7v02rqjs8--4csqwly3fkso"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-97gdbowzm-5qu5gwbqfmim">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-jf3ofrol5--1vscft42v9g90"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Edmée Charlotte Antonine, de Vischer de Celles, comtesse de Nompar de Caumont de La Force (1812-1856), décédée le 20 février 1856</rico:title>
+                  <rdfs:label xml:lang="fr">Edmée Charlotte Antonine, de Vischer de Celles, comtesse de Nompar de Caumont de La Force (1812-1856), décédée le 20 février 1856</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1843-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1856-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1843-1856</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Vente par Charles Frédéric Auguste Guillaume, duc de Brunswick, à la comtesse de Caumont de La Force, d’un hôtel et de dépendances situées 52, avenue de Neuilly, 19 octobre 1843 ; contrat de mariage entre Gustave Emmanuel Louis, comte de Raigecourt-Gournay, et Marguerite Constance Ghislaine Nompar de Caumont de La Force, 20 octobre 1855 ; inventaire après décès de la comtesse de Caumont de La Force, 1er mars 1856.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-97gdbowzm-5qu5gwbqfmim"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-97gdbowzm-5qu5gwbqfmim-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-97gdbowzm-5qu5gwbqfmim"/>
+                        <rico:identifier>MC/DC/XVII/6</rico:identifier>
+                        <rico:title xml:lang="fr">Edmée Charlotte Antonine, de Vischer de Celles, comtesse de Nompar de Caumont de La Force (1812-1856), décédée le 20 février 1856</rico:title>
+                        <rdfs:label xml:lang="fr">Edmée Charlotte Antonine, de Vischer de Celles, comtesse de Nompar de Caumont de La Force (1812-1856), décédée le 20 février 1856</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1843-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1856-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1843-1856</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-97gdbowzm-5qu5gwbqfmim"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-97x4z83p8-32z0ts782wc3">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-jf3ofrol5--1vscft42v9g90"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Caron, Jean Pierre Napoléon, décédé le 30 septembre 1835</rico:title>
+                  <rdfs:label xml:lang="fr">Caron, Jean Pierre Napoléon, décédé le 30 septembre 1835</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1849-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1884-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1849-1884</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Inventaire après le décès de Marie Marguerite Geneviève Caron, née Leroy, 8 septembre 1849 ; livret militaire d’Alfred Brehier du 5ème régiment de hussards, 1859 ; liquidation de la communauté entre M. et Mme Caron et de la succession de M. Caron, 8 mai 1863 ; états des immeubles et des valeurs, 1877 ; correspondance ; jugements.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-97x4z83p8-32z0ts782wc3"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-97x4z83p8-32z0ts782wc3-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-97x4z83p8-32z0ts782wc3"/>
+                        <rico:identifier>MC/DC/XVII/6</rico:identifier>
+                        <rico:title xml:lang="fr">Caron, Jean Pierre Napoléon, décédé le 30 septembre 1835</rico:title>
+                        <rdfs:label xml:lang="fr">Caron, Jean Pierre Napoléon, décédé le 30 septembre 1835</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1849-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1884-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1849-1884</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-97x4z83p8-32z0ts782wc3"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-97x4z9zz5-3ylz0fgunf5">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-jf3ofrol5--1vscft42v9g90"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Delvany, Marie Adèle, épouse Cassière, décédée 8 avril 1858</rico:title>
+                  <rdfs:label xml:lang="fr">Delvany, Marie Adèle, épouse Cassière, décédée 8 avril 1858</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1853-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1858-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1853-1858</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Renseignements généraux ; créance Cabiral, 15 janvier 1858 ; créance Chevenin, 12 avril 1856 ; notes acquittées, contributions et patentes ; assurances ; comptes et factures ; frais funéraires.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-97x4z9zz5-3ylz0fgunf5"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-97x4z9zz5-3ylz0fgunf5-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-97x4z9zz5-3ylz0fgunf5"/>
+                        <rico:identifier>MC/DC/XVII/6</rico:identifier>
+                        <rico:title xml:lang="fr">Delvany, Marie Adèle, épouse Cassière, décédée 8 avril 1858</rico:title>
+                        <rdfs:label xml:lang="fr">Delvany, Marie Adèle, épouse Cassière, décédée 8 avril 1858</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1853-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1858-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1853-1858</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-97x4z9zz5-3ylz0fgunf5"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-97x4zazmz-zpe6s4yyrkfb">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-jf3ofrol5--1vscft42v9g90"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Le Boucher, Marie Céline, épouse Le Roux, décédée le 23 décembre 1906</rico:title>
+                  <rdfs:label xml:lang="fr">Le Boucher, Marie Céline, épouse Le Roux, décédée le 23 décembre 1906</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1887-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1910-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1887-1910</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Correspondance ; comptes ; adjudication ; pièces diverses d'état civil.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-97x4zazmz-zpe6s4yyrkfb"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-97x4zazmz-zpe6s4yyrkfb-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-97x4zazmz-zpe6s4yyrkfb"/>
+                        <rico:identifier>MC/DC/XVII/6</rico:identifier>
+                        <rico:title xml:lang="fr">Le Boucher, Marie Céline, épouse Le Roux, décédée le 23 décembre 1906</rico:title>
+                        <rdfs:label xml:lang="fr">Le Boucher, Marie Céline, épouse Le Roux, décédée le 23 décembre 1906</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1887-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1910-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1887-1910</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-97x4zazmz-zpe6s4yyrkfb"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058084-c-9bm3hdn5v--2ka2fox0l0fw">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-j9gni2f30--1rup0tr1eiper"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Particuliers (les dossiers de particuliers sont classés dans l'ordre des dossiers comportant les pièces les plus anciennes)</rico:title>
+            <rdfs:label xml:lang="fr">Particuliers (les dossiers de particuliers sont classés dans l'ordre des dossiers comportant les pièces les plus anciennes)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1721-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1721-1924</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>Colombat, Claude Antoine</html:p>
+                  <html:p>Ledoux, Jean Didier</html:p>
+                  <html:p>Meyer, François Casimir</html:p>
+                  <html:p>Mouton, Laurent Louis</html:p>
+                  <html:p>Riánsares, Agustín Fernando Muñoz y Sánchez, duc de</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010144"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-9bm3hdn5v--2ka2fox0l0fw"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058084-c-9bm3hdn5v--2ka2fox0l0fw-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058084-c-9bm3hdn5v--2ka2fox0l0fw"/>
+                  <rico:identifier>MC/DC/XVII/7</rico:identifier>
+                  <rico:title xml:lang="fr">Particuliers (les dossiers de particuliers sont classés dans l'ordre des dossiers comportant les pièces les plus anciennes)</rico:title>
+                  <rdfs:label xml:lang="fr">Particuliers (les dossiers de particuliers sont classés dans l'ordre des dossiers comportant les pièces les plus anciennes)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1721-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1721-1924</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-9bm3hdn5v--2ka2fox0l0fw"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-ovlgllzm--tyd0xfhwx4db">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-9bm3hdn5v--2ka2fox0l0fw"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Colombat, Claude Antoine</rico:title>
+                  <rdfs:label xml:lang="fr">Colombat, Claude Antoine</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1721-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1828-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1721-1828</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Rente au domaine de la ville, 1721-1803 ; rente par Jean-Baptiste Doniol, 1731-1817 ; remboursements, 1788-1826 ; quittances, 1788-1826.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-ovlgllzm--tyd0xfhwx4db"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-ovlgllzm--tyd0xfhwx4db-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-ovlgllzm--tyd0xfhwx4db"/>
+                        <rico:identifier>MC/DC/XVII/7</rico:identifier>
+                        <rico:title xml:lang="fr">Colombat, Claude Antoine</rico:title>
+                        <rdfs:label xml:lang="fr">Colombat, Claude Antoine</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1721-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1828-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1721-1828</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-ovlgllzm--tyd0xfhwx4db"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-piqhb4gz--1nwxzvtsu2cp7">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-9bm3hdn5v--2ka2fox0l0fw"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Ledoux, Jean Didier</rico:title>
+                  <rdfs:label xml:lang="fr">Ledoux, Jean Didier</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1785-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1806-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1785-1806</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Liquidation et partage des biens de Pierre Augustin Duhamel au profit d’Antoine Augustin Duhamel et de Jean Didier Ledoux, 21 décembre 1785 ; rente accordée par Denis Doniol à Jean Didier Ledoux, 27 septembre 1786 ; procuration de Jean Didier Ledoux à Auguste Ledoux, 6 février 1806.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-piqhb4gz--1nwxzvtsu2cp7"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-piqhb4gz--1nwxzvtsu2cp7-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-piqhb4gz--1nwxzvtsu2cp7"/>
+                        <rico:identifier>MC/DC/XVII/7</rico:identifier>
+                        <rico:title xml:lang="fr">Ledoux, Jean Didier</rico:title>
+                        <rdfs:label xml:lang="fr">Ledoux, Jean Didier</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1785-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1806-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1785-1806</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-piqhb4gz--1nwxzvtsu2cp7"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-piqhdume--16n8uo4o7u11n">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-9bm3hdn5v--2ka2fox0l0fw"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Meyer, François Casimir</rico:title>
+                  <rdfs:label xml:lang="fr">Meyer, François Casimir</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1819-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1824-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1819-1824</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Vente d’un terrain situé 20, avenue de Neuilly par Alexandre Daniel de Talleyrand-Périgord, baron de Talleyrand, à Jean Sébastien Vaume et à François Casimir Meyer, 15 juillet 1819 ; vente d’une propriété située 20, avenue de Neuilly par François Casimir Meyer à Antoine Joseph Louis Ledoyen et Madeleine Adelaïde Dorothée Roussel, sa femme et quittances, 27 mars 1822 – 22 juin 1824.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-piqhdume--16n8uo4o7u11n"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-piqhdume--16n8uo4o7u11n-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-piqhdume--16n8uo4o7u11n"/>
+                        <rico:identifier>MC/DC/XVII/7</rico:identifier>
+                        <rico:title xml:lang="fr">Meyer, François Casimir</rico:title>
+                        <rdfs:label xml:lang="fr">Meyer, François Casimir</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1819-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1824-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1819-1824</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-piqhdume--16n8uo4o7u11n"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-piqhf7p4--7tlkz9ilbtn5">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-9bm3hdn5v--2ka2fox0l0fw"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Mouton, Laurent Louis </rico:title>
+                  <rdfs:label xml:lang="fr">Mouton, Laurent Louis </rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1856-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1858-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1856-1858</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Cahier des charges de l’hôtel situé 78, avenue des Champs-Elysées, 31 mai 1856 ; notification de purge d’hypothèque à la requête de Laurent Louis Mouton et vente par les héritiers Caumont de La Force d’un hôtel situé 78, avenue des Champs-Elysées, 4 octobre 1856 ; quittance par Nicolas Carette à Laurent Louis Mouton, 12 décembre 1857 ; quittance par Léon Rémy de Briaudos, marquis de Castéja, 6 décembre 1858.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-piqhf7p4--7tlkz9ilbtn5"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-piqhf7p4--7tlkz9ilbtn5-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-piqhf7p4--7tlkz9ilbtn5"/>
+                        <rico:identifier>MC/DC/XVII/7</rico:identifier>
+                        <rico:title xml:lang="fr">Mouton, Laurent Louis </rico:title>
+                        <rdfs:label xml:lang="fr">Mouton, Laurent Louis </rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1856-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1858-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1856-1858</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-piqhf7p4--7tlkz9ilbtn5"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-piqhgdrf-7uaod6hck3pq">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-9bm3hdn5v--2ka2fox0l0fw"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Riánsares, Agustín Fernando Muñoz y Sánchez, (1808-1873, duc de)</rico:title>
+                  <rdfs:label xml:lang="fr">Riánsares, Agustín Fernando Muñoz y Sánchez, (1808-1873, duc de)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1861-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1861-1924</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Vente par Etienne François Lallemand au duc de Riánsares d’un terrain situé 59, rue de Ponthieu, 28 août 1861 ; vente par Laurent Louis Mouton et Eleonore Marie Anne Barry au duc de Riánsares de deux hôtels situés 78 et 80, avenue de Champs-Élysées, 17 septembre 1861 ; quittances, 31 janvier 1862-6 mars 1872.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-piqhgdrf-7uaod6hck3pq"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-piqhgdrf-7uaod6hck3pq-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-piqhgdrf-7uaod6hck3pq"/>
+                        <rico:identifier>MC/DC/XVII/7</rico:identifier>
+                        <rico:title xml:lang="fr">Riánsares, Agustín Fernando Muñoz y Sánchez, (1808-1873, duc de)</rico:title>
+                        <rdfs:label xml:lang="fr">Riánsares, Agustín Fernando Muñoz y Sánchez, (1808-1873, duc de)</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1861-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1861-1924</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-piqhgdrf-7uaod6hck3pq"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058084-c-9br36um1q-z1wtog9dz4bv">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-j9gni2f30--1rup0tr1eiper"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Titres de propriétés.</rico:title>
+            <rdfs:label xml:lang="fr">Titres de propriétés.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1823-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1886-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1823-1886</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010144"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-9br36um1q-z1wtog9dz4bv"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058084-c-9br36um1q-z1wtog9dz4bv-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058084-c-9br36um1q-z1wtog9dz4bv"/>
+                  <rico:identifier>MC/DC/XVII/8</rico:identifier>
+                  <rico:title xml:lang="fr">Titres de propriétés.</rico:title>
+                  <rdfs:label xml:lang="fr">Titres de propriétés.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1823-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1886-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1823-1886</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-9br36um1q-z1wtog9dz4bv"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-x98ftepw--13rl3ksc3721c">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-9br36um1q-z1wtog9dz4bv"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Registre d'expéditions d'actes (Mes Mégret, Sebert, Donon, Leclerc (à Charenton), Cotelle, Breuillaud, Berge, Orcibal, Deshayes) concernant la propriété de l'hôtel du 14 rue Daru à Paris, construit par Louis Désiré Mahieu au profit de Julie Ernestine Peynaud (1834-1884), sa femme, épouse en secondes noces du prince Romolo Ruspoli, vendu par ce dernier en 1885 à Antonio de Mier de Celis, duc de Mier, fondateur de la Banque nationale du Mexique, résidence de sa femme, Isabel Pesado de la Llave (1832-1912), philanthrope mexicaine après 1899 et jusqu'à la mort de cette dernière [édifice aujourd'hui détruit].</rico:title>
+                  <rdfs:label xml:lang="fr">Registre d'expéditions d'actes (Mes Mégret, Sebert, Donon, Leclerc (à Charenton), Cotelle, Breuillaud, Berge, Orcibal, Deshayes) concernant la propriété de l'hôtel du 14 rue Daru à Paris, construit par Louis Désiré Mahieu au profit de Julie Ernestine Peynaud (1834-1884), sa femme, épouse en secondes noces du prince Romolo Ruspoli, vendu par ce dernier en 1885 à Antonio de Mier de Celis, duc de Mier, fondateur de la Banque nationale du Mexique, résidence de sa femme, Isabel Pesado de la Llave (1832-1912), philanthrope mexicaine après 1899 et jusqu'à la mort de cette dernière [édifice aujourd'hui détruit].</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1823-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1886-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1823-1886</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">I. Acquisition par M. de Mier de M. le Prince Ruspoli : vente par M. le Prince Ruspoli à M. de Mier pièces de transcription, 24 décembre 1885 ; II. Libération de M. Mier : quittances, certificat de radiation, décharge, grosses, déclaration d’emploi, 1886 ; III. Titres de propriétés en la personne de M. le Prince Ruspoli : intitulé d’inventaire après le décès de la princesse Ruspoli, 9 septembre 1884 ; testament de la Princesse Ruspoli, 11 août 1884 ;envoi en possession, 9 septembre 1884 ; jugement d’adjudication au profit de M. le Prince de Ruspoli, 28 novembre 1885 ; significations du jugement, 9 janvier 1886 ; IV. En la personne de la princesse Ruspoli et des précédents propriétaires : ventes par M. et Mme Hardy, pièces de libération, anciens titres, compte de tutelle par Mme Peynaud à ses enfants, quittances, 1823-1867.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-x98ftepw--13rl3ksc3721c"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-x98ftepw--13rl3ksc3721c-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-x98ftepw--13rl3ksc3721c"/>
+                        <rico:identifier>MC/DC/XVII/8</rico:identifier>
+                        <rico:title xml:lang="fr">Registre d'expéditions d'actes (Mes Mégret, Sebert, Donon, Leclerc (à Charenton), Cotelle, Breuillaud, Berge, Orcibal, Deshayes) concernant la propriété de l'hôtel du 14 rue Daru à Paris, construit par Louis Désiré Mahieu au profit de Julie Ernestine Peynaud (1834-1884), sa femme, épouse en secondes noces du prince Romolo Ruspoli, vendu par ce dernier en 1885 à Antonio de Mier de Celis, duc de Mier, fondateur de la Banque nationale du Mexique, résidence de sa femme, Isabel Pesado de la Llave (1832-1912), philanthrope mexicaine après 1899 et jusqu'à la mort de cette dernière [édifice aujourd'hui détruit].</rico:title>
+                        <rdfs:label xml:lang="fr">Registre d'expéditions d'actes (Mes Mégret, Sebert, Donon, Leclerc (à Charenton), Cotelle, Breuillaud, Berge, Orcibal, Deshayes) concernant la propriété de l'hôtel du 14 rue Daru à Paris, construit par Louis Désiré Mahieu au profit de Julie Ernestine Peynaud (1834-1884), sa femme, épouse en secondes noces du prince Romolo Ruspoli, vendu par ce dernier en 1885 à Antonio de Mier de Celis, duc de Mier, fondateur de la Banque nationale du Mexique, résidence de sa femme, Isabel Pesado de la Llave (1832-1912), philanthrope mexicaine après 1899 et jusqu'à la mort de cette dernière [édifice aujourd'hui détruit].</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1823-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1886-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1823-1886</rico:date>
+                        <rico:carrierExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">32 cm x 25cm x 14cm - 1890 pages</html:p>
+                        </rico:carrierExtent>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">Minutes reliées en registre ( Fabricant G. Préau) portant sur son dos élastique la mention « Hôtel de Paris » et en dessous la mention « Rue Daru N°14 »</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-x98ftepw--13rl3ksc3721c"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058084-c-5hdxyrot8--h2uiylujvmzv">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-j9gni2f30--1rup0tr1eiper"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Généalogies.</rico:title>
+            <rdfs:label xml:lang="fr">Généalogies.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1750-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1600-1750</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Attention : documents intégralement cotés en Réserve.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010144"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-5hdxyrot8--h2uiylujvmzv"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058084-c-5hdxyrot8--h2uiylujvmzv-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058084-c-5hdxyrot8--h2uiylujvmzv"/>
+                  <rico:identifier>MC/DC/XVII/9</rico:identifier>
+                  <rico:title xml:lang="fr">Généalogies.</rico:title>
+                  <rdfs:label xml:lang="fr">Généalogies.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1750-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1600-1750</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-5hdxyrot8--h2uiylujvmzv"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-5n3l0r6h8--13f5oubknhw16">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-5hdxyrot8--h2uiylujvmzv"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Généalogie armoriée des familles de La Motte et Du Roux, dressé au début du XVIIe siècle, et remontant au XIVe siècle.</rico:title>
+                  <rdfs:label xml:lang="fr">Généalogie armoriée des familles de La Motte et Du Roux, dressé au début du XVIIe siècle, et remontant au XIVe siècle.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1650-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1600-1650</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Cote originelle du document :</html:b>
+                        </html:p>
+                        <html:p>MC/DC/XVII</html:p>
+                        <html:p>
+                           <html:b>Informations concernant le classement et la cotation du document :</html:b>
+                        </html:p>
+                        <html:p>Document coté en Réserve</html:p>
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>Actes signalés par le personnel du Minutier central des notaires de Paris, 2002-2011 (base de données migrée : voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2021 (R. Le Gendre)</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-5n3l0r6h8--13f5oubknhw16"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-5n3l0r6h8--13f5oubknhw16-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-5n3l0r6h8--13f5oubknhw16"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/058084-c-5n3l0r6h8--13f5oubknhw16-i2"/>
+                        <rico:identifier>MC/RS//835</rico:identifier>
+                        <rico:title xml:lang="fr">Généalogie armoriée des familles de La Motte et Du Roux, dressé au début du XVIIe siècle, et remontant au XIVe siècle.</rico:title>
+                        <rdfs:label xml:lang="fr">Généalogie armoriée des familles de La Motte et Du Roux, dressé au début du XVIIe siècle, et remontant au XIVe siècle.</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1600-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1650-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1600-1650</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-5n3l0r6h8--13f5oubknhw16"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-5n3l0r6h8--13f5oubknhw16-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-5n3l0r6h8--13f5oubknhw16"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/058084-c-5n3l0r6h8--13f5oubknhw16-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>FRAN_0159_11867_L#FRAN_0159_11890_L</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_058084/c-5n3l0r6h8--13f5oubknhw16/FRAN_0159_11867_L"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058084-c-5vbs7fc8s--141u3asoefp5n">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058084-c-5hdxyrot8--h2uiylujvmzv"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Arbre généalogique armorié de la "noble et ancienne maison Du Roux", concernant les branches de Sigy, Tachy, Revillon, Gaudigny, Grateloup, dressé dans la 1re moitié du XVIIIe siècle et remontant au XIVe siècle.</rico:title>
+                  <rdfs:label xml:lang="fr">Arbre généalogique armorié de la "noble et ancienne maison Du Roux", concernant les branches de Sigy, Tachy, Revillon, Gaudigny, Grateloup, dressé dans la 1re moitié du XVIIIe siècle et remontant au XIVe siècle.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1700-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1750-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1700-1750</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Cote originelle du document :</html:b>
+                        </html:p>
+                        <html:p>MC/DC/XVII</html:p>
+                        <html:p>
+                           <html:b>Informations concernant le classement et la cotation du document :</html:b>
+                        </html:p>
+                        <html:p>Document coté en Réserve</html:p>
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>Actes signalés par le personnel du Minutier central des notaires de Paris, 2002-2011 (base de données migrée : voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2021 (R. Le Gendre)</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasProvenance rdf:resource="agent/010144"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-5vbs7fc8s--141u3asoefp5n"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-5vbs7fc8s--141u3asoefp5n-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-5vbs7fc8s--141u3asoefp5n"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/058084-c-5vbs7fc8s--141u3asoefp5n-i2"/>
+                        <rico:identifier>MC/RS//836</rico:identifier>
+                        <rico:title xml:lang="fr">Arbre généalogique armorié de la "noble et ancienne maison Du Roux", concernant les branches de Sigy, Tachy, Revillon, Gaudigny, Grateloup, dressé dans la 1re moitié du XVIIIe siècle et remontant au XIVe siècle.</rico:title>
+                        <rdfs:label xml:lang="fr">Arbre généalogique armorié de la "noble et ancienne maison Du Roux", concernant les branches de Sigy, Tachy, Revillon, Gaudigny, Grateloup, dressé dans la 1re moitié du XVIIIe siècle et remontant au XIVe siècle.</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1700-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1750-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1700-1750</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058084/c-5vbs7fc8s--141u3asoefp5n"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058084-c-5vbs7fc8s--141u3asoefp5n-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058084-c-5vbs7fc8s--141u3asoefp5n"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/058084-c-5vbs7fc8s--141u3asoefp5n-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>FRAN_0159_11891_L#FRAN_0159_11892_L</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_058084/c-5vbs7fc8s--141u3asoefp5n/FRAN_0159_11891_L"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/051807">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Images du répertoire du notaire Artus Jean Desgranges pour l'étude XV : MC/RE/XV/2</rico:title>
+      <rdfs:label xml:lang="fr">Images du répertoire du notaire Artus Jean Desgranges pour l'étude XV : MC/RE/XV/2</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, notices préparées par Kinga Kantorska, chargée d'études documentaires, puis Nathalie Jourdain, adjointe administrative principale.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Deuxième édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2017-09</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Corrections et ajouts en vue de la mise en ligne sur la SIV, N. Jourdain</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-051807"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051807-i1">
+            <rico:isInstantiationOf rdf:resource="record/051807"/>
+            <rico:title xml:lang="fr">Images du répertoire du notaire Artus Jean Desgranges pour l'étude XV : MC/RE/XV/2</rico:title>
+            <rdfs:label xml:lang="fr">Images du répertoire du notaire Artus Jean Desgranges pour l'étude XV : MC/RE/XV/2</rdfs:label>
+            <rico:history xml:lang="fr">8 septembre 2004</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_051807</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051807"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-051807">
+      <rico:isOrWasDescribedBy rdf:resource="record/051807"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Images du répertoire du notaire Artus Jean Desgranges pour l'étude XV</rico:title>
+      <rdfs:label xml:lang="fr">Images du répertoire du notaire Artus Jean Desgranges pour l'étude XV</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1691-01-07</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1694-08-04</rico:endDate>
+      <rico:date xml:lang="fr">7 janvier 1691 - 4 août 1694</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010143"/>
+      <rico:hasProvenance rdf:resource="agent/012169"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:structure rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+      </rico:structure>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Images des répertoires de l’étude XVArchives de l'étude XV</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8f3jla--to36ja96m31q"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051807"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-051807-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-051807"/>
+            <rico:identifier>MC/RE/XV/2</rico:identifier>
+            <rico:title xml:lang="fr">Images du répertoire du notaire Artus Jean Desgranges pour l'étude XV</rico:title>
+            <rdfs:label xml:lang="fr">Images du répertoire du notaire Artus Jean Desgranges pour l'étude XV</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1691-01-07</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1694-08-04</rico:endDate>
+            <rico:date xml:lang="fr">7 janvier 1691 - 4 août 1694</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Un registre</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/012169"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:structure rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+            </rico:structure>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Historique de la conservation</html:h4>
+                     <html:p>65 feuillets de papier manuscrits, hauteur 35 cm x largeur 24 cm folioté par le notaire. Le registre est en bon état.</html:p>
+                  </html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:p>Registre entré aux Archives nationales en 1942.</html:p>
+                  </html:div>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051807"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/051807-c1ufzrce2964--1ukkza2kmnvjd"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/051807-c1ufzrce2964--1ukkza2kmnvjd">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-051807"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+      <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période du 7 janvier 1691 au 4 août 1694</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 7 janvier 1691 au 4 août 1694</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1691-01-07</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1694-08-04</rico:endDate>
+      <rico:date xml:lang="fr">7 janvier 1691 - 4 août 1694</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Le répertoire contient les informations suivantes 1. nature de l'acte; 2. nom, prénom, des parties; 3. date du jour.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010143"/>
+      <rico:hasProvenance rdf:resource="agent/012169"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051807/c1ufzrce2964--1ukkza2kmnvjd"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051807-c1ufzrce2964--1ukkza2kmnvjd-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/051807-c1ufzrce2964--1ukkza2kmnvjd"/>
+            <rico:identifier>MC/RE/XV/2</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période du 7 janvier 1691 au 4 août 1694</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 7 janvier 1691 au 4 août 1694</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1691-01-07</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1694-08-04</rico:endDate>
+            <rico:date xml:lang="fr">7 janvier 1691 - 4 août 1694</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">56 feuillets</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051807/c1ufzrce2964--1ukkza2kmnvjd"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051807-c1ufzrce2bhg--1uy4gndtymsnk">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051807-c1ufzrce2964--1ukkza2kmnvjd"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 7 janvier au 31 décembre 1691</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 7 janvier au 31 décembre 1691</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1691-01-07</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1691-12-31</rico:endDate>
+            <rico:date xml:lang="fr">7 janvier - 31 décembre 1691</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/012169"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051807/c1ufzrce2bhg--1uy4gndtymsnk"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051807-c1ufzrce2bhg--1uy4gndtymsnk-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051807-c1ufzrce2bhg--1uy4gndtymsnk"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051807-c1ufzrce2bhg--1uy4gndtymsnk-i2"/>
+                  <rico:identifier>10 r°-24 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 7 janvier au 31 décembre 1691</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 7 janvier au 31 décembre 1691</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1691-01-07</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1691-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">7 janvier - 31 décembre 1691</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">14 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051807/c1ufzrce2bhg--1uy4gndtymsnk"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051807-c1ufzrce2bhg--1uy4gndtymsnk-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051807-c1ufzrce2bhg--1uy4gndtymsnk"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051807-c1ufzrce2bhg--1uy4gndtymsnk-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_015MIC00269_L.jpg#DAFANCH96_015MIC00285_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051807/c1ufzrce2bhg--1uy4gndtymsnk/DAFANCH96_015MIC00269_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051807-c1ufzrce2d10--173tsqgd841er">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051807-c1ufzrce2964--1ukkza2kmnvjd"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 4 janvier au 30 décembre 1692</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 4 janvier au 30 décembre 1692</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1692-01-04</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1692-12-30</rico:endDate>
+            <rico:date xml:lang="fr">4 janvier - 30 décembre 1692</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/012169"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051807/c1ufzrce2d10--173tsqgd841er"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051807-c1ufzrce2d10--173tsqgd841er-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051807-c1ufzrce2d10--173tsqgd841er"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051807-c1ufzrce2d10--173tsqgd841er-i2"/>
+                  <rico:identifier>26 r°-42 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 4 janvier au 30 décembre 1692</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 4 janvier au 30 décembre 1692</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1692-01-04</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1692-12-30</rico:endDate>
+                  <rico:date xml:lang="fr">4 janvier - 30 décembre 1692</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">16 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051807/c1ufzrce2d10--173tsqgd841er"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051807-c1ufzrce2d10--173tsqgd841er-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051807-c1ufzrce2d10--173tsqgd841er"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051807-c1ufzrce2d10--173tsqgd841er-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_015MIC00286_L.jpg#DAFANCH96_015MIC00303_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051807/c1ufzrce2d10--173tsqgd841er/DAFANCH96_015MIC00286_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051807-c1ufzrce2fcc--h7eoq4v75u0f">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051807-c1ufzrce2964--1ukkza2kmnvjd"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 30 décembre 1693</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 30 décembre 1693</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1693-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1693-12-30</rico:endDate>
+            <rico:date xml:lang="fr">1er janvier - 30 décembre 1693</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/012169"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051807/c1ufzrce2fcc--h7eoq4v75u0f"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051807-c1ufzrce2fcc--h7eoq4v75u0f-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051807-c1ufzrce2fcc--h7eoq4v75u0f"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051807-c1ufzrce2fcc--h7eoq4v75u0f-i2"/>
+                  <rico:identifier>43 r°-57 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 30 décembre 1693</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 30 décembre 1693</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1693-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1693-12-30</rico:endDate>
+                  <rico:date xml:lang="fr">1er janvier - 30 décembre 1693</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">14 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051807/c1ufzrce2fcc--h7eoq4v75u0f"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051807-c1ufzrce2fcc--h7eoq4v75u0f-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051807-c1ufzrce2fcc--h7eoq4v75u0f"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051807-c1ufzrce2fcc--h7eoq4v75u0f-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_015MIC00303_L.jpg#DAFANCH96_015MIC00317_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051807/c1ufzrce2fcc--h7eoq4v75u0f/DAFANCH96_015MIC00303_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051807-c1ufzrce2gvw--kugmtvgm276p">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051807-c1ufzrce2964--1ukkza2kmnvjd"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 4 août 1694</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 4 août 1694</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1694-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1694-08-04</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 4 août 1694</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/012169"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051807/c1ufzrce2gvw--kugmtvgm276p"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051807-c1ufzrce2gvw--kugmtvgm276p-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051807-c1ufzrce2gvw--kugmtvgm276p"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051807-c1ufzrce2gvw--kugmtvgm276p-i2"/>
+                  <rico:identifier>58 r°-65 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 4 août 1694</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 4 août 1694</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1694-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1694-08-04</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 4 août 1694</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">17 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051807/c1ufzrce2gvw--kugmtvgm276p"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051807-c1ufzrce2gvw--kugmtvgm276p-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051807-c1ufzrce2gvw--kugmtvgm276p"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051807-c1ufzrce2gvw--kugmtvgm276p-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_015MIC00318_L.jpg#DAFANCH96_015MIC00326_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051807/c1ufzrce2gvw--kugmtvgm276p/DAFANCH96_015MIC00318_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051807-c1ufzrce1zws-1gwuaxxfhgfsq">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051807-c1ufzrce2964--1ukkza2kmnvjd"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des "Minutes des quittances de remboursements des rentes de l'Hôtel de Ville de Paris" pour la période du 28 juin 1691 au 13 juillet 1694</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des "Minutes des quittances de remboursements des rentes de l'Hôtel de Ville de Paris" pour la période du 28 juin 1691 au 13 juillet 1694</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1691-06-28</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1694-07-13</rico:endDate>
+            <rico:date xml:lang="fr">28 juin 1691 - 13 juillet 1694</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/012169"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051807/c1ufzrce1zws-1gwuaxxfhgfsq"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051807-c1ufzrce1zws-1gwuaxxfhgfsq-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051807-c1ufzrce1zws-1gwuaxxfhgfsq"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051807-c1ufzrce1zws-1gwuaxxfhgfsq-i2"/>
+                  <rico:identifier>1 r°-8 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des "Minutes des quittances de remboursements des rentes de l'Hôtel de Ville de Paris" pour la période du 28 juin 1691 au 13 juillet 1694</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des "Minutes des quittances de remboursements des rentes de l'Hôtel de Ville de Paris" pour la période du 28 juin 1691 au 13 juillet 1694</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1691-06-28</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1694-07-13</rico:endDate>
+                  <rico:date xml:lang="fr">28 juin 1691 - 13 juillet 1694</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">8 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051807/c1ufzrce1zws-1gwuaxxfhgfsq"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051807-c1ufzrce1zws-1gwuaxxfhgfsq-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051807-c1ufzrce1zws-1gwuaxxfhgfsq"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051807-c1ufzrce1zws-1gwuaxxfhgfsq-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_015MIC00260_L.jpg#DAFANCH96_015MIC00268_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051807/c1ufzrce1zws-1gwuaxxfhgfsq/DAFANCH96_015MIC00260_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+   </rico:RecordResource>
+</rdf:RDF>

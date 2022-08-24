@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/058294">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Dossiers de clients de l'étude XXIV (1790-1924) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XXIV (1790-1924) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Etabli par Anne Brunet, stagiaire de Master 1 « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes, sous la direction de Marie-Françoise Limon-Bonnet, conservateur général du patrimoine, responsable du Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-058294"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/058294-i1">
+            <rico:isInstantiationOf rdf:resource="record/058294"/>
+            <rico:title xml:lang="fr">Dossiers de clients de l'étude XXIV (1790-1924) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XXIV (1790-1924) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_058294</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_058294"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-058294">
+      <rico:isOrWasDescribedBy rdf:resource="record/058294"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds"/>
+      <rico:title xml:lang="fr">Dossiers de clients de l'étude XXIV</rico:title>
+      <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XXIV</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1790-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1790-1924</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires</html:b>: la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de</html:p>
+            <html:p>l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des</html:p>
+            <html:p>minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se</html:p>
+            <html:p>rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: ces archives privées sont communicables aux</html:p>
+            <html:p>mêmes conditions que les minutes et répertoires des notaires.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur</html:p>
+            <html:p>étatmatériel et dans le respect des conditions de communicabilité.</html:p>
+         </html:div>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>MC/DC/XXIV/1</html:b>. Familles</html:p>
+            <html:p>
+               <html:b>MC/DC/XXIV/2</html:b>. Particuliers</html:p>
+            <html:p>
+               <html:b>MC/DC/XXIV/3</html:b>. Titres de propriété</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Autre(s) instrument(s) de recherche</html:h4>
+            <html:ul>
+               <html:li>Archives de l'étude XXIV</html:li>
+               <html:li>« Mélanges » (dossiers de clients de l'étude XXIV (1606-1923)</html:li>
+            </html:ul>
+            <html:p>Archives de l'étude XXIV<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041699">Archives de l'étude XXIV</html:a>
+            </html:p>
+            <html:p>« Mélanges » (dossiers de clients) de l'étude XXIV<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050874">«Mélanges» (dossiers de clients) de l’étude XXIV. MC/ET/XXIV/1305/A, MC/ET/XXIV/1306/A et MC/ET/XXIV/1135 (1606-1923)</html:a>
+            </html:p>
+         </html:div>
+      </rico:descriptiveNote>
+      <rico:isRecordResourceAssociatedWithRecordResource rdf:resource="recordResource/top-041699"/>
+      <rico:isOrWasSubjectOf rdf:resource="record/041699"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041699"/>
+      <rico:isRecordResourceAssociatedWithRecordResource rdf:resource="recordResource/top-050874"/>
+      <rico:isOrWasSubjectOf rdf:resource="record/050874"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050874"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_058294"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-058294-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-058294"/>
+            <rico:identifier>MC/DC/XXIV/1-MC/DC/XXIV/3</rico:identifier>
+            <rico:title xml:lang="fr">Dossiers de clients de l'étude XXIV</rico:title>
+            <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XXIV</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1790-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1790-1924</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">3 boîtes, 0,18 ml</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires</html:b>: la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de</html:p>
+                  <html:p>l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des</html:p>
+                  <html:p>minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se</html:p>
+                  <html:p>rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: ces archives privées sont communicables aux</html:p>
+                  <html:p>mêmes conditions que les minutes et répertoires des notaires.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur</html:p>
+                  <html:p>étatmatériel et dans le respect des conditions de communicabilité.</html:p>
+               </html:div>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Dépôt</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_058294"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/058294-c-4uoc10jtk-1j6lvugkh81j3"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/058294-c-53mf3idfv-1chh1qgu4rm3b"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/058294-c-4f1f2c9vz--1sw3igyqhsenh"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/058294-c-4uoc10jtk-1j6lvugkh81j3">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-058294"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Familles</rico:title>
+      <rdfs:label xml:lang="fr">Familles</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1790-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1901-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1790-1901</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:ul>
+               <html:li>Famille Castellane</html:li>
+            </html:ul>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4uoc10jtk-1j6lvugkh81j3"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/058294-c-4uoc10jtk-1j6lvugkh81j3-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/058294-c-4uoc10jtk-1j6lvugkh81j3"/>
+            <rico:identifier>MC/DC/XXIV/1</rico:identifier>
+            <rico:title xml:lang="fr">Familles</rico:title>
+            <rdfs:label xml:lang="fr">Familles</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1790-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1901-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1790-1901</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4uoc10jtk-1j6lvugkh81j3"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058294-c-4uznhznqj--1tzc2zlyzuy6t">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058294-c-4uoc10jtk-1j6lvugkh81j3"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Famille Castellane</rico:title>
+            <rdfs:label xml:lang="fr">Famille Castellane</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1790-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1901-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1790-1901</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4uznhznqj--1tzc2zlyzuy6t"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058294-c-4uznhznqj--1tzc2zlyzuy6t-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058294-c-4uznhznqj--1tzc2zlyzuy6t"/>
+                  <rico:identifier>MC/DC/XXIV/1</rico:identifier>
+                  <rico:title xml:lang="fr">Famille Castellane</rico:title>
+                  <rdfs:label xml:lang="fr">Famille Castellane</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1790-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1901-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1790-1901</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4uznhznqj--1tzc2zlyzuy6t"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058294-c-4vibw71a5--19u2gcylekedu">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058294-c-4uznhznqj--1tzc2zlyzuy6t"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Louise Cordelia Eucharis Greffulhe, épouse d'Esprit Victor Elisabeth Boniface, comte de Castellane</rico:title>
+                  <rdfs:label xml:lang="fr">Louise Cordelia Eucharis Greffulhe, épouse d'Esprit Victor Elisabeth Boniface, comte de Castellane</rdfs:label>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Compte.</html:p>
+                  </rico:scopeAndContent>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Greffulhe, Louise Cordelia Eucharis</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Greffulhe, Louise Cordelia Eucharis</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Greffulhe, Louise Cordelia Eucharis</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Castellane, Esprit Victor Elisabeth Boniface (comte de)</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Castellane, Esprit Victor Elisabeth Boniface (comte de)</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Castellane, Esprit Victor Elisabeth Boniface (comte de)</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8b42sa-2vo6rr7qrxfh"/>
+                  <rico:hasProvenance rdf:resource="agent/010151"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4vibw71a5--19u2gcylekedu"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058294-c-4vibw71a5--19u2gcylekedu-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058294-c-4vibw71a5--19u2gcylekedu"/>
+                        <rico:identifier>MC/DC/XXIV/1</rico:identifier>
+                        <rico:title xml:lang="fr">Louise Cordelia Eucharis Greffulhe, épouse d'Esprit Victor Elisabeth Boniface, comte de Castellane</rico:title>
+                        <rdfs:label xml:lang="fr">Louise Cordelia Eucharis Greffulhe, épouse d'Esprit Victor Elisabeth Boniface, comte de Castellane</rdfs:label>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4vibw71a5--19u2gcylekedu"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058294-c-4vk55zag6--10k0ek2pgnbl7">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058294-c-4uznhznqj--1tzc2zlyzuy6t"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Titre de propriété Acosta, sis à Aubergenville (Yvelines)</rico:title>
+                  <rdfs:label xml:lang="fr">Titre de propriété Acosta, sis à Aubergenville (Yvelines)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1790-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1901-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1790-1901</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:ul>
+                           <html:li>
+                              <html:b>Anciens titres de propriété</html:b>: mainlevée, opposition et extrait d'opposition, consentement, vente (1790-1805).</html:li>
+                           <html:li>
+                              <html:b>Aquisition et affaires immobilières sur la propriété d'Acosta</html:b>: affiches, purges légales, procuration, convention, consentement, quittances, partage, échange, ventes, renonciation, certificat et état d'inscription, cession, reçus, adjudication, notoriétés après décès, correspondance (1824-1901).</html:li>
+                        </html:ul>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3nttiqov4-maff7rv0xsok"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntb91vp2-1x0gbusmn6zj4"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dhxh7--1l0rrc8cmohcj"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89lgo1-7iazj0zqu03g"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89tt5o--dhoqf04g1o4n"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8efxut-73bdmxk10sbw"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8biyg8--qf7axzw7kjv1"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dc8p2-nyxarkw0ppoi"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8e592y--1eh3sssxpxr0n"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8cppz6--vy9l7i1cqerr"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8f1w3i-10u4aitg4g2jq"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8av7ji-2m7xjqbxqsjd"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dxom5--1n6okrudb7a4s"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d699mmxhwr0-4f15mrcy9b9z"/>
+                  <rico:hasProvenance rdf:resource="agent/010151"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4vk55zag6--10k0ek2pgnbl7"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058294-c-4vk55zag6--10k0ek2pgnbl7-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058294-c-4vk55zag6--10k0ek2pgnbl7"/>
+                        <rico:identifier>MC/DC/XXIV/1</rico:identifier>
+                        <rico:title xml:lang="fr">Titre de propriété Acosta, sis à Aubergenville (Yvelines)</rico:title>
+                        <rdfs:label xml:lang="fr">Titre de propriété Acosta, sis à Aubergenville (Yvelines)</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1790-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1901-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1790-1901</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4vk55zag6--10k0ek2pgnbl7"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/058294-c-53mf3idfv-1chh1qgu4rm3b">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-058294"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Particuliers</rico:title>
+      <rdfs:label xml:lang="fr">Particuliers</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1868-1924</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:ul>
+               <html:li>Claire Sidonie Marie Rinjard</html:li>
+            </html:ul>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-53mf3idfv-1chh1qgu4rm3b"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/058294-c-53mf3idfv-1chh1qgu4rm3b-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/058294-c-53mf3idfv-1chh1qgu4rm3b"/>
+            <rico:identifier>MC/DC/XXIV/2</rico:identifier>
+            <rico:title xml:lang="fr">Particuliers</rico:title>
+            <rdfs:label xml:lang="fr">Particuliers</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1868-1924</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-53mf3idfv-1chh1qgu4rm3b"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058294-c-4l1rkhx3b-1av6mr8gf1ced">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058294-c-53mf3idfv-1chh1qgu4rm3b"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Claire Sidonie Marie Rinjard, veuve d'Edme Ludovic Duchesne</rico:title>
+            <rdfs:label xml:lang="fr">Claire Sidonie Marie Rinjard, veuve d'Edme Ludovic Duchesne</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1868-1924</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Claire Sidonie Marie Rinjard, veuve d'Edme Ludovic Duchesne, demeurant à Ferrières-en-Gâtinais (Loiret).</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Rinjard, Claire Sidonie Marie</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Rinjard, Claire Sidonie Marie</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Rinjard, Claire Sidonie Marie</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Duchesne, Edme Ludovic</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Duchesne, Edme Ludovic</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Duchesne, Edme Ludovic</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntb85kbl-a9i9f62vvrla"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntj2q4mw--17nikskeas2fk"/>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4l1rkhx3b-1av6mr8gf1ced"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058294-c-4l1rkhx3b-1av6mr8gf1ced-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058294-c-4l1rkhx3b-1av6mr8gf1ced"/>
+                  <rico:identifier>MC/DC/XXIV/2</rico:identifier>
+                  <rico:title xml:lang="fr">Claire Sidonie Marie Rinjard, veuve d'Edme Ludovic Duchesne</rico:title>
+                  <rdfs:label xml:lang="fr">Claire Sidonie Marie Rinjard, veuve d'Edme Ludovic Duchesne</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1868-1924</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4l1rkhx3b-1av6mr8gf1ced"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058294-c-4pvr1d2mw--10wsjuvfdajoy">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058294-c-4l1rkhx3b-1av6mr8gf1ced"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Papiers personnels</rico:title>
+                  <rdfs:label xml:lang="fr">Papiers personnels</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1878-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1878-1924</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:ul>
+                           <html:li>
+                              <html:b>Papiers fianciers</html:b>: état de l'actif et du passif, factures, relevé de comptes, inventaire des biens, état progressif de fortune, liste des valeurs, convention,cession et transport, notes, correspondance (1878-1924).</html:li>
+                           <html:li>
+                              <html:b>Succession de Victoire Amélie Violette, veuve d'Alexandre Olivier Rinjard, demeurant à Orléans, décédée le 20 juillet 1893 (mère de Claire Sidonie Marie Rinjard)</html:b>: liquidation de la succession (1894).</html:li>
+                        </html:ul>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Violette, Victoire Amélie</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Violette, Victoire Amélie</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Violette, Victoire Amélie</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Rinjard, Alexandre Olivier</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Rinjard, Alexandre Olivier</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Rinjard, Alexandre Olivier</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntj3sufy--1gdg82iquvnqh"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntb85kbl-a9i9f62vvrla"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8b42sa-2vo6rr7qrxfh"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d0dvz-9ipzdhdzysbw"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d5qds--1ik00q3toqh7h"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aw4it-19as7kymqwcs3"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dv9j1-1wzteoks8ncyf"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d699mmxhwr0-4f15mrcy9b9z"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d4wun--5fx3alx73y2a"/>
+                  <rico:hasProvenance rdf:resource="agent/010151"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4pvr1d2mw--10wsjuvfdajoy"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058294-c-4pvr1d2mw--10wsjuvfdajoy-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058294-c-4pvr1d2mw--10wsjuvfdajoy"/>
+                        <rico:identifier>MC/DC/XXIV/2</rico:identifier>
+                        <rico:title xml:lang="fr">Papiers personnels</rico:title>
+                        <rdfs:label xml:lang="fr">Papiers personnels</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1878-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1924-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1878-1924</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4pvr1d2mw--10wsjuvfdajoy"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/058294-c-4pyaowcy6--1bae13p8c2yfz">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/058294-c-4l1rkhx3b-1av6mr8gf1ced"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Succession d'Edme Ludovic Duchesne</rico:title>
+                  <rdfs:label xml:lang="fr">Succession d'Edme Ludovic Duchesne</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1879-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1868-1879</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Succession d'Edme Ludovic Duchesne, négociant, demeurant à Ferrières-en-Gâtinais, décédé le 7 janvier 1876 (époux de Claire Sidonie Marie Rinjard).</html:p>
+                  </rico:scopeAndContent>
+                  <rico:isRelatedTo>
+                     <rico:Activity>
+                        <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl75klh--1t7fg4aiisk0f"/>
+                     </rico:Activity>
+                  </rico:isRelatedTo>
+                  <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d3m0bl75klh--1t7fg4aiisk0f"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8cauyi-zz087oqu7vc"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8biyg8--qf7axzw7kjv1"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8e592y--1eh3sssxpxr0n"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d4wun--5fx3alx73y2a"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+                  <rico:hasProvenance rdf:resource="agent/010151"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4pyaowcy6--1bae13p8c2yfz"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/058294-c-4pyaowcy6--1bae13p8c2yfz-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/058294-c-4pyaowcy6--1bae13p8c2yfz"/>
+                        <rico:identifier>MC/DC/XXIV/2</rico:identifier>
+                        <rico:title xml:lang="fr">Succession d'Edme Ludovic Duchesne</rico:title>
+                        <rdfs:label xml:lang="fr">Succession d'Edme Ludovic Duchesne</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1879-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1868-1879</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4pyaowcy6--1bae13p8c2yfz"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/058294-c-4f1f2c9vz--1sw3igyqhsenh">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-058294"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Titres de propriété</rico:title>
+      <rdfs:label xml:lang="fr">Titres de propriété</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1898-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1868-1898</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:ul>
+               <html:li>Terrain sis à Saint-Maur-les-Fossés (Val-de-Marne)</html:li>
+               <html:li>Terrains sis 13, rue du Dessous-des-Berges</html:li>
+            </html:ul>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4f1f2c9vz--1sw3igyqhsenh"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/058294-c-4f1f2c9vz--1sw3igyqhsenh-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/058294-c-4f1f2c9vz--1sw3igyqhsenh"/>
+            <rico:identifier>MC/DC/XXIV/3</rico:identifier>
+            <rico:title xml:lang="fr">Titres de propriété</rico:title>
+            <rdfs:label xml:lang="fr">Titres de propriété</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1898-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1868-1898</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4f1f2c9vz--1sw3igyqhsenh"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058294-c-4d9six7pb--uhgxv8p4covn">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058294-c-4f1f2c9vz--1sw3igyqhsenh"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Terrain sis à Saint-Maur-les-Fossés (Val-de-Marne)</rico:title>
+            <rdfs:label xml:lang="fr">Terrain sis à Saint-Maur-les-Fossés (Val-de-Marne)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1868</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:ul>
+                     <html:li>
+                        <html:b>Acquisition par Alexandre Perrin, coiffeur, demeurant 8, rue des Fossés-Saint-Victor</html:b>: acte de vente.</html:li>
+                  </html:ul>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Perrin, Alexandre</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Perrin, Alexandre</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Perrin, Alexandre</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+                  <rico:performsOrPerformed>
+                     <rico:Activity>
+                        <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msj8l60--r9j12zzm9rwp"/>
+                     </rico:Activity>
+                  </rico:performsOrPerformed>
+                  <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d699msj8l60--r9j12zzm9rwp"/>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89lgo1-7iazj0zqu03g"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzai2pgn--dhpuo8kaak00"/>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4d9six7pb--uhgxv8p4covn"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058294-c-4d9six7pb--uhgxv8p4covn-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058294-c-4d9six7pb--uhgxv8p4covn"/>
+                  <rico:identifier>MC/DC/XXIV/3</rico:identifier>
+                  <rico:title xml:lang="fr">Terrain sis à Saint-Maur-les-Fossés (Val-de-Marne)</rico:title>
+                  <rdfs:label xml:lang="fr">Terrain sis à Saint-Maur-les-Fossés (Val-de-Marne)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1868</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4d9six7pb--uhgxv8p4covn"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058294-c-4fa2xgcy2-17en9wbye71x7">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058294-c-4f1f2c9vz--1sw3igyqhsenh"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Terrain sis 13, rue du Dessous-des-Berges</rico:title>
+            <rdfs:label xml:lang="fr">Terrain sis 13, rue du Dessous-des-Berges</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1882-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1898-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1882-1898</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:ul>
+                     <html:li>
+                        <html:b>Acquisition et possession du terrain par Georges Corcilius, fabricant de creusets, et Elisabeth Weissendy, son épouse, veuve en premières noces de Nicolas Vachez</html:b>: vente, quittance, radiation, assurance incendie, donation, notoriété, avis d'imposition, jugement d'ouverture de voie, notes, correspondance.</html:li>
+                  </html:ul>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89lgo1-7iazj0zqu03g"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dc8p2-nyxarkw0ppoi"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8cauyi-zz087oqu7vc"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dxom5--1n6okrudb7a4s"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d5b8d41rfo-vw0uchq207nu"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dv9j1-1wzteoks8ncyf"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d699mmxhwr0-4f15mrcy9b9z"/>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Corcilius, Georges</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Corcilius, Georges</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Corcilius, Georges</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Weissendy, Elisabeth</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Weissendy, Elisabeth</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Weissendy, Elisabeth</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Vachez, Nicolas</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Vachez, Nicolas</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Vachez, Nicolas</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nza3r8t2-10m7q7sl983z8"/>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4fa2xgcy2-17en9wbye71x7"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058294-c-4fa2xgcy2-17en9wbye71x7-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058294-c-4fa2xgcy2-17en9wbye71x7"/>
+                  <rico:identifier>MC/DC/XXIV/3</rico:identifier>
+                  <rico:title xml:lang="fr">Terrain sis 13, rue du Dessous-des-Berges</rico:title>
+                  <rdfs:label xml:lang="fr">Terrain sis 13, rue du Dessous-des-Berges</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1882-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1898-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1882-1898</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058294/c-4fa2xgcy2-17en9wbye71x7"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

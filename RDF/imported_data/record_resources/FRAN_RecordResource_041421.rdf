@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041421">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Philippe LEMOYNE, 25 octobre 1637 - juillet 1640 (étude XIV) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Philippe LEMOYNE, 25 octobre 1637 - juillet 1640 (étude XIV) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-18</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">1ère édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041421"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041421-i1">
+            <rico:isInstantiationOf rdf:resource="record/041421"/>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Philippe LEMOYNE, 25 octobre 1637 - juillet 1640 (étude XIV) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Philippe LEMOYNE, 25 octobre 1637 - juillet 1640 (étude XIV) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041421</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041421"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041421">
+      <rico:isOrWasDescribedBy rdf:resource="record/041421"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Philippe LEMOYNE (étude XIV)</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Philippe LEMOYNE (étude XIV)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1637-10-25</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1640-07-31</rico:endDate>
+      <rico:date xml:lang="fr">25 octobre 1637 - juillet 1640</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010141"/>
+      <rico:hasProvenance rdf:resource="agent/011532"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Attention : ce notaire n'a pas laissé de répertoire pour son activité dans l'étude XIV</html:b>
+            </html:p>
+            <html:p>Accès aux instruments de recherche de tous les notaires de l’étude XIV<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041419">Archives de l'étude XIV</html:a>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041421"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041421-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041421"/>
+            <rico:identifier>MC/ET/XIV/46 - MC/ET/XIV/54</rico:identifier>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Philippe LEMOYNE (étude XIV)</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Philippe LEMOYNE (étude XIV)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1637-10-25</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1640-07-31</rico:endDate>
+            <rico:date xml:lang="fr">25 octobre 1637 - juillet 1640</rico:date>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/011532"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041421"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/041421-c1p6urb4bs0z-13r63neave01o"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041421-c1p6urb4bs0z-13r63neave01o">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041421"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Minutes de Philippe LEMOYNE</rico:title>
+      <rdfs:label xml:lang="fr">Minutes de Philippe LEMOYNE</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1637-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1640-07-31</rico:endDate>
+      <rico:date xml:lang="fr">janvier 1637 - juillet 1640</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010141"/>
+      <rico:hasProvenance rdf:resource="agent/011532"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4bs0z-13r63neave01o"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041421-c1p6urb4bs0z-13r63neave01o-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041421-c1p6urb4bs0z-13r63neave01o"/>
+            <rico:identifier>MC/ET/XIV/46 - MC/ET/XIV/54</rico:identifier>
+            <rico:title xml:lang="fr">Minutes de Philippe LEMOYNE</rico:title>
+            <rdfs:label xml:lang="fr">Minutes de Philippe LEMOYNE</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1637-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1640-07-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier 1637 - juillet 1640</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4bs0z-13r63neave01o"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041421-c1p6urb4ckkr--12wl0iul7rskz">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041421-c1p6urb4bs0z-13r63neave01o"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1637, janvier - 15 décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1637, janvier - 15 décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1637-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1637-12-15</rico:endDate>
+            <rico:date xml:lang="fr">janvier - 15 décembre 1637</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>1637, janvier à 18 octobre : actes passés par-devant Louis Le Camus.</html:p>
+                  <html:p>1637, 25 octobre à 15 décembre : actes passés par-devant Philippe Lemoyne.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/011532"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4ckkr--12wl0iul7rskz"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041421-c1p6urb4ckkr--12wl0iul7rskz-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041421-c1p6urb4ckkr--12wl0iul7rskz"/>
+                  <rico:identifier>MC/ET/XIV/46</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1637, janvier - 15 décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1637, janvier - 15 décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1637-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1637-12-15</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - 15 décembre 1637</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4ckkr--12wl0iul7rskz"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041421-c1p6urb4dop7-1xp2jbecolv73">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041421-c1p6urb4bs0z-13r63neave01o"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1638</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1638</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1638-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1638-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1638</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/011532"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4dop7-1xp2jbecolv73"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041421-c1p6urb4dop7-1xp2jbecolv73-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041421-c1p6urb4dop7-1xp2jbecolv73"/>
+                  <rico:identifier>MC/ET/XIV/52</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1638</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1638</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1638-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1638-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1638</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4dop7-1xp2jbecolv73"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041421-c1p6urb4efpf--w526bvlkw1c0">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041421-c1p6urb4dop7-1xp2jbecolv73"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">§ Contrat de mariage entre François Fortier, maître joueur de luth, demeurant rue Saint-Germain-l'Auxerrois, et Claude Lemaire, fille de défunt Antoine Lemaire, marchand boucher, et de Marie Picart, demeurant au service de M. Marin. La dot de la fiancée consiste en 2.200 livres en deniers comptants et 1.000 livres en biens meubles.</rico:title>
+                  <rdfs:label xml:lang="fr">§ Contrat de mariage entre François Fortier, maître joueur de luth, demeurant rue Saint-Germain-l'Auxerrois, et Claude Lemaire, fille de défunt Antoine Lemaire, marchand boucher, et de Marie Picart, demeurant au service de M. Marin. La dot de la fiancée consiste en 2.200 livres en deniers comptants et 1.000 livres en biens meubles.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1638-01-03</rico:date>
+                  <rico:date xml:lang="fr">3 janvier 1638</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Documents du Minutier central concernant l'histoire de la musique (1600-1650), par Madeleine Jurgens, tome II [études XI à XX, 1900 actes], Paris, Archives nationales, 1974, p. 473 (instrument de recherche imprimé dématérialisé, certaines notices sont plus détaillées dans la version intégrale accessible en ligne par la rubrique 'Autres instruments de recherche', voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2011</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2009</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:descriptiveNote rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:h4>Autre(s) instrument(s) de recherche</html:h4>
+                        <html:p>
+                           <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/mm/media/download/FRAN_ANX_008008.pdf">Documents du Minutier central concernant l'histoire de la musique (1600-1650), par Madeleine Jurgens, tome II, Paris, Archives nationales, 1974, 1092 p.</html:a>
+                        </html:p>
+                     </html:div>
+                  </rico:descriptiveNote>
+                  <rico:hasProvenance rdf:resource="agent/010141"/>
+                  <rico:hasProvenance rdf:resource="agent/011532"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4efpf--w526bvlkw1c0"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041421-c1p6urb4efpf--w526bvlkw1c0-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041421-c1p6urb4efpf--w526bvlkw1c0"/>
+                        <rico:identifier>MC/ET/XIV/52</rico:identifier>
+                        <rico:title xml:lang="fr">§ Contrat de mariage entre François Fortier, maître joueur de luth, demeurant rue Saint-Germain-l'Auxerrois, et Claude Lemaire, fille de défunt Antoine Lemaire, marchand boucher, et de Marie Picart, demeurant au service de M. Marin. La dot de la fiancée consiste en 2.200 livres en deniers comptants et 1.000 livres en biens meubles.</rico:title>
+                        <rdfs:label xml:lang="fr">§ Contrat de mariage entre François Fortier, maître joueur de luth, demeurant rue Saint-Germain-l'Auxerrois, et Claude Lemaire, fille de défunt Antoine Lemaire, marchand boucher, et de Marie Picart, demeurant au service de M. Marin. La dot de la fiancée consiste en 2.200 livres en deniers comptants et 1.000 livres en biens meubles.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1638-01-03</rico:date>
+                        <rico:date xml:lang="fr">3 janvier 1638</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4efpf--w526bvlkw1c0"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041421-c1p6urb4gyr7--9682l1do8679">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041421-c1p6urb4dop7-1xp2jbecolv73"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">§ Contrat de mariage entre Jacques Aubert, maître joueur d'instruments, demeurant rue de la Savonnerie, et Barbe Lallier, fille de Simon Lallier, boisselier à Épernon, et d'Anne Drageon. La dot est de 180 livres dont 150 livres en deniers comptants.</rico:title>
+                  <rdfs:label xml:lang="fr">§ Contrat de mariage entre Jacques Aubert, maître joueur d'instruments, demeurant rue de la Savonnerie, et Barbe Lallier, fille de Simon Lallier, boisselier à Épernon, et d'Anne Drageon. La dot est de 180 livres dont 150 livres en deniers comptants.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1638-04-28</rico:date>
+                  <rico:date xml:lang="fr">28 avril 1638</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Documents du Minutier central concernant l'histoire de la musique (1600-1650), par Madeleine Jurgens, tome II [études XI à XX, 1900 actes], Paris, Archives nationales, 1974, p. 487 (instrument de recherche imprimé dématérialisé, certaines notices sont plus détaillées dans la version intégrale accessible en ligne par la rubrique 'Autres instruments de recherche', voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2011</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2009</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:descriptiveNote rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:h4>Autre(s) instrument(s) de recherche</html:h4>
+                        <html:p>
+                           <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/mm/media/download/FRAN_ANX_008008.pdf">Documents du Minutier central concernant l'histoire de la musique (1600-1650), par Madeleine Jurgens, tome II, Paris, Archives nationales, 1974, 1092 p.</html:a>
+                        </html:p>
+                     </html:div>
+                  </rico:descriptiveNote>
+                  <rico:hasProvenance rdf:resource="agent/010141"/>
+                  <rico:hasProvenance rdf:resource="agent/011532"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4gyr7--9682l1do8679"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041421-c1p6urb4gyr7--9682l1do8679-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041421-c1p6urb4gyr7--9682l1do8679"/>
+                        <rico:identifier>MC/ET/XIV/52</rico:identifier>
+                        <rico:title xml:lang="fr">§ Contrat de mariage entre Jacques Aubert, maître joueur d'instruments, demeurant rue de la Savonnerie, et Barbe Lallier, fille de Simon Lallier, boisselier à Épernon, et d'Anne Drageon. La dot est de 180 livres dont 150 livres en deniers comptants.</rico:title>
+                        <rdfs:label xml:lang="fr">§ Contrat de mariage entre Jacques Aubert, maître joueur d'instruments, demeurant rue de la Savonnerie, et Barbe Lallier, fille de Simon Lallier, boisselier à Épernon, et d'Anne Drageon. La dot est de 180 livres dont 150 livres en deniers comptants.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1638-04-28</rico:date>
+                        <rico:date xml:lang="fr">28 avril 1638</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4gyr7--9682l1do8679"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041421-c1p6urb4j3wz--10bfyhsru6ksr">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041421-c1p6urb4bs0z-13r63neave01o"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1639</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1639</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1639-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1639-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1639</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/011532"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4j3wz--10bfyhsru6ksr"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041421-c1p6urb4j3wz--10bfyhsru6ksr-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041421-c1p6urb4j3wz--10bfyhsru6ksr"/>
+                  <rico:identifier>MC/ET/XIV/53</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1639</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1639</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1639-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1639-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1639</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4j3wz--10bfyhsru6ksr"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041421-c1p6urb4jwgr--alyqt0xpsztv">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041421-c1p6urb4j3wz--10bfyhsru6ksr"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Inventaire après décès de Marguerite Théroude, dressé à la requête de son mari Denis Dupor, marchand, demeurant à l'enseigne de la Licorne, rue Maubuée, en son nom et celui de leur fils Antoine Dupor, en présence de Jacques Théroude, sculpteur, demeurant rue Neuve-Saint-Honoré, paroisse Saint-Roch. 4 folios.</rico:title>
+                  <rdfs:label xml:lang="fr">Inventaire après décès de Marguerite Théroude, dressé à la requête de son mari Denis Dupor, marchand, demeurant à l'enseigne de la Licorne, rue Maubuée, en son nom et celui de leur fils Antoine Dupor, en présence de Jacques Théroude, sculpteur, demeurant rue Neuve-Saint-Honoré, paroisse Saint-Roch. 4 folios.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1639-02-08</rico:date>
+                  <rico:date xml:lang="fr">8 février 1639</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Documents du Minutier central concernant les peintres, sculpteurs et graveurs au XVIIe siècle (1600-1650), par Marie-Antoinette Fleury et Martine Constans, tome II [études XI à XX, 2445 actes], Paris, Archives nationales, 2010, notice n°2062 (instrument de recherche imprimé dématérialisé, certaines notices sont plus détaillées dans la version intégrale accessible en ligne par la rubrique 'Autres instruments de recherche', voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2012</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:descriptiveNote rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:h4>Autre(s) instrument(s) de recherche</html:h4>
+                        <html:p>
+                           <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/mm/media/download/FRAN_ANX_008019.pdf">Documents du Minutier central concernant les peintres, sculpteurs et graveurs au XVIIe siècle (1600-1650), tome II, par Marie-Antoinette Fleury et Martine Constans, 2010, 844 p., 8 planches.</html:a>
+                        </html:p>
+                     </html:div>
+                  </rico:descriptiveNote>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Théroude, Marguerite</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Théroude, Marguerite</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Théroude, Marguerite</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010141"/>
+                  <rico:hasProvenance rdf:resource="agent/011532"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4jwgr--alyqt0xpsztv"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041421-c1p6urb4jwgr--alyqt0xpsztv-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041421-c1p6urb4jwgr--alyqt0xpsztv"/>
+                        <rico:identifier>MC/ET/XIV/53</rico:identifier>
+                        <rico:title xml:lang="fr">Inventaire après décès de Marguerite Théroude, dressé à la requête de son mari Denis Dupor, marchand, demeurant à l'enseigne de la Licorne, rue Maubuée, en son nom et celui de leur fils Antoine Dupor, en présence de Jacques Théroude, sculpteur, demeurant rue Neuve-Saint-Honoré, paroisse Saint-Roch. 4 folios.</rico:title>
+                        <rdfs:label xml:lang="fr">Inventaire après décès de Marguerite Théroude, dressé à la requête de son mari Denis Dupor, marchand, demeurant à l'enseigne de la Licorne, rue Maubuée, en son nom et celui de leur fils Antoine Dupor, en présence de Jacques Théroude, sculpteur, demeurant rue Neuve-Saint-Honoré, paroisse Saint-Roch. 4 folios.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1639-02-08</rico:date>
+                        <rico:date xml:lang="fr">8 février 1639</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4jwgr--alyqt0xpsztv"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041421-c1p6urb4m9cb--k67hx58ie2wc">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041421-c1p6urb4bs0z-13r63neave01o"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1640, janvier - juillet</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1640, janvier - juillet</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1640-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1640-07-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - juillet 1640</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Manque(s) constaté(s) dans cet article :</html:b>
+                  </html:p>
+                  <html:p>Le mois de juin 1640 manque.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/011532"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4m9cb--k67hx58ie2wc"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041421-c1p6urb4m9cb--k67hx58ie2wc-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041421-c1p6urb4m9cb--k67hx58ie2wc"/>
+                  <rico:identifier>MC/ET/XIV/54</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1640, janvier - juillet</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1640, janvier - juillet</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1640-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1640-07-31</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - juillet 1640</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4m9cb--k67hx58ie2wc"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041421-c1p6urb4n8u3-1c1wggydmc8ac">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041421-c1p6urb4m9cb--k67hx58ie2wc"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Bail pour quatre ans par Marguerite Bossu, veuve de Jean Savart, chirurgien ordinaire du roi, demeurant rue Beaubourg, à Pierre Petitjean, sieur de La Rocque, demeurant rue du Temple, paroisse Saint-Nicolas-des-Champs, et à Marie [II] Bidault, sa femme, d'une maison sise rue de Poitou, à l'Écharpe-Blanche, moyennant 100 livres de loyer annuel</rico:title>
+                  <rdfs:label xml:lang="fr">Bail pour quatre ans par Marguerite Bossu, veuve de Jean Savart, chirurgien ordinaire du roi, demeurant rue Beaubourg, à Pierre Petitjean, sieur de La Rocque, demeurant rue du Temple, paroisse Saint-Nicolas-des-Champs, et à Marie [II] Bidault, sa femme, d'une maison sise rue de Poitou, à l'Écharpe-Blanche, moyennant 100 livres de loyer annuel</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1640-11-13</rico:date>
+                  <rico:date xml:lang="fr">13 novembre 1640</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Documents du Minutier central des notaires de Paris, Le théâtre professionnel à Paris, 1600-1649, étude par Alan Howe, documents analysés par Madeleine Jurgens et Alan Howe [457 actes], transcriptions par Andrée Chauleur et Pierre-Yves Louis, Paris, Archives nationales, 2000, notice n° 341 (instrument de recherche imprimé dématérialisé dont la version intégrale est accessible en ligne par la rubrique 'Autres instruments de recherche', voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2004</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2003</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:descriptiveNote rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:h4>Autre(s) instrument(s) de recherche</html:h4>
+                        <html:p>
+                           <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/mm/media/download/FRAN_ANX_008017.pdf">Documents du Minutier central des notaires de Paris, Le théâtre professionnel à Paris, 1600-1649, étude par Alan Howe, documents analysés par Madeleine Jurgens et Alan Howe, transcriptions par Andrée Chauleur et Pierre-Yves Louis, Paris, Archives nationales, 2000, XVI-455 p.</html:a>
+                        </html:p>
+                     </html:div>
+                  </rico:descriptiveNote>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8aa0od--1ethxybiwgeht"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nz8s1vyy--1tkc6pg0khuud"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzclm46j--ctjmqqyzauhz"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Bossu, Marguerite</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Bossu, Marguerite</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Bossu, Marguerite</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Savart, Jean</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Savart, Jean</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Savart, Jean</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Petitjean dit La Rocque, Pierre</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Petitjean dit La Rocque, Pierre</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Petitjean dit La Rocque, Pierre</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Bidault, Marie II</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Bidault, Marie II</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Bidault, Marie II</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:isRelatedTo>
+                     <rico:Activity>
+                        <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msjkkzd-4cj978nnjzhw"/>
+                     </rico:Activity>
+                  </rico:isRelatedTo>
+                  <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msjkkzd-4cj978nnjzhw"/>
+                  <rico:hasProvenance rdf:resource="agent/010141"/>
+                  <rico:hasProvenance rdf:resource="agent/011532"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4n8u3-1c1wggydmc8ac"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041421-c1p6urb4n8u3-1c1wggydmc8ac-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041421-c1p6urb4n8u3-1c1wggydmc8ac"/>
+                        <rico:identifier>MC/ET/XIV/54</rico:identifier>
+                        <rico:title xml:lang="fr">Bail pour quatre ans par Marguerite Bossu, veuve de Jean Savart, chirurgien ordinaire du roi, demeurant rue Beaubourg, à Pierre Petitjean, sieur de La Rocque, demeurant rue du Temple, paroisse Saint-Nicolas-des-Champs, et à Marie [II] Bidault, sa femme, d'une maison sise rue de Poitou, à l'Écharpe-Blanche, moyennant 100 livres de loyer annuel</rico:title>
+                        <rdfs:label xml:lang="fr">Bail pour quatre ans par Marguerite Bossu, veuve de Jean Savart, chirurgien ordinaire du roi, demeurant rue Beaubourg, à Pierre Petitjean, sieur de La Rocque, demeurant rue du Temple, paroisse Saint-Nicolas-des-Champs, et à Marie [II] Bidault, sa femme, d'une maison sise rue de Poitou, à l'Écharpe-Blanche, moyennant 100 livres de loyer annuel</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1640-11-13</rico:date>
+                        <rico:date xml:lang="fr">13 novembre 1640</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041421/c1p6urb4n8u3-1c1wggydmc8ac"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

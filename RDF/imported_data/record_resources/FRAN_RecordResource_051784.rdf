@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/051784">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Images du répertoire du notaire Nicolas Choquillot pour l'étude XIII : MC/RE/XIII/1</rico:title>
+      <rdfs:label xml:lang="fr">Images du répertoire du notaire Nicolas Choquillot pour l'étude XIII : MC/RE/XIII/1</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, notices préparées par Guillaume Saint-Aubin, vacataire, puis Nathalie Jourdain, adjointe administrative principale.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Deuxième édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2017-09</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Corrections et ajouts en vue de la mise en ligne sur la SIV, N. Jourdain</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-051784"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051784-i1">
+            <rico:isInstantiationOf rdf:resource="record/051784"/>
+            <rico:title xml:lang="fr">Images du répertoire du notaire Nicolas Choquillot pour l'étude XIII : MC/RE/XIII/1</rico:title>
+            <rdfs:label xml:lang="fr">Images du répertoire du notaire Nicolas Choquillot pour l'étude XIII : MC/RE/XIII/1</rdfs:label>
+            <rico:history xml:lang="fr">11 juin 2004</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_051784</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051784"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-051784">
+      <rico:isOrWasDescribedBy rdf:resource="record/051784"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Images du répertoire du notaire Nicolas Choquillot pour l'étude XIII</rico:title>
+      <rdfs:label xml:lang="fr">Images du répertoire du notaire Nicolas Choquillot pour l'étude XIII</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1581-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1611-11-30</rico:endDate>
+      <rico:date xml:lang="fr">1er janvier 1581 - 30 novembre 1611</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010140"/>
+      <rico:hasProvenance rdf:resource="agent/012487"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:structure rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+      </rico:structure>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Images des répertoires de l’étude XIIIArchives de l'étude XIII</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8f3jla--to36ja96m31q"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051784"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-051784-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-051784"/>
+            <rico:identifier>MC/RE/XIII/1</rico:identifier>
+            <rico:title xml:lang="fr">Images du répertoire du notaire Nicolas Choquillot pour l'étude XIII</rico:title>
+            <rdfs:label xml:lang="fr">Images du répertoire du notaire Nicolas Choquillot pour l'étude XIII</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1581-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1611-11-30</rico:endDate>
+            <rico:date xml:lang="fr">1er janvier 1581 - 30 novembre 1611</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Un registre</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010140"/>
+            <rico:hasProvenance rdf:resource="agent/012487"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:structure rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+            </rico:structure>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Historique de la conservation</html:h4>
+                     <html:p>16 feuillets de papier manuscrits, hauteur 34,5 x largeur 22 cm. Le registre est en mauvais état (pas de reliure, les feuilles sont endommagées sur les bords).</html:p>
+                  </html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:p>Registre entré aux Archives nationales en 1934.</html:p>
+                  </html:div>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051784"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/051784-c-12hflpahw-1ezmkk0gvg6w4"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/051784-c-12hflpahw-1ezmkk0gvg6w4">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-051784"/>
+      <rico:title xml:lang="fr">Repertoire chronologique pour la période du 1er janvier 1581 au 30 novembre 1611</rico:title>
+      <rdfs:label xml:lang="fr">Repertoire chronologique pour la période du 1er janvier 1581 au 30 novembre 1611</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1581-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1611-11-30</rico:endDate>
+      <rico:date xml:lang="fr">1er janvier 1581 - 30 novembre 1611</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Le répertoire contient les informations suivantes : pour chaque mois (dans l'année) le nombre d'actes enregistrés, sans autre précision de date, de type d'acte ou de nom des parties.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010140"/>
+      <rico:hasProvenance rdf:resource="agent/012487"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051784/c-12hflpahw-1ezmkk0gvg6w4"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051784-c-12hflpahw-1ezmkk0gvg6w4-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/051784-c-12hflpahw-1ezmkk0gvg6w4"/>
+            <rico:identifier>MC/RE/XIII/1</rico:identifier>
+            <rico:title xml:lang="fr">Repertoire chronologique pour la période du 1er janvier 1581 au 30 novembre 1611</rico:title>
+            <rdfs:label xml:lang="fr">Repertoire chronologique pour la période du 1er janvier 1581 au 30 novembre 1611</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1581-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1611-11-30</rico:endDate>
+            <rico:date xml:lang="fr">1er janvier 1581 - 30 novembre 1611</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051784/c-12hflpahw-1ezmkk0gvg6w4"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/051784-c1ufxy60y7ig-510n3pxsaxh6">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/051784-c-12hflpahw-1ezmkk0gvg6w4"/>
+            <rico:title xml:lang="fr">Page de titre : " Repertoire des minutes de Maître Nicolas Choquillot ..."</rico:title>
+            <rdfs:label xml:lang="fr">Page de titre : " Repertoire des minutes de Maître Nicolas Choquillot ..."</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010140"/>
+            <rico:hasProvenance rdf:resource="agent/012487"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051784/c1ufxy60y7ig-510n3pxsaxh6"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051784-c1ufxy60y7ig-510n3pxsaxh6-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051784-c1ufxy60y7ig-510n3pxsaxh6"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051784-c1ufxy60y7ig-510n3pxsaxh6-i2"/>
+                  <rico:identifier>1 r°-1 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Page de titre : " Repertoire des minutes de Maître Nicolas Choquillot ..."</rico:title>
+                  <rdfs:label xml:lang="fr">Page de titre : " Repertoire des minutes de Maître Nicolas Choquillot ..."</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">1 feuillet</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051784/c1ufxy60y7ig-510n3pxsaxh6"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051784-c1ufxy60y7ig-510n3pxsaxh6-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051784-c1ufxy60y7ig-510n3pxsaxh6"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051784-c1ufxy60y7ig-510n3pxsaxh6-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_013MIC00003_L.jpg#DAFANCH96_013MIC00003_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051784/c1ufxy60y7ig-510n3pxsaxh6/DAFANCH96_013MIC00003_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/051784-c1ufxy60yhjk-1s7mvde9rbc0k">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/051784-c-12hflpahw-1ezmkk0gvg6w4"/>
+            <rico:title xml:lang="fr">Nombre des minutes enregistrées pour chaque mois pour la période de janvier 1581 à novembre 1611</rico:title>
+            <rdfs:label xml:lang="fr">Nombre des minutes enregistrées pour chaque mois pour la période de janvier 1581 à novembre 1611</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1581-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1611-11-30</rico:endDate>
+            <rico:date xml:lang="fr">1er janvier 1581 - 30 novembre 1611</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010140"/>
+            <rico:hasProvenance rdf:resource="agent/012487"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051784/c1ufxy60yhjk-1s7mvde9rbc0k"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051784-c1ufxy60yhjk-1s7mvde9rbc0k-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051784-c1ufxy60yhjk-1s7mvde9rbc0k"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051784-c1ufxy60yhjk-1s7mvde9rbc0k-i2"/>
+                  <rico:identifier>2 r°-16 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Nombre des minutes enregistrées pour chaque mois pour la période de janvier 1581 à novembre 1611</rico:title>
+                  <rdfs:label xml:lang="fr">Nombre des minutes enregistrées pour chaque mois pour la période de janvier 1581 à novembre 1611</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1581-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1611-11-30</rico:endDate>
+                  <rico:date xml:lang="fr">1er janvier 1581 - 30 novembre 1611</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">15 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051784/c1ufxy60yhjk-1s7mvde9rbc0k"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051784-c1ufxy60yhjk-1s7mvde9rbc0k-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051784-c1ufxy60yhjk-1s7mvde9rbc0k"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051784-c1ufxy60yhjk-1s7mvde9rbc0k-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_013MIC00004_L.jpg#DAFANCH96_013MIC00018_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051784/c1ufxy60yhjk-1s7mvde9rbc0k/DAFANCH96_013MIC00004_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

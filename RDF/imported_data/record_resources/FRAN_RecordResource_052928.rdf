@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/052928">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Archives de l'office notarial XXVI (1830-1902) : Répertoire numérique détaillé (MC/ON/XXVI/1 à 5)</rico:title>
+      <rdfs:label xml:lang="fr">Archives de l'office notarial XXVI (1830-1902) : Répertoire numérique détaillé (MC/ON/XXVI/1 à 5)</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-10-28</rico:publicationDate>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:p xml:lang="fr">Première édition électronique le 28 octobre 2014. 2e édition électronique le 20 septembre 2019.</html:p>
+      </rico:descriptiveNote>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Etabli par Marie-Françoise Limon-Bonnet, conservateur général du patrimoine, responsable du département du Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Deuxième édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2019-09</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Ajout de 4 cartons contenant des expéditions par Anne Brunet, stagiaire de Master 1 à l'Ecole nationale des chartes</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-052928"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/052928-i1">
+            <rico:isInstantiationOf rdf:resource="record/052928"/>
+            <rico:title xml:lang="fr">Archives de l'office notarial XXVI (1830-1902) : Répertoire numérique détaillé (MC/ON/XXVI/1 à 5)</rico:title>
+            <rdfs:label xml:lang="fr">Archives de l'office notarial XXVI (1830-1902) : Répertoire numérique détaillé (MC/ON/XXVI/1 à 5)</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_052928</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_052928"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-052928">
+      <rico:isOrWasDescribedBy rdf:resource="record/052928"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Archives de l'office notarial XXVI (1830-1902)</rico:title>
+      <rdfs:label xml:lang="fr">Archives de l'office notarial XXVI (1830-1902)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1830-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1902-12-31</rico:endDate>
+      <rico:date xml:lang="fr">[1830-1902]</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Autres documents de l'étude (dossiers de clients [DC], archives de l'office notarial [ON], comptabilité [CT]...) : s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur. Par parallélisme avec le délai d'accès pour les archives publiques des études notariales (minutes et répertoires), les notaires acceptent en général de communiquer les documents "archives privées" de plus de 75 ans.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel, et dans le respect des textes relatifs à la réutilisation des informations publiques. Toute autre utilisation qu'un usage privé de document déposé ou donné aux Archives nationales par l'étude doit faire l'objet d'une autorisation de l'étude et des Archives nationales.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>MC/ON/XXVI/1</html:b>. « Livre des clercs »</html:p>
+            <html:p>
+               <html:b>MC/ON/XXVI//2-5</html:b>. Expéditions</html:p>
+            <html:p>Accès à tous les instruments de recherche de l'étude XXVI<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041742">Archives de l'étude XXVI</html:a>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Document(s) séparé(s)</html:h4>
+            <html:ul>
+               <html:li>Archives de l'étude XXVI</html:li>
+            </html:ul>
+         </html:div>
+      </rico:descriptiveNote>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Autre(s) instrument(s) de recherche</html:h4>
+            <html:ul>
+               <html:li>«Mélanges» (dossiers de clients) de l’étude XXVI (1815-1936)</html:li>
+               <html:li>Dossiers de clients de l'étude XXVI (1790-1912)</html:li>
+            </html:ul>
+         </html:div>
+      </rico:descriptiveNote>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_052928"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-052928-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-052928"/>
+            <rico:identifier>MC/ON/XXVI/1-MC/ON/XXVI/5</rico:identifier>
+            <rico:title xml:lang="fr">Archives de l'office notarial XXVI (1830-1902)</rico:title>
+            <rdfs:label xml:lang="fr">Archives de l'office notarial XXVI (1830-1902)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1830-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1902-12-31</rico:endDate>
+            <rico:date xml:lang="fr">[1830-1902]</rico:date>
+            <rico:carrierExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">0,53 mètres linéaires</html:p>
+            </rico:carrierExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">5 cartons</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:p xml:lang="fr">Autres documents de l'étude (dossiers de clients [DC], archives de l'office notarial [ON], comptabilité [CT]...) : s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur. Par parallélisme avec le délai d'accès pour les archives publiques des études notariales (minutes et répertoires), les notaires acceptent en général de communiquer les documents "archives privées" de plus de 75 ans.</html:p>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel, et dans le respect des textes relatifs à la réutilisation des informations publiques. Toute autre utilisation qu'un usage privé de document déposé ou donné aux Archives nationales par l'étude doit faire l'objet d'une autorisation de l'étude et des Archives nationales.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Entrée par voie extraordinaire.</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_052928"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/052928-c-x26g9g0v--djhi1gvx0j0n"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/052928-c-p2cz9rrm-8evgloezgoj8"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/052928-c-x26g9g0v--djhi1gvx0j0n">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-052928"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">« Livre des clercs »</rico:title>
+      <rdfs:label xml:lang="fr">« Livre des clercs »</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1830-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1902-12-31</rico:endDate>
+      <rico:date xml:lang="fr">[1830 - 1902]</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_052928/c-x26g9g0v--djhi1gvx0j0n"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/052928-c-x26g9g0v--djhi1gvx0j0n-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/052928-c-x26g9g0v--djhi1gvx0j0n"/>
+            <rico:identifier>MC/ON/XXVI/1</rico:identifier>
+            <rico:title xml:lang="fr">« Livre des clercs »</rico:title>
+            <rdfs:label xml:lang="fr">« Livre des clercs »</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1830-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1902-12-31</rico:endDate>
+            <rico:date xml:lang="fr">[1830 - 1902]</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Un cahier</html:p>
+            </rico:instantiationExtent>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Les Archives nationales ont acquis pour le Minutier central des notaires de Paris, sous le n° d'entrée 2009/2 du 29 janvier 2009, ce carnet d'embauche de clercs [1830-1902], décrit sous le lot n° 118 de la vente Piasa, 20 novembre 2008, mais acquis de gré à gré à l'issue de la vente.</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_052928/c-x26g9g0v--djhi1gvx0j0n"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/052928-c-68mj9uq8h8--1pm6zpusbldfc">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/052928-c-x26g9g0v--djhi1gvx0j0n"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">"Livre des clercs", petit carnet comprenant les dates d'embauches de clercs par l'office notarial XXVI, avec, en général, quelques lignes biographiques pour chacun (date et lieu de naissance, adresse du moment, parcours professionnel...).</rico:title>
+            <rdfs:label xml:lang="fr">"Livre des clercs", petit carnet comprenant les dates d'embauches de clercs par l'office notarial XXVI, avec, en général, quelques lignes biographiques pour chacun (date et lieu de naissance, adresse du moment, parcours professionnel...).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1830-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1902-12-31</rico:endDate>
+            <rico:date xml:lang="fr">[1830 - 1902]</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_052928/c-68mj9uq8h8--1pm6zpusbldfc"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/052928-c-68mj9uq8h8--1pm6zpusbldfc-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/052928-c-68mj9uq8h8--1pm6zpusbldfc"/>
+                  <rico:identifier>MC/ON/XXVI/1</rico:identifier>
+                  <rico:title xml:lang="fr">"Livre des clercs", petit carnet comprenant les dates d'embauches de clercs par l'office notarial XXVI, avec, en général, quelques lignes biographiques pour chacun (date et lieu de naissance, adresse du moment, parcours professionnel...).</rico:title>
+                  <rdfs:label xml:lang="fr">"Livre des clercs", petit carnet comprenant les dates d'embauches de clercs par l'office notarial XXVI, avec, en général, quelques lignes biographiques pour chacun (date et lieu de naissance, adresse du moment, parcours professionnel...).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1830-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1902-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">[1830 - 1902]</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_052928/c-68mj9uq8h8--1pm6zpusbldfc"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/052928-c-p2cz9rrm-8evgloezgoj8">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-052928"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Expéditions</rico:title>
+      <rdfs:label xml:lang="fr">Expéditions</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1842-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1875-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1842-1875</rico:date>
+      <rico:hasProvenance rdf:resource="agent/012204"/>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Expéditions réalisées à l'étude XXVI lorsque Me Ferdinand Ducloux en était titulaire.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSomeMembersWithRecordState rdf:resource="recordState/FRAN_RI_001-d3m00w6tom1--17yz38y8bszt8"/>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_052928/c-p2cz9rrm-8evgloezgoj8"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/052928-c-p2cz9rrm-8evgloezgoj8-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/052928-c-p2cz9rrm-8evgloezgoj8"/>
+            <rico:identifier>MC/ON/XXVI/2-MC/ON/XXVI/5</rico:identifier>
+            <rico:title xml:lang="fr">Expéditions</rico:title>
+            <rdfs:label xml:lang="fr">Expéditions</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1842-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1875-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1842-1875</rico:date>
+            <rico:hasProvenance rdf:resource="agent/012204"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_052928/c-p2cz9rrm-8evgloezgoj8"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/052928-c-8z42iogul--18o5ok1ot3e6c">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/052928-c-p2cz9rrm-8evgloezgoj8"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">1842-1847</rico:title>
+            <rdfs:label xml:lang="fr">1842-1847</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1842-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1847-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1842-1847</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_052928/c-8z42iogul--18o5ok1ot3e6c"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/052928-c-8z42iogul--18o5ok1ot3e6c-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/052928-c-8z42iogul--18o5ok1ot3e6c"/>
+                  <rico:identifier>MC/ON/XXVI/2</rico:identifier>
+                  <rico:title xml:lang="fr">1842-1847</rico:title>
+                  <rdfs:label xml:lang="fr">1842-1847</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1842-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1847-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1842-1847</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_052928/c-8z42iogul--18o5ok1ot3e6c"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/052928-c-8z1v03l0f--1sq2lix7jtg2o">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/052928-c-p2cz9rrm-8evgloezgoj8"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">1848-1861</rico:title>
+            <rdfs:label xml:lang="fr">1848-1861</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1848-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1861-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1848-1861</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_052928/c-8z1v03l0f--1sq2lix7jtg2o"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/052928-c-8z1v03l0f--1sq2lix7jtg2o-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/052928-c-8z1v03l0f--1sq2lix7jtg2o"/>
+                  <rico:identifier>MC/ON/XXVI/3</rico:identifier>
+                  <rico:title xml:lang="fr">1848-1861</rico:title>
+                  <rdfs:label xml:lang="fr">1848-1861</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1848-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1861-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1848-1861</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_052928/c-8z1v03l0f--1sq2lix7jtg2o"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/052928-c-92ztv264u-zdfp7tmzirxi">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/052928-c-p2cz9rrm-8evgloezgoj8"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">1862-1868</rico:title>
+            <rdfs:label xml:lang="fr">1862-1868</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1862-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1862-1868</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_052928/c-92ztv264u-zdfp7tmzirxi"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/052928-c-92ztv264u-zdfp7tmzirxi-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/052928-c-92ztv264u-zdfp7tmzirxi"/>
+                  <rico:identifier>MC/ON/XXVI/4</rico:identifier>
+                  <rico:title xml:lang="fr">1862-1868</rico:title>
+                  <rdfs:label xml:lang="fr">1862-1868</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1862-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1868-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1862-1868</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_052928/c-92ztv264u-zdfp7tmzirxi"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/052928-c-93ewygd4n--37kgc711ia3t">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/052928-c-p2cz9rrm-8evgloezgoj8"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">1870-1875</rico:title>
+            <rdfs:label xml:lang="fr">1870-1875</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1870-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1875-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1870-1875</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_052928/c-93ewygd4n--37kgc711ia3t"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/052928-c-93ewygd4n--37kgc711ia3t-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/052928-c-93ewygd4n--37kgc711ia3t"/>
+                  <rico:identifier>MC/ON/XXVI/5</rico:identifier>
+                  <rico:title xml:lang="fr">1870-1875</rico:title>
+                  <rdfs:label xml:lang="fr">1870-1875</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1870-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1875-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1870-1875</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_052928/c-93ewygd4n--37kgc711ia3t"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

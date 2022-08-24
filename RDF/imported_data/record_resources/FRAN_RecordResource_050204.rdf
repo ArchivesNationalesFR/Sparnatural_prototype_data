@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/050204">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXIII. MC/ET/XXIII/891-MC/ET/XXIII/896 (1577-1787) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXIII. MC/ET/XXIII/891-MC/ET/XXIII/896 (1577-1787) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, par Ernest Coyecque, Marie-Antoinette Fleury, Claire Béchu, conservateurs du patrimoine et Danis Habib, chargé d’études documentaires, sous la direction de Marie-Françoise Limon-Bonnet, conservateur général du patrimoine.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-050204"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050204-i1">
+            <rico:isInstantiationOf rdf:resource="record/050204"/>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXIII. MC/ET/XXIII/891-MC/ET/XXIII/896 (1577-1787) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXIII. MC/ET/XXIII/891-MC/ET/XXIII/896 (1577-1787) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d’information des Archives nationales. Il remplace l’instrument de recherche dactylographié connu en salle de lecture sous le numéro MC/27.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_050204</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050204"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-050204">
+      <rico:isOrWasDescribedBy rdf:resource="record/050204"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXIII</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXIII</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1577-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1787-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1577-1787</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Autres documents de l'étude</html:b>
+               <html:b>(dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l'étude XXIIIArchives de l'étude XXIII</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050204"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-050204-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-050204"/>
+            <rico:identifier>MC/ET/XXIII/891-MC/ET/XXIII/896</rico:identifier>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXIII</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXIII</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1577-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1787-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1577-1787</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">2 ml ou 5 cartons (boîtes 10 cm, 12,5 cm, 15 cm)</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Autres documents de l'étude</html:b>
+                     <html:b>(dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Don</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050204"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/050204-d3874e102-c"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050204-d3874e110-c"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050204-d3874e116-c"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050204-d3874e123-c"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050204-d3874e129-c"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050204-d3874e135-c"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050204-d3874e102-c">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050204"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Terrier des seigneuries de Mons-sur-Orge et d'Ablon.</rico:title>
+      <rdfs:label xml:lang="fr">Terrier des seigneuries de Mons-sur-Orge et d'Ablon.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1577-06-19</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1583-03-19</rico:endDate>
+      <rico:date xml:lang="fr">19 juin 1577-19 mars 1583</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Terrier des seigneuries de Mons-sur-Orge [auj. Athis-Mons par réunion de Athis-sur-Orge et Mons-sur-Orge] et d'Ablon [-sur-Seine, auj. Val-de-Marne], appartenant au chapitre de Notre-Dame.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxc8my3--1ttiv1vy7xmrx"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxfa8z9--nobfu30a5gxs"/>
+      <rico:hasOrHadSubject rdf:resource="agent/FRAN_RI_013-d-4j83mir5i--hy2pdo13cjwx"/>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050204/d3874e102-c"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050204-d3874e102-c-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050204-d3874e102-c"/>
+            <rico:identifier>MC/ET/XXIII/891</rico:identifier>
+            <rico:title xml:lang="fr">Terrier des seigneuries de Mons-sur-Orge et d'Ablon.</rico:title>
+            <rdfs:label xml:lang="fr">Terrier des seigneuries de Mons-sur-Orge et d'Ablon.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1577-06-19</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1583-03-19</rico:endDate>
+            <rico:date xml:lang="fr">19 juin 1577-19 mars 1583</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050204/d3874e102-c"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050204-d3874e110-c">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050204"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Terrier de la seigneurie de Bagneux.</rico:title>
+      <rdfs:label xml:lang="fr">Terrier de la seigneurie de Bagneux.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1606-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1629-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1606-1629</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Terrier de la seigneurie de Bagneux appartenant au chapitre de Notre-Dame.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject rdf:resource="agent/FRAN_RI_013-d-4j83mir5i--hy2pdo13cjwx"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxegwb1--i14za50nwnx0"/>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050204/d3874e110-c"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050204-d3874e110-c-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050204-d3874e110-c"/>
+            <rico:identifier>MC/ET/XXIII/892</rico:identifier>
+            <rico:title xml:lang="fr">Terrier de la seigneurie de Bagneux.</rico:title>
+            <rdfs:label xml:lang="fr">Terrier de la seigneurie de Bagneux.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1606-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1629-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1606-1629</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050204/d3874e110-c"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050204-d3874e116-c">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050204"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Succession de Michel Ferdinand d'Albert d'Ailly, duc de Chaulnes.</rico:title>
+      <rdfs:label xml:lang="fr">Succession de Michel Ferdinand d'Albert d'Ailly, duc de Chaulnes.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1769-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1770-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1769-1770</rico:date>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Ailly, Michel Ferdinand d'Albert d'</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Ailly, Michel Ferdinand d'Albert d'</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Ailly, Michel Ferdinand d'Albert d'</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050204/d3874e116-c"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050204-d3874e116-c-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050204-d3874e116-c"/>
+            <rico:identifier>MC/ET/XXIII/893</rico:identifier>
+            <rico:title xml:lang="fr">Succession de Michel Ferdinand d'Albert d'Ailly, duc de Chaulnes.</rico:title>
+            <rdfs:label xml:lang="fr">Succession de Michel Ferdinand d'Albert d'Ailly, duc de Chaulnes.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1769-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1770-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1769-1770</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050204/d3874e116-c"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050204-d3874e123-c">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050204"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Succession de Michel Ferdinand d'Albert d'Ailly, duc de Chaulnes (suite).</rico:title>
+      <rdfs:label xml:lang="fr">Succession de Michel Ferdinand d'Albert d'Ailly, duc de Chaulnes (suite).</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1771-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1775-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1771-1775</rico:date>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Ailly, Michel Ferdinand d'Albert d'</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Ailly, Michel Ferdinand d'Albert d'</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Ailly, Michel Ferdinand d'Albert d'</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050204/d3874e123-c"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050204-d3874e123-c-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050204-d3874e123-c"/>
+            <rico:identifier>MC/ET/XXIII/894</rico:identifier>
+            <rico:title xml:lang="fr">Succession de Michel Ferdinand d'Albert d'Ailly, duc de Chaulnes (suite).</rico:title>
+            <rdfs:label xml:lang="fr">Succession de Michel Ferdinand d'Albert d'Ailly, duc de Chaulnes (suite).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1771-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1775-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1771-1775</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050204/d3874e123-c"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050204-d3874e129-c">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050204"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Liquidation de la succession de Pierre Antoine Laideguive, écuyer, conseiller au Châtelet de Paris.</rico:title>
+      <rdfs:label xml:lang="fr">Liquidation de la succession de Pierre Antoine Laideguive, écuyer, conseiller au Châtelet de Paris.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1744-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1783-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1744-1783</rico:date>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Laideguive, Pierre Antoine</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Laideguive, Pierre Antoine</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Laideguive, Pierre Antoine</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+            <rico:performsOrPerformed>
+               <rico:Activity>
+                  <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl6y18d--aonljmhbs7v3"/>
+               </rico:Activity>
+            </rico:performsOrPerformed>
+            <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl6y18d--aonljmhbs7v3"/>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d4wun--5fx3alx73y2a"/>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050204/d3874e129-c"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050204-d3874e129-c-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050204-d3874e129-c"/>
+            <rico:identifier>MC/ET/XXIII/895</rico:identifier>
+            <rico:title xml:lang="fr">Liquidation de la succession de Pierre Antoine Laideguive, écuyer, conseiller au Châtelet de Paris.</rico:title>
+            <rdfs:label xml:lang="fr">Liquidation de la succession de Pierre Antoine Laideguive, écuyer, conseiller au Châtelet de Paris.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1744-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1783-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1744-1783</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050204/d3874e129-c"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050204-d3874e135-c">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050204"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Expéditions sur parchemin.</rico:title>
+      <rdfs:label xml:lang="fr">Expéditions sur parchemin.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1742-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1787-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1742-1787</rico:date>
+      <rico:hasProvenance rdf:resource="agent/011311"/>
+      <rico:hasProvenance rdf:resource="agent/013051"/>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Actes passés par-devant Pierre Louis Laideguive et François Brichard.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050204/d3874e135-c"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050204-d3874e135-c-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050204-d3874e135-c"/>
+            <rico:identifier>MC/ET/XXIII/896</rico:identifier>
+            <rico:title xml:lang="fr">Expéditions sur parchemin.</rico:title>
+            <rdfs:label xml:lang="fr">Expéditions sur parchemin.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1742-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1787-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1742-1787</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">14 pièces, parchemin.</html:p>
+            </rico:instantiationExtent>
+            <rico:hasProvenance rdf:resource="agent/011311"/>
+            <rico:hasProvenance rdf:resource="agent/013051"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050204/d3874e135-c"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

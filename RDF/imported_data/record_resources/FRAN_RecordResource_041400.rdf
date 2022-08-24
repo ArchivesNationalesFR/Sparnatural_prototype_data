@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041400">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Nicolas CHOQUILLOT, janvier 1581 - 24 novembre 1611 (étude XIII) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Nicolas CHOQUILLOT, janvier 1581 - 24 novembre 1611 (étude XIII) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-18</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">1ère édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041400"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041400-i1">
+            <rico:isInstantiationOf rdf:resource="record/041400"/>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Nicolas CHOQUILLOT, janvier 1581 - 24 novembre 1611 (étude XIII) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Nicolas CHOQUILLOT, janvier 1581 - 24 novembre 1611 (étude XIII) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041400</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041400"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041400">
+      <rico:isOrWasDescribedBy rdf:resource="record/041400"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Nicolas CHOQUILLOT (étude XIII)</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Nicolas CHOQUILLOT (étude XIII)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1581-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1611-11-24</rico:endDate>
+      <rico:date xml:lang="fr">janvier 1581 - 24 novembre 1611</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010140"/>
+      <rico:hasProvenance rdf:resource="agent/012487"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l’étude XIIIArchives de l'étude XIII</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041400"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041400-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041400"/>
+            <rico:identifier>MC/RE/XIII/1</rico:identifier>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Nicolas CHOQUILLOT (étude XIII)</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Nicolas CHOQUILLOT (étude XIII)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1581-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1611-11-24</rico:endDate>
+            <rico:date xml:lang="fr">janvier 1581 - 24 novembre 1611</rico:date>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010140"/>
+            <rico:hasProvenance rdf:resource="agent/012487"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041400"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/041400-c1p6uke48y1f-1g2ue0mrcp15y"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/041400-c1p6uke4ho2z-uzquruwtm97e"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041400-c1p6uke48y1f-1g2ue0mrcp15y">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041400"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Minutes de Nicolas CHOQUILLOT</rico:title>
+      <rdfs:label xml:lang="fr">Minutes de Nicolas CHOQUILLOT</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1594-12-24</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1601-06-04</rico:endDate>
+      <rico:date xml:lang="fr">24 décembre 1594 - 4 juin 1601</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010140"/>
+      <rico:hasProvenance rdf:resource="agent/012487"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041400/c1p6uke48y1f-1g2ue0mrcp15y"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041400-c1p6uke48y1f-1g2ue0mrcp15y-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041400-c1p6uke48y1f-1g2ue0mrcp15y"/>
+            <rico:identifier>MC/ET/XIII/1/B</rico:identifier>
+            <rico:title xml:lang="fr">Minutes de Nicolas CHOQUILLOT</rico:title>
+            <rdfs:label xml:lang="fr">Minutes de Nicolas CHOQUILLOT</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1594-12-24</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1601-06-04</rico:endDate>
+            <rico:date xml:lang="fr">24 décembre 1594 - 4 juin 1601</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041400/c1p6uke48y1f-1g2ue0mrcp15y"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041400-c1p6uke49ptf-1348v5wro6429">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041400-c1p6uke48y1f-1g2ue0mrcp15y"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1594, 24 décembre - 1601, 4 juin</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1594, 24 décembre - 1601, 4 juin</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1594-12-24</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1601-06-04</rico:endDate>
+            <rico:date xml:lang="fr">24 décembre 1594 - 4 juin 1601</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Cet article ne contient que deux minutes réintégrées en juin 2005, acquises par la section des Archives privées en 1960.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+                  <html:p>
+                     <html:b>Ancienne(s) cote(s) :</html:b>
+                  </html:p>
+                  <html:p>ET/XIII/1/bis</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010140"/>
+            <rico:hasProvenance rdf:resource="agent/012487"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041400/c1p6uke49ptf-1348v5wro6429"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041400-c1p6uke49ptf-1348v5wro6429-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041400-c1p6uke49ptf-1348v5wro6429"/>
+                  <rico:identifier>MC/ET/XIII/1/B</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1594, 24 décembre - 1601, 4 juin</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1594, 24 décembre - 1601, 4 juin</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1594-12-24</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1601-06-04</rico:endDate>
+                  <rico:date xml:lang="fr">24 décembre 1594 - 4 juin 1601</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041400/c1p6uke49ptf-1348v5wro6429"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041400-c1p6uke4aw97--vvc0ctqz898r">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041400-c1p6uke49ptf-1348v5wro6429"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Procuration de François d'Angennes, seigneur de Monlouet, maréchal de camp, demeurant au lieu de Montlouet, logé à Paris rue des Lavandières, paroisse Saint-Germain-l'Auxerrois, à ... (laissé en blanc) pour témoigner de l'aliénation d'esprit Gaspard de Mainemars, baron de Bellegarde.</rico:title>
+                  <rdfs:label xml:lang="fr">Procuration de François d'Angennes, seigneur de Monlouet, maréchal de camp, demeurant au lieu de Montlouet, logé à Paris rue des Lavandières, paroisse Saint-Germain-l'Auxerrois, à ... (laissé en blanc) pour témoigner de l'aliénation d'esprit Gaspard de Mainemars, baron de Bellegarde.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1594-12-24</rico:date>
+                  <rico:date xml:lang="fr">24 décembre 1594</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Informations concernant le classement et la cotation du document :</html:b>
+                        </html:p>
+                        <html:p>Conservé dans les fonds d'archive privées de 1960 à 2005 sous la cote AB/XIX/3355, dossier 7, pièce n°5, puis réintégré au Minutier central en juin 2005.</html:p>
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Actes signalés par le personnel du Minutier central des notaires de Paris, 2003-2012 (base de données migrée : voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2005</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8efxut-73bdmxk10sbw"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzbovl43-1jao1r5yh5mwa"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Angennes, François d' (seigneur de Montlouet)</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Angennes, François d' (seigneur de Montlouet)</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Angennes, François d' (seigneur de Montlouet)</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Mainemars, Gaspard de (baron de Bellegarde)</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Mainemars, Gaspard de (baron de Bellegarde)</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Mainemars, Gaspard de (baron de Bellegarde)</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:isRelatedTo>
+                     <rico:Activity>
+                        <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msk3a25-1xs3m641rhiyg"/>
+                     </rico:Activity>
+                  </rico:isRelatedTo>
+                  <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msk3a25-1xs3m641rhiyg"/>
+                  <rico:hasProvenance rdf:resource="agent/010140"/>
+                  <rico:hasProvenance rdf:resource="agent/012487"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041400/c1p6uke4aw97--vvc0ctqz898r"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041400-c1p6uke4aw97--vvc0ctqz898r-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041400-c1p6uke4aw97--vvc0ctqz898r"/>
+                        <rico:identifier>MC/ET/XIII/1/B</rico:identifier>
+                        <rico:title xml:lang="fr">Procuration de François d'Angennes, seigneur de Monlouet, maréchal de camp, demeurant au lieu de Montlouet, logé à Paris rue des Lavandières, paroisse Saint-Germain-l'Auxerrois, à ... (laissé en blanc) pour témoigner de l'aliénation d'esprit Gaspard de Mainemars, baron de Bellegarde.</rico:title>
+                        <rdfs:label xml:lang="fr">Procuration de François d'Angennes, seigneur de Monlouet, maréchal de camp, demeurant au lieu de Montlouet, logé à Paris rue des Lavandières, paroisse Saint-Germain-l'Auxerrois, à ... (laissé en blanc) pour témoigner de l'aliénation d'esprit Gaspard de Mainemars, baron de Bellegarde.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1594-12-24</rico:date>
+                        <rico:date xml:lang="fr">24 décembre 1594</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">1 f. papier</html:p>
+                        </rico:instantiationExtent>
+                        <rico:history rdf:parseType="Literal">
+                           <html:div>
+                              <html:div xml:lang="fr">
+                                 <html:h4>Historique de la conservation</html:h4>
+                                 <html:p>L'original de l'acte a été retrouvé après avoir disparu du minutier du notaire à une date inconnue.</html:p>
+                              </html:div>
+                              <html:div xml:lang="fr">
+                                 <html:h4>Informations sur les modalités d’entrée</html:h4>
+                                 <html:p>Achat, 1960</html:p>
+                              </html:div>
+                           </html:div>
+                        </rico:history>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041400/c1p6uke4aw97--vvc0ctqz898r"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041400-c1p6uke4fjoz-16dacb31dqdsd">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041400-c1p6uke49ptf-1348v5wro6429"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Inventaire des pièces rendues à la marquise de Thury par Thomas de Rochefort, avocat en parlement, à l'occasion de l'acquisition de la terre de Longeville.</rico:title>
+                  <rdfs:label xml:lang="fr">Inventaire des pièces rendues à la marquise de Thury par Thomas de Rochefort, avocat en parlement, à l'occasion de l'acquisition de la terre de Longeville.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1601-06-04</rico:date>
+                  <rico:date xml:lang="fr">4 juin 1601</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Informations concernant le classement et la cotation du document :</html:b>
+                        </html:p>
+                        <html:p>Conservé dans les fonds d'archives privées de 1960 à 2005 sous la cote AB/XIX/3355, dossier 7, pièce n°7, puis réintégré au Minutier central en juin 2005.</html:p>
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Actes signalés par le personnel du Minutier central des notaires de Paris, 2003-2012 (base de données migrée : voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2005</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d0dvz-9ipzdhdzysbw"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Rochefort, Thomas de, Thuré (marquise de)</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Rochefort, Thomas de, Thuré (marquise de)</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Rochefort, Thomas de, Thuré (marquise de)</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl76dik--ncxjtjvkyzcv"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3m0bl76dik--ncxjtjvkyzcv"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010140"/>
+                  <rico:hasProvenance rdf:resource="agent/012487"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041400/c1p6uke4fjoz-16dacb31dqdsd"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041400-c1p6uke4fjoz-16dacb31dqdsd-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041400-c1p6uke4fjoz-16dacb31dqdsd"/>
+                        <rico:identifier>MC/ET/XIII/1/B</rico:identifier>
+                        <rico:title xml:lang="fr">Inventaire des pièces rendues à la marquise de Thury par Thomas de Rochefort, avocat en parlement, à l'occasion de l'acquisition de la terre de Longeville.</rico:title>
+                        <rdfs:label xml:lang="fr">Inventaire des pièces rendues à la marquise de Thury par Thomas de Rochefort, avocat en parlement, à l'occasion de l'acquisition de la terre de Longeville.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1601-06-04</rico:date>
+                        <rico:date xml:lang="fr">4 juin 1601</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">6 ff. papier</html:p>
+                        </rico:instantiationExtent>
+                        <rico:history rdf:parseType="Literal">
+                           <html:div>
+                              <html:div xml:lang="fr">
+                                 <html:h4>Historique de la conservation</html:h4>
+                                 <html:p>L'original de l'acte a été retrouvé après avoir disparu du minutier du notaire à une date inconnue.</html:p>
+                              </html:div>
+                              <html:div xml:lang="fr">
+                                 <html:h4>Informations sur les modalités d’entrée</html:h4>
+                                 <html:p>Achat, 1960</html:p>
+                              </html:div>
+                           </html:div>
+                        </rico:history>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041400/c1p6uke4fjoz-16dacb31dqdsd"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041400-c1p6uke4ho2z-uzquruwtm97e">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041400"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Répertoire(s) de Nicolas CHOQUILLOT</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire(s) de Nicolas CHOQUILLOT</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1581-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1611-11-30</rico:endDate>
+      <rico:date xml:lang="fr">janvier 1581 - novembre 1611</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010140"/>
+      <rico:hasProvenance rdf:resource="agent/012487"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041400/c1p6uke4ho2z-uzquruwtm97e"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041400-c1p6uke4ho2z-uzquruwtm97e-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041400-c1p6uke4ho2z-uzquruwtm97e"/>
+            <rico:identifier>MC/RE/XIII/1</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire(s) de Nicolas CHOQUILLOT</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire(s) de Nicolas CHOQUILLOT</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1581-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1611-11-30</rico:endDate>
+            <rico:date xml:lang="fr">janvier 1581 - novembre 1611</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041400/c1p6uke4ho2z-uzquruwtm97e"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041400-c1p6uke4iiy3-4b5r7laxn577">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041400-c1p6uke4ho2z-uzquruwtm97e"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Etat sommaire des minutes. 1581, janvier - 1611, novembre</rico:title>
+            <rdfs:label xml:lang="fr">Etat sommaire des minutes. 1581, janvier - 1611, novembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1581-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1611-11-30</rico:endDate>
+            <rico:date xml:lang="fr">janvier 1581 - novembre 1611</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement et la cotation :</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux mentions d'actes contenues dans le répertoire. Parmi celles-ci, certaines peuvent y être décrites, de manière plus ou moins détaillée. Pour consulter l'acte proprement dit, il convient de rechercher la cote au niveau des articles (registre ou liasse) des minutes du notaire (cote de type 'MC/ET').</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010140"/>
+            <rico:hasProvenance rdf:resource="agent/012487"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041400/c1p6uke4iiy3-4b5r7laxn577"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041400-c1p6uke4iiy3-4b5r7laxn577-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041400-c1p6uke4iiy3-4b5r7laxn577"/>
+                  <rico:identifier>MC/RE/XIII/1</rico:identifier>
+                  <rico:title xml:lang="fr">Etat sommaire des minutes. 1581, janvier - 1611, novembre</rico:title>
+                  <rdfs:label xml:lang="fr">Etat sommaire des minutes. 1581, janvier - 1611, novembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1581-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1611-11-30</rico:endDate>
+                  <rico:date xml:lang="fr">janvier 1581 - novembre 1611</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041400/c1p6uke4iiy3-4b5r7laxn577"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

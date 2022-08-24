@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041996">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Théophile DUHOMMET, 2 décembre 1882 - 22 juillet 1884 (étude XXXVII) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Théophile DUHOMMET, 2 décembre 1882 - 22 juillet 1884 (étude XXXVII) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-18</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">1ère édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041996"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041996-i1">
+            <rico:isInstantiationOf rdf:resource="record/041996"/>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Théophile DUHOMMET, 2 décembre 1882 - 22 juillet 1884 (étude XXXVII) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Théophile DUHOMMET, 2 décembre 1882 - 22 juillet 1884 (étude XXXVII) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041996</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041996"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041996">
+      <rico:isOrWasDescribedBy rdf:resource="record/041996"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Théophile DUHOMMET (étude XXXVII)</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Théophile DUHOMMET (étude XXXVII)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1882-12-02</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1884-07-22</rico:endDate>
+      <rico:date xml:lang="fr">2 décembre 1882 - 22 juillet 1884</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041996"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041996-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041996"/>
+            <rico:identifier>MC/RE/XXXVII/44</rico:identifier>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Théophile DUHOMMET (étude XXXVII)</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Théophile DUHOMMET (étude XXXVII)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1882-12-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1884-07-22</rico:endDate>
+            <rico:date xml:lang="fr">2 décembre 1882 - 22 juillet 1884</rico:date>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement</html:p>
+               </html:div>
+            </rico:history>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041996"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/041996-c1p6z0a1zayb-1e9woy3t3yuzo"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041996-c1p6z0a1zayb-1e9woy3t3yuzo">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041996"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Répertoire(s) de Théophile DUHOMMET</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire(s) de Théophile DUHOMMET</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1882-12-02</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1884-07-22</rico:endDate>
+      <rico:date xml:lang="fr">2 décembre 1882 - 22 juillet 1884</rico:date>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041996/c1p6z0a1zayb-1e9woy3t3yuzo"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041996-c1p6z0a1zayb-1e9woy3t3yuzo-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041996-c1p6z0a1zayb-1e9woy3t3yuzo"/>
+            <rico:identifier>MC/RE/XXXVII/44</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire(s) de Théophile DUHOMMET</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire(s) de Théophile DUHOMMET</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1882-12-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1884-07-22</rico:endDate>
+            <rico:date xml:lang="fr">2 décembre 1882 - 22 juillet 1884</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041996/c1p6z0a1zayb-1e9woy3t3yuzo"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041996-c1p6z0a2016r--1fnmesftwaqmq">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041996-c1p6z0a1zayb-1e9woy3t3yuzo"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+            <rico:title xml:lang="fr">Répertoire. 1882, 2 décembre - 1884, 22 juillet</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire. 1882, 2 décembre - 1884, 22 juillet</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1882-12-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1884-07-22</rico:endDate>
+            <rico:date xml:lang="fr">2 décembre 1882 - 22 juillet 1884</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Répertoire des notaire Théophile Duhomet (2 décembre 1882-23 mai 1883), Alexandre Jumel (23 mai 1883-22 juillet 1884).</html:p>
+                  <html:p>Informations concernant le classement et la cotation :</html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux mentions d'actes contenues dans le répertoire. Parmi celles-ci, certaines peuvent y être décrites, de manière plus ou moins détaillée. Pour consulter l'acte proprement dit, il convient de rechercher la cote au niveau des articles (registre ou liasse) des minutes du notaire (cote de type 'MC/ET').</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041996/c1p6z0a2016r--1fnmesftwaqmq"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041996-c1p6z0a2016r--1fnmesftwaqmq-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041996-c1p6z0a2016r--1fnmesftwaqmq"/>
+                  <rico:identifier>MC/RE/XXXVII/44</rico:identifier>
+                  <rico:title xml:lang="fr">Répertoire. 1882, 2 décembre - 1884, 22 juillet</rico:title>
+                  <rdfs:label xml:lang="fr">Répertoire. 1882, 2 décembre - 1884, 22 juillet</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1882-12-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1884-07-22</rico:endDate>
+                  <rico:date xml:lang="fr">2 décembre 1882 - 22 juillet 1884</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041996/c1p6z0a2016r--1fnmesftwaqmq"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

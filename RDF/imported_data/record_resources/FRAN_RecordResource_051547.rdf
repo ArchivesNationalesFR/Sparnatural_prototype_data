@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/051547">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Images du répertoire du notaire Etienne Cartault pour l'étude XXXII : MC/RE/XXXII/5</rico:title>
+      <rdfs:label xml:lang="fr">Images du répertoire du notaire Etienne Cartault pour l'étude XXXII : MC/RE/XXXII/5</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, notices préparées par Guillaume Saint-Aubin, vacataire, puis Marie-Françoise Limon-Bonnet, conservateur général du patrimoine, responsable du Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Deuxième édition éléctronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-051547"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051547-i1">
+            <rico:isInstantiationOf rdf:resource="record/051547"/>
+            <rico:title xml:lang="fr">Images du répertoire du notaire Etienne Cartault pour l'étude XXXII : MC/RE/XXXII/5</rico:title>
+            <rdfs:label xml:lang="fr">Images du répertoire du notaire Etienne Cartault pour l'étude XXXII : MC/RE/XXXII/5</rdfs:label>
+            <rico:history xml:lang="fr">8 mars 2005</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_051547</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051547"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-051547">
+      <rico:isOrWasDescribedBy rdf:resource="record/051547"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Images du répertoire du notaire Etienne Cartault pour l'étude XXXII</rico:title>
+      <rdfs:label xml:lang="fr">Images du répertoire du notaire Etienne Cartault pour l'étude XXXII</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1772-01-04</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1783-10-10</rico:endDate>
+      <rico:date xml:lang="fr">4 janvier 1772 - 10 octobre 1783</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010159"/>
+      <rico:hasProvenance rdf:resource="agent/012538"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires</html:b>: la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:structure rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registre folioté en 2004 (foliotation non visible à l'écran)</html:p>
+      </rico:structure>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Images des répertoires de l'étude XXXIIArchives de l'étude XXXII</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8f3jla--to36ja96m31q"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051547"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-051547-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-051547"/>
+            <rico:identifier>MC/RE/XXXII/5</rico:identifier>
+            <rico:title xml:lang="fr">Images du répertoire du notaire Etienne Cartault pour l'étude XXXII</rico:title>
+            <rdfs:label xml:lang="fr">Images du répertoire du notaire Etienne Cartault pour l'étude XXXII</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1772-01-04</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1783-10-10</rico:endDate>
+            <rico:date xml:lang="fr">4 janvier 1772 - 10 octobre 1783</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Un registre. 376 feuillets de papier manuscrits, hauteur 34 x largeur 22 cm composé d'un cahier folioté par le notaire. Le registre est en assez bon état malgré la présence de nombreux feuillets déchirés : 124, 157, 190, 204, 215, 220, 224, 228, 230, 249, 262, 280, 297, 298, 299, 309, 312, 314 et 316. Les feuillets 1 à 4 sont en retrait (haut et bas ) par rapport au reste du répertoire.</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010159"/>
+            <rico:hasProvenance rdf:resource="agent/012538"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires</html:b>: la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:structure rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre folioté en 2004 (foliotation non visible à l'écran)</html:p>
+            </rico:structure>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement : 1944</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051547"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/051547-c1nokrztgja0--vmc0dwp085pf"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/051547-c1nokrztgja0--vmc0dwp085pf">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-051547"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+      <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période du 4 janvier 1772 au 10 octobre 1783</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 4 janvier 1772 au 10 octobre 1783</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1772-01-04</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1783-10-10</rico:endDate>
+      <rico:date xml:lang="fr">4 janvier 1772 - 10 octobre 1783</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Le repertoire se compose de trois parties.</html:p>
+            <html:p>La première partie est un "état des minutes trouvées en moins lors de la vérification du répertoire de maître Honoré Le Jay le prédécesseur de maître Cartault. Soit un total de 337 minutes perdues.</html:p>
+            <html:p>La deuxiéme partie contient le répertoire des minutes courantes de maître Cartault pour la période du 4 janvier 1772 au 10 octobre 1783</html:p>
+            <html:p>Enfin, la troisiéme partie est un état des constitutions de rentes viagères reçues par Maître Cartault notaire et passées par le roi en vertu de l'édit de février 1781.</html:p>
+            <html:p>Le répertoire contient les informations suivantes : 1. date du jour ; 2. nature de l'acte; 3. nom, prénom, des parties</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010159"/>
+      <rico:hasProvenance rdf:resource="agent/012538"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgja0--vmc0dwp085pf"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgja0--vmc0dwp085pf-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgja0--vmc0dwp085pf"/>
+            <rico:identifier>MC/RE/XXXII/5</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période du 4 janvier 1772 au 10 octobre 1783</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 4 janvier 1772 au 10 octobre 1783</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1772-01-04</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1783-10-10</rico:endDate>
+            <rico:date xml:lang="fr">4 janvier 1772 - 10 octobre 1783</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">369 feuillets</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgja0--vmc0dwp085pf"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051547-c1nokrztgllc--z5rsfqu74djo">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051547-c1nokrztgja0--vmc0dwp085pf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 4 janvier au 31 décembre 1772</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 4 janvier au 31 décembre 1772</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1772-01-04</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1772-12-31</rico:endDate>
+            <rico:date xml:lang="fr">4 janvier - 31 décembre 1772</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010159"/>
+            <rico:hasProvenance rdf:resource="agent/012538"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgllc--z5rsfqu74djo"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgllc--z5rsfqu74djo-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgllc--z5rsfqu74djo"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051547-c1nokrztgllc--z5rsfqu74djo-i2"/>
+                  <rico:identifier>5 r°-32 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 4 janvier au 31 décembre 1772</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 4 janvier au 31 décembre 1772</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1772-01-04</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1772-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">4 janvier - 31 décembre 1772</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">28 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgllc--z5rsfqu74djo"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgllc--z5rsfqu74djo-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgllc--z5rsfqu74djo"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051547-c1nokrztgllc--z5rsfqu74djo-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_032MIC02193_L.jpg#DAFANCH96_032MIC02222_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051547/c1nokrztgllc--z5rsfqu74djo/DAFANCH96_032MIC02193_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051547-c1nokrztgnwo--ltbp3ihbn3rd">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051547-c1nokrztgja0--vmc0dwp085pf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1773</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1773</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1773-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1773-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 31 décembre 1773</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010159"/>
+            <rico:hasProvenance rdf:resource="agent/012538"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgnwo--ltbp3ihbn3rd"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgnwo--ltbp3ihbn3rd-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgnwo--ltbp3ihbn3rd"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051547-c1nokrztgnwo--ltbp3ihbn3rd-i2"/>
+                  <rico:identifier>33 r°-58 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1773</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1773</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1773-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1773-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1773</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">26 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgnwo--ltbp3ihbn3rd"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgnwo--ltbp3ihbn3rd-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgnwo--ltbp3ihbn3rd"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051547-c1nokrztgnwo--ltbp3ihbn3rd-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_032MIC02222_L.jpg#DAFANCH96_032MIC02249_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051547/c1nokrztgnwo--ltbp3ihbn3rd/DAFANCH96_032MIC02222_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051547-c1nokrztgq80-ehbtfjpb8dsd">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051547-c1nokrztgja0--vmc0dwp085pf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 4 janvier au 29 décembre 1774</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 4 janvier au 29 décembre 1774</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1774-01-04</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1774-12-29</rico:endDate>
+            <rico:date xml:lang="fr">4 janvier - 29 décembre 1774</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010159"/>
+            <rico:hasProvenance rdf:resource="agent/012538"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgq80-ehbtfjpb8dsd"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgq80-ehbtfjpb8dsd-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgq80-ehbtfjpb8dsd"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051547-c1nokrztgq80-ehbtfjpb8dsd-i2"/>
+                  <rico:identifier>58 v°-88 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 4 janvier au 29 décembre 1774</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 4 janvier au 29 décembre 1774</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1774-01-04</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1774-12-29</rico:endDate>
+                  <rico:date xml:lang="fr">4 janvier - 29 décembre 1774</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">31 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgq80-ehbtfjpb8dsd"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgq80-ehbtfjpb8dsd-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgq80-ehbtfjpb8dsd"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051547-c1nokrztgq80-ehbtfjpb8dsd-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_032MIC02250_L.jpg#DAFANCH96_032MIC02282_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051547/c1nokrztgq80-ehbtfjpb8dsd/DAFANCH96_032MIC02250_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051547-c1nokrztgrrk--hehidpc00jio">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051547-c1nokrztgja0--vmc0dwp085pf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 31 décembre 1775</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 31 décembre 1775</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1775-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1775-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1er janvier - 31 décembre 1775</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010159"/>
+            <rico:hasProvenance rdf:resource="agent/012538"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgrrk--hehidpc00jio"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgrrk--hehidpc00jio-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgrrk--hehidpc00jio"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051547-c1nokrztgrrk--hehidpc00jio-i2"/>
+                  <rico:identifier>89 r°-116 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 31 décembre 1775</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 31 décembre 1775</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1775-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1775-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1er janvier - 31 décembre 1775</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">28 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgrrk--hehidpc00jio"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgrrk--hehidpc00jio-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgrrk--hehidpc00jio"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051547-c1nokrztgrrk--hehidpc00jio-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_032MIC02282_L.jpg#DAFANCH96_032MIC02310_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051547/c1nokrztgrrk--hehidpc00jio/DAFANCH96_032MIC02282_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051547-c1nokrztgu2w-5c1ay7888h3t">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051547-c1nokrztgja0--vmc0dwp085pf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1776</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1776</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1776-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1776-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 31 décembre 1776</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010159"/>
+            <rico:hasProvenance rdf:resource="agent/012538"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgu2w-5c1ay7888h3t"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgu2w-5c1ay7888h3t-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgu2w-5c1ay7888h3t"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051547-c1nokrztgu2w-5c1ay7888h3t-i2"/>
+                  <rico:identifier>116 v°-146 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1776</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1776</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1776-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1776-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1776</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">31 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgu2w-5c1ay7888h3t"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgu2w-5c1ay7888h3t-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgu2w-5c1ay7888h3t"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051547-c1nokrztgu2w-5c1ay7888h3t-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_032MIC02311_L.jpg#DAFANCH96_032MIC02340_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051547/c1nokrztgu2w-5c1ay7888h3t/DAFANCH96_032MIC02311_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051547-c1nokrztgvmg-jheqpr4xz1if">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051547-c1nokrztgja0--vmc0dwp085pf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 31 décembre 1777</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 31 décembre 1777</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1777-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1777-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1er janvier - 31 décembre 1777</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010159"/>
+            <rico:hasProvenance rdf:resource="agent/012538"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgvmg-jheqpr4xz1if"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgvmg-jheqpr4xz1if-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgvmg-jheqpr4xz1if"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051547-c1nokrztgvmg-jheqpr4xz1if-i2"/>
+                  <rico:identifier>146 r°-172 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 31 décembre 1777</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 31 décembre 1777</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1777-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1777-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1er janvier - 31 décembre 1777</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">27 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgvmg-jheqpr4xz1if"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgvmg-jheqpr4xz1if-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgvmg-jheqpr4xz1if"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051547-c1nokrztgvmg-jheqpr4xz1if-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_032MIC02340_L.jpg#DAFANCH96_032MIC02368_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051547/c1nokrztgvmg-jheqpr4xz1if/DAFANCH96_032MIC02340_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051547-c1nokrztgxxs--n0ya1c5qy6dl">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051547-c1nokrztgja0--vmc0dwp085pf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1778</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1778</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1778-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1778-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 31 décembre 1778</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010159"/>
+            <rico:hasProvenance rdf:resource="agent/012538"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgxxs--n0ya1c5qy6dl"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgxxs--n0ya1c5qy6dl-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgxxs--n0ya1c5qy6dl"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051547-c1nokrztgxxs--n0ya1c5qy6dl-i2"/>
+                  <rico:identifier>172 v°-209 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1778</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1778</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1778-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1778-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1778</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">38 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgxxs--n0ya1c5qy6dl"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgxxs--n0ya1c5qy6dl-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgxxs--n0ya1c5qy6dl"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051547-c1nokrztgxxs--n0ya1c5qy6dl-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_032MIC02369_L.jpg#DAFANCH96_032MIC02406_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051547/c1nokrztgxxs--n0ya1c5qy6dl/DAFANCH96_032MIC02369_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051547-c1nokrztgzhc-15qrwma2iwtrd">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051547-c1nokrztgja0--vmc0dwp085pf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1779</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1779</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1779-01-03</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1779-12-31</rico:endDate>
+            <rico:date xml:lang="fr">3 janvier - 31 décembre 1779</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010159"/>
+            <rico:hasProvenance rdf:resource="agent/012538"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgzhc-15qrwma2iwtrd"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgzhc-15qrwma2iwtrd-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgzhc-15qrwma2iwtrd"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051547-c1nokrztgzhc-15qrwma2iwtrd-i2"/>
+                  <rico:identifier>209 v°-245 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1779</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1779</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1779-01-03</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1779-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">3 janvier - 31 décembre 1779</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">37 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztgzhc-15qrwma2iwtrd"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztgzhc-15qrwma2iwtrd-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztgzhc-15qrwma2iwtrd"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051547-c1nokrztgzhc-15qrwma2iwtrd-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_032MIC02407_L.jpg#DAFANCH96_032MIC02442_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051547/c1nokrztgzhc-15qrwma2iwtrd/DAFANCH96_032MIC02407_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051547-c1nokrzth1so-1ta82di6lf505">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051547-c1nokrztgja0--vmc0dwp085pf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1780</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1780</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1780-01-03</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1780-12-31</rico:endDate>
+            <rico:date xml:lang="fr">3 janvier - 31 décembre 1780</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010159"/>
+            <rico:hasProvenance rdf:resource="agent/012538"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrzth1so-1ta82di6lf505"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrzth1so-1ta82di6lf505-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrzth1so-1ta82di6lf505"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051547-c1nokrzth1so-1ta82di6lf505-i2"/>
+                  <rico:identifier>245 v°-280 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1780</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1780</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1780-01-03</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1780-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">3 janvier - 31 décembre 1780</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">36 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrzth1so-1ta82di6lf505"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrzth1so-1ta82di6lf505-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrzth1so-1ta82di6lf505"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051547-c1nokrzth1so-1ta82di6lf505-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_032MIC02443_L.jpg#DAFANCH96_032MIC02477_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051547/c1nokrzth1so-1ta82di6lf505/DAFANCH96_032MIC02443_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051547-c1nokrzth440-dhehor2tyfk8">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051547-c1nokrztgja0--vmc0dwp085pf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1781</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1781</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1781-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1781-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 31 décembre 1781</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010159"/>
+            <rico:hasProvenance rdf:resource="agent/012538"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrzth440-dhehor2tyfk8"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrzth440-dhehor2tyfk8-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrzth440-dhehor2tyfk8"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051547-c1nokrzth440-dhehor2tyfk8-i2"/>
+                  <rico:identifier>280 v°-312 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1781</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1781</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1781-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1781-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1781</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">33 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrzth440-dhehor2tyfk8"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrzth440-dhehor2tyfk8-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrzth440-dhehor2tyfk8"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051547-c1nokrzth440-dhehor2tyfk8-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_032MIC02477_L.jpg#DAFANCH96_032MIC02510_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051547/c1nokrzth440-dhehor2tyfk8/DAFANCH96_032MIC02477_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051547-c1nokrzth5nk-10f5n4ekh3ovm">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051547-c1nokrztgja0--vmc0dwp085pf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1782</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1782</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1782-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1782-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 31 décembre 1782</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010159"/>
+            <rico:hasProvenance rdf:resource="agent/012538"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrzth5nk-10f5n4ekh3ovm"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrzth5nk-10f5n4ekh3ovm-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrzth5nk-10f5n4ekh3ovm"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051547-c1nokrzth5nk-10f5n4ekh3ovm-i2"/>
+                  <rico:identifier>313 r°-344 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1782</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1782</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1782-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1782-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1782</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">32 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrzth5nk-10f5n4ekh3ovm"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrzth5nk-10f5n4ekh3ovm-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrzth5nk-10f5n4ekh3ovm"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051547-c1nokrzth5nk-10f5n4ekh3ovm-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_032MIC02510_L.jpg#DAFANCH96_032MIC02541_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051547/c1nokrzth5nk-10f5n4ekh3ovm/DAFANCH96_032MIC02510_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051547-c1nokrzth7yw-1r4i3k1mcb6w8">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051547-c1nokrztgja0--vmc0dwp085pf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 10 octobre 1783</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 10 octobre 1783</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1783-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1783-10-10</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 10 octobre 1783</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010159"/>
+            <rico:hasProvenance rdf:resource="agent/012538"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrzth7yw-1r4i3k1mcb6w8"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrzth7yw-1r4i3k1mcb6w8-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrzth7yw-1r4i3k1mcb6w8"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051547-c1nokrzth7yw-1r4i3k1mcb6w8-i2"/>
+                  <rico:identifier>344 v°-373 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 10 octobre 1783</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 10 octobre 1783</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1783-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1783-10-10</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 10 octobre 1783</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">30 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrzth7yw-1r4i3k1mcb6w8"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrzth7yw-1r4i3k1mcb6w8-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrzth7yw-1r4i3k1mcb6w8"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051547-c1nokrzth7yw-1r4i3k1mcb6w8-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_032MIC02542_L.jpg#DAFANCH96_032MIC02571_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051547/c1nokrzth7yw-1r4i3k1mcb6w8/DAFANCH96_032MIC02542_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051547-c1nokrztg98w-1p3hgm4sejfl6">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051547-c1nokrztgja0--vmc0dwp085pf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">"Etat des minutes trouvées en moins lors de la vérification du répertoire de maître Lejay" pour la période du 17 juin 1754 au 31 décembre 1771</rico:title>
+            <rdfs:label xml:lang="fr">"Etat des minutes trouvées en moins lors de la vérification du répertoire de maître Lejay" pour la période du 17 juin 1754 au 31 décembre 1771</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1754-06-17</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1771-12-31</rico:endDate>
+            <rico:date xml:lang="fr">17 juin 1754 - 31 décembre 1771</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010159"/>
+            <rico:hasProvenance rdf:resource="agent/012538"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztg98w-1p3hgm4sejfl6"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztg98w-1p3hgm4sejfl6-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztg98w-1p3hgm4sejfl6"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051547-c1nokrztg98w-1p3hgm4sejfl6-i2"/>
+                  <rico:identifier>1 r°-4 v°</rico:identifier>
+                  <rico:title xml:lang="fr">"Etat des minutes trouvées en moins lors de la vérification du répertoire de maître Lejay" pour la période du 17 juin 1754 au 31 décembre 1771</rico:title>
+                  <rdfs:label xml:lang="fr">"Etat des minutes trouvées en moins lors de la vérification du répertoire de maître Lejay" pour la période du 17 juin 1754 au 31 décembre 1771</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1754-06-17</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1771-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">17 juin 1754 - 31 décembre 1771</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">4 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrztg98w-1p3hgm4sejfl6"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrztg98w-1p3hgm4sejfl6-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrztg98w-1p3hgm4sejfl6"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051547-c1nokrztg98w-1p3hgm4sejfl6-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_032MIC02189_L.jpg#DAFANCH96_032MIC02192_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051547/c1nokrztg98w-1p3hgm4sejfl6/DAFANCH96_032MIC02189_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051547-c1nokrzth9ig-1nl2bi7h5ez1z">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051547-c1nokrztgja0--vmc0dwp085pf"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">"Etat des contrats de constitution der rentes viagères reçues par maître Cartault notaire et passées par le Roy en vertu de l'Edit de février 1781" pour la période du 14 septembre 1781 au 10 janvier 1782</rico:title>
+            <rdfs:label xml:lang="fr">"Etat des contrats de constitution der rentes viagères reçues par maître Cartault notaire et passées par le Roy en vertu de l'Edit de février 1781" pour la période du 14 septembre 1781 au 10 janvier 1782</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1781-09-14</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1782-01-10</rico:endDate>
+            <rico:date xml:lang="fr">14 septembre 1781 - 10 janvier 1782</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010159"/>
+            <rico:hasProvenance rdf:resource="agent/012538"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrzth9ig-1nl2bi7h5ez1z"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrzth9ig-1nl2bi7h5ez1z-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrzth9ig-1nl2bi7h5ez1z"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051547-c1nokrzth9ig-1nl2bi7h5ez1z-i2"/>
+                  <rico:identifier>374 r°-376 v°</rico:identifier>
+                  <rico:title xml:lang="fr">"Etat des contrats de constitution der rentes viagères reçues par maître Cartault notaire et passées par le Roy en vertu de l'Edit de février 1781" pour la période du 14 septembre 1781 au 10 janvier 1782</rico:title>
+                  <rdfs:label xml:lang="fr">"Etat des contrats de constitution der rentes viagères reçues par maître Cartault notaire et passées par le Roy en vertu de l'Edit de février 1781" pour la période du 14 septembre 1781 au 10 janvier 1782</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1781-09-14</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1782-01-10</rico:endDate>
+                  <rico:date xml:lang="fr">14 septembre 1781 - 10 janvier 1782</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">3 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051547/c1nokrzth9ig-1nl2bi7h5ez1z"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051547-c1nokrzth9ig-1nl2bi7h5ez1z-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051547-c1nokrzth9ig-1nl2bi7h5ez1z"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051547-c1nokrzth9ig-1nl2bi7h5ez1z-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_032MIC02571_L.jpg#DAFANCH96_032MIC02573_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051547/c1nokrzth9ig-1nl2bi7h5ez1z/DAFANCH96_032MIC02571_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+   </rico:RecordResource>
+</rdf:RDF>

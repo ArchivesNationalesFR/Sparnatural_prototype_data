@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rico="https://www.ica.org/standards/RiC/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:isni="https://isni.org/ontology#" xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/012913">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#AuthorityRecord"/>
+      <rico:describesOrDescribed rdf:resource="agent/012913"/>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl002"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl003"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-09-30</rico:creationDate>
+      <rico:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-09-30</rico:lastModificationDate>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:name xml:lang="fr">Dérivation
+                (Migration ETANOT)</rico:name>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-09-30</rico:date>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/012913">
+            <rico:isInstantiationOf rdf:resource="record/012913"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_NP_012913</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/NP/FRAN_NP_012913"/>
+            <rico:identifier>FRDAFANCH00MC_NANOTAIRE02828</rico:identifier>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl011"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:Agent rdf:about="agent/012913">
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+      <rico:isOrWasDescribedBy rdf:resource="record/012913"/>
+      <rdfs:label xml:lang="fr">Blacque, Jean-Jacques</rdfs:label>
+      <rico:hasOrHadAgentName>
+         <rico:AgentName rdf:about="agentName/012913-Blacque%2C%20Jean-Jacques">
+            <rdfs:label xml:lang="fr">Blacque, Jean-Jacques</rdfs:label>
+            <rico:textualValue xml:lang="fr">Blacque, Jean-Jacques</rico:textualValue>
+            <rico:isOrWasAgentNameOf rdf:resource="agent/012913"/>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl002"/>
+            <rico:type xml:lang="fr">nom d'agent : forme préférée</rico:type>
+         </rico:AgentName>
+      </rico:hasOrHadAgentName>
+      <rico:thingIsTargetOfPlaceRelation>
+         <rico:PlaceRelation>
+            <rico:placeRelationHasTarget rdf:resource="agent/012913"/>
+            <rico:placeRelationHasSource rdf:resource="place/rue%20Saint-Antoine%2C%20au%20coin%20de%20la%20rue%20des%20Barres"/>
+         </rico:PlaceRelation>
+      </rico:thingIsTargetOfPlaceRelation><rico:isAssociatedWithPlace rdf:resource="place/rue%20Saint-Antoine%2C%20au%20coin%20de%20la%20rue%20des%20Barres"/>
+      <rico:hasOrHadLocation rdf:resource="place/rue%20Saint-Antoine%2C%20au%20coin%20de%20la%20rue%20des%20Barres"/>
+      <rico:agentIsTargetOfPerformanceRelation><rico:PerformanceRelation rdf:about="performanceRelation/012913-d3nyu9x713-9kcjiv44l4wh-17630806-17761204"><rico:performanceRelationHasTarget rdf:resource="agent/012913"/><rico:performanceRelationHasSource><rico:Activity><rico:activityIsSourceOfPerformanceRelation rdf:resource="performanceRelation/012913-d3nyu9x713-9kcjiv44l4wh-17630806-17761204"/><rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3nyu9x713-9kcjiv44l4wh"/></rico:Activity></rico:performanceRelationHasSource><rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1763-08-06</rico:beginningDate><rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1776-12-04</rico:endDate></rico:PerformanceRelation></rico:agentIsTargetOfPerformanceRelation><rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d3nyu9x713-9kcjiv44l4wh"/>
+      <rico:personIsTargetOfMembershipRelation rdf:resource="membershipRelation/010153-012913-17630806-17761204"/><rico:isOrWasMemberOf rdf:resource="agent/010153"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/041751-012913"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-041751"/>
+      <rico:agentIsTargetOfAgentOriginationRelation rdf:resource="agentOriginationRelation/054328-012913"/>
+      <rico:isProvenanceOf rdf:resource="recordResource/top-054328"/>
+   </rico:Agent>
+</rdf:RDF>

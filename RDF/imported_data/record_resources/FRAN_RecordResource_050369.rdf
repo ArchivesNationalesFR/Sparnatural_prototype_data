@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/050369">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XVI. MC/ET/XVI/1009-MC/ET/XVI/1013 (1338-1679) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XVI. MC/ET/XVI/1009-MC/ET/XVI/1013 (1338-1679) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, par Ernest Coyecque, Marie-Antoinette Fleury, Claire Béchu, conservateurs du patrimoine et Danis Habib, chargé d’études documentaires, sous la direction de Marie-Françoise Limon-Bonnet, conservateur général du patrimoine.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-050369"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050369-i1">
+            <rico:isInstantiationOf rdf:resource="record/050369"/>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XVI. MC/ET/XVI/1009-MC/ET/XVI/1013 (1338-1679) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XVI. MC/ET/XVI/1009-MC/ET/XVI/1013 (1338-1679) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d’information des Archives nationales. Il remplace l’instrument de recherche dactylographié connu en salle de lecture sous le numéro MC/27.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_050369</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050369"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-050369">
+      <rico:isOrWasDescribedBy rdf:resource="record/050369"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XVI</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XVI</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1338-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1338-1679</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010143"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...</html:b>) : s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l'étude XVIArchives de l'étude XVI</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050369"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-050369-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-050369"/>
+            <rico:identifier>MC/ET/XVI/1009-MC/ET/XVI/1013</rico:identifier>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XVI</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XVI</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1338-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1338-1679</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">0,50 ml ou 4 cartons (boîtes 10 cm, 15 cm et 17 cm)</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...</html:b>) : s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Don</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050369"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/050369-c-9ouvfhsa4--1mr0g0g6zywx3"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050369-c-9qidh2xhe--q4g2lldypntf"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050369-c-ab0y7nkij--19mruc7swra6n"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050369-c-9ouvfhsa4--1mr0g0g6zywx3">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050369"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Documents relatifs à Clichy-la-Garenne.</rico:title>
+      <rdfs:label xml:lang="fr">Documents relatifs à Clichy-la-Garenne.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1338-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1618-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1338-1618</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Documents relatifs à Clichy-la-Garenne (auj. Clichy, Hauts-de-Seine) : seigneurie, biens immobiliers, rentes, ferme de Courcelles, adjudication sur saisie immobilière de la seigneurie à Louis Hennequin (1563).</html:p>
+            <html:p>Lettre autographe d’Augustin de Vallès, chantre de l’abbaye de Saint-Denis, receveur de la prévôté et seigneurie de la Cuisine, à Jacques de Feu, sieur de Dhuis, relative à la vente d’un atterrissement à l’île Lhuillier (1615).</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Hennequin, Louis</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Hennequin, Louis</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Hennequin, Louis</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Vallès, Augustin de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Vallès, Augustin de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Vallès, Augustin de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Feu, Jacques de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Feu, Jacques de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Feu, Jacques de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxeji2p-1lu39awemgiwf"/>
+      <rico:hasProvenance rdf:resource="agent/010143"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050369/c-9ouvfhsa4--1mr0g0g6zywx3"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050369-c-9ouvfhsa4--1mr0g0g6zywx3-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050369-c-9ouvfhsa4--1mr0g0g6zywx3"/>
+            <rico:identifier>MC/ET/XVI/1009</rico:identifier>
+            <rico:title xml:lang="fr">Documents relatifs à Clichy-la-Garenne.</rico:title>
+            <rdfs:label xml:lang="fr">Documents relatifs à Clichy-la-Garenne.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1338-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1618-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1338-1618</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050369/c-9ouvfhsa4--1mr0g0g6zywx3"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050369-c-9qidh2xhe--q4g2lldypntf">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050369"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Papiers divers.</rico:title>
+      <rdfs:label xml:lang="fr">Papiers divers.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1618-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1618-1658</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Maison rue des Cordeliers, attenant au collège des Prémontrés ou de Bourgogne, en face de l’église : ventes, bail, mur mitoyen, réduction de vues, contrat de mariage de Jeanne de Massac et Claude Nouët (1618-1670).</html:p>
+            <html:p>Bernardin de Bourgueville et Louise de Montgomery, sa femme : procédures relatives à leurs dettes (1627-1652).</html:p>
+            <html:p>Transfert par François, duc de La Rochefoucauld et sa femme, en exécution du contrat de mariage de leur fille, Marie Catherine, avec Louis Brûlart de Sillery [Louis Roger Brûlart, marquis de Sillery (1619-1691)], à ceux-ci, des terres de La Barde, en Périgord, La Mothe-Saint-Cloud et Chateauregnault, en Angoumois, représentant la dot de 6.000 livres (les parties devant éventuellement parfaire cette somme ou rembourser l’excédent, 5 avril 1639).</html:p>
+            <html:p>Dénombrement et bail de la terre de La Barde (1658). Procuration de divers créanciers de Pierre Brûlart, de sa femme, Charlotte d’Etampes de Valençay et de Louis Brûlart, susnommé, à l’occasion, notamment, de la vente de la terre de Marines par Louis Brûlart au duc de Créquy (1659).</html:p>
+            <html:p>Claude Bonneau, sieur de Purnon, et Henry Bonneau, sieur de Trassy : procurations à l’occasion de la succession de leurs père et mère, Jacques Bonneau, sieur de Rubelles, et Marie d’Ivry (1658).</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nz9nry2d--14mlbkoixrocq"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_026-d3nzun9oqx--828md12mse5j"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_026-d3nzufzx4s-1lx37zlskiwg"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3m08zzasfn-f5pvo307upds"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89lgo1-7iazj0zqu03g"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bh85k-zoce6yspjkhr"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8efxut-73bdmxk10sbw"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Massac, Jeanne de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Massac, Jeanne de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Massac, Jeanne de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Nouët, Claude</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Nouët, Claude</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Nouët, Claude</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Bourgueville, Bernardin de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Bourgueville, Bernardin de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Bourgueville, Bernardin de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Montgomery, Louise de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Montgomery, Louise de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Montgomery, Louise de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="agent/FRAN_RI_012-d699mu388eq-53ietseaousl"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">La Rochefoucauld , Marie Catherine</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">La Rochefoucauld , Marie Catherine</rdfs:label>
+                  <rico:textualValue xml:lang="fr">La Rochefoucauld , Marie Catherine</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Brûlart de Sillery, Louis Roger</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Brûlart de Sillery, Louis Roger</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Brûlart de Sillery, Louis Roger</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Etampes de Valençay, Charlotte d'</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Etampes de Valençay, Charlotte d'</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Etampes de Valençay, Charlotte d'</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Créquy (famille de)</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Créquy (famille de)</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Créquy (famille de)</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Bonneau, Claude</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Bonneau, Claude</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Bonneau, Claude</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Bonneau, Henry</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Bonneau, Henry</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Bonneau, Henry</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Bonneau, Jacques</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Bonneau, Jacques</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Bonneau, Jacques</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Ivry, Marie d'</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Ivry, Marie d'</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Ivry, Marie d'</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasProvenance rdf:resource="agent/010143"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050369/c-9qidh2xhe--q4g2lldypntf"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050369-c-9qidh2xhe--q4g2lldypntf-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050369-c-9qidh2xhe--q4g2lldypntf"/>
+            <rico:identifier>MC/ET/XVI/1010</rico:identifier>
+            <rico:title xml:lang="fr">Papiers divers.</rico:title>
+            <rdfs:label xml:lang="fr">Papiers divers.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1618-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1618-1658</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050369/c-9qidh2xhe--q4g2lldypntf"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050369-c-ab0y7nkij--19mruc7swra6n">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050369"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Registres de la seigneurie d’Alge.</rico:title>
+      <rdfs:label xml:lang="fr">Registres de la seigneurie d’Alge.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1679</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010143"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050369/c-ab0y7nkij--19mruc7swra6n"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050369-c-ab0y7nkij--19mruc7swra6n-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050369-c-ab0y7nkij--19mruc7swra6n"/>
+            <rico:identifier>MC/ET/XVI/1011- MC/ET/XVI/1013</rico:identifier>
+            <rico:title xml:lang="fr">Registres de la seigneurie d’Alge.</rico:title>
+            <rdfs:label xml:lang="fr">Registres de la seigneurie d’Alge.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1679</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050369/c-ab0y7nkij--19mruc7swra6n"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050369-c-ac6p4hl3b-egzzdwlaysrc">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050369-c-ab0y7nkij--19mruc7swra6n"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Registre de la seigneurie d’Alge (1).</rico:title>
+            <rdfs:label xml:lang="fr">Registre de la seigneurie d’Alge (1).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1679</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>«Registre et inventaire contenant les contracts concernant les acquisitions faictes par M. Demareste…seigneur et patron d’Alge, Avesne, Doulxmesnil, Guerny, Saint-Pierre d’Advisse…avocat général en sa cour des aydes de Normandie, de la…seigneurie dudit Alge…ledit registre faict par M. Demareste…, conseiller du Roy en sa cour de parlement de Normandie, et les pièces y mentionnées mises en ordre, selon les cotes et marques mises à chaque pièce et liace…». 1679.</html:p>
+                  <html:p>Sacs A à L. 1780 pages. Table alphabétique et analytique à la fin du registre. Au verso du plat supérieur, un écusson gravé a été barbouillé d’encre : «armoiries supprimées».</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Demareste</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Demareste</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Demareste</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntb9habx-9vw7izeahlds"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050369/c-ac6p4hl3b-egzzdwlaysrc"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050369-c-ac6p4hl3b-egzzdwlaysrc-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050369-c-ac6p4hl3b-egzzdwlaysrc"/>
+                  <rico:identifier>MC/ET/XVI/1011</rico:identifier>
+                  <rico:title xml:lang="fr">Registre de la seigneurie d’Alge (1).</rico:title>
+                  <rdfs:label xml:lang="fr">Registre de la seigneurie d’Alge (1).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1679</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050369/c-ac6p4hl3b-egzzdwlaysrc"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050369-c-ag80ke7ix-tncqlkhcrtvc">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050369-c-ab0y7nkij--19mruc7swra6n"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Registre de la seigneurie d’Alge (2).</rico:title>
+            <rdfs:label xml:lang="fr">Registre de la seigneurie d’Alge (2).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1679</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>(suite du précédent)</html:p>
+                  <html:p>
+                     <html:i>Acquisition de la seigneurie d’Alge. «Armoiries supprimées».</html:i>
+                  </html:p>
+                  <html:p>Sacs A à L, 1134 pages. Table alphabétique et analytique à la fin du registre.</html:p>
+                  <html:p>Double en 1011 qui serait plutôt la première minute et celui-ci la mise au net.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntb9habx-9vw7izeahlds"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050369/c-ag80ke7ix-tncqlkhcrtvc"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050369-c-ag80ke7ix-tncqlkhcrtvc-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050369-c-ag80ke7ix-tncqlkhcrtvc"/>
+                  <rico:identifier>MC/ET/XVI/1012</rico:identifier>
+                  <rico:title xml:lang="fr">Registre de la seigneurie d’Alge (2).</rico:title>
+                  <rdfs:label xml:lang="fr">Registre de la seigneurie d’Alge (2).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1679</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050369/c-ag80ke7ix-tncqlkhcrtvc"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050369-c-agss3h5b9--1tk35vnu79usx">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050369-c-ab0y7nkij--19mruc7swra6n"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Registre de la seigneurie d’Alge (3).</rico:title>
+            <rdfs:label xml:lang="fr">Registre de la seigneurie d’Alge (3).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1679</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>(suite du précédent)</html:p>
+                  <html:p>
+                     <html:i>Acquisition des fiefs, terres et seigneuries d’Avesnes, Le Mesnil, Costentré</html:i>, etc…</html:p>
+                  <html:p>Sacs M à N. 762 pages. Table alphabétique et analytique à la fin du registre.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntb9habx-9vw7izeahlds"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050369/c-agss3h5b9--1tk35vnu79usx"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050369-c-agss3h5b9--1tk35vnu79usx-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050369-c-agss3h5b9--1tk35vnu79usx"/>
+                  <rico:identifier>MC/ET/XVI/1013</rico:identifier>
+                  <rico:title xml:lang="fr">Registre de la seigneurie d’Alge (3).</rico:title>
+                  <rdfs:label xml:lang="fr">Registre de la seigneurie d’Alge (3).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1679</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050369/c-agss3h5b9--1tk35vnu79usx"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/056990">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Archives de l'office notarial XIX (1857-1886) : Répertoire numérique détaillé (MC/ON/XIX/1 à 3)</rico:title>
+      <rdfs:label xml:lang="fr">Archives de l'office notarial XIX (1857-1886) : Répertoire numérique détaillé (MC/ON/XIX/1 à 3)</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-01</rico:publicationDate>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:p xml:lang="fr">Révision en 2019 par V. Grégoire</html:p>
+      </rico:descriptiveNote>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Etabli par Marie-Françoise Limon-Bonnet, conservateur général du patrimoine, responsable du Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-056990"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/056990-i1">
+            <rico:isInstantiationOf rdf:resource="record/056990"/>
+            <rico:title xml:lang="fr">Archives de l'office notarial XIX (1857-1886) : Répertoire numérique détaillé (MC/ON/XIX/1 à 3)</rico:title>
+            <rdfs:label xml:lang="fr">Archives de l'office notarial XIX (1857-1886) : Répertoire numérique détaillé (MC/ON/XIX/1 à 3)</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_056990</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_056990"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-056990">
+      <rico:isOrWasDescribedBy rdf:resource="record/056990"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Archives de l'office notarial XIX (1857-1886)</rico:title>
+      <rdfs:label xml:lang="fr">Archives de l'office notarial XIX (1857-1886)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1857-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1886-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1857-1886</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010146"/>
+      <rico:hasProvenance rdf:resource="agent/011746"/>
+      <rico:hasProvenance rdf:resource="agent/011745"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Autres documents de l'étude (dossiers de clients [DC], archives de l'office notarial [ON], comptabilité [CT]...) : s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur. Par parallélisme avec le délai d'accès pour les archives publiques des études notariales (minutes et répertoires), les notaires acceptent en général de communiquer les documents "archives privées" de plus de 75 ans.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel, et dans le respect des textes relatifs à la réutilisation des informations publiques. Toute autre utilisation qu'un usage privé de document déposé ou donné aux Archives nationales par l'étude doit faire l'objet d'une autorisation de l'étude et des Archives nationales.</html:p>
+      </rico:conditionsOfUse>
+      <rico:structure rdf:parseType="Literal">
+         <html:p xml:lang="fr">chronologique</html:p>
+      </rico:structure>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Deux articles composés d'expéditions qui, pour une raison inconnue, n'ont pas été remises aux parties. Et un article composé de papiers d'Eugène Julien Hatin, l'un des notaires de l'étude XIX.</html:p>
+            <html:p>Accès à tous les instruments de recherche de l'étude XIX<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041563">Archives de l'étude XIX</html:a>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Document(s) séparé(s)</html:h4>
+            <html:p>Archives de l'étude XIX</html:p>
+         </html:div>
+      </rico:descriptiveNote>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Autre(s) instrument(s) de recherche</html:h4>
+            <html:ul>
+               <html:li>«Mélanges » (dossiers de clients de l'étude XIX)</html:li>
+               <html:li>Dossiers clients de l'étude XIX</html:li>
+            </html:ul>
+         </html:div>
+      </rico:descriptiveNote>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_056990"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-056990-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-056990"/>
+            <rico:identifier>MC/ON/XIX/1 - MC/ON/XIX/3</rico:identifier>
+            <rico:title xml:lang="fr">Archives de l'office notarial XIX (1857-1886)</rico:title>
+            <rdfs:label xml:lang="fr">Archives de l'office notarial XIX (1857-1886)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1857-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1886-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1857-1886</rico:date>
+            <rico:carrierExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">0,30 mètres linéaires</html:p>
+            </rico:carrierExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">3 cartons</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010146"/>
+            <rico:hasProvenance rdf:resource="agent/011746"/>
+            <rico:hasProvenance rdf:resource="agent/011745"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:p xml:lang="fr">Autres documents de l'étude (dossiers de clients [DC], archives de l'office notarial [ON], comptabilité [CT]...) : s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur. Par parallélisme avec le délai d'accès pour les archives publiques des études notariales (minutes et répertoires), les notaires acceptent en général de communiquer les documents "archives privées" de plus de 75 ans.</html:p>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel, et dans le respect des textes relatifs à la réutilisation des informations publiques. Toute autre utilisation qu'un usage privé de document déposé ou donné aux Archives nationales par l'étude doit faire l'objet d'une autorisation de l'étude et des Archives nationales.</html:p>
+            </rico:conditionsOfUse>
+            <rico:structure rdf:parseType="Literal">
+               <html:p xml:lang="fr">chronologique</html:p>
+            </rico:structure>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Historique de la conservation</html:h4>
+                     <html:p>D'abord conservé à l'étude XIX</html:p>
+                  </html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:p>Don</html:p>
+                  </html:div>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_056990"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/056990-c-h4ttug0lhn--1fa9kju8ld1ib"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/056990-c-h4w56u89pi-e46vct8ddomb"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/056990-c-431fe7l15-v7fvyyjjk6i7"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/056990-c-h4ttug0lhn--1fa9kju8ld1ib">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-056990"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Expéditions réalisées à l'étude XIX lorsque Mes Jean-Baptiste et Eugène Julien Hatin en étaient titulaires.</rico:title>
+      <rdfs:label xml:lang="fr">Expéditions réalisées à l'étude XIX lorsque Mes Jean-Baptiste et Eugène Julien Hatin en étaient titulaires.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1857-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1864-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1857 - 1864</rico:date>
+      <rico:hasOrHadSomeMembersWithRecordState rdf:resource="recordState/FRAN_RI_001-d3m00w6tom1--17yz38y8bszt8"/>
+      <rico:hasProvenance rdf:resource="agent/010146"/>
+      <rico:hasProvenance rdf:resource="agent/011746"/>
+      <rico:hasProvenance rdf:resource="agent/011745"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_056990/c-h4ttug0lhn--1fa9kju8ld1ib"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/056990-c-h4ttug0lhn--1fa9kju8ld1ib-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/056990-c-h4ttug0lhn--1fa9kju8ld1ib"/>
+            <rico:identifier>MC/ON/XIX/1</rico:identifier>
+            <rico:title xml:lang="fr">Expéditions réalisées à l'étude XIX lorsque Mes Jean-Baptiste et Eugène Julien Hatin en étaient titulaires.</rico:title>
+            <rdfs:label xml:lang="fr">Expéditions réalisées à l'étude XIX lorsque Mes Jean-Baptiste et Eugène Julien Hatin en étaient titulaires.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1857-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1864-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1857 - 1864</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_056990/c-h4ttug0lhn--1fa9kju8ld1ib"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/056990-c-h4w56u89pi-e46vct8ddomb">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-056990"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Expéditions réalisées à l'étude XIX lorsque Mes Jean-Baptiste et Eugène Julien Hatin en étaient titulaires.</rico:title>
+      <rdfs:label xml:lang="fr">Expéditions réalisées à l'étude XIX lorsque Mes Jean-Baptiste et Eugène Julien Hatin en étaient titulaires.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1865-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1886-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1865 - 1886</rico:date>
+      <rico:hasOrHadSomeMembersWithRecordState rdf:resource="recordState/FRAN_RI_001-d3m00w6tom1--17yz38y8bszt8"/>
+      <rico:hasProvenance rdf:resource="agent/010146"/>
+      <rico:hasProvenance rdf:resource="agent/011746"/>
+      <rico:hasProvenance rdf:resource="agent/011745"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_056990/c-h4w56u89pi-e46vct8ddomb"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/056990-c-h4w56u89pi-e46vct8ddomb-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/056990-c-h4w56u89pi-e46vct8ddomb"/>
+            <rico:identifier>MC/ON/XIX/2</rico:identifier>
+            <rico:title xml:lang="fr">Expéditions réalisées à l'étude XIX lorsque Mes Jean-Baptiste et Eugène Julien Hatin en étaient titulaires.</rico:title>
+            <rdfs:label xml:lang="fr">Expéditions réalisées à l'étude XIX lorsque Mes Jean-Baptiste et Eugène Julien Hatin en étaient titulaires.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1865-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1886-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1865 - 1886</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_056990/c-h4w56u89pi-e46vct8ddomb"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/056990-c-431fe7l15-v7fvyyjjk6i7">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-056990"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Papiers d'Eugène Julien Hatin, notaire.</rico:title>
+      <rdfs:label xml:lang="fr">Papiers d'Eugène Julien Hatin, notaire.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1872-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1875-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1872-1875</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Papiers d'Eugène</html:b>
+               <html:b>Julien Hatin, notaire.</html:b>
+            </html:p>
+            <html:p>
+               <html:b>Reconstitution de l'état civil</html:b>: états indicatifs d'état civil, directives de la chambre des notaires de Paris.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010146"/>
+      <rico:hasProvenance rdf:resource="agent/011746"/>
+      <rico:hasProvenance rdf:resource="agent/011745"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_056990/c-431fe7l15-v7fvyyjjk6i7"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/056990-c-431fe7l15-v7fvyyjjk6i7-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/056990-c-431fe7l15-v7fvyyjjk6i7"/>
+            <rico:identifier>MC/ON/XIX/3</rico:identifier>
+            <rico:title xml:lang="fr">Papiers d'Eugène Julien Hatin, notaire.</rico:title>
+            <rdfs:label xml:lang="fr">Papiers d'Eugène Julien Hatin, notaire.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1872-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1875-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1872-1875</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_056990/c-431fe7l15-v7fvyyjjk6i7"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

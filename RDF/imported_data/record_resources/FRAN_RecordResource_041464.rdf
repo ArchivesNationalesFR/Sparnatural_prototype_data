@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041464">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Jean LE SEMELIER, 26 juin 1634- 1668 (étude XVI) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jean LE SEMELIER, 26 juin 1634- 1668 (étude XVI) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-18</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">1ère édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041464"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041464-i1">
+            <rico:isInstantiationOf rdf:resource="record/041464"/>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Jean LE SEMELIER, 26 juin 1634- 1668 (étude XVI) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jean LE SEMELIER, 26 juin 1634- 1668 (étude XVI) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041464</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041464"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041464">
+      <rico:isOrWasDescribedBy rdf:resource="record/041464"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Jean LE SEMELIER (étude XVI)</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jean LE SEMELIER (étude XVI)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1634-06-26</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1668-12-31</rico:endDate>
+      <rico:date xml:lang="fr">26 juin 1634 - 1668</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010143"/>
+      <rico:hasProvenance rdf:resource="agent/013177"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Attention : ce notaire n'a pas laissé de répertoire pour son activité dans l'étude XVI</html:b>
+            </html:p>
+            <html:p>Accès aux instruments de recherche de tous les notaires de l’étude XVI<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041456">Archives de l'étude XVI</html:a>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041464"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041464-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041464"/>
+            <rico:identifier>MC/ET/XVI/453 - MC/ET/XVI/507</rico:identifier>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Jean LE SEMELIER (étude XVI)</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jean LE SEMELIER (étude XVI)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1634-06-26</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1668-12-31</rico:endDate>
+            <rico:date xml:lang="fr">26 juin 1634 - 1668</rico:date>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/013177"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041464"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041464"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Minutes de Jean LE SEMELIER</rico:title>
+      <rdfs:label xml:lang="fr">Minutes de Jean LE SEMELIER</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1628-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1668-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1628 - 1668</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010143"/>
+      <rico:hasProvenance rdf:resource="agent/013177"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fiy4sj-up868jfb5uaj"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041464-c1p6v2fiy4sj-up868jfb5uaj-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+            <rico:identifier>MC/ET/XVI/453 - MC/ET/XVI/507</rico:identifier>
+            <rico:title xml:lang="fr">Minutes de Jean LE SEMELIER</rico:title>
+            <rdfs:label xml:lang="fr">Minutes de Jean LE SEMELIER</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1628-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1668-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1628 - 1668</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fiy4sj-up868jfb5uaj"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041464-c1p6v2fiywkj--17jxwcbsdtlnh">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes (inventaires après décès). 1650</rico:title>
+            <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1650</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1650-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1650-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1650</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>1650 : inventaires dressés par Philippe Lecat, Le Semelier signe aussi en premier.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/013177"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fiywkj--17jxwcbsdtlnh"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041464-c1p6v2fiywkj--17jxwcbsdtlnh-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041464-c1p6v2fiywkj--17jxwcbsdtlnh"/>
+                  <rico:identifier>MC/ET/XVI/453</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes (inventaires après décès). 1650</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1650</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1650-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1650-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1650</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fiywkj--17jxwcbsdtlnh"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041464-c1p6v2fizzx7-166wme92fpfia">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes (inventaires après décès). 1651</rico:title>
+            <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1651</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1651-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1651-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1651</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Inventaires dressés par Philippe Lecat, Le Semelier signe aussi en premier.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/013177"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fizzx7-166wme92fpfia"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041464-c1p6v2fizzx7-166wme92fpfia-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041464-c1p6v2fizzx7-166wme92fpfia"/>
+                  <rico:identifier>MC/ET/XVI/454</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes (inventaires après décès). 1651</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1651</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1651-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1651-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1651</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fizzx7-166wme92fpfia"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041464-c1p6v2fj0xvf--15klo3z57j5dr">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes (inventaires après décès). 1652</rico:title>
+            <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1652</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1652-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1652-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1652</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Inventaires dressés par Philippe Lecat, Le Semelier signe aussi en premier.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/013177"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj0xvf--15klo3z57j5dr"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041464-c1p6v2fj0xvf--15klo3z57j5dr-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041464-c1p6v2fj0xvf--15klo3z57j5dr"/>
+                  <rico:identifier>MC/ET/XVI/455</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes (inventaires après décès). 1652</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1652</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1652-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1652-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1652</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj0xvf--15klo3z57j5dr"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041464-c1p6v2fj1vtn--wcza0wh27ntj">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes (inventaires après décès). 1653</rico:title>
+            <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1653</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1653-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1653-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1653</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Inventaires dressés par Philippe Lecat, Le Semelier signe aussi en premier.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/013177"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj1vtn--wcza0wh27ntj"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041464-c1p6v2fj1vtn--wcza0wh27ntj-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041464-c1p6v2fj1vtn--wcza0wh27ntj"/>
+                  <rico:identifier>MC/ET/XVI/456</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes (inventaires après décès). 1653</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1653</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1653-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1653-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1653</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj1vtn--wcza0wh27ntj"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041464-c1p6v2fj2trv-3kvgodyyln8s">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes (inventaires après décès). 1654 - 1655</rico:title>
+            <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1654 - 1655</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1654-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1655-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1654 - 1655</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Inventaires dressés par Philippe Lecat, Le Semelier signe aussi en premier.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/013177"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj2trv-3kvgodyyln8s"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041464-c1p6v2fj2trv-3kvgodyyln8s-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041464-c1p6v2fj2trv-3kvgodyyln8s"/>
+                  <rico:identifier>MC/ET/XVI/457</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes (inventaires après décès). 1654 - 1655</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1654 - 1655</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1654-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1655-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1654 - 1655</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj2trv-3kvgodyyln8s"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041464-c1p6v2fj3rq3--121tag46csouk">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes (inventaires après décès). 1656</rico:title>
+            <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1656</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1656</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Inventaires dressés par Philippe Lecat, Le Semelier signe aussi en premier.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/013177"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj3rq3--121tag46csouk"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041464-c1p6v2fj3rq3--121tag46csouk-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041464-c1p6v2fj3rq3--121tag46csouk"/>
+                  <rico:identifier>MC/ET/XVI/458</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes (inventaires après décès). 1656</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1656</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1656</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj3rq3--121tag46csouk"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041464-c1p6v2fj4pob--1qy9c89zrn3or">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes (inventaires après décès). 1657</rico:title>
+            <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1657</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1657</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Inventaires dressés par Philippe Lecat, Le Semelier signe aussi en premier.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/013177"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj4pob--1qy9c89zrn3or"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041464-c1p6v2fj4pob--1qy9c89zrn3or-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041464-c1p6v2fj4pob--1qy9c89zrn3or"/>
+                  <rico:identifier>MC/ET/XVI/459</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes (inventaires après décès). 1657</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1657</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1657</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj4pob--1qy9c89zrn3or"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041464-c1p6v2fj5mur--16tw2xi0z86ai">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes (inventaires après décès). 1658</rico:title>
+            <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1658</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1658</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Inventaires dressés par Philippe Lecat, Le Semelier signe aussi en premier.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/013177"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj5mur--16tw2xi0z86ai"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041464-c1p6v2fj5mur--16tw2xi0z86ai-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041464-c1p6v2fj5mur--16tw2xi0z86ai"/>
+                  <rico:identifier>MC/ET/XVI/460</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes (inventaires après décès). 1658</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1658</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1658</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj5mur--16tw2xi0z86ai"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041464-c1p6v2fj6ksz-tbo1yv745zmg">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes (inventaires après décès). 1640 - 1645</rico:title>
+            <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1640 - 1645</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1640-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1645-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1640 - 1645</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>1640, 1643, 1645 : inventaires dressés par Philippe Lecat, Jean Le Semelier signe aussi en premier.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/013177"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj6ksz-tbo1yv745zmg"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041464-c1p6v2fj6ksz-tbo1yv745zmg-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041464-c1p6v2fj6ksz-tbo1yv745zmg"/>
+                  <rico:identifier>MC/ET/XVI/461</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes (inventaires après décès). 1640 - 1645</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1640 - 1645</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1640-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1645-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1640 - 1645</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj6ksz-tbo1yv745zmg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041464-c1p6v2fj7ir7-q2xlfp7awmxj">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes (inventaires après décès). 1660 - 1662</rico:title>
+            <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1660 - 1662</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1660-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1662-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1660 - 1662</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>1660 et 1662 : inventaires dressés par Philippe Lecat, Jean Le Semelier signe aussi en premier.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/013177"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj7ir7-q2xlfp7awmxj"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041464-c1p6v2fj7ir7-q2xlfp7awmxj-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041464-c1p6v2fj7ir7-q2xlfp7awmxj"/>
+                  <rico:identifier>MC/ET/XVI/462</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes (inventaires après décès). 1660 - 1662</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1660 - 1662</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1660-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1662-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1660 - 1662</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj7ir7-q2xlfp7awmxj"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041464-c1p6v2fj8lc3--th6ugs856mz1">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes (inventaires après décès). 1661</rico:title>
+            <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1661</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1661-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1661-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1661</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>inventaires dressés par Philippe Lecat, Jean Le Semelier signe aussi en premier.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/013177"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj8lc3--th6ugs856mz1"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041464-c1p6v2fj8lc3--th6ugs856mz1-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041464-c1p6v2fj8lc3--th6ugs856mz1"/>
+                  <rico:identifier>MC/ET/XVI/463</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes (inventaires après décès). 1661</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1661</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1661-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1661-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1661</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Document détérioré.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj8lc3--th6ugs856mz1"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041464-c1p6v2fj9x6b--1i9se7fwggvpq">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes et brevets. 1628 - 1668</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et brevets. 1628 - 1668</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1628-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1668-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1628 - 1668</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>1628-1662 : minutes et brevets, 'Obligations dont il n'y a pas de répertoire' passées par Philippe Le Cat.</html:p>
+                  <html:p>1635 à 1659 : minutes et brevets, 'Obligations dont il n'y a pas de répertoire' passées par Jean Le Semelier .</html:p>
+                  <html:p>1663 à 1668 : minutes et brevets, 'Obligations dont il n'y a pas de répertoire' passées par Louis de Séjournant.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89p6j3-16rea8x5it1b"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/013177"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj9x6b--1i9se7fwggvpq"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041464-c1p6v2fj9x6b--1i9se7fwggvpq-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041464-c1p6v2fj9x6b--1i9se7fwggvpq"/>
+                  <rico:identifier>MC/ET/XVI/474</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes et brevets. 1628 - 1668</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes et brevets. 1628 - 1668</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1628-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1668-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1628 - 1668</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fj9x6b--1i9se7fwggvpq"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041464-c1p6v2fjbfyj-1a3nt1m2vurn3">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Brevets. 1634 - 1664</rico:title>
+            <rdfs:label xml:lang="fr">Brevets. 1634 - 1664</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1634-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1664-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1634 - 1664</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Brevets 'premier à IIc LXX IIII et dernière' . Brevets signés par Le Cat (1634-1657), et également par Louis de Séjournant (1664) et Jean Le Semelier (1636-1660).</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89p6j3-16rea8x5it1b"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/013177"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fjbfyj-1a3nt1m2vurn3"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041464-c1p6v2fjbfyj-1a3nt1m2vurn3-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041464-c1p6v2fjbfyj-1a3nt1m2vurn3"/>
+                  <rico:identifier>MC/ET/XVI/475</rico:identifier>
+                  <rico:title xml:lang="fr">Brevets. 1634 - 1664</rico:title>
+                  <rdfs:label xml:lang="fr">Brevets. 1634 - 1664</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1634-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1664-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1634 - 1664</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Document détérioré.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fjbfyj-1a3nt1m2vurn3"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041464-c1p6v2fjckur-1jgrzfyh1tta">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes (inventaires après décès). 1662, 11 octobre - 1663</rico:title>
+            <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1662, 11 octobre - 1663</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1662-10-11</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1663-12-31</rico:endDate>
+            <rico:date xml:lang="fr">11 octobre 1662 - 1663</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Sur 30 inventaires contenus dans ET/XVI/506 et 507, 6 ont été signés par Jean Le Semelier en premier, les autres par Louis de Séjournant.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/013177"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fjckur-1jgrzfyh1tta"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041464-c1p6v2fjckur-1jgrzfyh1tta-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041464-c1p6v2fjckur-1jgrzfyh1tta"/>
+                  <rico:identifier>MC/ET/XVI/506</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes (inventaires après décès). 1662, 11 octobre - 1663</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1662, 11 octobre - 1663</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1662-10-11</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1663-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">11 octobre 1662 - 1663</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fjckur-1jgrzfyh1tta"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041464-c1p6v2fjdlw3-1lk9aw4zqvr1i">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041464-c1p6v2fiy4sj-up868jfb5uaj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes (inventaires après décès). 1664 - 1668</rico:title>
+            <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1664 - 1668</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1664-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1668-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1664 - 1668</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Sur 30 inventaires contenus dans ET/XVI/506 et 507, 6 ont été signés par Jean Le Semelier en premier, les autres par Louis de Séjournant.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+            <rico:hasProvenance rdf:resource="agent/010143"/>
+            <rico:hasProvenance rdf:resource="agent/013177"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fjdlw3-1lk9aw4zqvr1i"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041464-c1p6v2fjdlw3-1lk9aw4zqvr1i-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041464-c1p6v2fjdlw3-1lk9aw4zqvr1i"/>
+                  <rico:identifier>MC/ET/XVI/507</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes (inventaires après décès). 1664 - 1668</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes (inventaires après décès). 1664 - 1668</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1664-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1668-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1664 - 1668</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041464/c1p6v2fjdlw3-1lk9aw4zqvr1i"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

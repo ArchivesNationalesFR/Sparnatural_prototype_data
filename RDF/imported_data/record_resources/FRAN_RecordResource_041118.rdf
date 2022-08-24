@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041118">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Archives de l'étude II : Inventaire de regroupement (état des fonds d'archives publiques et privées de l'étude notariale)</rico:title>
+      <rdfs:label xml:lang="fr">Archives de l'étude II : Inventaire de regroupement (état des fonds d'archives publiques et privées de l'étude notariale)</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:p xml:lang="fr">Instrument de recherche de regroupement, 17 septembre 2020 (Marie-Françoise Limon-Bonnet)</html:p>
+      </rico:descriptiveNote>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Trosième édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2018</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Ajout des liens IR Images, Mélanges, lacunes : N. Jourdain et M.-F. Limon-Bonnet</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2021-09</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Ajout du contenu du champ "historique de la conservation", Marie-Françoise Limon-Bonnet</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041118"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041118-i1">
+            <rico:isInstantiationOf rdf:resource="record/041118"/>
+            <rico:title xml:lang="fr">Archives de l'étude II : Inventaire de regroupement (état des fonds d'archives publiques et privées de l'étude notariale)</rico:title>
+            <rdfs:label xml:lang="fr">Archives de l'étude II : Inventaire de regroupement (état des fonds d'archives publiques et privées de l'étude notariale)</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041118</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041118"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041118">
+      <rico:isOrWasDescribedBy rdf:resource="record/041118"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds"/>
+      <rico:title xml:lang="fr">Etude II</rico:title>
+      <rdfs:label xml:lang="fr">Etude II</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1605-04-06</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1889-07-16</rico:endDate>
+      <rico:date xml:lang="fr">6 avril 1605 - 16 juillet 1889</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010129"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Cette liste est un "inventaire chapeau" qui permet d'accéder par des liens à tous les instruments de recherche décrivant les fonds relevant de cette étude.</html:b>
+            </html:p>
+            <html:p>Liste des instruments de recherche par notaire :<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041119">Minutes et répertoires du notaire Étienne GERBAULT (6 avril 1605 - mars 1660)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041126">Minutes et répertoires du notaire Nicolas PÉRIER (31 mai 1660 - juillet 1670)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041127">Minutes et répertoires du notaire Jean BESNARD (12 mars 1672 - 9 décembre 1682)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041128">Minutes et répertoires du notaire Antoine I BELOT (2 janvier 1683 - 3 avril 1710)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041131">Minutes et répertoires du notaire Louis MOUFLE (1697 - 7 février 1710)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041133">Minutes et répertoires du notaire Antoine II BELOT (13 mai 1710 - 21 mars 1725)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041132">Minutes et répertoires du notaire Louis TRANCHARD (4 juin 1710 - 6 septembre 1721)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041134">Minutes et répertoires du notaire Jacques BRICAULT (23 mars 1725 - 9 septembre 1767)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041130">Minutes et répertoires du notaire Claude QUATREMÈRE (11 septembre 1767 - 27 septembre 1799)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041129">Minutes et répertoires du notaire Jacques TRICARD (27 septembre 1799 - 23 février 1820)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041135">Minutes et répertoires du notaire Angélique François BERCEON (25 février 1820 - 6 avril 1865)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041136">Minutes et répertoires du notaire Charles Saint-Ange BERCEON (8 avril 1865 - 16 juillet 1889)</html:a>
+            </html:p>
+            <html:p>Images des répertoires de l'étude II :<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051106">Images du répertoire du notaire Antoine I Belot (2 janvier 1683 - 3 avril 1710)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051082">Images du répertoire du notaire Louis Moufle (8 septembre 1697 - 7 février 1710)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051107">Images du répertoire du notaire Antoine II Belot (13 mai 1710 - 10 février 1725)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051099">Images du répertoire du notaire Louis Tranchard (4 juin 1710 - 6 septembre 1721)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051111">Images du répertoire du notaire Jacques Bricault (22 avril 1725 - 9 septembre 1767)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051104">Images des répertoires du notaire Claude Quatremère (11 septembre 1767 - 27 septembre 1799)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051100">Images des répertoires du notaire Jacques Tricard (27 septembre 1799 - 23 février 1820)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051109">Images des répertoires du notaire Angélique François Berceon (25 février 1820 - 6 avril 1865)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051110">Images des répertoires du notaire Charles Saint-Ange Berceon (8 avril 1865 - 16 juillet 1889)</html:a>
+            </html:p>
+            <html:p>Liste des instruments de recherche pour les autres archives de l'étude (archives privées) :<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050214">«Mélanges» (dossiers de clients) de l’étude II (1481-1879)</html:a>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041118"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041118-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041118"/>
+            <rico:identifier>MC/ET/II/1 - MC/ET/II/1244, MC/RE/II/1 - MC/RE/II/10</rico:identifier>
+            <rico:title xml:lang="fr">Etude II</rico:title>
+            <rdfs:label xml:lang="fr">Etude II</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1605-04-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1889-07-16</rico:endDate>
+            <rico:date xml:lang="fr">6 avril 1605 - 16 juillet 1889</rico:date>
+            <rico:carrierExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">à évaluer ML</html:p>
+            </rico:carrierExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">à évaluer ML</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010129"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Historique de la conservation</html:h4>
+                     <html:p>
+                        <html:b>
+                           <html:i>Archives publiques de l'étude II</html:i>
+                        </html:b>
+                     </html:p>
+                     <html:p>Les minutes de l'étude II sont conservées et versées de 1605 à 1889. Quelques <html:b>lacunes</html:b>ont été identifiées : il n'y a pas de minute d'août 1670 à mars 1672, ainsi que du 10 au 31 décembre 1682.</html:p>
+                     <html:p>12 notaires ont laissé des minutes dans cette étude.</html:p>
+                     <html:p>3 d'entre eux - Etienne Gerbault, Nicolas Périer et Jean Besnard - n'ont pas laissé de répertoires.</html:p>
+                     <html:p>Aucun des notaires de cette étude n'a exercé moins de 5 ans.</html:p>
+                     <html:p>
+                        <html:b>
+                           <html:i>Archives privées de l'étude II</html:i>
+                        </html:b>
+                     </html:p>
+                     <html:p>L'étude II dispose de "Mélanges".</html:p>
+                  </html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:p>Versement, don</html:p>
+                  </html:div>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041118"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

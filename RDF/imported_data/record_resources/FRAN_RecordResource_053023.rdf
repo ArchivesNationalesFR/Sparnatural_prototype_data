@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/053023">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Archives de l'office notarial XXIII (1767-1969) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Archives de l'office notarial XXIII (1767-1969) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-10-31</rico:publicationDate>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:p xml:lang="fr">Ces documents ont été donnés par l'étude XXIII (Me Rémi Corpechot) au Minutier central en 1983. Ils n'avaient pas encore fait l'objet d'une cotation et d'un instrument de recherche.</html:p>
+      </rico:descriptiveNote>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Marie-Françoise Limon-Bonnet, conservateur général du patrimoine, responsable du Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Deuxième édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2018-07</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Ajout entrée 20180450 (MC/ON/XXIII/3), Marie-Françoise Limon-Bonnet</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-053023"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053023-i1">
+            <rico:isInstantiationOf rdf:resource="record/053023"/>
+            <rico:title xml:lang="fr">Archives de l'office notarial XXIII (1767-1969) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Archives de l'office notarial XXIII (1767-1969) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_053023</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_053023"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-053023">
+      <rico:isOrWasDescribedBy rdf:resource="record/053023"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Archives de l'office notarial XXIII</rico:title>
+      <rdfs:label xml:lang="fr">Archives de l'office notarial XXIII</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1767-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1969-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1767 - 1969</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Sous réserve de l'autorisation de l'office notarial, les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l'étude XXIIIArchives de l'étude XXIII</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_053023"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-053023-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-053023"/>
+            <rico:identifier>MC/ON/XXIII/1 - MC/ON/XXIII/31</rico:identifier>
+            <rico:title xml:lang="fr">Archives de l'office notarial XXIII</rico:title>
+            <rdfs:label xml:lang="fr">Archives de l'office notarial XXIII</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1767-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1969-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1767 - 1969</rico:date>
+            <rico:carrierExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">31 articles (registres et liasses)</html:p>
+            </rico:carrierExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">ml</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Sous réserve de l'autorisation de l'office notarial, les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Historique de la conservation</html:h4>
+                     <html:p>Ceratins de ces documents ont été donnés par l'étude XXIII (Me Rémi Corpechot) au Minutier central des notaires de Paris en 1983 (courrier du notaire à Catherine Grodecki en date du 24 janvier 1983). Se présentant initialement sous forme de cahiers, ils ont été reliés en deux registres à la demande du service, lors de leur restauration par l'atelier des Archives nationales en 1999. D'autres ont été donnés avec la comptabilité de l'étude.</html:p>
+                  </html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:p>Don</html:p>
+                  </html:div>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_053023"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/053023-c-8q450k7k9-puwt0qrzdkvj"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053023-c-905zuun43-1v9eu98g1ryjy"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053023-c-3ab00b3903--ws6attorhimt"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053023-c-9ga7mpwj3--10z9q590wu7bj"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053023-c-9ieenojiu-7aw4t9092n0m"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053023-c-9ieenshvk--1ridlfz5id3u8"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053023-c-9ieeo54od--zpa1ykr9opg7"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053023-c-9ieepa661--nqi6162yu0cr"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053023-c-9t7bqwpoe-194da6f8m07me"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053023-c-xpxolmmuv-1x04obh9417yr"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053023-c-ywn2n2mtu--v40rf4quasiu"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053023-c-yxtz6j9is-1g38r5md1yaqd"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053023-c-z4285ip0h--18vvvqpyca0bu"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053023-c-15q0x15led-1qrzz2dfp9nu5"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053023-c-8q450k7k9-puwt0qrzdkvj">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053023"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Etats de minutes en déficit.</rico:title>
+      <rdfs:label xml:lang="fr">Etats de minutes en déficit.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1767-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1902-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1767 - 1902</rico:date>
+      <rico:hasProvenance rdf:resource="agent/013051"/>
+      <rico:hasProvenance rdf:resource="agent/012939"/>
+      <rico:hasProvenance rdf:resource="agent/011785"/>
+      <rico:hasProvenance rdf:resource="agent/011241"/>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Le registre est composé des cahiers suivants :</html:p>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-8q450k7k9-puwt0qrzdkvj"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053023-c-8q450k7k9-puwt0qrzdkvj-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053023-c-8q450k7k9-puwt0qrzdkvj"/>
+            <rico:identifier>MC/ON/XXIII/1</rico:identifier>
+            <rico:title xml:lang="fr">Etats de minutes en déficit.</rico:title>
+            <rdfs:label xml:lang="fr">Etats de minutes en déficit.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1767-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1902-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1767 - 1902</rico:date>
+            <rico:carrierExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">1x36x26 cm</html:p>
+            </rico:carrierExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">1 registre</html:p>
+            </rico:instantiationExtent>
+            <rico:hasProvenance rdf:resource="agent/013051"/>
+            <rico:hasProvenance rdf:resource="agent/012939"/>
+            <rico:hasProvenance rdf:resource="agent/011785"/>
+            <rico:hasProvenance rdf:resource="agent/011241"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-8q450k7k9-puwt0qrzdkvj"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053023-c-905zuun43-1v9eu98g1ryjy">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053023"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Etats et récolements de minutes.</rico:title>
+      <rdfs:label xml:lang="fr">Etats et récolements de minutes.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1782-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1871-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1782 - 1871</rico:date>
+      <rico:hasProvenance rdf:resource="agent/013051"/>
+      <rico:hasProvenance rdf:resource="agent/011490"/>
+      <rico:hasProvenance rdf:resource="agent/012939"/>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Le registre est composé des cahiers suivants :</html:p>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-905zuun43-1v9eu98g1ryjy"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053023-c-905zuun43-1v9eu98g1ryjy-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053023-c-905zuun43-1v9eu98g1ryjy"/>
+            <rico:identifier>MC/ON/XXIII/2</rico:identifier>
+            <rico:title xml:lang="fr">Etats et récolements de minutes.</rico:title>
+            <rdfs:label xml:lang="fr">Etats et récolements de minutes.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1782-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1871-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1782 - 1871</rico:date>
+            <rico:carrierExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">2x33x25 cm</html:p>
+            </rico:carrierExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">1 registre</html:p>
+            </rico:instantiationExtent>
+            <rico:hasProvenance rdf:resource="agent/013051"/>
+            <rico:hasProvenance rdf:resource="agent/011490"/>
+            <rico:hasProvenance rdf:resource="agent/012939"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-905zuun43-1v9eu98g1ryjy"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053023-c-3ab00b3903--ws6attorhimt">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053023"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Traités, états de produits et pièces concernant les cessions de l'étude par Me Antoine Bossel à Me Ernest Legay, puis Me Ernest Legay à Me Joseph Legay, et enfin Me Joseph Legay à Me Etienne Jules Corpechot.</rico:title>
+      <rdfs:label xml:lang="fr">Traités, états de produits et pièces concernant les cessions de l'étude par Me Antoine Bossel à Me Ernest Legay, puis Me Ernest Legay à Me Joseph Legay, et enfin Me Joseph Legay à Me Etienne Jules Corpechot.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1874-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1874-1942</rico:date>
+      <rico:hasProvenance rdf:resource="agent/012939"/>
+      <rico:hasProvenance rdf:resource="agent/011490"/>
+      <rico:hasProvenance rdf:resource="agent/011491"/>
+      <rico:hasProvenance rdf:resource="agent/012515"/>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Entrée 20180450 du 26 juin 2018 (don de Me Rémi Corpechot).</html:p>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-3ab00b3903--ws6attorhimt"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053023-c-3ab00b3903--ws6attorhimt-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053023-c-3ab00b3903--ws6attorhimt"/>
+            <rico:identifier>MC/ON/XXIII/3</rico:identifier>
+            <rico:title xml:lang="fr">Traités, états de produits et pièces concernant les cessions de l'étude par Me Antoine Bossel à Me Ernest Legay, puis Me Ernest Legay à Me Joseph Legay, et enfin Me Joseph Legay à Me Etienne Jules Corpechot.</rico:title>
+            <rdfs:label xml:lang="fr">Traités, états de produits et pièces concernant les cessions de l'étude par Me Antoine Bossel à Me Ernest Legay, puis Me Ernest Legay à Me Joseph Legay, et enfin Me Joseph Legay à Me Etienne Jules Corpechot.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1874-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1874-1942</rico:date>
+            <rico:hasProvenance rdf:resource="agent/012939"/>
+            <rico:hasProvenance rdf:resource="agent/011490"/>
+            <rico:hasProvenance rdf:resource="agent/011491"/>
+            <rico:hasProvenance rdf:resource="agent/012515"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-3ab00b3903--ws6attorhimt"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-3aw0vl1j5j--1dr2xlsdzgeez">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-3ab00b3903--ws6attorhimt"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Pièces concernant la cession entre Me Antoine Boissel et Me Ernest Legay.</rico:title>
+            <rdfs:label xml:lang="fr">Pièces concernant la cession entre Me Antoine Boissel et Me Ernest Legay.</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1874-12-20</rico:date>
+            <rico:date xml:lang="fr">20 décembre 1874</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Traité de cession entre Me Antoine Boissel et Me Ernest Legay, 20 décembre 1874.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-3aw0vl1j5j--1dr2xlsdzgeez"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-3aw0vl1j5j--1dr2xlsdzgeez-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-3aw0vl1j5j--1dr2xlsdzgeez"/>
+                  <rico:identifier>MC/ON/XXIII/3</rico:identifier>
+                  <rico:title xml:lang="fr">Pièces concernant la cession entre Me Antoine Boissel et Me Ernest Legay.</rico:title>
+                  <rdfs:label xml:lang="fr">Pièces concernant la cession entre Me Antoine Boissel et Me Ernest Legay.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1874-12-20</rico:date>
+                  <rico:date xml:lang="fr">20 décembre 1874</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-3aw0vl1j5j--1dr2xlsdzgeez"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-3awzym6yxh-1ler15xgx7rnv">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-3ab00b3903--ws6attorhimt"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Pièces et états de produits concernant la cession de l'étude par Me Ernest Legay à Me Joseph Legay.</rico:title>
+            <rdfs:label xml:lang="fr">Pièces et états de produits concernant la cession de l'étude par Me Ernest Legay à Me Joseph Legay.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1892-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1901-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1892-1901</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:ul>
+                     <html:li>Etat des produits 1895-1901 et autres brouillons</html:li>
+                     <html:li>Sommes versées à l'Enregistrement par l'étude 1892-1901</html:li>
+                  </html:ul>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-3awzym6yxh-1ler15xgx7rnv"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-3awzym6yxh-1ler15xgx7rnv-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-3awzym6yxh-1ler15xgx7rnv"/>
+                  <rico:identifier>MC/ON/XXIII/3</rico:identifier>
+                  <rico:title xml:lang="fr">Pièces et états de produits concernant la cession de l'étude par Me Ernest Legay à Me Joseph Legay.</rico:title>
+                  <rdfs:label xml:lang="fr">Pièces et états de produits concernant la cession de l'étude par Me Ernest Legay à Me Joseph Legay.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1892-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1901-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1892-1901</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-3awzym6yxh-1ler15xgx7rnv"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-3ax2w54yuk--v5xsaqf4sxh4">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-3ab00b3903--ws6attorhimt"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Pièces et états de produits concernant la cession de l'étude par Me Joseph Legay à Me Etienne Jules Corpechot.</rico:title>
+            <rdfs:label xml:lang="fr">Pièces et états de produits concernant la cession de l'étude par Me Joseph Legay à Me Etienne Jules Corpechot.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1913-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1934-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1913-1934</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:ul>
+                     <html:li>Etats des produits 1930-1934 (5 exemplaires différents, brouillons et exemplaire final)</html:li>
+                     <html:li>Autres états au brouillon ou plus achevés décrivant les charges et produits de l'étude de 1913 à 1934</html:li>
+                  </html:ul>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-3ax2w54yuk--v5xsaqf4sxh4"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-3ax2w54yuk--v5xsaqf4sxh4-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-3ax2w54yuk--v5xsaqf4sxh4"/>
+                  <rico:identifier>MC/ON/XXIII/3</rico:identifier>
+                  <rico:title xml:lang="fr">Pièces et états de produits concernant la cession de l'étude par Me Joseph Legay à Me Etienne Jules Corpechot.</rico:title>
+                  <rdfs:label xml:lang="fr">Pièces et états de produits concernant la cession de l'étude par Me Joseph Legay à Me Etienne Jules Corpechot.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1913-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1934-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1913-1934</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-3ax2w54yuk--v5xsaqf4sxh4"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-3b72jxvkj4--jsnzyj357izs">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-3ab00b3903--ws6attorhimt"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Pièces sur la rémunération du personnel</rico:title>
+            <rdfs:label xml:lang="fr">Pièces sur la rémunération du personnel</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1937-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1937-1949</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>Circulaire de la Chambre sur la rémunérationdu personnel, 1er mars 1939</html:p>
+                  <html:p>Tableau manuscrits des personnels de l'étude et de leur rémunération, 1937-1942</html:p>
+                  <html:p>Cotisation de sécurité sociale et d'allocations familiales. Notice à l'usage des employeurs, 1949 (éditée par la Sécurité sociale).</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-3b72jxvkj4--jsnzyj357izs"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-3b72jxvkj4--jsnzyj357izs-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-3b72jxvkj4--jsnzyj357izs"/>
+                  <rico:identifier>MC/ON/XXIII/3</rico:identifier>
+                  <rico:title xml:lang="fr">Pièces sur la rémunération du personnel</rico:title>
+                  <rdfs:label xml:lang="fr">Pièces sur la rémunération du personnel</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1937-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1937-1949</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-3b72jxvkj4--jsnzyj357izs"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053023-c-9ga7mpwj3--10z9q590wu7bj">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053023"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rico:title>
+      <rdfs:label xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1887-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1966-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1887-1966</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registres chronologiques mentionnant les noms des créanciers et des débiteurs, et l'acte objet de l'inscription. Les colonnes sont : créancier, débiteur, inscription (date, volume, numéro), bureau, titre (nature, date, notaire), capital, observations.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ga7mpwj3--10z9q590wu7bj"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053023-c-9ga7mpwj3--10z9q590wu7bj-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ga7mpwj3--10z9q590wu7bj"/>
+            <rico:identifier>MC/ON/XXIII/4 - MC/ON/XXIII/7</rico:identifier>
+            <rico:title xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rico:title>
+            <rdfs:label xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1887-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1966-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1887-1966</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ga7mpwj3--10z9q590wu7bj"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ga7my22s--hs7ep9c4lmf9">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ga7mpwj3--10z9q590wu7bj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rico:title>
+            <rdfs:label xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1887-07-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1908-01-31</rico:endDate>
+            <rico:date xml:lang="fr">juillet 1887 - janvier 1908</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ga7my22s--hs7ep9c4lmf9"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ga7my22s--hs7ep9c4lmf9-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ga7my22s--hs7ep9c4lmf9"/>
+                  <rico:identifier>MC/ON/XXIII/4</rico:identifier>
+                  <rico:title xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rico:title>
+                  <rdfs:label xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1887-07-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1908-01-31</rico:endDate>
+                  <rico:date xml:lang="fr">juillet 1887 - janvier 1908</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ga7my22s--hs7ep9c4lmf9"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ga7mz856-l7yrafc408ql">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ga7mpwj3--10z9q590wu7bj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rico:title>
+            <rdfs:label xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1908-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1928-07-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier 1908 - juillet 1928</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ga7mz856-l7yrafc408ql"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ga7mz856-l7yrafc408ql-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ga7mz856-l7yrafc408ql"/>
+                  <rico:identifier>MC/ON/XXIII/5</rico:identifier>
+                  <rico:title xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rico:title>
+                  <rdfs:label xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1908-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1928-07-31</rico:endDate>
+                  <rico:date xml:lang="fr">janvier 1908 - juillet 1928</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ga7mz856-l7yrafc408ql"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ga7n06l7--1gvcfs9rwlp4l">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ga7mpwj3--10z9q590wu7bj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rico:title>
+            <rdfs:label xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1928-08-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1935-11-30</rico:endDate>
+            <rico:date xml:lang="fr">août 1928 - novembre 1935</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ga7n06l7--1gvcfs9rwlp4l"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ga7n06l7--1gvcfs9rwlp4l-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ga7n06l7--1gvcfs9rwlp4l"/>
+                  <rico:identifier>MC/ON/XXIII/6</rico:identifier>
+                  <rico:title xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rico:title>
+                  <rdfs:label xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1928-08-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1935-11-30</rico:endDate>
+                  <rico:date xml:lang="fr">août 1928 - novembre 1935</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ga7n06l7--1gvcfs9rwlp4l"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ga7n18ox--52cxp72wrvyp">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ga7mpwj3--10z9q590wu7bj"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rico:title>
+            <rdfs:label xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1935-12-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1966-12-31</rico:endDate>
+            <rico:date xml:lang="fr">décembre 1935 - décembre 1966</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ga7n18ox--52cxp72wrvyp"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ga7n18ox--52cxp72wrvyp-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ga7n18ox--52cxp72wrvyp"/>
+                  <rico:identifier>MC/ON/XXIII/7</rico:identifier>
+                  <rico:title xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rico:title>
+                  <rdfs:label xml:lang="fr">Renouvellements d'inscriptions hypothécaires.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1935-12-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1966-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">décembre 1935 - décembre 1966</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ga7n18ox--52cxp72wrvyp"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053023-c-9ieenojiu-7aw4t9092n0m">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053023"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Renouvellements d'inscriptions sur fonds de commerce.</rico:title>
+      <rdfs:label xml:lang="fr">Renouvellements d'inscriptions sur fonds de commerce.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1909-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-05-31</rico:endDate>
+      <rico:date xml:lang="fr">1909 - mai 1936</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registre chronologique mentionnant les noms des créanciers et des débiteurs, et l'acte objet de l'inscription au Tribunal de commerce.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieenojiu-7aw4t9092n0m"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053023-c-9ieenojiu-7aw4t9092n0m-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieenojiu-7aw4t9092n0m"/>
+            <rico:identifier>MC/ON/XXIII/8</rico:identifier>
+            <rico:title xml:lang="fr">Renouvellements d'inscriptions sur fonds de commerce.</rico:title>
+            <rdfs:label xml:lang="fr">Renouvellements d'inscriptions sur fonds de commerce.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1909-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-05-31</rico:endDate>
+            <rico:date xml:lang="fr">1909 - mai 1936</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieenojiu-7aw4t9092n0m"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053023-c-9ieenshvk--1ridlfz5id3u8">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053023"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Déclarations de successions.</rico:title>
+      <rdfs:label xml:lang="fr">Déclarations de successions.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1904-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1904-1949</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registres chronologiques comportant la date du décès, nom du défunt, énociation des actes (inventaire, notoriété, testament), bureau des successions, nom du clerc chargé de l'affaire, observations.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieenshvk--1ridlfz5id3u8"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053023-c-9ieenshvk--1ridlfz5id3u8-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieenshvk--1ridlfz5id3u8"/>
+            <rico:identifier>MC/ON/XXIII/9-MC/ON/XXIII/10</rico:identifier>
+            <rico:title xml:lang="fr">Déclarations de successions.</rico:title>
+            <rdfs:label xml:lang="fr">Déclarations de successions.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1904-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1904-1949</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieenshvk--1ridlfz5id3u8"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ieenuqyk--9exn4xl0weu4">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ieenshvk--1ridlfz5id3u8"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Déclarations de successions.</rico:title>
+            <rdfs:label xml:lang="fr">Déclarations de successions.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1904-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-05-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier 1904 - mai 1936</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieenuqyk--9exn4xl0weu4"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ieenuqyk--9exn4xl0weu4-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieenuqyk--9exn4xl0weu4"/>
+                  <rico:identifier>MC/ON/XXIII/9</rico:identifier>
+                  <rico:title xml:lang="fr">Déclarations de successions.</rico:title>
+                  <rdfs:label xml:lang="fr">Déclarations de successions.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1904-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-05-31</rico:endDate>
+                  <rico:date xml:lang="fr">janvier 1904 - mai 1936</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieenuqyk--9exn4xl0weu4"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ieenvwf0-hvjnvofckulc">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ieenshvk--1ridlfz5id3u8"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Déclarations de successions.</rico:title>
+            <rdfs:label xml:lang="fr">Déclarations de successions.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-11-30</rico:endDate>
+            <rico:date xml:lang="fr">janvier 1936 - novembre 1949</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieenvwf0-hvjnvofckulc"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ieenvwf0-hvjnvofckulc-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieenvwf0-hvjnvofckulc"/>
+                  <rico:identifier>MC/ON/XXIII/10</rico:identifier>
+                  <rico:title xml:lang="fr">Déclarations de successions.</rico:title>
+                  <rdfs:label xml:lang="fr">Déclarations de successions.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1949-11-30</rico:endDate>
+                  <rico:date xml:lang="fr">janvier 1936 - novembre 1949</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieenvwf0-hvjnvofckulc"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053023-c-9ieeo54od--zpa1ykr9opg7">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053023"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Formalités.</rico:title>
+      <rdfs:label xml:lang="fr">Formalités.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1920-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1866-1920</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registres chronologiques avec indication, pour chaque acte, des formalités à remplir et des formalités accomplies. Les colonnes sont : n° d'ordre, nom des parties, date de l'acte, nature de l'acte, formalités (à remplir/accomplies), observations.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeo54od--zpa1ykr9opg7"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053023-c-9ieeo54od--zpa1ykr9opg7-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieeo54od--zpa1ykr9opg7"/>
+            <rico:identifier>MC/ON/XXIII/11-MC/ON/XXIII/22</rico:identifier>
+            <rico:title xml:lang="fr">Formalités.</rico:title>
+            <rdfs:label xml:lang="fr">Formalités.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1920-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1866-1920</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeo54od--zpa1ykr9opg7"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ieeo9o2a-6jrtpfz04jtc">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ieeo54od--zpa1ykr9opg7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Registre n° 4.</rico:title>
+            <rdfs:label xml:lang="fr">Registre n° 4.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1869-09-30</rico:endDate>
+            <rico:date xml:lang="fr">janvier 1866 - septembre 1869</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeo9o2a-6jrtpfz04jtc"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ieeo9o2a-6jrtpfz04jtc-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieeo9o2a-6jrtpfz04jtc"/>
+                  <rico:identifier>MC/ON/XXIII/11</rico:identifier>
+                  <rico:title xml:lang="fr">Registre n° 4.</rico:title>
+                  <rdfs:label xml:lang="fr">Registre n° 4.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1866-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1869-09-30</rico:endDate>
+                  <rico:date xml:lang="fr">janvier 1866 - septembre 1869</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeo9o2a-6jrtpfz04jtc"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ieeoatto-12l1hqxvy3r51">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ieeo54od--zpa1ykr9opg7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Registre n° 5.</rico:title>
+            <rdfs:label xml:lang="fr">Registre n° 5.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1869-10-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1875-09-30</rico:endDate>
+            <rico:date xml:lang="fr">octobre 1869 - septembre 1875</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeoatto-12l1hqxvy3r51"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ieeoatto-12l1hqxvy3r51-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieeoatto-12l1hqxvy3r51"/>
+                  <rico:identifier>MC/ON/XXIII/12</rico:identifier>
+                  <rico:title xml:lang="fr">Registre n° 5.</rico:title>
+                  <rdfs:label xml:lang="fr">Registre n° 5.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1869-10-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1875-09-30</rico:endDate>
+                  <rico:date xml:lang="fr">octobre 1869 - septembre 1875</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeoatto-12l1hqxvy3r51"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ieeobx5a--vwxglamyuhbk">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ieeo54od--zpa1ykr9opg7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Registre n° 6.</rico:title>
+            <rdfs:label xml:lang="fr">Registre n° 6.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1875-11-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1879-10-31</rico:endDate>
+            <rico:date xml:lang="fr">novembre 1875 - octobre 1879</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeobx5a--vwxglamyuhbk"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ieeobx5a--vwxglamyuhbk-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieeobx5a--vwxglamyuhbk"/>
+                  <rico:identifier>MC/ON/XXIII/13</rico:identifier>
+                  <rico:title xml:lang="fr">Registre n° 6.</rico:title>
+                  <rdfs:label xml:lang="fr">Registre n° 6.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1875-11-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1879-10-31</rico:endDate>
+                  <rico:date xml:lang="fr">novembre 1875 - octobre 1879</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeobx5a--vwxglamyuhbk"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ieeod0rv-16x5jlqzy9gmk">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ieeo54od--zpa1ykr9opg7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Registre n° 7.</rico:title>
+            <rdfs:label xml:lang="fr">Registre n° 7.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1879-11-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1885-07-31</rico:endDate>
+            <rico:date xml:lang="fr">novembre 1879 - juillet 1885</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeod0rv-16x5jlqzy9gmk"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ieeod0rv-16x5jlqzy9gmk-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieeod0rv-16x5jlqzy9gmk"/>
+                  <rico:identifier>MC/ON/XXIII/14</rico:identifier>
+                  <rico:title xml:lang="fr">Registre n° 7.</rico:title>
+                  <rdfs:label xml:lang="fr">Registre n° 7.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1879-11-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1885-07-31</rico:endDate>
+                  <rico:date xml:lang="fr">novembre 1879 - juillet 1885</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeod0rv-16x5jlqzy9gmk"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ieeoe4pg-1acfn6yxahxyy">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ieeo54od--zpa1ykr9opg7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Registre n° 8.</rico:title>
+            <rdfs:label xml:lang="fr">Registre n° 8.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1885-08-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1890-02-28</rico:endDate>
+            <rico:date xml:lang="fr">août 1885 - février 1890</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeoe4pg-1acfn6yxahxyy"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ieeoe4pg-1acfn6yxahxyy-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieeoe4pg-1acfn6yxahxyy"/>
+                  <rico:identifier>MC/ON/XXIII/15</rico:identifier>
+                  <rico:title xml:lang="fr">Registre n° 8.</rico:title>
+                  <rdfs:label xml:lang="fr">Registre n° 8.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1885-08-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1890-02-28</rico:endDate>
+                  <rico:date xml:lang="fr">août 1885 - février 1890</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeoe4pg-1acfn6yxahxyy"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ieeof812-ck8xbfdmdez9">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ieeo54od--zpa1ykr9opg7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Registre n° 9.</rico:title>
+            <rdfs:label xml:lang="fr">Registre n° 9.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1890-02-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1893-12-31</rico:endDate>
+            <rico:date xml:lang="fr">février 1890 - décembre 1893</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeof812-ck8xbfdmdez9"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ieeof812-ck8xbfdmdez9-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieeof812-ck8xbfdmdez9"/>
+                  <rico:identifier>MC/ON/XXIII/16</rico:identifier>
+                  <rico:title xml:lang="fr">Registre n° 9.</rico:title>
+                  <rdfs:label xml:lang="fr">Registre n° 9.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1890-02-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1893-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">février 1890 - décembre 1893</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeof812-ck8xbfdmdez9"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ieeogb1o--1fdmb1pmmnszp">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ieeo54od--zpa1ykr9opg7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Registre n° 10.</rico:title>
+            <rdfs:label xml:lang="fr">Registre n° 10.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1894-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1897-06-30</rico:endDate>
+            <rico:date xml:lang="fr">janvier 1894 - juin 1897</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeogb1o--1fdmb1pmmnszp"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ieeogb1o--1fdmb1pmmnszp-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieeogb1o--1fdmb1pmmnszp"/>
+                  <rico:identifier>MC/ON/XXIII/17</rico:identifier>
+                  <rico:title xml:lang="fr">Registre n° 10.</rico:title>
+                  <rdfs:label xml:lang="fr">Registre n° 10.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1894-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1897-06-30</rico:endDate>
+                  <rico:date xml:lang="fr">janvier 1894 - juin 1897</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeogb1o--1fdmb1pmmnszp"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ieeoheda-iq2ivsz5z8a0">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ieeo54od--zpa1ykr9opg7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Registre n° 11.</rico:title>
+            <rdfs:label xml:lang="fr">Registre n° 11.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1897-07-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1901-07-31</rico:endDate>
+            <rico:date xml:lang="fr">juillet 1897 - juillet 1901</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeoheda-iq2ivsz5z8a0"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ieeoheda-iq2ivsz5z8a0-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieeoheda-iq2ivsz5z8a0"/>
+                  <rico:identifier>MC/ON/XXIII/18</rico:identifier>
+                  <rico:title xml:lang="fr">Registre n° 11.</rico:title>
+                  <rdfs:label xml:lang="fr">Registre n° 11.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1897-07-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1901-07-31</rico:endDate>
+                  <rico:date xml:lang="fr">juillet 1897 - juillet 1901</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeoheda-iq2ivsz5z8a0"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ieeoiiwt-at7w79cbpub6">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ieeo54od--zpa1ykr9opg7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Registre n° 12.</rico:title>
+            <rdfs:label xml:lang="fr">Registre n° 12.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1901-08-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1905-05-31</rico:endDate>
+            <rico:date xml:lang="fr">août 1901 - mai 1905</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeoiiwt-at7w79cbpub6"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ieeoiiwt-at7w79cbpub6-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieeoiiwt-at7w79cbpub6"/>
+                  <rico:identifier>MC/ON/XXIII/19</rico:identifier>
+                  <rico:title xml:lang="fr">Registre n° 12.</rico:title>
+                  <rdfs:label xml:lang="fr">Registre n° 12.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1901-08-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1905-05-31</rico:endDate>
+                  <rico:date xml:lang="fr">août 1901 - mai 1905</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeoiiwt-at7w79cbpub6"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ieeojm8f--1afgv3eyse9a0">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ieeo54od--zpa1ykr9opg7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Registre n° 13.</rico:title>
+            <rdfs:label xml:lang="fr">Registre n° 13.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1905-05-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1909-02-28</rico:endDate>
+            <rico:date xml:lang="fr">mai 1905 - février 1909</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeojm8f--1afgv3eyse9a0"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ieeojm8f--1afgv3eyse9a0-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieeojm8f--1afgv3eyse9a0"/>
+                  <rico:identifier>MC/ON/XXIII/20</rico:identifier>
+                  <rico:title xml:lang="fr">Registre n° 13.</rico:title>
+                  <rdfs:label xml:lang="fr">Registre n° 13.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1905-05-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1909-02-28</rico:endDate>
+                  <rico:date xml:lang="fr">mai 1905 - février 1909</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeojm8f--1afgv3eyse9a0"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ieeokpk1-1qp62iutju7zg">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ieeo54od--zpa1ykr9opg7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Registre n° 14.</rico:title>
+            <rdfs:label xml:lang="fr">Registre n° 14.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1909-02-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-08-31</rico:endDate>
+            <rico:date xml:lang="fr">février 1909 - août 1912</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeokpk1-1qp62iutju7zg"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ieeokpk1-1qp62iutju7zg-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieeokpk1-1qp62iutju7zg"/>
+                  <rico:identifier>MC/ON/XXIII/21</rico:identifier>
+                  <rico:title xml:lang="fr">Registre n° 14.</rico:title>
+                  <rdfs:label xml:lang="fr">Registre n° 14.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1909-02-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-08-31</rico:endDate>
+                  <rico:date xml:lang="fr">février 1909 - août 1912</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeokpk1-1qp62iutju7zg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-9ieeolt6m--6j7le0bi0vp8">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ieeo54od--zpa1ykr9opg7"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Registre n° 15.</rico:title>
+            <rdfs:label xml:lang="fr">Registre n° 15.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-10-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1920-07-31</rico:endDate>
+            <rico:date xml:lang="fr">octobre 1912 - juillet 1920</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeolt6m--6j7le0bi0vp8"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-9ieeolt6m--6j7le0bi0vp8-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieeolt6m--6j7le0bi0vp8"/>
+                  <rico:identifier>MC/ON/XXIII/22</rico:identifier>
+                  <rico:title xml:lang="fr">Registre n° 15.</rico:title>
+                  <rdfs:label xml:lang="fr">Registre n° 15.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-10-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1920-07-31</rico:endDate>
+                  <rico:date xml:lang="fr">octobre 1912 - juillet 1920</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieeolt6m--6j7le0bi0vp8"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053023-c-9ieepa661--nqi6162yu0cr">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053023"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Tables alphabétiques de testaments olographes.</rico:title>
+      <rdfs:label xml:lang="fr">Tables alphabétiques de testaments olographes.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1835-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1929-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1835-1929</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Registres <html:b>alphabétiques</html:b>comportant noms des testateurs, demeures date des dépôts, date des retraits, observations. Les deux registres se superposent largement du point de vie chronologique.</html:p>
+            <html:p>
+               <html:b>Voir aussi une table des testaments et donations cotée MC/RE/XXIII/36.</html:b>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Document(s) séparé(s)</html:h4>
+            <html:p>MC/RE/XXIII/36</html:p>
+         </html:div>
+      </rico:descriptiveNote>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieepa661--nqi6162yu0cr"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053023-c-9ieepa661--nqi6162yu0cr-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9ieepa661--nqi6162yu0cr"/>
+            <rico:identifier>MC/ON/XXIII/23-MC/ON/XXIII/24</rico:identifier>
+            <rico:title xml:lang="fr">Tables alphabétiques de testaments olographes.</rico:title>
+            <rdfs:label xml:lang="fr">Tables alphabétiques de testaments olographes.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1835-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1929-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1835-1929</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9ieepa661--nqi6162yu0cr"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-xs5zzppev-dyx2bjrly2rw">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ieepa661--nqi6162yu0cr"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Table alphabétique des testaments olographes.</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des testaments olographes.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1835-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1900-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1835-1900</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-xs5zzppev-dyx2bjrly2rw"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-xs5zzppev-dyx2bjrly2rw-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-xs5zzppev-dyx2bjrly2rw"/>
+                  <rico:identifier>MC/ON/XXIII/23</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des testaments olographes.</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des testaments olographes.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1835-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1900-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1835-1900</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-xs5zzppev-dyx2bjrly2rw"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053023-c-xt7bs03m0--1jhd4lf3hgkx">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053023-c-9ieepa661--nqi6162yu0cr"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Table alphabétique des testaments olographes.</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des testaments olographes.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1844-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1929-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1844-1929</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010150"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-xt7bs03m0--1jhd4lf3hgkx"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053023-c-xt7bs03m0--1jhd4lf3hgkx-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053023-c-xt7bs03m0--1jhd4lf3hgkx"/>
+                  <rico:identifier>MC/ON/XXIII/24</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des testaments olographes.</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des testaments olographes.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1844-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1929-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1844-1929</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-xt7bs03m0--1jhd4lf3hgkx"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053023-c-9t7bqwpoe-194da6f8m07me">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053023"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Crédit foncier.</rico:title>
+      <rdfs:label xml:lang="fr">Crédit foncier.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1901-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1901-1941</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Livre des prêts accordés par le Crédit foncier à des clients de l'étude.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9t7bqwpoe-194da6f8m07me"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053023-c-9t7bqwpoe-194da6f8m07me-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053023-c-9t7bqwpoe-194da6f8m07me"/>
+            <rico:identifier>MC/ON/XXIII/25</rico:identifier>
+            <rico:title xml:lang="fr">Crédit foncier.</rico:title>
+            <rdfs:label xml:lang="fr">Crédit foncier.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1901-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1941-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1901-1941</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-9t7bqwpoe-194da6f8m07me"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053023-c-xpxolmmuv-1x04obh9417yr">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053023"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Obligations.</rico:title>
+      <rdfs:label xml:lang="fr">Obligations.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1935-11-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1955-12-31</rico:endDate>
+      <rico:date xml:lang="fr">novembre 1935 - 1955</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registre comportant les noms des parties concernées, les dates des actes, les sommes dues, la date d'exigibilité du capital, les échéances des intérêts..</html:p>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-xpxolmmuv-1x04obh9417yr"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053023-c-xpxolmmuv-1x04obh9417yr-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053023-c-xpxolmmuv-1x04obh9417yr"/>
+            <rico:identifier>MC/ON/XXIII/26</rico:identifier>
+            <rico:title xml:lang="fr">Obligations.</rico:title>
+            <rdfs:label xml:lang="fr">Obligations.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1935-11-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1955-12-31</rico:endDate>
+            <rico:date xml:lang="fr">novembre 1935 - 1955</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-xpxolmmuv-1x04obh9417yr"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053023-c-ywn2n2mtu--v40rf4quasiu">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053023"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Répertoire alphabétique d'adresses de l'étude. Sans date [fin XIXe-début XXe].</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire alphabétique d'adresses de l'étude. Sans date [fin XIXe-début XXe].</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1870-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1930-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1870-1930</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-ywn2n2mtu--v40rf4quasiu"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053023-c-ywn2n2mtu--v40rf4quasiu-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053023-c-ywn2n2mtu--v40rf4quasiu"/>
+            <rico:identifier>MC/ON/XXIII/27</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire alphabétique d'adresses de l'étude. Sans date [fin XIXe-début XXe].</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire alphabétique d'adresses de l'étude. Sans date [fin XIXe-début XXe].</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1870-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1930-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1870-1930</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-ywn2n2mtu--v40rf4quasiu"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053023-c-yxtz6j9is-1g38r5md1yaqd">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053023"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Etat des actes reçus de 1891 à 1903.</rico:title>
+      <rdfs:label xml:lang="fr">Etat des actes reçus de 1891 à 1903.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1891-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1903-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1891-1903</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Il y a un dossier par année, comprenant des statistiques par type d'activité, pour répondre la circulaire du Garde des sceaux du 6 décembre 1876 (concernant "la statistique qui prescrit la confection par les notaires d'états indiquant le nombre et la nature des actes reçus dans le courant de chaque année) relayée par la chambre des notaires qui centralise l'information.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-yxtz6j9is-1g38r5md1yaqd"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053023-c-yxtz6j9is-1g38r5md1yaqd-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053023-c-yxtz6j9is-1g38r5md1yaqd"/>
+            <rico:identifier>MC/ON/XXIII/28</rico:identifier>
+            <rico:title xml:lang="fr">Etat des actes reçus de 1891 à 1903.</rico:title>
+            <rdfs:label xml:lang="fr">Etat des actes reçus de 1891 à 1903.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1891-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1903-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1891-1903</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-yxtz6j9is-1g38r5md1yaqd"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053023-c-z4285ip0h--18vvvqpyca0bu">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053023"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Tables alphabétiques des actes reçus de 1892 à 1900.</rico:title>
+      <rdfs:label xml:lang="fr">Tables alphabétiques des actes reçus de 1892 à 1900.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1892-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1900-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1892-1900</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Il y a un cahier par année. Il s'agit vraissemblablement des brouillons de la table cotée MC/RE/XXIII/33.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-z4285ip0h--18vvvqpyca0bu"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053023-c-z4285ip0h--18vvvqpyca0bu-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053023-c-z4285ip0h--18vvvqpyca0bu"/>
+            <rico:identifier>MC/ON/XXIII/29</rico:identifier>
+            <rico:title xml:lang="fr">Tables alphabétiques des actes reçus de 1892 à 1900.</rico:title>
+            <rdfs:label xml:lang="fr">Tables alphabétiques des actes reçus de 1892 à 1900.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1892-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1900-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1892-1900</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-z4285ip0h--18vvvqpyca0bu"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053023-c-15q0x15led-1qrzz2dfp9nu5">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053023"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Documentation imprimée sur le Tarif des notaires, le barême des honoraires, la taxe des actes, les droits d'Enregistrement et d'hypothèques, etc.</rico:title>
+      <rdfs:label xml:lang="fr">Documentation imprimée sur le Tarif des notaires, le barême des honoraires, la taxe des actes, les droits d'Enregistrement et d'hypothèques, etc.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1927-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1969-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1927-1969</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:ul>
+               <html:li>Tarif légal des notaires du département de la Seine (décret du 29 janvier 1927 (plaquette).</html:li>
+               <html:li>Résumé des décisions et avis de la Chambre des notaires du département de la Seine concernant l'application et l'interprétation du Tarif légal, 23 avril 1936 (plaquette).</html:li>
+               <html:li>Tarif des notaires (décret 45-1780 du 10 août 1945), avec rectification au <html:i>Journal officiel</html:i>des 29 août et 4 septembre 1945, mis en tableau, donnant le tarif pour chaque acte.</html:li>
+               <html:li>Commentaire du Tarif des notaires établi par Georges Roulois, publié sous l'égide et pour le compte du Conseil supérieur du notariat, 1958.</html:li>
+               <html:li>Modification du Tarif des notaires (décret 66-1060 du 27 décembre 1966), extrait du<html:i>Journal officiel</html:i>.</html:li>
+               <html:li>
+                  <html:i>Barême des honoraires proportionnels dûs aux notaires (avril 1946)</html:i>, 2e édition, 2 exemplaires (annotés) ; 3e édition, conforme au décret du 22 mars 1948.</html:li>
+               <html:li>
+                  <html:i>Guide de la taxe des actes notariés avec tarifs des honoraires, des droits d'Enregistrement et hypothèques</html:i>, par E. Lefèvre. Fascicules pour 1939, 1948, 1949, 1951, 1953, 1956, 1960, 1961, 1962, 1964, 1965, 1966, 1967, 1968, 1969.</html:li>
+               <html:li>Cahier "Notariat". Fascicules : 1e livraison 1958, 1e livraison 1960, 2e livraison 1960, 4e livraison 1961, 5e livraison 1961, 6e livraison décembre 1961, livraison juin 1965, livraison février 1967, livraison mars 1967, livraison juin 1967, livraison novembre 1967, livraison juin 1968, livraison novembre 1968, livraison mars 1969.</html:li>
+               <html:li>Tarif des droits d'Enregistrement et de timbre, des droits de mutation par décès, des taxes sur les sociétés (plusieurs fascicules et plaquetets : 1938, 1939, 1940, 1941, 1942, 1944, 1946, 1947, 1949, 1951).</html:li>
+            </html:ul>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010150"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-15q0x15led-1qrzz2dfp9nu5"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053023-c-15q0x15led-1qrzz2dfp9nu5-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053023-c-15q0x15led-1qrzz2dfp9nu5"/>
+            <rico:identifier>MC/ON/XXIII/30</rico:identifier>
+            <rico:title xml:lang="fr">Documentation imprimée sur le Tarif des notaires, le barême des honoraires, la taxe des actes, les droits d'Enregistrement et d'hypothèques, etc.</rico:title>
+            <rdfs:label xml:lang="fr">Documentation imprimée sur le Tarif des notaires, le barême des honoraires, la taxe des actes, les droits d'Enregistrement et d'hypothèques, etc.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1927-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1969-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1927-1969</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053023/c-15q0x15led-1qrzz2dfp9nu5"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

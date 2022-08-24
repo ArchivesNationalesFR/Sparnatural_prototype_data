@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/051768">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Images du répertoire du notaire Henri Ellain pour l'étude XII : MC/RE/XII/3</rico:title>
+      <rdfs:label xml:lang="fr">Images du répertoire du notaire Henri Ellain pour l'étude XII : MC/RE/XII/3</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, notices préparées par Guillaume Saint-Aubin, vacataire, puis Nathalie Jourdain, adjointe administrative principale.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Deuxième édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2017-10</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Corrections et ajouts en vue de la mise en ligne sur la SIV, N. Jourdain</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-051768"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051768-i1">
+            <rico:isInstantiationOf rdf:resource="record/051768"/>
+            <rico:title xml:lang="fr">Images du répertoire du notaire Henri Ellain pour l'étude XII : MC/RE/XII/3</rico:title>
+            <rdfs:label xml:lang="fr">Images du répertoire du notaire Henri Ellain pour l'étude XII : MC/RE/XII/3</rdfs:label>
+            <rico:history xml:lang="fr">17 mai 2004</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_051768</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051768"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-051768">
+      <rico:isOrWasDescribedBy rdf:resource="record/051768"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Images du répertoire du notaire Henri Ellain pour l'étude XII</rico:title>
+      <rdfs:label xml:lang="fr">Images du répertoire du notaire Henri Ellain pour l'étude XII</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-25</rico:endDate>
+      <rico:date xml:lang="fr">6 novembre 1656 - 25 janvier 1658</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010139"/>
+      <rico:hasProvenance rdf:resource="agent/012128"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:structure rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+      </rico:structure>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Images des répertoires de l’étude XIIArchives de l'étude XII</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8f3jla--to36ja96m31q"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051768"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-051768-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-051768"/>
+            <rico:identifier>MC/RE/XII/3</rico:identifier>
+            <rico:title xml:lang="fr">Images du répertoire du notaire Henri Ellain pour l'étude XII</rico:title>
+            <rdfs:label xml:lang="fr">Images du répertoire du notaire Henri Ellain pour l'étude XII</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-25</rico:endDate>
+            <rico:date xml:lang="fr">6 novembre 1656 - 25 janvier 1658</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Un registre</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010139"/>
+            <rico:hasProvenance rdf:resource="agent/012128"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:structure rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+            </rico:structure>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Historique de la conservation</html:h4>
+                     <html:p>Un registre comprenant deux repertoires (MC/RE/XII/2 et MC/RE/XII/3) composé de 170 feuillets de papier manuscrits. Le repertoire MC/RE/XII/3 comporte 39 feuillets (f°132 à 170) et mesure hauteur 30, 5 x largeur 18, 5 cm, il est composé de 1 cahier folioté par le notaire de 1 à 36. Le registre est en bon état.</html:p>
+                  </html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:p>Registre entré aux Archives nationales en 1933.</html:p>
+                  </html:div>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051768"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/051768-c1ufwq6o2p94--1or4pf0z13ji1"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/051768-c1ufwq6o2p94--1or4pf0z13ji1">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-051768"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+      <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période du 6 novembre 1656 au 25 janvier 1658</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 6 novembre 1656 au 25 janvier 1658</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-25</rico:endDate>
+      <rico:date xml:lang="fr">6 novembre 1656 - 25 janvier 1658</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Le registre contient aussi le répertoire du notaire <html:b>Pierre Frezon</html:b>pour la période du 29 janvier au 23 février 1658.</html:p>
+            <html:p>Le répertoire contient les informations suivantes : la liste chronologique des minutes enregistrées à l'etude et la liste chronologique des brevets rapportés au notaire, qu'il a "grossoyés". Pour chacune de ces listes sont mentionnés : 1. nature de l'acte ; 2. nom, prénom, des parties ; 3. date du jour dans le mois et l'année.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010139"/>
+      <rico:hasProvenance rdf:resource="agent/012128"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051768/c1ufwq6o2p94--1or4pf0z13ji1"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051768-c1ufwq6o2p94--1or4pf0z13ji1-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/051768-c1ufwq6o2p94--1or4pf0z13ji1"/>
+            <rico:identifier>MC/RE/XII/3</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période du 6 novembre 1656 au 25 janvier 1658</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 6 novembre 1656 au 25 janvier 1658</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-25</rico:endDate>
+            <rico:date xml:lang="fr">6 novembre 1656 - 25 janvier 1658</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">34 feuillets</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051768/c1ufwq6o2p94--1or4pf0z13ji1"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051768-c1ufwq6o3eps--1pi70trlelodp">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051768-c1ufwq6o2p94--1or4pf0z13ji1"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique pour la période du 6 novembre au 30 décembre 1656</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique pour la période du 6 novembre au 30 décembre 1656</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-12-30</rico:endDate>
+            <rico:date xml:lang="fr">6 novembre - 30 décembre 1656</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010139"/>
+            <rico:hasProvenance rdf:resource="agent/012128"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051768/c1ufwq6o3eps--1pi70trlelodp"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051768-c1ufwq6o3eps--1pi70trlelodp-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051768-c1ufwq6o3eps--1pi70trlelodp"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051768-c1ufwq6o3eps--1pi70trlelodp-i2"/>
+                  <rico:identifier>132 r°-136 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique pour la période du 6 novembre au 30 décembre 1656</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique pour la période du 6 novembre au 30 décembre 1656</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-12-30</rico:endDate>
+                  <rico:date xml:lang="fr">6 novembre - 30 décembre 1656</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">5 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051768/c1ufwq6o3eps--1pi70trlelodp"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051768-c1ufwq6o3eps--1pi70trlelodp-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051768-c1ufwq6o3eps--1pi70trlelodp"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051768-c1ufwq6o3eps--1pi70trlelodp-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_012MIC00224_L.jpg#DAFANCH96_012MIC00229_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051768/c1ufwq6o3eps--1pi70trlelodp/DAFANCH96_012MIC00224_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051768-c1ufwq6o3hsw-1tpoi5w68qxoj">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051768-c1ufwq6o2p94--1or4pf0z13ji1"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique pour la période du 2 janvier au 31 décembre 1657</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique pour la période du 2 janvier au 31 décembre 1657</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 31 décembre 1657</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010139"/>
+            <rico:hasProvenance rdf:resource="agent/012128"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051768/c1ufwq6o3hsw-1tpoi5w68qxoj"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051768-c1ufwq6o3hsw-1tpoi5w68qxoj-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051768-c1ufwq6o3hsw-1tpoi5w68qxoj"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051768-c1ufwq6o3hsw-1tpoi5w68qxoj-i2"/>
+                  <rico:identifier>136 v°-164 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique pour la période du 2 janvier au 31 décembre 1657</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique pour la période du 2 janvier au 31 décembre 1657</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1657</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">29 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051768/c1ufwq6o3hsw-1tpoi5w68qxoj"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051768-c1ufwq6o3hsw-1tpoi5w68qxoj-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051768-c1ufwq6o3hsw-1tpoi5w68qxoj"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051768-c1ufwq6o3hsw-1tpoi5w68qxoj-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_012MIC00229_L.jpg#DAFANCH96_012MIC00260_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051768/c1ufwq6o3hsw-1tpoi5w68qxoj/DAFANCH96_012MIC00229_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051768-c1ufwq6o3k48--1fec7dk2zs2he">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051768-c1ufwq6o2p94--1or4pf0z13ji1"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique pour la période du 1er au 25 janvier 1658</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique pour la période du 1er au 25 janvier 1658</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-25</rico:endDate>
+            <rico:date xml:lang="fr">1er janvier - 25 janvier 1658</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010139"/>
+            <rico:hasProvenance rdf:resource="agent/012128"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051768/c1ufwq6o3k48--1fec7dk2zs2he"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051768-c1ufwq6o3k48--1fec7dk2zs2he-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051768-c1ufwq6o3k48--1fec7dk2zs2he"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051768-c1ufwq6o3k48--1fec7dk2zs2he-i2"/>
+                  <rico:identifier>164 r°-165 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique pour la période du 1er au 25 janvier 1658</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique pour la période du 1er au 25 janvier 1658</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-25</rico:endDate>
+                  <rico:date xml:lang="fr">1er janvier - 25 janvier 1658</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">2 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051768/c1ufwq6o3k48--1fec7dk2zs2he"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051768-c1ufwq6o3k48--1fec7dk2zs2he-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051768-c1ufwq6o3k48--1fec7dk2zs2he"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051768-c1ufwq6o3k48--1fec7dk2zs2he-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_012MIC00260_L.jpg#DAFANCH96_012MIC00262_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051768/c1ufwq6o3k48--1fec7dk2zs2he/DAFANCH96_012MIC00260_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051768-c1ufwq6o3mfk--121w41dp5euo7">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051768-c1ufwq6o2p94--1or4pf0z13ji1"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste des brevets grossoyés pour la période du 6 novembre 1656 au 25 janvier 1658</rico:title>
+            <rdfs:label xml:lang="fr">Liste des brevets grossoyés pour la période du 6 novembre 1656 au 25 janvier 1658</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-25</rico:endDate>
+            <rico:date xml:lang="fr">6 novembre 1656 - 25 janvier 1658</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Deux de ces actes ont été passés en septembre 1656.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010139"/>
+            <rico:hasProvenance rdf:resource="agent/012128"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051768/c1ufwq6o3mfk--121w41dp5euo7"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051768-c1ufwq6o3mfk--121w41dp5euo7-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051768-c1ufwq6o3mfk--121w41dp5euo7"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051768-c1ufwq6o3mfk--121w41dp5euo7-i2"/>
+                  <rico:identifier>166 r°-167 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste des brevets grossoyés pour la période du 6 novembre 1656 au 25 janvier 1658</rico:title>
+                  <rdfs:label xml:lang="fr">Liste des brevets grossoyés pour la période du 6 novembre 1656 au 25 janvier 1658</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-25</rico:endDate>
+                  <rico:date xml:lang="fr">6 novembre 1656 - 25 janvier 1658</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">2 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051768/c1ufwq6o3mfk--121w41dp5euo7"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051768-c1ufwq6o3mfk--121w41dp5euo7-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051768-c1ufwq6o3mfk--121w41dp5euo7"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051768-c1ufwq6o3mfk--121w41dp5euo7-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_012MIC00262_L.jpg#DAFANCH96_012MIC00263_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051768/c1ufwq6o3mfk--121w41dp5euo7/DAFANCH96_012MIC00262_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+   </rico:RecordResource>
+</rdf:RDF>

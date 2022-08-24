@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041345">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Archives de l'étude X : Inventaire de regroupement (état des fonds d'archives publiques et privées de l'étude notariale)</rico:title>
+      <rdfs:label xml:lang="fr">Archives de l'étude X : Inventaire de regroupement (état des fonds d'archives publiques et privées de l'étude notariale)</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:p xml:lang="fr">Instrument de recherche de regroupement, 17 septembre 2020 (Marie-Françoise Limon-Bonnet)</html:p>
+      </rico:descriptiveNote>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">4e édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2018</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Ajouts des liens IR Images, Mélanges, DC et lacunes : N. Jourdain et M.-F. Limon-Bonnet</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2021-09</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Ajout du contenu du champ "historique de la conservation", Marie-Françoise Limon-Bonnet</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041345"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041345-i1">
+            <rico:isInstantiationOf rdf:resource="record/041345"/>
+            <rico:title xml:lang="fr">Archives de l'étude X : Inventaire de regroupement (état des fonds d'archives publiques et privées de l'étude notariale)</rico:title>
+            <rdfs:label xml:lang="fr">Archives de l'étude X : Inventaire de regroupement (état des fonds d'archives publiques et privées de l'étude notariale)</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041345</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041345"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041345">
+      <rico:isOrWasDescribedBy rdf:resource="record/041345"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds"/>
+      <rico:title xml:lang="fr">Etude X</rico:title>
+      <rdfs:label xml:lang="fr">Etude X</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1606-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1944-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1er janvier 1606 - 31 décembre 1944</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010137"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires</html:b>: la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Cette liste est un "inventaire chapeau" qui permet d'accéder par des liens à tous les instruments de recherche décrivant les fonds relevant de cette étude.</html:b>
+            </html:p>
+            <html:p>Liste des instruments de recherche par notaire :<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041347">Minutes et répertoires du notaire Pierre I HUART (janvier 1606 - décembre 1642)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041346">Minutes et répertoires du notaire Martin II HAGUENIER (janvier 1606 - juin 1638)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041348">Minutes et répertoires du notaire Michel LE CAT (21 septembre 1638 - 1er juillet 1643)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041349">Minutes et répertoires du notaire Gervais MANCHON (1er juillet 1643 - 4 mars 1656)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041350">Minutes et répertoires du notaire Denis LEBEUF (7 mars 1656 - 18 novembre 1698)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041351">Minutes et répertoires du notaire Antoine de LA FOSSE (19 novembre 1698 - 4 avril 1731)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041352">Minutes et répertoires du notaire Louis de LA FOSSE (7 avril 1731 - 21 juin 1748)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041353">Minutes et répertoires du notaire Jacques MACQUER (22 juin 1748 - 15 février 1764)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041354">Minutes et répertoires du notaire Pierre COLLET (18 février 1764 - 28 décembre 1782)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041355">Minutes et répertoires du notaire Nicolas Jean-Baptiste GOBIN (8 janvier 1783 - 30 septembre 1806)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041356">Minutes et répertoires du notaire Jean-Baptiste Théodore SENSIER (1er octobre 1806 - 28 février 1821)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041357">Minutes et répertoires du notaire Michel AUMONT (3 mars 1821 - 28 avril 1834)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041358">Minutes et répertoires du notaire Arsène AUMONT-THIÉVILLE (29 avril 1834 - 15 octobre 1869)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041359">Minutes et répertoires du notaire Léon AUMONT-THIÉVILLE (16 octobre 1869 - 18 juillet 1894)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041360">Minutes et répertoires du notaire Henri DECLOUX (19 juillet 1894 - 16 février 1910)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_058783">Minutes et répertoires du notaire Jean Henri Honoré Marie DITTE (16 février 1910 - 28 août 1935)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_058908">Minutes et répertoires du notaire Roger Marie Joseph Jules HAIZET (28 août 1935 - 31 décembre 1944)</html:a>
+            </html:p>
+            <html:p>Images des répertoires de l'étude X :<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_053592">Images des répertoires du notaire Pierre I Huart (janvier 1606 - décembre 1642)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_056649">Images des répertoires du notaire Martin II Haguenier (janvier 1606 - juin 1638)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051358">Images du répertoire du notaire Michel Le Cat (21 septembre 1638 - 1er juillet 1643)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051306">Images des répertoires du notaire Gervais Manchon (1er juillet 1643 - 4 mars 1656)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051368">Images des répertoires du notaire Denis Lebeuf (7 mars 1656 - 18 novembre 1698)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051472">Images des répertoires du notaire Antoine de La Fosse (18 novembre 1698 - 4 avril 1731)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_053593">Images du répertoire du notaire Louis de La Fosse (2 janvier 1748 - 21 juin 1748)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051302">Images des répertoires du notaire Jacques Macquer (22 juin 1748 - 15 février 1764)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051535">Images des répertoires du notaire Pierre Collet (18 février 1764 - 23 décembre 1782)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_052804">Images des répertoires du notaire Nicolas Jean-Baptiste Gobin (8 janvier 1783 - 30 septembre 1806)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051239">Images des répertoires du notaire Jean-Baptiste Théodore Sensier (1er octobre 1806 - 28 février 1821)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051638">Images des répertoires du notaire Michel Aumont (1er mars 1821 - 28 avril 1834)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_055386">Images des répertoires du notaire Arsène Aumont-Thiéville (29 avril 1834 - 15 octobre 1869)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051640">Images des répertoires du notaire Léon Aumont-Thiéville (15 octobre 1869 - 19 juillet 1894)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_052820">Images des répertoires du notaire Henri Decloux (19 juillet 1894 - 15 février 1910)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_059369">Images des répertoires du notaire Jean Henri Honoré Marie Ditte (16 février 1910 - 28 août 1935)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_059465">Images des répertoires du notaire Roger Marie Joseph Jules Haizet (28 août 1935 - 16 janvier 1945)</html:a>
+            </html:p>
+            <html:p>Liste des instruments de recherche pour les autres archives de l'étude (archives privées) :<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050309">« Mélanges » (dossiers de clients) de l’étude X (1616-1841)</html:a>
+               <html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050276">Dossiers de clients de l'étude X (1787-1963)</html:a>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041345"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041345-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041345"/>
+            <rico:identifier>MC/ET/X/1 - MC/ET/X/2070, MC/RE/X/1 - MC/RE/X/49, MC/DC/X/1 - MC/DC/X/20</rico:identifier>
+            <rico:title xml:lang="fr">Etude X</rico:title>
+            <rdfs:label xml:lang="fr">Etude X</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1606-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1944-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1er janvier 1606 - 31 décembre 1944</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">m.l.</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010137"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires</html:b>: la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Historique de la conservation</html:h4>
+                     <html:p>
+                        <html:b>
+                           <html:i>Archives publiques de l'étude X</html:i>
+                        </html:b>
+                     </html:p>
+                     <html:p>Les minutes de l'étude X sont conservées et versées de 1606 à 1944, sans grosse lacune apparente.</html:p>
+                     <html:p>17 notaires ont laissé des minutes pour cette période.</html:p>
+                     <html:p>Tous les 17 ont laissé des répertoires.</html:p>
+                     <html:p>
+                        <html:b>
+                           <html:i>Archives privées de l'étude X</html:i>
+                        </html:b>
+                     </html:p>
+                     <html:p>L'étude X dispose de "Mélanges" et de dossiers de clients inventoriés.</html:p>
+                  </html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:p>Versement, don</html:p>
+                  </html:div>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041345"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

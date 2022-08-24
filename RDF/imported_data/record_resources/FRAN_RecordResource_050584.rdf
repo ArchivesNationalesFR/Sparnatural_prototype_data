@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/050584">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l'étude XXVII. MC/ET/XXVII/861-MC/ET/XXVII/864 (1578-1917) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l'étude XXVII. MC/ET/XXVII/861-MC/ET/XXVII/864 (1578-1917) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, par Ernest Coyecque, Marie-Antoinette Fleury, Claire Béchu, conservateurs du patrimoine et Gaïd Pitrou, attachée d'administration, sous la direction de Marie-Françoise Limon-Bonnet, conservateur général du patrimoine.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-050584"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050584-i1">
+            <rico:isInstantiationOf rdf:resource="record/050584"/>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l'étude XXVII. MC/ET/XXVII/861-MC/ET/XXVII/864 (1578-1917) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l'étude XXVII. MC/ET/XXVII/861-MC/ET/XXVII/864 (1578-1917) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d’information des Archives nationales. Il remplace l’instrument de recherche dactylographié connu en salle de lecture sous le numéro MC/27.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_050584</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050584"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-050584">
+      <rico:isOrWasDescribedBy rdf:resource="record/050584"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l'étude XXVII</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l'étude XXVII</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1578-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1917-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1578-1917</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010154"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Autres documents de l'étude (dossiers de clients, comptabilité...) : s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l'étude XXVIIArchives de l'étude XXVII</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050584"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-050584-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-050584"/>
+            <rico:identifier>MC/ET/XXVII/861-MC/ET/XXVII/864</rico:identifier>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l'étude XXVII</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l'étude XXVII</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1578-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1917-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1578-1917</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">0,25 ml ou 4 cartons (boîtes 6 cm)</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010154"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>Autres documents de l'étude (dossiers de clients, comptabilité...) : s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Don</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050584"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/050584-c-32vlh6qlv--ngwcf1cjrk1f"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050584-c-4illw55s0--2hipg3k2fyrp"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050584-c-alnqsokej--8mel64wtsqw4"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050584-c-amjeh1zkh--t6qra7edvoo2"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050584-c-32vlh6qlv--ngwcf1cjrk1f">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050584"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Dossiers de clients (lettre A)</rico:title>
+      <rdfs:label xml:lang="fr">Dossiers de clients (lettre A)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1909-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1801-1909</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>(1) - Alésia. - Maisons n° 91 et n° 91 bis rue d’Alésia, mises en adjudication, affiche à la main, 1897.</html:p>
+            <html:p>(2) - Allègre. - Chanoine Gustave Allègre, mort le 29 juillet 1900 : traité concernant l’ <html:i>Impedimentorum matrimenii</html:i>synopsis et le Code civil abrégé ; exécution du testament.</html:p>
+            <html:p>(3) - Almanach.- Almanach national de l’an X, préparation du texte concernant les ministères : épreuves corrigées, avec correspondance y relative (est jointe une liste des douze dossiers et des huit épreuves de reconnaissance des contrefaçons éventuelles). Déposé à l’étude Boursier par l’imprimeur Testu, aux termes d’un acte du 22 vendémiaire an X.</html:p>
+            <html:p>(4) - Art. - Collection d'art d’Imecourt. Liste avec estimation. 19 p. in-4°, autogr. Portrait de la marquise de Chauvelin par Greuze (fac-similé) et 4 tableaux de Sassa, Ferrato, Boucher et Hubert Robert ; Tapisseries du XVIe siècle, catalogue, 8 pages in-8°, 1877, deux exemplaires (voir Imecourt, n° 37).</html:p>
+            <html:p>(5) - Assassinat.- Tentative d'assassinat dans un train par Joao Diogo ; affaire Jardon, comptes rendus d’audiences, règlement de succession. 1909.</html:p>
+            <html:p>(6) - Assurances.- <html:i>Compagnie d’assurance mutuelle contre l’incendie pour les départements de la Seine-et-Oise et de la Seine (Paris excepté)</html:i>, imprimé, 24 pages, ordonnance du 5 mai 1819, statuts ; <html:i>Rapport fait au Conseil</html:i>
+               <html:i>général de la Compagnie d’assurance mutuelle contre l’incendie, pour les départements de Seine-et-Oise et de la Seine</html:i>, imprimé (séance du 23 janvier 1833).</html:p>
+            <html:p>Compagnie royale d’assurance contre l’incendie, ordonnance du 11 février 1820, 3 polices (1825, 1828 et 1831).</html:p>
+            <html:p>Compagnie royale d’assurance sur la vie, autorisée par ordonnance du 23 mai 1830, imprimé 26 pages - statuts.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-8da7t9knp--ju2vtil7dkls"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Jardon (famille)</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Jardon (famille)</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Jardon (famille)</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Diogo, Joao</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Diogo, Joao</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Diogo, Joao</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Chauvelin</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Chauvelin</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Chauvelin</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Boucher, François</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Boucher, François</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Boucher, François</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Robert, Hubert</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Robert, Hubert</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Robert, Hubert</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Imecourt</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Imecourt</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Imecourt</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nz8ft6kq-llr91kiws5b"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntb8sizq--czuh14pqglgb"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d5bdp7f563-3i98jv8c3b0g"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Allègre, Gustave</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Allègre, Gustave</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Allègre, Gustave</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasProvenance rdf:resource="agent/010154"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050584/c-32vlh6qlv--ngwcf1cjrk1f"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050584-c-32vlh6qlv--ngwcf1cjrk1f-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050584-c-32vlh6qlv--ngwcf1cjrk1f"/>
+            <rico:identifier>MC/ET/XXVII/861</rico:identifier>
+            <rico:title xml:lang="fr">Dossiers de clients (lettre A)</rico:title>
+            <rdfs:label xml:lang="fr">Dossiers de clients (lettre A)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1909-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1801-1909</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050584/c-32vlh6qlv--ngwcf1cjrk1f"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050584-c-4illw55s0--2hipg3k2fyrp">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050584"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Dossiers de clients (lettres B à E).</rico:title>
+      <rdfs:label xml:lang="fr">Dossiers de clients (lettres B à E).</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1773-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1773-1912</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>(7) – Bac.- Maison rue du Bac, n° 469, au coin de la rue de Varenne : titres de propriété, provenant de l'hôpital de l'Humanité, an III - 1838.</html:p>
+            <html:p>(8) – Boulangerie.- Admissions et permissions d’exercer la boulangerie de la préfecture de police. 1829 - 1845.</html:p>
+            <html:p>(9) – Cannes.- <html:i>Lotissement du domaine de Super-Cannes</html:i>. Cahier des charges, 8 pages. in-8°. Joint, notice illustrée, avec plan 4 pages. oblong. Publicité avec plan du lotissement, 8 pages. in-16.</html:p>
+            <html:p>(10) – Combault.- "Aménagement des bois de Combault et de Berchères, département de Seine-et-Marne, commune de Pontault, propriété Creutzer", plan entoilé (60 cm x 84 cm) et relié. 1845.</html:p>
+            <html:p>Vignette commerciale de Ch. Picquet, géographe du roi et du duc d’Orléans.</html:p>
+            <html:p>(11) – Commune de Paris, 1871.- Comptes de 14 à 16 personnes réfugiées à La Bretèche pour nourriture et blanchissage.</html:p>
+            <html:p>(12) – Corsaire.- Capture du vaisseau « La Terrible » par les Espagnols. Lettre du comité de salut public au chargé d’affaires à Madrid, prescrivant enquête, libération et indemnités. 9 brumaire an IV.</html:p>
+            <html:p>(13) – Cour de cassation.- <html:i>Mémoire pour M. Alphonse Ogier et les héritiers de M. Ogier contre MM. Symonet &amp; consorts</html:i>: V. Groualle d’Ivry, avocat au Conseil d’Etat et à la Cour de cassation, contre un arrêt de la Cour impériale de Paris du 5 mars 1861. Imprimé, 51 pages in-4°.</html:p>
+            <html:p>(14) – Courbon de La Roche, Courbon-Blenac (Anne Sophie, Constance, Rosalie, Pétronille). - Pension sur la liste civile, 1815-1862.</html:p>
+            <html:p>Diplôme de dame chanoinesse honoraire du chapitre royal de Sainte-Anne de Munich. 1823-1824.</html:p>
+            <html:p>Lettre signée : Vaublanc, à « Madame et chère amie », Munich, 14 janvier 1863.</html:p>
+            <html:p>(15) – Courceaux (Yonne).- Legs du baron Louis Jacques Thenard à l’église de Courceaux, cent francs de rente 3 %, reçu en dépôt, souscrit par l’archevêque de Sens et reçu du même de 950 francs pour l’usage indiqué. 3 pièces. 26 avril 1912.</html:p>
+            <html:p>(16) – Courtry.- Collection Ch. Courtry, vente du 28 et 29 mars 1898. Commissaire-priseur Me G. Duchesne. <html:i>Eaux-fortes, gravures, tableaux, aquarelles, dessins</html:i>. 1898, 403, 44 pages. in-8°.</html:p>
+            <html:p>(17) – Diverses pièces. 1682 - An X.- Obligations conditionnelles ; addition aux conditions de vente des terres (auj. dans les départements de l’Aveyron et du Lot), de Castelnau-Montratier, de Flaunhac (auj. Flagnac), et autres ; candidature à la Croix de Saint-Louis, ratification de ventes d’héritages et de rentes ; quittance à Charles Toussaint de Vermond, de l’Académie de chirurgie, et accoucheur de la Reine ; blanchisserie de Sèvres ; reconnaissance n° 15 à 17 et 44 à 50 ; mariage religieux à la prison de Fontainebleau ; acquisition d’une maison rue Montmartre.</html:p>
+            <html:p>(18) – Dragon.- Cour du Dragon, rue de Rennes, n° 50 et 52, et rue du Dragon, n° 7. Mise en vente sur licitation. 1er mars 1893.</html:p>
+            <html:p>(19) – Duvivier.- Rue Duvivier. Sa réception au nombre des voies publiques. Lettre de convocation des propriétaires de la rue Duvivier, 1er mars 1854.</html:p>
+            <html:p>(20) – Eaux.- <html:i>Eaux de pure Seine. Service public dans les communes de la Villette, Belleville, Pré-Saint-Gervais, Pantin, Charonne, Saint-Mandé, Vincennes, Charenton, Maisons-Alfort, etc</html:i>. Police d’abonnement. 1854, 4 pages in-4°.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d699mmwtm0y-1c9x716tm2v76"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Ogier, Alphonse</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Ogier, Alphonse</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Ogier, Alphonse</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Courbon de la Roche</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Courbon de la Roche</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Courbon de la Roche</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Courbon-Blenac</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Courbon-Blenac</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Courbon-Blenac</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Symonet</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Symonet</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Symonet</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Groualle d'Ivry</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Groualle d'Ivry</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Groualle d'Ivry</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Vaublanc</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Vaublanc</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Vaublanc</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Courtry, Ch.</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Courtry, Ch.</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Courtry, Ch.</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nz8obgnr--1944hikuiskl0"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nza7lkg3-1o0szogeso723"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nza677t2--wm15mmwatdpn"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntdbyifd--534mypiqpcrp"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntth0x5i-1g32na7xd42q6"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_020-d3nyv25yjj-fwdgjumq2j3w"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_020-d3nyv235g1-1dsz2ioo63knt"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_020-d5bhxjyunn-15fijby8ctvep"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_020-d3nyv27kj0--1wwcvyzp5722b"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_020-d3nyv23tsx-13j1glekqj3bq"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_020-d3nyv28jnx-1wlzouf4kl1zi"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxfd667-xbd4he5dl4i1"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxfqxqs-hiibmu39cc86"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxfht8b--qqyqkq0g9z4g"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Toussaint de Vermond, Charles</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Toussaint de Vermond, Charles</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Toussaint de Vermond, Charles</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntj5n9uz-1a906o3skq1n8"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3nte0v25g--r3b4cs62xj4k"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3nttf3j17--1blvnjnk2kli0"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzc47wbl-1a2g6xqjbuj5s"/>
+      <rico:hasProvenance rdf:resource="agent/010154"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050584/c-4illw55s0--2hipg3k2fyrp"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050584-c-4illw55s0--2hipg3k2fyrp-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050584-c-4illw55s0--2hipg3k2fyrp"/>
+            <rico:identifier>MC/ET/XXVII/862</rico:identifier>
+            <rico:title xml:lang="fr">Dossiers de clients (lettres B à E).</rico:title>
+            <rdfs:label xml:lang="fr">Dossiers de clients (lettres B à E).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1773-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1773-1912</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050584/c-4illw55s0--2hipg3k2fyrp"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050584-c-alnqsokej--8mel64wtsqw4">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050584"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Dossiers de clients (lettres E à I)</rico:title>
+      <rdfs:label xml:lang="fr">Dossiers de clients (lettres E à I)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1909-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1801-1909</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>(21) – Eclairage par le gaz.- <html:i>Nouvelle compagnie française d’éclairage par le gaz-hydrogène.</html:i>Quittance de Simon, propriétaire, boulevard Saint-Denis, 30 septembre 1891 et 1er août 1844.</html:p>
+            <html:p>(22) – Ecole alsacienne.- Société de l’Ecole alsacienne. <html:i>Statuts, procès-verbaux de réunions des actionnaires, rapports annuels, programmes, formulaire de souscription</html:i>. 1878-1881.</html:p>
+            <html:p>(23) – Emprunt.- Emprunt en rentes 5 % 1916. <html:i>Barème, modèles de souscription, circulaires</html:i>, 14 pièces imprimées.</html:p>
+            <html:p>(24) – Emprunt.- Emprunt en rentes 4 % 1917. Bordereaux, circulaires, notes. Banque de France, <html:i>Comment souscrire à l’Emprunt</html:i>, 1917, 35 pages. in-12.</html:p>
+            <html:p>(25) – Enfant.- Dossier d'Eugénie Nicolle, enfant née à Paris et déposée aux Enfants assistés le 18 février 1847, mise en nourrice le 22 février 1847 ; femme de ménage célibataire à Paris avenue du Maine n°141 ; legs universel aux enfants de ses parents nourriciers, époux François Fermaux, par testament du 21 juin 1888 ; décès le 8 août 1892.</html:p>
+            <html:p>(26) – Enfants abandonnés.- Circulaire du Préfet de police aux sages-femmes, Paris, le 25 novembre 1837, signée par G. Delessert, 4 pages autographes.</html:p>
+            <html:p>(27) – Enfants trouvés.- <html:i>Instructions sur le service des Enfants trouvés, Paris le 30 août 1852</html:i>, instructions concernant un arrêté du Conseil général des hospices du 6 août 1845, 7 pages. in-4°. <html:i>Bulletin de renseignements concernant un enfant envoyé provisoirement à l’hospice des Enfants-trouvés et orphelin</html:i>s, 4 pages in-fol.</html:p>
+            <html:p>(28) – Etat civil parisien.- Reconstitution de l’état civil parisien de Félix, Auguste né le 26 juin 1851, délivré par l’hôpital Beaujon le 29 juin 1892.</html:p>
+            <html:p>(29) – Fau.- Dossier Fau. Godefert. Ecusson. 1806-1861.</html:p>
+            <html:p>Arma (imprimé) - au-dessous : Godefert (manuscrit) ; au bas : 900 (manuscrit). Ecusson royal surmonté de l’emblème des trois ordres, crosse, épée, faux : « Ex unitate libertas » ; au dos : Falloy, patriote (manuscrit). - Sceau cire rouge : les amis de la section de la Bibliothèque ; au centre, dans un ovale surmonté du bonnet phrygien : la Nation au Roi. Au bas (manuscrit) : M. Godefert, père ; au dos (manuscrit) : Falloy, président ; C. Bosque, secrétaire ; P. R. Roume, secrétaire. Testament manuscrit de Julien Fau de 1861 dans lequel il déclare léguer tous ses biens meubles et immeubles à sa femme Marie Louise Eglantine.</html:p>
+            <html:p>Bref maçonnique nommant Godefert chevalier rose-croix (1806) ; sceau cire rouge : « Virtute et silentio sigillum ». Fau (Antoine Louis Julien), né à Londres le 9 avril 1811.</html:p>
+            <html:p>Diplômes de bachelier ès lettres, de docteur en médecine (1831-1837).</html:p>
+            <html:p>Trois contrats de Julien Fau avec le libraire Mequignon-Marvis (1841, 1849), concernant : Traité de l’anatomie des formes de l’homme et du cheval à l’usage des peintres et des sculpteurs ; Traité de l’anatomie des formes extérieures du corps humain ; - Anatomie artistique ; - Manipulations électrotypiques, traduit de l’ouvrage anglais de Charles V. Walker.</html:p>
+            <html:p>(30) – Faubourg.- Faubourg Saint-Honoré et rue du Roule, coin de la rue du Colisée. Terrain et marais, puis constructions. Titres de propriété. 1777-1808.</html:p>
+            <html:p>(31) – Formation.- Société pour la propagation de l’instruction parmi les femmes. Statuts. <html:i>Ecole normale pour les jeunes filles, 16 rue d’Orléans et 60 avenue de Neuilly, à Neuilly (Seine ), 1879</html:i>, 30 pages. Voir Instruction (n°39).</html:p>
+            <html:p>(32) – Glatigny (château et parc de), Seine-et-Oise.- <html:i>Cahier des charges, clauses et conditions régissant les ventes, 20 juin 1899</html:i>, 32 pages. in-8°. Joint : plan, agrandissement de la ville de Versailles, lotissement du Parc de Glatigny (quartier de Versailles).</html:p>
+            <html:p>(33) – Gobelins.- Manufacture des Gobelins et de Beauvais. Ministère de l’agriculture et du commerce. Caisse de vétérance de l'ancienne liste civile, pension de François Duval, d’un montant de 767 francs pour 43 ans, 7 mois et 26 jours de service (30 mai 1836) ; arrêté manuscrit de mise à la retraite de l’ouvrier Duval à partir du 1er mars 1848.</html:p>
+            <html:p>(34) – Grosse du 15 août 1865, libellée : République française… Acte d'Antoine Deydier, notaire à Apchon (Cantal) concernant la famille Jean Dumas.</html:p>
+            <html:p>(35) – Gueux.- Association générale des Gueux, 19 rue des Bons-Enfants, à Paris. Carte de membre.</html:p>
+            <html:p>(36) – Hirondelles (Les).- <html:i>Entreprise de voitures de transport en commun</html:i>. Action de 1000 francs. 1er novembre 1835.</html:p>
+            <html:p>(37) – Imécourt (Charles Gédéon Théodore de Vassionhac, comte d’). Testament et codicilles. 1848-1872, 22 pages autographes. (Voir n° 4).</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:isRelatedTo>
+         <rico:Activity>
+            <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msjarlu--l5x9bzdkopz8"/>
+         </rico:Activity>
+      </rico:isRelatedTo>
+      <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msjarlu--l5x9bzdkopz8"/>
+      <rico:isRelatedTo>
+         <rico:Activity>
+            <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msj2ak9-pn4dvydl4qfe"/>
+         </rico:Activity>
+      </rico:isRelatedTo>
+      <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msj2ak9-pn4dvydl4qfe"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Fau, Julien</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Fau, Julien</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Fau, Julien</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Nicolle, Eugénie</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Nicolle, Eugénie</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Nicolle, Eugénie</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Fermaux, François</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Fermaux, François</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Fermaux, François</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Dumas, Jean</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Dumas, Jean</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Dumas, Jean</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Imécourt, Charles Gédéon Théodore de Vassionhac d’</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Imécourt, Charles Gédéon Théodore de Vassionhac d’</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Imécourt, Charles Gédéon Théodore de Vassionhac d’</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Méquignon-Marvis, Auguste Claude François (1782-18..)</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Méquignon-Marvis, Auguste Claude François (1782-18..)</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Méquignon-Marvis, Auguste Claude François (1782-18..)</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="agent/FRAN_RI_013-d3m0bo6km45-o3n7rn4stqnc"/>
+      <rico:hasOrHadSubject rdf:resource="agent/FRAN_RI_013-d3m0bo6he1k--18deulq81u1ia"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzd1qcz3-1uo6irlfxdnjr"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzbv4ccs--jxp7io4sxai9"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzaecwki-12g8679eig94"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzcypb7e-1qdyqzsq67dv4"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nz8xjyw7--1i2dt73qi719m"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxeph7b-1sjw6m6t5e8pc"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntu51cee--wrvelxp49su1"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntefy4r2-v9v1vncxx7hv"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Duval, François</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Duval, François</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Duval, François</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasProvenance rdf:resource="agent/010154"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050584/c-alnqsokej--8mel64wtsqw4"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050584-c-alnqsokej--8mel64wtsqw4-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050584-c-alnqsokej--8mel64wtsqw4"/>
+            <rico:identifier>MC/ET/XXVII/863</rico:identifier>
+            <rico:title xml:lang="fr">Dossiers de clients (lettres E à I)</rico:title>
+            <rdfs:label xml:lang="fr">Dossiers de clients (lettres E à I)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1909-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1801-1909</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050584/c-alnqsokej--8mel64wtsqw4"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050584-c-amjeh1zkh--t6qra7edvoo2">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050584"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Dossiers de clients (letrres I à W)</rico:title>
+      <rdfs:label xml:lang="fr">Dossiers de clients (letrres I à W)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1578-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1915-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1578-1915</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>(38) – Inhumations de France.- <html:i>Compagnie générale des Inhumations de France. Notice et objectif financier</html:i>. Une feuille, non datée.</html:p>
+            <html:p>(39) – Instruction.- Société anonyme pour la propagation de l’instruction parmi les femmes. Dissolution. Frédéric Passy, liquidateur ; Ecole Sévigné, à Sèvres. 1891 (voir n° 31).</html:p>
+            <html:p>(40) – <html:i>Laborieuse (La), société de consommation coopérative.</html:i>Statuts et rapports de commissions. 1897-1898, 2 brochures, in-8°, 21 pages et 26 pages.</html:p>
+            <html:p>(41) – Laissez-passer.- Laissez-passer délivré par les officiers de l’hôtel commun de Sarreguemines à Christophe Scheffer, garçon menuisier qui, venant de finir son apprentissage à Sarreguemines, désire « hanter » en France pour se perfectionner. 1765, 3 juin. Sceau cire rouge.</html:p>
+            <html:p>(42) – Libraire.- Brevet de libraire au nom de Jean Alex, Paris, département de la Seine,12 juillet 1821.</html:p>
+            <html:p>(43) – La Tour-Maubourg- Boulevard de La Tour-Maubourg, n° 80 et n° 82, rue Chevert, n°5 bis et n°7, vente sur licitation. Plan 60 cm x 52,5 cm.</html:p>
+            <html:p>(44) – Licence.- Thèse pour la licence <html:i>. Des règles générales et particulières sur la forme des testaments et des legs en général</html:i>, par Léonard Honoré Gustave Meunié. 1855, 78 pages. in-8°.</html:p>
+            <html:p>(45) – Londres.- <html:i>The illustrated London news</html:i>, vol. I, 14 mai - 31 décembre 1842. Préface et index, p. III-VI, supplément, p. 545-554. Spécimen des gravures, placard.</html:p>
+            <html:p>(46) – Loterie.- <html:i>Œuvre diocésaine de Notre-Dame</html:i>- <html:i>des</html:i>-S <html:i>ept</html:i>- <html:i>Douleurs fondée en 1853 au profit des jeunes filles pauvres, infirmes et incurables, rue de Plaisance, n°2 ,Paris</html:i>. Deux exemplaires de billets.</html:p>
+            <html:p>(47) – Louis-Philippe Ier.- <html:i>Les exécuteurs testamentaires du feu roi Louis-Philippe au prince président de la République</html:i>. Paris, 26 janvier 1852, placard in-4°.</html:p>
+            <html:p>Lettre du duc de Nemours et du Prince de Joinville aux exécuteurs testamentaires. Claremont, 29 janvier 1852, autographiée.</html:p>
+            <html:p>(48) – Malouet (Pierre Henri).- Faire-part de décès du baron Malouet survenu le 4 décembre 1909. Legs de tableaux de sa collection au musée de Versailles et à divers particuliers, correspondances 1910.</html:p>
+            <html:p>(49) – Mariage Herri-Benoîte ; les parents du fiancé, Flamands. Avignon, 11 mai 1578. Expédition, 6 feuillets.</html:p>
+            <html:p>(50) – Mariage.- Contrat de mariage Thenard-Devrez, 1878. Exemplaire sur parchemin, pages encadrées, reliure maroquin plein, filets dorés, tranches dorées ; sur le plat supérieur, couronne de baron.</html:p>
+            <html:p>(51) – Massard (Léopold), artiste graveur (1813-1889).- Lettres, dont une de Gustave Larroumet (1852-1903), relative au portail de Vitu, vente après décès, 1842-1890.</html:p>
+            <html:p>(52) – Montmartre (rue).- Deux maisons réunies en une seule, n°55 et 56, puis 122, vis-à-vis la petite rue Saint-Pierre. Titres de propriété , 1862-1915 (déficit constaté en mai 2014).</html:p>
+            <html:p>(53) – Nîmes.- Eglise réformée deNîmes. Certificat de réception à la Sainte-Cène, délivré à N. le 3 juin 1844.</html:p>
+            <html:p>(54) – Notaire de Bruxelles, Heelveld, extinction de dettes entre Marie Catherine Goffa et son mandataire, clerc de notaire, Jean Victor Flourens, 9 mai 1910 (cachet plaqué rouge).</html:p>
+            <html:p>(55) – Paris (Ville de).- Journal, certificat de propriété de dix parts de Zoé Lusson ; liquidation au profit de Le Marquand (1882-1883).</html:p>
+            <html:p>(56) – Proux (Philibert André), né en 1792. Dossier militaire (1812-1815). Etat nominatif des sous-officiers (dont Proux) du 2e régiment de la brigade des carabiniers de Monsieur. Lettre signée : Humblot « à ma chère mère Guenot » pour la mise en sûreté et en cachette des objets lui appartenant. Paris, 26 décembre 1813.</html:p>
+            <html:p>Proux fils. Son remplacement militaire par sieur Duron, Jean. 1839.</html:p>
+            <html:p>(57) – Remplacement de Louis Joseph Deloffre, fils d’un cultivateur d’Ecourt-Saint-Quentin (Pas-de-Calais), classe 1834, n°48 au tirage au sort, par Pierre Paul Laurent Imbert, cultivateur de Douai, qui recevra 500 francs après l’année de garantie. 4 mars 1836. Joint, lettre du maire d’Ecourt-Saint-Quentin au remplaçant, au sujet du paiement. 22 avril 1837.</html:p>
+            <html:p>(58) – Remplacement militaire de Bruneau, 1849.</html:p>
+            <html:p>(59) – Remplacement militaire. Convention avec la maison Dalifol pour fourniture d’un remplaçant, 1853. Engagement d’un remplaçant (1853). Acte de remplacement (1855).</html:p>
+            <html:p>(60) – Reuilly.- Rue de Reuilly, n° 13. Adjudication d’une maison des Hospices de Paris, 22 juin 1807. Joint un état de toutes les inscriptions hypothécaires sur les immeubles des Hospices civils de Paris (1809).</html:p>
+            <html:p>(61) – Saint-Nicolas (Etablissements de).- Maison d’Issy, 3e trimestre 1857, bulletin du n°978.</html:p>
+            <html:p>(62) – Seine-et-Oise.- <html:i>Société anonyme de publications périodiques en Seine-et-Oise</html:i>. Action de 100 francs ; lettres signées de Montagu, indiquant l’origine et le but de cette société et la valeur de l’action (1884-1887).</html:p>
+            <html:p>(63) – Séville-Xerès-Cadix.- <html:i>Aux obligations des chemins de fer de Séville-Xerès-Cadix, Paris, 4 mars 1870. A son Excellence le ministre de Fomento</html:i>, mars 1870, 4 pages et 3 pages. in-4°.</html:p>
+            <html:p>(64) – <html:i>Sibérienne (Compagnie).</html:i>- <html:i>Chanel et Cie, 217 rue Saint</html:i>- <html:i>Honoré, saison 1908-1909,</html:i>12 pages oblong et couverture illustrée en couleur.</html:p>
+            <html:p>(65) – Testament autographe, signé Chappuis, 20 avril 1837. Pièces de comparaison, même date, autographie. 4 pages, in-f° ;</html:p>
+            <html:p>(66) – Testaments. Correspondance relative à divers testaments. 1777-1810.</html:p>
+            <html:p>(67) – Tontines.- <html:i>Administration des Tontines</html:i>. Tontine d’épargne 1e société. Enregistrement de trois actions de Pierre François Nepveu.1822.</html:p>
+            <html:p>(68) – Tontines.- <html:i>Administration des Tontines</html:i>. Exercice (1826). Tableau de situation de la tontine d’épargne (rogné sur deux côtés).</html:p>
+            <html:p>(69) – Travail (accident du).- Accord entre l’accidenté, Jean-Baptiste Renaud, et la compagnie employeur, Compagnie pour la fabrication des compteurs et matériel d’usines, 28 juin 1907.</html:p>
+            <html:p>(70) – Victimes de 1851 et de 1858.- <html:i>Liste des victimes de 1851 et de 1858 et des pensions proposées par la Commission départementale de la Seine</html:i>. 5 pages in-f°.</html:p>
+            <html:p>(71) – Ville-Évrard.- <html:i>Maison spéciale de santé de Ville-Evrard. Pour le traitement des maladies nerveuses et mentales des deux sexes. Fondée par le département de la Seine. Commune de Neuilly-sur-Marne</html:i>. 5 p. in-4° et vue d’ensemble.</html:p>
+            <html:p>(72) – Vindé (Hôtel).- Hôtel appartenant au comte Morel de Vindé, décédé en 1842, et situé boulevard de la Madeleine, n° 11. Servitude, note de l’avocat Fontaine pour les adjudications des deux lots (vers 1844). Autographe. 8 pages.</html:p>
+            <html:p>(73) – Walker.- Prix d’établissement de l’Anatomie des formes (1841-1849). Testament, achat par le Conservatoire de sa collection d’instruments de musique, portant tous son nom (1861-1873). Notes sur les dates du décès de membres des familles Fau, Langry, Godefert, et leur lieu d’inhumation (déficit constaté en mai 2014).</html:p>
+            <html:p>(74) – Ensemble de couvre-spirales de montres (conservé à la réserve du Département du Minutier central des notaires de Paris).</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Scheffer, Christophe</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Scheffer, Christophe</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Scheffer, Christophe</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Jean, Alex</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Jean, Alex</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Jean, Alex</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="agent/FRAN_RI_012-d699mtzuj9h--t9qdlk1vswsi"/>
+      <rico:hasOrHadSubject rdf:resource="agent/FRAN_RI_012-d699mu2la0m--sl32ca1652gd"/>
+      <rico:hasOrHadSubject rdf:resource="agent/FRAN_RI_012-d699mu2wmus--1owxteie4enzi"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Malouet, Pierre Henri</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Malouet, Pierre Henri</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Malouet, Pierre Henri</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Herri-Benoîte</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Herri-Benoîte</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Herri-Benoîte</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Thenard</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Thenard</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Thenard</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Devrez</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Devrez</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Devrez</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Massard, Léopold</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Massard, Léopold</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Massard, Léopold</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Goffa, Marie Catherine</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Goffa, Marie Catherine</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Goffa, Marie Catherine</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Flourens, Jean Victor</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Flourens, Jean Victor</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Flourens, Jean Victor</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Lusson, Zoé</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Lusson, Zoé</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Lusson, Zoé</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Proux, Philibert-André</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Proux, Philibert-André</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Proux, Philibert-André</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Humblot</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Humblot</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Humblot</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Duron, Jean</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Duron, Jean</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Duron, Jean</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Deloffre, Louis Joseph</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Deloffre, Louis Joseph</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Deloffre, Louis Joseph</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Imbert, Pierre Paul Laurent</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Imbert, Pierre Paul Laurent</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Imbert, Pierre Paul Laurent</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Bruneau</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Bruneau</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Bruneau</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Fomento</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Fomento</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Fomento</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Chappuis</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Chappuis</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Chappuis</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Nepveu, Pierre François</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Nepveu, Pierre François</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Nepveu, Pierre François</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Morel de Vindé</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Morel de Vindé</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Morel de Vindé</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Meunié, Léonard Honoré Gustave</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Meunié, Léonard Honoré Gustave</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Meunié, Léonard Honoré Gustave</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Renaud, Jean-Baptiste</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Renaud, Jean-Baptiste</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Renaud, Jean-Baptiste</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Passy, Frédéric (1822-1912)</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Passy, Frédéric (1822-1912)</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Passy, Frédéric (1822-1912)</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzbn2s42--1t1u0sd5ftn1q"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzckddya-vwmptzib1i01"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzc47wbl-1a2g6xqjbuj5s"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzcw279b-1b2qe3vsio045"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzd36jkq-2di11qojb16k"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzbukjpr--1oeze4dlvxf37"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntb8sizq--czuh14pqglgb"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntvoxo4n-oacem136ip2j"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3nth0g0mh-33w5yhxt5dnt"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxmupd8-1vca7ig0t7deb"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntp9cjwz--1m605bwhk5g61"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxpf745-a3y33fjp6kfh"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3m08zrk1x6--1pofazxfbilgb"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxo21l5--1llwpj4s4ec1i"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntu51cee--wrvelxp49su1"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxf32qm-1729ynymwb8tc"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntnhdicb-79571n8qh3q9"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Larroumet, Gustave (1852-1903)</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Larroumet, Gustave (1852-1903)</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Larroumet, Gustave (1852-1903)</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasProvenance rdf:resource="agent/010154"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050584/c-amjeh1zkh--t6qra7edvoo2"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050584-c-amjeh1zkh--t6qra7edvoo2-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050584-c-amjeh1zkh--t6qra7edvoo2"/>
+            <rico:identifier>MC/ET/XXVII/864</rico:identifier>
+            <rico:title xml:lang="fr">Dossiers de clients (letrres I à W)</rico:title>
+            <rdfs:label xml:lang="fr">Dossiers de clients (letrres I à W)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1578-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1915-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1578-1915</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050584/c-amjeh1zkh--t6qra7edvoo2"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050584-c-6cuy0xl55-evz4g6fx5abp">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050584-c-amjeh1zkh--t6qra7edvoo2"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Couvre-spirales de montres.</rico:title>
+            <rdfs:label xml:lang="fr">Couvre-spirales de montres.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1701-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-12-31</rico:endDate>
+            <rico:date xml:lang="fr">XVIIIe siècle</rico:date>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:p xml:lang="fr">Pièces conservées dans la réserve du Département du Minutier central des notaires de Paris.</html:p>
+            </rico:conditionsOfAccess>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Cote originelle du document</html:b>: MC/ET/XXVII/864, dossier 74. Ensemble de couvre-spirales de montres dits coqs de montres.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement et la cotation du document</html:b>: acte coté en réserve mais non dématérialisé.</html:p>
+                  <html:p>
+                     <html:b>Date de création de la notice</html:b>: 2014 (G. Pitrou)</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010154"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050584/c-6cuy0xl55-evz4g6fx5abp"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050584-c-6cuy0xl55-evz4g6fx5abp-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050584-c-6cuy0xl55-evz4g6fx5abp"/>
+                  <rico:identifier>MC/RS//1371</rico:identifier>
+                  <rico:title xml:lang="fr">Couvre-spirales de montres.</rico:title>
+                  <rdfs:label xml:lang="fr">Couvre-spirales de montres.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1701-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">XVIIIe siècle</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">74 pièces cousues sur support carton (d'après les fils d'attache, 5 pièces manquent).</html:p>
+                  </rico:instantiationExtent>
+                  <rico:conditionsOfAccess rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Pièces conservées dans la réserve du Département du Minutier central des notaires de Paris.</html:p>
+                  </rico:conditionsOfAccess>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050584/c-6cuy0xl55-evz4g6fx5abp"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

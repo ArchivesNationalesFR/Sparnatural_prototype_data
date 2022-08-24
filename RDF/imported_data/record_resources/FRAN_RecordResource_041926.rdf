@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041926">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Étienne PIGEORY, 6 janvier 1801 - 18 février 1802 (étude XXXIV) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Étienne PIGEORY, 6 janvier 1801 - 18 février 1802 (étude XXXIV) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-18</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">1ère édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041926"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041926-i1">
+            <rico:isInstantiationOf rdf:resource="record/041926"/>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Étienne PIGEORY, 6 janvier 1801 - 18 février 1802 (étude XXXIV) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Étienne PIGEORY, 6 janvier 1801 - 18 février 1802 (étude XXXIV) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041926</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041926"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041926">
+      <rico:isOrWasDescribedBy rdf:resource="record/041926"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Étienne PIGEORY (étude XXXIV)</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Étienne PIGEORY (étude XXXIV)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-01-06</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-02-18</rico:endDate>
+      <rico:date xml:lang="fr">6 janvier 1801 - 18 février 1802</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010161"/>
+      <rico:hasProvenance rdf:resource="agent/010930"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l’étude XXXIVArchives de l'étude XXXIV</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041926"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041926-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041926"/>
+            <rico:identifier>MC/ET/XXXIV/824 - MC/ET/XXXIV/1320, MC/RE/XXXIV/8</rico:identifier>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Étienne PIGEORY (étude XXXIV)</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Étienne PIGEORY (étude XXXIV)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-01-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-02-18</rico:endDate>
+            <rico:date xml:lang="fr">6 janvier 1801 - 18 février 1802</rico:date>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/010930"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041926"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/041926-c1p6ypuvefy3-1mad3102xv34y"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/041926-c1p6ypuvjvxn--aqvhfhn468nb"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041926-c1p6ypuvefy3-1mad3102xv34y">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041926"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Minutes de Étienne PIGEORY</rico:title>
+      <rdfs:label xml:lang="fr">Minutes de Étienne PIGEORY</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-10-23</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1809-05-28</rico:endDate>
+      <rico:date xml:lang="fr">23 octobre 1800 - 28 mai 1809</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010161"/>
+      <rico:hasProvenance rdf:resource="agent/010930"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041926/c1p6ypuvefy3-1mad3102xv34y"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041926-c1p6ypuvefy3-1mad3102xv34y-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041926-c1p6ypuvefy3-1mad3102xv34y"/>
+            <rico:identifier>MC/ET/XXXIV/824 - MC/ET/XXXIV/1320</rico:identifier>
+            <rico:title xml:lang="fr">Minutes de Étienne PIGEORY</rico:title>
+            <rdfs:label xml:lang="fr">Minutes de Étienne PIGEORY</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-10-23</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1809-05-28</rico:endDate>
+            <rico:date xml:lang="fr">23 octobre 1800 - 28 mai 1809</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041926/c1p6ypuvefy3-1mad3102xv34y"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041926-c1p6ypuvf6yb--19swmuw0ly5y3">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041926-c1p6ypuvefy3-1mad3102xv34y"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. an IX, nivôse - an IX, germinal</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. an IX, nivôse - an IX, germinal</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-01-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-04-21</rico:endDate>
+            <rico:date xml:lang="fr">16 nivôse an IX (6 janvier 1801) - germinal an IX (21 avril 1801)</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/010930"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041926/c1p6ypuvf6yb--19swmuw0ly5y3"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041926-c1p6ypuvf6yb--19swmuw0ly5y3-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041926-c1p6ypuvf6yb--19swmuw0ly5y3"/>
+                  <rico:identifier>MC/ET/XXXIV/824</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. an IX, nivôse - an IX, germinal</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. an IX, nivôse - an IX, germinal</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-01-06</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-04-21</rico:endDate>
+                  <rico:date xml:lang="fr">16 nivôse an IX (6 janvier 1801) - germinal an IX (21 avril 1801)</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041926/c1p6ypuvf6yb--19swmuw0ly5y3"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041926-c1p6ypuvg09v-15neqsga8jtoq">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041926-c1p6ypuvefy3-1mad3102xv34y"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. an IX, floréal - an IX, prairial</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. an IX, floréal - an IX, prairial</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-04-22</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-06-19</rico:endDate>
+            <rico:date xml:lang="fr">floréal an IX (22 avril 1801) - prairial an IX (19 juin 1801)</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/010930"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041926/c1p6ypuvg09v-15neqsga8jtoq"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041926-c1p6ypuvg09v-15neqsga8jtoq-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041926-c1p6ypuvg09v-15neqsga8jtoq"/>
+                  <rico:identifier>MC/ET/XXXIV/825</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. an IX, floréal - an IX, prairial</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. an IX, floréal - an IX, prairial</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-04-22</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-06-19</rico:endDate>
+                  <rico:date xml:lang="fr">floréal an IX (22 avril 1801) - prairial an IX (19 juin 1801)</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041926/c1p6ypuvg09v-15neqsga8jtoq"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041926-c1p6ypuvgqib--1az12vlwdfldt">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041926-c1p6ypuvefy3-1mad3102xv34y"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. an IX, messidor - an IX, fructidor</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. an IX, messidor - an IX, fructidor</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-06-20</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-21</rico:endDate>
+            <rico:date xml:lang="fr">messidor an IX (20 juin 1801) - fructidor an IX (21 septembre 1801)</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/010930"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041926/c1p6ypuvgqib--1az12vlwdfldt"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041926-c1p6ypuvgqib--1az12vlwdfldt-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041926-c1p6ypuvgqib--1az12vlwdfldt"/>
+                  <rico:identifier>MC/ET/XXXIV/826</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. an IX, messidor - an IX, fructidor</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. an IX, messidor - an IX, fructidor</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-06-20</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-21</rico:endDate>
+                  <rico:date xml:lang="fr">messidor an IX (20 juin 1801) - fructidor an IX (21 septembre 1801)</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041926/c1p6ypuvgqib--1az12vlwdfldt"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041926-c1p6ypuvhfyz-1kifqpe70edni">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041926-c1p6ypuvefy3-1mad3102xv34y"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. an X, vendémiaire - an X, pluviose</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. an X, vendémiaire - an X, pluviose</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-23</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-02-13</rico:endDate>
+            <rico:date xml:lang="fr">vendémiaire an X (23 septembre 1801) - 24 pluviose an X (13 février 1802)</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/010930"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041926/c1p6ypuvhfyz-1kifqpe70edni"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041926-c1p6ypuvhfyz-1kifqpe70edni-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041926-c1p6ypuvhfyz-1kifqpe70edni"/>
+                  <rico:identifier>MC/ET/XXXIV/827</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. an X, vendémiaire - an X, pluviose</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. an X, vendémiaire - an X, pluviose</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-23</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-02-13</rico:endDate>
+                  <rico:date xml:lang="fr">vendémiaire an X (23 septembre 1801) - 24 pluviose an X (13 février 1802)</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041926/c1p6ypuvhfyz-1kifqpe70edni"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041926-c1p6ypuvig8j--r7p3796wbgmh">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041926-c1p6ypuvefy3-1mad3102xv34y"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Cahiers d'enregistrements annexes. an IX, brumaire - 1809, 28 mai</rico:title>
+            <rdfs:label xml:lang="fr">Cahiers d'enregistrements annexes. an IX, brumaire - 1809, 28 mai</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-10-23</rico:date>
+            <rico:date xml:lang="fr">brumaire an IX (23 octobre 1800) - 28 mai 1809</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Cahier servant à inscrire les doubles des certificats de propriété en exécution de la loi du 28 floréral an IX.</html:p>
+                  <html:p>Actes passés successivement par-devant Étienne Pigeory, Jacques Cousinard, Jean-Baptiste Decourchant.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/010930"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041926/c1p6ypuvig8j--r7p3796wbgmh"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041926-c1p6ypuvig8j--r7p3796wbgmh-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041926-c1p6ypuvig8j--r7p3796wbgmh"/>
+                  <rico:identifier>MC/ET/XXXIV/1320</rico:identifier>
+                  <rico:title xml:lang="fr">Cahiers d'enregistrements annexes. an IX, brumaire - 1809, 28 mai</rico:title>
+                  <rdfs:label xml:lang="fr">Cahiers d'enregistrements annexes. an IX, brumaire - 1809, 28 mai</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-10-23</rico:date>
+                  <rico:date xml:lang="fr">brumaire an IX (23 octobre 1800) - 28 mai 1809</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041926/c1p6ypuvig8j--r7p3796wbgmh"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041926-c1p6ypuvjvxn--aqvhfhn468nb">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041926"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Répertoire(s) de Étienne PIGEORY</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire(s) de Étienne PIGEORY</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1791-04-02</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-03-21</rico:endDate>
+      <rico:date xml:lang="fr">2 avril 1791 - 21 mars 1802</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010161"/>
+      <rico:hasProvenance rdf:resource="agent/010930"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041926/c1p6ypuvjvxn--aqvhfhn468nb"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041926-c1p6ypuvjvxn--aqvhfhn468nb-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041926-c1p6ypuvjvxn--aqvhfhn468nb"/>
+            <rico:identifier>MC/RE/XXXIV/8</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire(s) de Étienne PIGEORY</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire(s) de Étienne PIGEORY</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1791-04-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-03-21</rico:endDate>
+            <rico:date xml:lang="fr">2 avril 1791 - 21 mars 1802</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041926/c1p6ypuvjvxn--aqvhfhn468nb"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041926-c1p6ypuvkm63--1bczluij7gkrs">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041926-c1p6ypuvjvxn--aqvhfhn468nb"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+            <rico:title xml:lang="fr">Répertoire. 1791, 2 avril - an X, ventôse</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire. 1791, 2 avril - an X, ventôse</rdfs:label>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-03-21</rico:date>
+            <rico:date xml:lang="fr">2 avril 1791 - 30 ventôse an X (21 mars 1802)</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Répertoire des notaires Mélite Lemire (2 avril 1791-15 nivôse an IX (5 janvier 1801)), Jacques Cousinard (8 brumaire an VIII-30 ventôse an X (30 octobre 1799-21 mars 1802), , Etienne Pigeory (16 nivôse an IX-29 pluviôse an X (6 janvier 1801-18 février 1802)).</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement et la cotation :</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux mentions d'actes contenues dans le répertoire. Parmi celles-ci, certaines peuvent y être décrites, de manière plus ou moins détaillée. Pour consulter l'acte proprement dit, il convient de rechercher la cote au niveau des articles (registre ou liasse) des minutes du notaire (cote de type 'MC/ET').</html:p>
+                  <html:p>
+                     <html:b>Ancienne(s) cote(s) :</html:b>
+                  </html:p>
+                  <html:p>302 MI</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/010930"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041926/c1p6ypuvkm63--1bczluij7gkrs"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041926-c1p6ypuvkm63--1bczluij7gkrs-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041926-c1p6ypuvkm63--1bczluij7gkrs"/>
+                  <rico:identifier>MC/RE/XXXIV/8</rico:identifier>
+                  <rico:title xml:lang="fr">Répertoire. 1791, 2 avril - an X, ventôse</rico:title>
+                  <rdfs:label xml:lang="fr">Répertoire. 1791, 2 avril - an X, ventôse</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-03-21</rico:date>
+                  <rico:date xml:lang="fr">2 avril 1791 - 30 ventôse an X (21 mars 1802)</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041926/c1p6ypuvkm63--1bczluij7gkrs"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

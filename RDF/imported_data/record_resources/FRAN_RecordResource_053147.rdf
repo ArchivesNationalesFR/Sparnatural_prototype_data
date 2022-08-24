@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/053147">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Images des répertoires du notaire Philippe Tulloue pour l'étude XXIV : MC/ET/XXIV/66 - MC/ET/XXIV/95</rico:title>
+      <rdfs:label xml:lang="fr">Images des répertoires du notaire Philippe Tulloue pour l'étude XXIV : MC/ET/XXIV/66 - MC/ET/XXIV/95</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, notices préparées par Monique Leblois, chargée d'études documentaires, puis Nathalie Jourdain, adjointe administrative principale.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Deuxième édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-07</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Rédaction des liens avec les images numériques par Nathalie Pielok</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-06-27</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Publication par Joël Poivre</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2017-08</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Corrections et ajouts en vue de la mise en ligne sur la SIV, N. Jourdain</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-053147"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053147-i1">
+            <rico:isInstantiationOf rdf:resource="record/053147"/>
+            <rico:title xml:lang="fr">Images des répertoires du notaire Philippe Tulloue pour l'étude XXIV : MC/ET/XXIV/66 - MC/ET/XXIV/95</rico:title>
+            <rdfs:label xml:lang="fr">Images des répertoires du notaire Philippe Tulloue pour l'étude XXIV : MC/ET/XXIV/66 - MC/ET/XXIV/95</rdfs:label>
+            <rico:history xml:lang="fr">17 mars 2005</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_053147</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_053147"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-053147">
+      <rico:isOrWasDescribedBy rdf:resource="record/053147"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Images des répertoires du notaire Philippe Tulloue pour l'étude XXIV</rico:title>
+      <rdfs:label xml:lang="fr">Images des répertoires du notaire Philippe Tulloue pour l'étude XXIV</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1587-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1602-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1587 - 1602</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rico:hasProvenance rdf:resource="agent/010508"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Des feuillets avec une liste chronologique des actes sont insérés au début ou à la fin de chaque registre des minutes</html:b>
+               <html:u>
+                  <html:b>entre</html:b>
+               </html:u>
+               <html:b>MC/ET/XXIV/66</html:b>
+               <html:u>
+                  <html:b>et</html:b>
+               </html:u>
+               <html:b>MC/ET/XXIV/95.</html:b>
+            </html:p>
+            <html:p>Images des répertoires de l’étude XXIV<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041699">Archives de l'étude XXIV</html:a>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8f3jla--to36ja96m31q"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_053147"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-053147-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-053147"/>
+            <rico:identifier>MC/ET/XXIV/66 - MC/ET/XXIV/95</rico:identifier>
+            <rico:title xml:lang="fr">Images des répertoires du notaire Philippe Tulloue pour l'étude XXIV</rico:title>
+            <rdfs:label xml:lang="fr">Images des répertoires du notaire Philippe Tulloue pour l'étude XXIV</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1587-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1602-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1587 - 1602</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">12 extraits de registres</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rico:hasProvenance rdf:resource="agent/010508"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Registres entrés aux Archives nationales en 1935.</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_053147"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/053147-ctzb77qcv06-7odd8qm0efzc"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053147-ctzb77qd6ku-rkbygrrquz19"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053147-ctzb77qdafq--o9vq5g21k6dh"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053147-ctzb77qdeam--13s1sb3051cal"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053147-ctzb77qdi5i--h0ls4vwcqnga"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053147-ctzb77qdl8m-jd7moufcrz0c"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053147-ctzb77qdp3i-16j4b2ra3bd4x"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053147-ctzb77qdsye--1bz6430cj4cbi"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053147-ctzb77qdwta--1s316k3yzqg7s"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053147-ctzb77qe0o6--rp7rqbo93rs2"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053147-ctzb77qe4j2--4jb3cgsjofml"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/053147-ctzb77qe7m6--1knn7wuamv3ph"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053147-ctzb77qcv06-7odd8qm0efzc">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053147"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période de l'année 1587</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de l'année 1587</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1587-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1587-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1587</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rico:hasProvenance rdf:resource="agent/010508"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qcv06-7odd8qm0efzc"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053147-ctzb77qcv06-7odd8qm0efzc-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qcv06-7odd8qm0efzc"/>
+            <rico:identifier>MC/ET/XXIV/66</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période de l'année 1587</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de l'année 1587</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1587-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1587-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1587</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Répertoire de 10 feuillets.</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qcv06-7odd8qm0efzc"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053147-ctzb77qd49i-1uuzliexzeuiq">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053147-ctzb77qcv06-7odd8qm0efzc"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période de l'année 1587</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de l'année 1587</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1587-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1587-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1587</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rico:hasProvenance rdf:resource="agent/010508"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qd49i-1uuzliexzeuiq"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qd49i-1uuzliexzeuiq-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qd49i-1uuzliexzeuiq"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/053147-ctzb77qd49i-1uuzliexzeuiq-i2"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période de l'année 1587</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de l'année 1587</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1587-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1587-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1587</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">10 feuillets insérés en tête du registre des minutes. Document détérioré présentant des lacunes.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qd49i-1uuzliexzeuiq"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qd49i-1uuzliexzeuiq-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qd49i-1uuzliexzeuiq"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/053147-ctzb77qd49i-1uuzliexzeuiq-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97B_024MIC00002_L.jpg#DAFANCH97B_024MIC00011_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_053147/ctzb77qd49i-1uuzliexzeuiq/DAFANCH97B_024MIC00002_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053147-ctzb77qd6ku-rkbygrrquz19">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053147"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période de l'année 1588</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de l'année 1588</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1588-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1588-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1588</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rico:hasProvenance rdf:resource="agent/010508"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qd6ku-rkbygrrquz19"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053147-ctzb77qd6ku-rkbygrrquz19-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qd6ku-rkbygrrquz19"/>
+            <rico:identifier>MC/ET/XXIV/68</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période de l'année 1588</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de l'année 1588</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1588-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1588-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1588</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Répertoire de 12 feuillets.</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qd6ku-rkbygrrquz19"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053147-ctzb77qd84e--1e83x6osnyfg9">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053147-ctzb77qd6ku-rkbygrrquz19"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période de l'année 1588</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de l'année 1588</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1588-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1588-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1588</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rico:hasProvenance rdf:resource="agent/010508"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qd84e--1e83x6osnyfg9"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qd84e--1e83x6osnyfg9-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qd84e--1e83x6osnyfg9"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/053147-ctzb77qd84e--1e83x6osnyfg9-i2"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période de l'année 1588</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de l'année 1588</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1588-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1588-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1588</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">12 feuillets insérés en tête du registre des minutes. Document détérioré présentant des lacunes.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qd84e--1e83x6osnyfg9"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qd84e--1e83x6osnyfg9-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qd84e--1e83x6osnyfg9"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/053147-ctzb77qd84e--1e83x6osnyfg9-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97B_024MIC00013_L.jpg#DAFANCH97B_024MIC00024_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_053147/ctzb77qd84e--1e83x6osnyfg9/DAFANCH97B_024MIC00013_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053147-ctzb77qdafq--o9vq5g21k6dh">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053147"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période de l'année 1589</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de l'année 1589</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1589-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1589-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1589</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rico:hasProvenance rdf:resource="agent/010508"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdafq--o9vq5g21k6dh"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdafq--o9vq5g21k6dh-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdafq--o9vq5g21k6dh"/>
+            <rico:identifier>MC/ET/XXIV/70</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période de l'année 1589</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de l'année 1589</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1589-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1589-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1589</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Répertoire de 7 feuillets.</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdafq--o9vq5g21k6dh"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053147-ctzb77qdbza--1ufl5pstessms">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053147-ctzb77qdafq--o9vq5g21k6dh"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période de l'année 1589</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de l'année 1589</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1589-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1589-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1589</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rico:hasProvenance rdf:resource="agent/010508"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdbza--1ufl5pstessms"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdbza--1ufl5pstessms-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdbza--1ufl5pstessms"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/053147-ctzb77qdbza--1ufl5pstessms-i2"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période de l'année 1589</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de l'année 1589</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1589-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1589-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1589</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">7 feuillets insérés en tête du registre des minutes.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdbza--1ufl5pstessms"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdbza--1ufl5pstessms-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdbza--1ufl5pstessms"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/053147-ctzb77qdbza--1ufl5pstessms-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97B_024MIC00026_L.jpg#DAFANCH97B_024MIC00032_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_053147/ctzb77qdbza--1ufl5pstessms/DAFANCH97B_024MIC00026_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053147-ctzb77qdeam--13s1sb3051cal">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053147"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période de l'année 1590</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de l'année 1590</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1590-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1590-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1590</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rico:hasProvenance rdf:resource="agent/010508"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdeam--13s1sb3051cal"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdeam--13s1sb3051cal-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdeam--13s1sb3051cal"/>
+            <rico:identifier>MC/ET/XXIV/72</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période de l'année 1590</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de l'année 1590</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1590-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1590-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1590</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Répertoire de 6 feuillets.</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdeam--13s1sb3051cal"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053147-ctzb77qdfu6-lrz0n33ogbfu">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053147-ctzb77qdeam--13s1sb3051cal"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période de l'année 1590</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de l'année 1590</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1590-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1590-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1590</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rico:hasProvenance rdf:resource="agent/010508"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdfu6-lrz0n33ogbfu"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdfu6-lrz0n33ogbfu-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdfu6-lrz0n33ogbfu"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/053147-ctzb77qdfu6-lrz0n33ogbfu-i2"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période de l'année 1590</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de l'année 1590</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1590-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1590-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1590</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">6 feuillets insérés en tête du registre des minutes. Document détérioré.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdfu6-lrz0n33ogbfu"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdfu6-lrz0n33ogbfu-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdfu6-lrz0n33ogbfu"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/053147-ctzb77qdfu6-lrz0n33ogbfu-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97B_024MIC00034_L.jpg#DAFANCH97B_024MIC00039_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_053147/ctzb77qdfu6-lrz0n33ogbfu/DAFANCH97B_024MIC00034_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053147-ctzb77qdi5i--h0ls4vwcqnga">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053147"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période de l'année 1591</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de l'année 1591</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1591-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1591-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1591</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rico:hasProvenance rdf:resource="agent/010508"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdi5i--h0ls4vwcqnga"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdi5i--h0ls4vwcqnga-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdi5i--h0ls4vwcqnga"/>
+            <rico:identifier>MC/ET/XXIV/74</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période de l'année 1591</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de l'année 1591</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1591-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1591-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1591</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Répertoire de 4 feuillets.</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdi5i--h0ls4vwcqnga"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053147-ctzb77qdjp2--6heeahv1m4qg">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053147-ctzb77qdi5i--h0ls4vwcqnga"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période de l'année 1591</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de l'année 1591</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1591-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1591-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1591</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rico:hasProvenance rdf:resource="agent/010508"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdjp2--6heeahv1m4qg"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdjp2--6heeahv1m4qg-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdjp2--6heeahv1m4qg"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/053147-ctzb77qdjp2--6heeahv1m4qg-i2"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période de l'année 1591</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de l'année 1591</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1591-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1591-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1591</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">4 feuillets insérés en tête du registre des minutes.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdjp2--6heeahv1m4qg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdjp2--6heeahv1m4qg-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdjp2--6heeahv1m4qg"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/053147-ctzb77qdjp2--6heeahv1m4qg-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97B_024MIC00041_L.jpg#DAFANCH97B_024MIC00044_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_053147/ctzb77qdjp2--6heeahv1m4qg/DAFANCH97B_024MIC00041_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053147-ctzb77qdl8m-jd7moufcrz0c">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053147"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période de janvier à septembre 1593</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de janvier à septembre 1593</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1593-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1593-09-30</rico:endDate>
+      <rico:date xml:lang="fr">janvier - septembre 1593</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rico:hasProvenance rdf:resource="agent/010508"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdl8m-jd7moufcrz0c"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdl8m-jd7moufcrz0c-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdl8m-jd7moufcrz0c"/>
+            <rico:identifier>MC/ET/XXIV/76</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période de janvier à septembre 1593</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de janvier à septembre 1593</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1593-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1593-09-30</rico:endDate>
+            <rico:date xml:lang="fr">janvier - septembre 1593</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Répertoire de 2 feuillets.</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdl8m-jd7moufcrz0c"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053147-ctzb77qdnjy-16uupf3bsq6lk">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053147-ctzb77qdl8m-jd7moufcrz0c"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période de janvier à septembre 1593</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de janvier à septembre 1593</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1593-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1593-09-30</rico:endDate>
+            <rico:date xml:lang="fr">janvier - septembre 1593</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rico:hasProvenance rdf:resource="agent/010508"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdnjy-16uupf3bsq6lk"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdnjy-16uupf3bsq6lk-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdnjy-16uupf3bsq6lk"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/053147-ctzb77qdnjy-16uupf3bsq6lk-i2"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période de janvier à septembre 1593</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de janvier à septembre 1593</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1593-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1593-09-30</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - septembre 1593</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">2 feuillets insérés en tête du registre des minutes. Document très détérioré.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdnjy-16uupf3bsq6lk"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdnjy-16uupf3bsq6lk-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdnjy-16uupf3bsq6lk"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/053147-ctzb77qdnjy-16uupf3bsq6lk-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97B_024MIC00046_L.jpg#DAFANCH97B_024MIC00048_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_053147/ctzb77qdnjy-16uupf3bsq6lk/DAFANCH97B_024MIC00046_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053147-ctzb77qdp3i-16j4b2ra3bd4x">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053147"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1595</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1595</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1595-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1595-12-31</rico:endDate>
+      <rico:date xml:lang="fr">janvier - décembre 1595</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rico:hasProvenance rdf:resource="agent/010508"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdp3i-16j4b2ra3bd4x"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdp3i-16j4b2ra3bd4x-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdp3i-16j4b2ra3bd4x"/>
+            <rico:identifier>MC/ET/XXIV/80</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1595</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1595</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1595-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1595-12-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - décembre 1595</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Répertoire de 7 feuillets.</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdp3i-16j4b2ra3bd4x"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053147-ctzb77qdreu-1wfjf32s49kj9">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053147-ctzb77qdp3i-16j4b2ra3bd4x"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1595</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1595</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1595-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1595-12-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - décembre 1595</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rico:hasProvenance rdf:resource="agent/010508"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdreu-1wfjf32s49kj9"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdreu-1wfjf32s49kj9-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdreu-1wfjf32s49kj9"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/053147-ctzb77qdreu-1wfjf32s49kj9-i2"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1595</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1595</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1595-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1595-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - décembre 1595</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">7 feuillets insérés à la fin du registre des minutes.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdreu-1wfjf32s49kj9"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdreu-1wfjf32s49kj9-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdreu-1wfjf32s49kj9"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/053147-ctzb77qdreu-1wfjf32s49kj9-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97B_024MIC00050_L.jpg#DAFANCH97B_024MIC00056_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_053147/ctzb77qdreu-1wfjf32s49kj9/DAFANCH97B_024MIC00050_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053147-ctzb77qdsye--1bz6430cj4cbi">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053147"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1597</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1597</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1597-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1597-12-31</rico:endDate>
+      <rico:date xml:lang="fr">janvier - décembre 1597</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rico:hasProvenance rdf:resource="agent/010508"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdsye--1bz6430cj4cbi"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdsye--1bz6430cj4cbi-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdsye--1bz6430cj4cbi"/>
+            <rico:identifier>MC/ET/XXIV/83</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1597</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1597</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1597-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1597-12-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - décembre 1597</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Répertoire de 7 feuillets.</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdsye--1bz6430cj4cbi"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053147-ctzb77qdv9q-1giwops23nrb0">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053147-ctzb77qdsye--1bz6430cj4cbi"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1597</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1597</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1597-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1597-12-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - décembre 1597</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rico:hasProvenance rdf:resource="agent/010508"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdv9q-1giwops23nrb0"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdv9q-1giwops23nrb0-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdv9q-1giwops23nrb0"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/053147-ctzb77qdv9q-1giwops23nrb0-i2"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1597</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1597</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1597-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1597-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - décembre 1597</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">7 feuillets insérés en tête du registre des minutes. Document détérioré présentant des lacunes.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdv9q-1giwops23nrb0"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdv9q-1giwops23nrb0-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdv9q-1giwops23nrb0"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/053147-ctzb77qdv9q-1giwops23nrb0-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97B_024MIC00058_L.jpg#DAFANCH97B_024MIC00064_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_053147/ctzb77qdv9q-1giwops23nrb0/DAFANCH97B_024MIC00058_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053147-ctzb77qdwta--1s316k3yzqg7s">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053147"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1598</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1598</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1598-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1598-12-31</rico:endDate>
+      <rico:date xml:lang="fr">janvier - décembre 1598</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Ce répertoire correspond aux actes des registres MC/ET/XXIV/85 et 86.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rico:hasProvenance rdf:resource="agent/010508"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdwta--1s316k3yzqg7s"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdwta--1s316k3yzqg7s-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdwta--1s316k3yzqg7s"/>
+            <rico:identifier>MC/ET/XXIV/85</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1598</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1598</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1598-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1598-12-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - décembre 1598</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Répertoire de 8 feuillets.</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdwta--1s316k3yzqg7s"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053147-ctzb77qdycu--1ec4f07u74j4c">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053147-ctzb77qdwta--1s316k3yzqg7s"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1598</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1598</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1598-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1598-12-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - décembre 1598</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rico:hasProvenance rdf:resource="agent/010508"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdycu--1ec4f07u74j4c"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdycu--1ec4f07u74j4c-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdycu--1ec4f07u74j4c"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/053147-ctzb77qdycu--1ec4f07u74j4c-i2"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1598</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1598</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1598-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1598-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - décembre 1598</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">8 feuillets insérés en tête du registre des minutes. Document détérioré présentant des lacunes.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qdycu--1ec4f07u74j4c"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qdycu--1ec4f07u74j4c-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qdycu--1ec4f07u74j4c"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/053147-ctzb77qdycu--1ec4f07u74j4c-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97B_024MIC00066_L.jpg#DAFANCH97B_024MIC00073_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_053147/ctzb77qdycu--1ec4f07u74j4c/DAFANCH97B_024MIC00066_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053147-ctzb77qe0o6--rp7rqbo93rs2">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053147"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1599</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1599</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1599-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1599-12-31</rico:endDate>
+      <rico:date xml:lang="fr">janvier - décembre 1599</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Ce répertoire correspond aux actes des registres MC/ET/XXIV/88 et 89.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rico:hasProvenance rdf:resource="agent/010508"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qe0o6--rp7rqbo93rs2"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053147-ctzb77qe0o6--rp7rqbo93rs2-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qe0o6--rp7rqbo93rs2"/>
+            <rico:identifier>MC/ET/XXIV/89</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1599</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1599</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1599-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1599-12-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - décembre 1599</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Répertoire de 9 feuillets.</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qe0o6--rp7rqbo93rs2"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053147-ctzb77qe27q--1ujlnjbuxywau">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053147-ctzb77qe0o6--rp7rqbo93rs2"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1599</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1599</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1599-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1599-12-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - décembre 1599</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rico:hasProvenance rdf:resource="agent/010508"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qe27q--1ujlnjbuxywau"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qe27q--1ujlnjbuxywau-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qe27q--1ujlnjbuxywau"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/053147-ctzb77qe27q--1ujlnjbuxywau-i2"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1599</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1599</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1599-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1599-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - décembre 1599</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">9 feuillets insérés à la fin du registre des minutes.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qe27q--1ujlnjbuxywau"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qe27q--1ujlnjbuxywau-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qe27q--1ujlnjbuxywau"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/053147-ctzb77qe27q--1ujlnjbuxywau-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97B_024MIC00076_L.jpg#DAFANCH97B_024MIC00084_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_053147/ctzb77qe27q--1ujlnjbuxywau/DAFANCH97B_024MIC00076_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053147-ctzb77qe4j2--4jb3cgsjofml">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053147"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1601</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1601</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1601-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1601-12-31</rico:endDate>
+      <rico:date xml:lang="fr">janvier - décembre 1601</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rico:hasProvenance rdf:resource="agent/010508"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qe4j2--4jb3cgsjofml"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053147-ctzb77qe4j2--4jb3cgsjofml-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qe4j2--4jb3cgsjofml"/>
+            <rico:identifier>MC/ET/XXIV/93</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1601</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1601</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1601-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1601-12-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - décembre 1601</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Répertoire de 7 feuillets.</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qe4j2--4jb3cgsjofml"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053147-ctzb77qe62m-ld40nuph9rrr">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053147-ctzb77qe4j2--4jb3cgsjofml"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1601</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1601</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1601-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1601-12-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - décembre 1601</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rico:hasProvenance rdf:resource="agent/010508"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qe62m-ld40nuph9rrr"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qe62m-ld40nuph9rrr-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qe62m-ld40nuph9rrr"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/053147-ctzb77qe62m-ld40nuph9rrr-i2"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1601</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1601</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1601-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1601-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - décembre 1601</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">9 feuillets insérés en tête du registre des minutes.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qe62m-ld40nuph9rrr"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qe62m-ld40nuph9rrr-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qe62m-ld40nuph9rrr"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/053147-ctzb77qe62m-ld40nuph9rrr-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97B_024MIC00086_L.jpg#DAFANCH97B_024MIC00092_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_053147/ctzb77qe62m-ld40nuph9rrr/DAFANCH97B_024MIC00086_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/053147-ctzb77qe7m6--1knn7wuamv3ph">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-053147"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1602</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1602</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1602-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1602-12-31</rico:endDate>
+      <rico:date xml:lang="fr">janvier - décembre 1602</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010151"/>
+      <rico:hasProvenance rdf:resource="agent/010508"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qe7m6--1knn7wuamv3ph"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/053147-ctzb77qe7m6--1knn7wuamv3ph-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qe7m6--1knn7wuamv3ph"/>
+            <rico:identifier>MC/ET/XXIV/95</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1602</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période de janvier à décembre 1602</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1602-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1602-12-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - décembre 1602</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Répertoire de 7 feuillets.</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qe7m6--1knn7wuamv3ph"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/053147-ctzb77qe9xi--ur83wislwwb5">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/053147-ctzb77qe7m6--1knn7wuamv3ph"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1602</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1602</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1602-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1602-12-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - décembre 1602</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010151"/>
+            <rico:hasProvenance rdf:resource="agent/010508"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qe9xi--ur83wislwwb5"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qe9xi--ur83wislwwb5-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qe9xi--ur83wislwwb5"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/053147-ctzb77qe9xi--ur83wislwwb5-i2"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1602</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période de janvier à décembre 1602</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1602-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1602-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - décembre 1602</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">7 feuillets insérés en tête du registre des minutes.</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_053147/ctzb77qe9xi--ur83wislwwb5"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/053147-ctzb77qe9xi--ur83wislwwb5-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/053147-ctzb77qe9xi--ur83wislwwb5"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/053147-ctzb77qe9xi--ur83wislwwb5-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97B_024MIC00094_L.jpg#DAFANCH97B_024MIC00100_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_053147/ctzb77qe9xi--ur83wislwwb5/DAFANCH97B_024MIC00094_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

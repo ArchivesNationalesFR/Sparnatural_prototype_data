@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041746">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Jean Nicolas de MONHENAULT, 5 mai 1682 - 30 janvier 1693 (étude XXVI) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jean Nicolas de MONHENAULT, 5 mai 1682 - 30 janvier 1693 (étude XXVI) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-18</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">1ère édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041746"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041746-i1">
+            <rico:isInstantiationOf rdf:resource="record/041746"/>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Jean Nicolas de MONHENAULT, 5 mai 1682 - 30 janvier 1693 (étude XXVI) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jean Nicolas de MONHENAULT, 5 mai 1682 - 30 janvier 1693 (étude XXVI) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041746</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041746"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041746">
+      <rico:isOrWasDescribedBy rdf:resource="record/041746"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Jean Nicolas de MONHENAULT (étude XXVI)</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jean Nicolas de MONHENAULT (étude XXVI)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1682-05-05</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1693-01-30</rico:endDate>
+      <rico:date xml:lang="fr">5 mai 1682 - 30 janvier 1693</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rico:hasProvenance rdf:resource="agent/011200"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l’étude XXVIArchives de l'étude XXVI</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041746"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041746-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041746"/>
+            <rico:identifier>MC/ET/XXVI/151 - MC/ET/XXVI/174, MC/RE/XXVI/3</rico:identifier>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Jean Nicolas de MONHENAULT (étude XXVI)</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jean Nicolas de MONHENAULT (étude XXVI)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1682-05-05</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1693-01-30</rico:endDate>
+            <rico:date xml:lang="fr">5 mai 1682 - 30 janvier 1693</rico:date>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041746"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/041746-c1p6x12zaynn-mx3c22jmzq0b"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041746"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Minutes de Jean Nicolas de MONHENAULT</rico:title>
+      <rdfs:label xml:lang="fr">Minutes de Jean Nicolas de MONHENAULT</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1655-04-15</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1693-04-30</rico:endDate>
+      <rico:date xml:lang="fr">15 avril 1655 - avril 1693</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rico:hasProvenance rdf:resource="agent/011200"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12yt9b7-1ayfi9bmafhke"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041746-c1p6x12yt9b7-1ayfi9bmafhke-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rico:identifier>MC/ET/XXVI/151 - MC/ET/XXVI/174</rico:identifier>
+            <rico:title xml:lang="fr">Minutes de Jean Nicolas de MONHENAULT</rico:title>
+            <rdfs:label xml:lang="fr">Minutes de Jean Nicolas de MONHENAULT</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1655-04-15</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1693-04-30</rico:endDate>
+            <rico:date xml:lang="fr">15 avril 1655 - avril 1693</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12yt9b7-1ayfi9bmafhke"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12yu137--1ibli4q5p10g6">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1682, avril - juillet</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1682, avril - juillet</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1682-04-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1682-07-31</rico:endDate>
+            <rico:date xml:lang="fr">avril - juillet 1682</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>1682, 1 à 13 avril : actes passés par-devant Laurent II de Monhénault.</html:p>
+                  <html:p>1682, 5 mai à juillet : actes passés par-devant Jean-Nicolas de Monhénault.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12yu137--1ibli4q5p10g6"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12yu137--1ibli4q5p10g6-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12yu137--1ibli4q5p10g6"/>
+                  <rico:identifier>MC/ET/XXVI/151</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1682, avril - juillet</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1682, avril - juillet</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1682-04-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1682-07-31</rico:endDate>
+                  <rico:date xml:lang="fr">avril - juillet 1682</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12yu137--1ibli4q5p10g6"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12yvbdv-12skr3rnyh3zf">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Registre des nominations des marguilliers de l'église Saint-Gervais. 1655, 11 avril - 1692, 6 août</rico:title>
+            <rdfs:label xml:lang="fr">Registre des nominations des marguilliers de l'église Saint-Gervais. 1655, 11 avril - 1692, 6 août</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1655-04-11</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1692-08-06</rico:endDate>
+            <rico:date xml:lang="fr">11 avril 1655 - 6 août 1692</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Ce petit registre relève des archives des marguilliers de Saint-Gervais.</html:p>
+                  <html:p>Il n'est pas une archive notariale.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8eead0--3bapblsmqsry"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_024-d3nyvoxn4o-1v8ltgercbj9c"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12yvbdv-12skr3rnyh3zf"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12yvbdv-12skr3rnyh3zf-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12yvbdv-12skr3rnyh3zf"/>
+                  <rico:identifier>MC/ET/XXVI/152</rico:identifier>
+                  <rico:title xml:lang="fr">Registre des nominations des marguilliers de l'église Saint-Gervais. 1655, 11 avril - 1692, 6 août</rico:title>
+                  <rdfs:label xml:lang="fr">Registre des nominations des marguilliers de l'église Saint-Gervais. 1655, 11 avril - 1692, 6 août</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1655-04-11</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1692-08-06</rico:endDate>
+                  <rico:date xml:lang="fr">11 avril 1655 - 6 août 1692</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12yvbdv-12skr3rnyh3zf"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12ywn83--11dnel701j5mw">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1684, juillet - décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1684, juillet - décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1684-07-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1684-12-31</rico:endDate>
+            <rico:date xml:lang="fr">juillet - décembre 1684</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12ywn83--11dnel701j5mw"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12ywn83--11dnel701j5mw-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12ywn83--11dnel701j5mw"/>
+                  <rico:identifier>MC/ET/XXVI/157</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1684, juillet - décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1684, juillet - décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1684-07-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1684-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">juillet - décembre 1684</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12ywn83--11dnel701j5mw"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12yxf03-zeztkfgbia2">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1685, janvier - mai</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1685, janvier - mai</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1685-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1685-05-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - mai 1685</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12yxf03-zeztkfgbia2"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12yxf03-zeztkfgbia2-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12yxf03-zeztkfgbia2"/>
+                  <rico:identifier>MC/ET/XXVI/158</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1685, janvier - mai</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1685, janvier - mai</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1685-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1685-05-31</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - mai 1685</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12yxf03-zeztkfgbia2"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12yy60b-l09lkcehz13">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1685, juin - août</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1685, juin - août</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1685-06-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1685-08-31</rico:endDate>
+            <rico:date xml:lang="fr">juin - août 1685</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12yy60b-l09lkcehz13"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12yy60b-l09lkcehz13-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12yy60b-l09lkcehz13"/>
+                  <rico:identifier>MC/ET/XXVI/159</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1685, juin - août</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1685, juin - août</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1685-06-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1685-08-31</rico:endDate>
+                  <rico:date xml:lang="fr">juin - août 1685</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12yy60b-l09lkcehz13"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12yyx0j--yuntczco4rtw">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1685, septembre - décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1685, septembre - décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1685-09-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1685-12-31</rico:endDate>
+            <rico:date xml:lang="fr">septembre - décembre 1685</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12yyx0j--yuntczco4rtw"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12yyx0j--yuntczco4rtw-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12yyx0j--yuntczco4rtw"/>
+                  <rico:identifier>MC/ET/XXVI/160</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1685, septembre - décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1685, septembre - décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1685-09-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1685-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">septembre - décembre 1685</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12yyx0j--yuntczco4rtw"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12yzo0r-gz4w5ryjsrv7">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1686, janvier - février</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1686, janvier - février</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1686-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1686-02-28</rico:endDate>
+            <rico:date xml:lang="fr">janvier - février 1686</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12yzo0r-gz4w5ryjsrv7"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12yzo0r-gz4w5ryjsrv7-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12yzo0r-gz4w5ryjsrv7"/>
+                  <rico:identifier>MC/ET/XXVI/161</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1686, janvier - février</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1686, janvier - février</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1686-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1686-02-28</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - février 1686</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12yzo0r-gz4w5ryjsrv7"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12z0f0z-ggw7x6orml2e">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1686, mars - juin</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1686, mars - juin</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1686-03-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1686-06-30</rico:endDate>
+            <rico:date xml:lang="fr">mars - juin 1686</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z0f0z-ggw7x6orml2e"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12z0f0z-ggw7x6orml2e-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12z0f0z-ggw7x6orml2e"/>
+                  <rico:identifier>MC/ET/XXVI/162</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1686, mars - juin</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1686, mars - juin</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1686-03-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1686-06-30</rico:endDate>
+                  <rico:date xml:lang="fr">mars - juin 1686</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z0f0z-ggw7x6orml2e"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12z1617--ngraq0dfy7kj">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1686, juillet - décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1686, juillet - décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1686-07-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1686-12-31</rico:endDate>
+            <rico:date xml:lang="fr">juillet - décembre 1686</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z1617--ngraq0dfy7kj"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12z1617--ngraq0dfy7kj-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12z1617--ngraq0dfy7kj"/>
+                  <rico:identifier>MC/ET/XXVI/163</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1686, juillet - décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1686, juillet - décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1686-07-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1686-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">juillet - décembre 1686</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z1617--ngraq0dfy7kj"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12z1x1f--o2m50i3g4jpb">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1687, janvier - juin</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1687, janvier - juin</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1687-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1687-06-30</rico:endDate>
+            <rico:date xml:lang="fr">janvier - juin 1687</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z1x1f--o2m50i3g4jpb"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12z1x1f--o2m50i3g4jpb-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12z1x1f--o2m50i3g4jpb"/>
+                  <rico:identifier>MC/ET/XXVI/164</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1687, janvier - juin</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1687, janvier - juin</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1687-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1687-06-30</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - juin 1687</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z1x1f--o2m50i3g4jpb"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12z2o1n-1xxcsluthxib">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1687, juillet - décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1687, juillet - décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1687-07-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1687-12-31</rico:endDate>
+            <rico:date xml:lang="fr">juillet - décembre 1687</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z2o1n-1xxcsluthxib"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12z2o1n-1xxcsluthxib-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12z2o1n-1xxcsluthxib"/>
+                  <rico:identifier>MC/ET/XXVI/165</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1687, juillet - décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1687, juillet - décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1687-07-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1687-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">juillet - décembre 1687</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z2o1n-1xxcsluthxib"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12z3ea3-1u5crsb0ohyw">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1688, janvier - juin</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1688, janvier - juin</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1688-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1688-06-30</rico:endDate>
+            <rico:date xml:lang="fr">janvier - juin 1688</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z3ea3-1u5crsb0ohyw"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12z3ea3-1u5crsb0ohyw-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12z3ea3-1u5crsb0ohyw"/>
+                  <rico:identifier>MC/ET/XXVI/166</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1688, janvier - juin</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1688, janvier - juin</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1688-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1688-06-30</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - juin 1688</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z3ea3-1u5crsb0ohyw"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12z4623--1nk76zaeutkd2">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1688, juillet - décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1688, juillet - décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1688-07-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1688-12-31</rico:endDate>
+            <rico:date xml:lang="fr">juillet - décembre 1688</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z4623--1nk76zaeutkd2"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12z4623--1nk76zaeutkd2-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12z4623--1nk76zaeutkd2"/>
+                  <rico:identifier>MC/ET/XXVI/167</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1688, juillet - décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1688, juillet - décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1688-07-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1688-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">juillet - décembre 1688</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z4623--1nk76zaeutkd2"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12z4waj--xzxgetg4vu45">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1689, janvier - juin</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1689, janvier - juin</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1689-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1689-06-30</rico:endDate>
+            <rico:date xml:lang="fr">janvier - juin 1689</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z4waj--xzxgetg4vu45"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12z4waj--xzxgetg4vu45-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12z4waj--xzxgetg4vu45"/>
+                  <rico:identifier>MC/ET/XXVI/168</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1689, janvier - juin</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1689, janvier - juin</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1689-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1689-06-30</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - juin 1689</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z4waj--xzxgetg4vu45"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12z5nar--yjz7obyii2le">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1689, juillet - décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1689, juillet - décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1689-07-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1689-12-31</rico:endDate>
+            <rico:date xml:lang="fr">juillet - décembre 1689</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z5nar--yjz7obyii2le"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12z5nar--yjz7obyii2le-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12z5nar--yjz7obyii2le"/>
+                  <rico:identifier>MC/ET/XXVI/169</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1689, juillet - décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1689, juillet - décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1689-07-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1689-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">juillet - décembre 1689</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z5nar--yjz7obyii2le"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12z6eaz-4rnk7bf6in58">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1690, janvier - juin</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1690, janvier - juin</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1690-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1690-06-30</rico:endDate>
+            <rico:date xml:lang="fr">janvier - juin 1690</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z6eaz-4rnk7bf6in58"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12z6eaz-4rnk7bf6in58-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12z6eaz-4rnk7bf6in58"/>
+                  <rico:identifier>MC/ET/XXVI/170</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1690, janvier - juin</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1690, janvier - juin</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1690-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1690-06-30</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - juin 1690</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z6eaz-4rnk7bf6in58"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12z75b7--mrnytax7dx3y">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1690, juillet - décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1690, juillet - décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1690-07-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1690-12-31</rico:endDate>
+            <rico:date xml:lang="fr">juillet - décembre 1690</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z75b7--mrnytax7dx3y"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12z75b7--mrnytax7dx3y-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12z75b7--mrnytax7dx3y"/>
+                  <rico:identifier>MC/ET/XXVI/171</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1690, juillet - décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1690, juillet - décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1690-07-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1690-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">juillet - décembre 1690</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z75b7--mrnytax7dx3y"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12z7wbf-g1vysq9bdy0e">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1691, janvier - décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1691, janvier - décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1691-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1691-12-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - décembre 1691</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z7wbf-g1vysq9bdy0e"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12z7wbf-g1vysq9bdy0e-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12z7wbf-g1vysq9bdy0e"/>
+                  <rico:identifier>MC/ET/XXVI/172</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1691, janvier - décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1691, janvier - décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1691-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1691-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - décembre 1691</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z7wbf-g1vysq9bdy0e"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12z8nbn-f3djbhzzj08x">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1692, janvier - décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1692, janvier - décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1692-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1692-12-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - décembre 1692</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z8nbn-f3djbhzzj08x"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12z8nbn-f3djbhzzj08x-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12z8nbn-f3djbhzzj08x"/>
+                  <rico:identifier>MC/ET/XXVI/173</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1692, janvier - décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1692, janvier - décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1692-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1692-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - décembre 1692</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z8nbn-f3djbhzzj08x"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12z9ebv-2ovppy7jxfon">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12yt9b7-1ayfi9bmafhke"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1693, janvier - avril</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1693, janvier - avril</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1693-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1693-04-30</rico:endDate>
+            <rico:date xml:lang="fr">janvier - avril 1693</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Acte(s) de la même période coté(s) séparément :</html:b>
+                  </html:p>
+                  <html:p>Voir aussi MC/ET/XXVI/152.</html:p>
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>1693, 1 à 30 janvier : actes passés par-devant Jean-Nicolas de Monhénault.</html:p>
+                  <html:p>1693, 2 février à avril : actes passés par-devant Louis Richard.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z9ebv-2ovppy7jxfon"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12z9ebv-2ovppy7jxfon-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12z9ebv-2ovppy7jxfon"/>
+                  <rico:identifier>MC/ET/XXVI/174</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1693, janvier - avril</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1693, janvier - avril</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1693-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1693-04-30</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - avril 1693</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12z9ebv-2ovppy7jxfon"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041746-c1p6x12zaynn-mx3c22jmzq0b">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041746"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Répertoire(s) de Jean Nicolas de MONHENAULT</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire(s) de Jean Nicolas de MONHENAULT</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1678-12-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1693-01-30</rico:endDate>
+      <rico:date xml:lang="fr">décembre 1678 - 30 janvier 1693</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rico:hasProvenance rdf:resource="agent/011200"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12zaynn-mx3c22jmzq0b"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041746-c1p6x12zaynn-mx3c22jmzq0b-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12zaynn-mx3c22jmzq0b"/>
+            <rico:identifier>MC/RE/XXVI/3</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire(s) de Jean Nicolas de MONHENAULT</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire(s) de Jean Nicolas de MONHENAULT</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1678-12-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1693-01-30</rico:endDate>
+            <rico:date xml:lang="fr">décembre 1678 - 30 janvier 1693</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12zaynn-mx3c22jmzq0b"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041746-c1p6x12zbr7f-9hsfjb6iqowg">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041746-c1p6x12zaynn-mx3c22jmzq0b"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+            <rico:title xml:lang="fr">Répertoire. 1678, décembre - 1693, 30 janvier</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire. 1678, décembre - 1693, 30 janvier</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1678-12-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1693-01-30</rico:endDate>
+            <rico:date xml:lang="fr">décembre 1678 - 30 janvier 1693</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Répertoire des notaires Laurent II de Monhenault (décembre 1678-13 avril 1682), Jean-Nicolas de Monhenault (5 mai 1682-30 janvier 1693).</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement et la cotation :</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux mentions d'actes contenues dans le répertoire. Parmi celles-ci, certaines peuvent y être décrites, de manière plus ou moins détaillée. Pour consulter l'acte proprement dit, il convient de rechercher la cote au niveau des articles (registre ou liasse) des minutes du notaire (cote de type 'MC/ET').</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011200"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12zbr7f-9hsfjb6iqowg"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041746-c1p6x12zbr7f-9hsfjb6iqowg-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041746-c1p6x12zbr7f-9hsfjb6iqowg"/>
+                  <rico:identifier>MC/RE/XXVI/3</rico:identifier>
+                  <rico:title xml:lang="fr">Répertoire. 1678, décembre - 1693, 30 janvier</rico:title>
+                  <rdfs:label xml:lang="fr">Répertoire. 1678, décembre - 1693, 30 janvier</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1678-12-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1693-01-30</rico:endDate>
+                  <rico:date xml:lang="fr">décembre 1678 - 30 janvier 1693</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041746/c1p6x12zbr7f-9hsfjb6iqowg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

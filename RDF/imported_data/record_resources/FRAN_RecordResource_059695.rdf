@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/059695">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Comptabilité de l'étude XXVI (1748-1763) : Répertoire numérique détaillé de la cote MC/CT/XXVI/1 (recoté MC/RS//101)</rico:title>
+      <rdfs:label xml:lang="fr">Comptabilité de l'étude XXVI (1748-1763) : Répertoire numérique détaillé de la cote MC/CT/XXVI/1 (recoté MC/RS//101)</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Etabli par Marie-Françoise Limon-Bonnet, conservateur général du patrimoine, responsable du Minutier central des notaires de Paris.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-059695"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/059695-i1">
+            <rico:isInstantiationOf rdf:resource="record/059695"/>
+            <rico:title xml:lang="fr">Comptabilité de l'étude XXVI (1748-1763) : Répertoire numérique détaillé de la cote MC/CT/XXVI/1 (recoté MC/RS//101)</rico:title>
+            <rdfs:label xml:lang="fr">Comptabilité de l'étude XXVI (1748-1763) : Répertoire numérique détaillé de la cote MC/CT/XXVI/1 (recoté MC/RS//101)</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_059695</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_059695"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-059695">
+      <rico:isOrWasDescribedBy rdf:resource="record/059695"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Comptabilité de l'étude XXVI</rico:title>
+      <rdfs:label xml:lang="fr">Comptabilité de l'étude XXVI</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1748-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1763-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1748-1763</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rico:hasProvenance rdf:resource="agent/011112"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>ces archives privées sont communicables aux mêmes conditions que les minutes et répertoires des notaires.</html:p>
+            <html:p>Ce fonds est un fonds de comptabilité dont les donateurs et déposants ont autorisé la communication des registres de plus de 75 ans d'âge.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Autres archives de l'étude (archives privées)Archives de l'étude XXVI</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_059695"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-059695-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-059695"/>
+            <rico:identifier>MC/CT/XXVI/1</rico:identifier>
+            <rico:title xml:lang="fr">Comptabilité de l'étude XXVI</rico:title>
+            <rdfs:label xml:lang="fr">Comptabilité de l'étude XXVI</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1748-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1763-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1748-1763</rico:date>
+            <rico:carrierExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">0,04 ml</html:p>
+            </rico:carrierExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">1 registre dérelié</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:hasProvenance rdf:resource="agent/011112"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>ces archives privées sont communicables aux mêmes conditions que les minutes et répertoires des notaires.</html:p>
+                  <html:p>Ce fonds est un fonds de comptabilité dont les donateurs et déposants ont autorisé la communication des registres de plus de 75 ans d'âge.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Historique de la conservation</html:h4>
+                     <html:p>Conservé dans une maison particulière à Chalette (Loiret) jusqu'en 1979. Passé par les archives départementales de la Somme, attributaire du legs Perruchot via les archives départementales du Loiret. Remis aux Archives nationales par les archives départementales de la Somme en 1989.</html:p>
+                  </html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:p>Don du colonel Platwoette (1979).</html:p>
+                  </html:div>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_059695"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/059695-c-b7k7dnrp5-17r8urksq0v9c"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/059695-c-b7k7dnrp5-17r8urksq0v9c">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-059695"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+      <rico:title xml:lang="fr">Registre de comptabilité concernant le notaire Nicolas Mathis (comptes clients).</rico:title>
+      <rdfs:label xml:lang="fr">Registre de comptabilité concernant le notaire Nicolas Mathis (comptes clients).</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1748-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1763-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1748-1763</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Ce registre de recettes et dépenses de Me Nicolas Mathis est un des très rares registres conservés de comptabilité notariale d'Ancien Régime. Y sont notées sur des pages en vis-à-vis, les dépenses et les recettes autour de certains dossiers, notamment les directions de créanciers pour lesquelles le notaire Mathis est sequestre et certaines successions. Une table des affaires figure en tête du registre, renvoyant aux pages de comptes.</html:p>
+            <html:p>La table est retranscrite ci-dessous, les folios figurant entre parenthèses :</html:p>
+            <html:ul>
+               <html:li>Direction Josse (2)</html:li>
+               <html:li>Direction Chatillon (11)</html:li>
+               <html:li>Direction Delamotte (23)</html:li>
+               <html:li>Direction du marquis de Goesbriand (36)</html:li>
+               <html:li>Direction Coustard (44)</html:li>
+               <html:li>Dépôt Jean Treuillet Ducoudray (52)</html:li>
+               <html:li>Succession du marquis d'Estaing (53)</html:li>
+               <html:li>Créanciers des sieurs Huet et Boucher (56)</html:li>
+               <html:li>Dépôt concernant Pierre René Guillaume Egresset (182)</html:li>
+               <html:li>Direction du comte de Goesbriand et sa femme (59)</html:li>
+               <html:li>Séquestre de feu Charles François de Vintimille, comte Du Luc (66)</html:li>
+               <html:li>Union des créanciers du marquis de Bellefont (71)</html:li>
+               <html:li>Union des créanciers de Jean Beausire (78)</html:li>
+               <html:li>Succession du marquis Du Luc (82)</html:li>
+               <html:li>Créanciers M. de Maulévrier (90)</html:li>
+               <html:li>Succession et créanciers de Jacques Côme Denis Bridou de Belleville (92)</html:li>
+               <html:li>Dépôt du sieur Langlin (100)</html:li>
+               <html:li>Succession du comte d'Estaing (101)</html:li>
+               <html:li>Dépôt concernant M. Du Martroy (105)</html:li>
+               <html:li>Succession de la demoiselle Remy (106)</html:li>
+               <html:li>Succession Brunet (107)</html:li>
+               <html:li>Dépôt concernant Pierre Fougeron (108)</html:li>
+               <html:li>Succession de l'abbé Molé (109)</html:li>
+               <html:li>Succession de la dame Fradet (110)</html:li>
+               <html:li>Dépôt concernant la dame d'Hariague (111)</html:li>
+               <html:li>Dépôt concernant Martin Petit et la veuve Brissard (112)</html:li>
+               <html:li>Dépôt concernant Louis Rousseau (113)</html:li>
+               <html:li>Succession François Guerrier (114)</html:li>
+               <html:li>Succession M. de La Tour (115)</html:li>
+               <html:li>Succession de la veuve Rousset, chandelière (116)</html:li>
+               <html:li>Succession Nicolas Simart, libraire (122)</html:li>
+               <html:li>Dépôt du comte Du Luc et ses créanciers (123)</html:li>
+               <html:li>Union des créanciers de feu François Robert Butet (140)</html:li>
+               <html:li>Dépôt concernant la fabrique de Saint-Gervais (150)</html:li>
+               <html:li>Dépôt concernant la demoiselle Gilliere, Antoine Pasteur et sa femme (156)</html:li>
+               <html:li>M. Ruyant de Cambronne (157)</html:li>
+               <html:li>Succession Antoine Mathieu Duval (158)</html:li>
+               <html:li>Le sieur Boullée (159)</html:li>
+               <html:li>Héritiers Mareschal (160)</html:li>
+               <html:li>Mr Capet (167)</html:li>
+               <html:li>Successions Arnofe et sa femme (167)</html:li>
+               <html:li>Succession de Mme Delevignan (167)</html:li>
+               <html:li>M. Peron (159)</html:li>
+               <html:li>La ville de Péronne (168)</html:li>
+               <html:li>M. Danizy (160)</html:li>
+               <html:li>Succession de M. Machurel, huissier priseur (159)</html:li>
+               <html:li>Succession Pierre Frechot (156)</html:li>
+               <html:li>Succession Toussaint Mourot (157)</html:li>
+               <html:li>M. Faroard, avocat aux conseils (158)</html:li>
+               <html:li>Succession de Claude Martin (178)</html:li>
+               <html:li>Mme de Cormery (183)</html:li>
+               <html:li>Louis Goussard et sa femme M. le comte Du Luc poursuivant (184)</html:li>
+               <html:li>Vincent Bourdele (187)</html:li>
+               <html:li>Les légataires universels des biens propres de M. Leprestre (188)</html:li>
+               <html:li>Le nommé Vallois (190)</html:li>
+               <html:li>Succession Henri Boulanger (191)</html:li>
+               <html:li>Le sieur Bourgeois de Lamartinière (192)</html:li>
+               <html:li>Mme de Montchevrel (51)</html:li>
+               <html:li>Le sieur André Varante (196)</html:li>
+               <html:li>La veuve Manceau contre Dubos (195).</html:li>
+            </html:ul>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rico:hasProvenance rdf:resource="agent/011112"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_059695/c-b7k7dnrp5-17r8urksq0v9c"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/059695-c-b7k7dnrp5-17r8urksq0v9c-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/059695-c-b7k7dnrp5-17r8urksq0v9c"/>
+            <rico:hasDerivedInstantiation rdf:resource="instantiation/059695-c-b7k7dnrp5-17r8urksq0v9c-i2"/>
+            <rico:identifier>MC/CT/XXVI/1, MC/RS//101</rico:identifier>
+            <rico:title xml:lang="fr">Registre de comptabilité concernant le notaire Nicolas Mathis (comptes clients).</rico:title>
+            <rdfs:label xml:lang="fr">Registre de comptabilité concernant le notaire Nicolas Mathis (comptes clients).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1748-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1763-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1748-1763</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_059695/c-b7k7dnrp5-17r8urksq0v9c"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/059695-c-b7k7dnrp5-17r8urksq0v9c-i2">
+            <rico:isInstantiationOf rdf:resource="recordResource/059695-c-b7k7dnrp5-17r8urksq0v9c"/>
+            <rico:isDerivedFromInstantiation rdf:resource="instantiation/059695-c-b7k7dnrp5-17r8urksq0v9c-i1"/>
+            <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+            <rico:identifier>FRAN_0159_02664_L#FRAN_0159_02821_L</rico:identifier>
+            <dc:format xml:lang="en">image/jpeg</dc:format>
+            <rico:hasProvenance rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_059695/c-b7k7dnrp5-17r8urksq0v9c/FRAN_0159_02664_L"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

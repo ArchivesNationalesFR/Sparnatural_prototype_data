@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/050350">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XV. MC/ET/XV/1574-MC/ET/XV/1581/A (1757-1827) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XV. MC/ET/XV/1574-MC/ET/XV/1581/A (1757-1827) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, par Ernest Coyecque, Marie-Antoinette Fleury, Claire Béchu, conservateurs du patrimoine et Danis Habib, chargé d’études documentaires, sous la direction de Marie-Françoise Limon-Bonnet, conservateur général du patrimoine.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-050350"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050350-i1">
+            <rico:isInstantiationOf rdf:resource="record/050350"/>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XV. MC/ET/XV/1574-MC/ET/XV/1581/A (1757-1827) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XV. MC/ET/XV/1574-MC/ET/XV/1581/A (1757-1827) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d’information des Archives nationales. Il remplace l’instrument de recherche dactylographié connu en salle de lecture sous le numéro MC/27.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_050350</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050350"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-050350">
+      <rico:isOrWasDescribedBy rdf:resource="record/050350"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XV</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XV</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1757-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1827-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1757-1827</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010142"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l'étude XVArchives de l'étude XV</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050350"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-050350-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-050350"/>
+            <rico:identifier>MC/ET/XV/1574-MC/ET/XV/1581/A</rico:identifier>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XV</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XV</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1757-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1827-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1757-1827</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">1 m.l. ou 3 registres et 5 cartons (boîtes, 10 cm et 20 cm)</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010142"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Don</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050350"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/050350-c-61dg3kqmz-1m0piu4sjwpwn"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050350-c-66hwmn3w9-1vxhcz5fm9cbh"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050350-c-69rd3tkwk-pbqrvb9f26k5"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050350-c-6dc88f2a6--166tabsyt74cy"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050350-c-61dg3kqmz-1m0piu4sjwpwn">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050350"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Cartulaire.</rico:title>
+      <rdfs:label xml:lang="fr">Cartulaire.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1791-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1825-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1791-1825</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:i>Cartulaire de la terre de Grand Pré</html:i>[Normandie] <html:i>contenant</html:i>(…) d<html:i>es notes historiques sur le comté de Grand Pré et ses dépendances, les familles qui en ont été propriétaires, par ordre chronologique, suivi de l’état de ses revenus ordinaires en 1791 et 1825</html:i>(terminé par un extrait de tous les titres et par une table alphabétique).</html:p>
+            <html:p>Rédigé par L. M. Guerin (ancien avocat en Parlement, juge de paix du canton de Grand-Pré et ancien régisseur de la terre), adressé au marquis de Semonville [Charles Louis Huguet de Montaran, marquis de Semonville].</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntb7e7v0--10ymhckkidpkv"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Guerin, L. M.</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Guerin, L. M.</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Guerin, L. M.</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Montaran de Semonville, Charles Louis Huguet de</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Montaran de Semonville, Charles Louis Huguet de</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Montaran de Semonville, Charles Louis Huguet de</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasProvenance rdf:resource="agent/010142"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-61dg3kqmz-1m0piu4sjwpwn"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050350-c-61dg3kqmz-1m0piu4sjwpwn-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050350-c-61dg3kqmz-1m0piu4sjwpwn"/>
+            <rico:identifier>MC/ET/XV/1574</rico:identifier>
+            <rico:title xml:lang="fr">Cartulaire.</rico:title>
+            <rdfs:label xml:lang="fr">Cartulaire.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1791-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1825-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1791-1825</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre, plans coloriés.</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-61dg3kqmz-1m0piu4sjwpwn"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050350-c-66hwmn3w9-1vxhcz5fm9cbh">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050350"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Terrier du marquisat de Panilleuse (Eure), volume premier.</rico:title>
+      <rdfs:label xml:lang="fr">Terrier du marquisat de Panilleuse (Eure), volume premier.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1757-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1757-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1757</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Terrier du marquisat de Panilleuse à Nicolas Louis Jubert, comte de Bouville, marquis de Panilleuse, écrit en 1757 par Pierre Maximiliand, de Saint-Germain-en-Laye.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntgjwkiw-1swgkusdxvj67"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Jubert, Nicolas Louis</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Jubert, Nicolas Louis</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Jubert, Nicolas Louis</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Maximiliand, Pierre</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Maximiliand, Pierre</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Maximiliand, Pierre</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntu4oc7d-18d0n7tv88tmy"/>
+      <rico:hasProvenance rdf:resource="agent/010142"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-66hwmn3w9-1vxhcz5fm9cbh"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050350-c-66hwmn3w9-1vxhcz5fm9cbh-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050350-c-66hwmn3w9-1vxhcz5fm9cbh"/>
+            <rico:identifier>MC/ET/XV/1575</rico:identifier>
+            <rico:title xml:lang="fr">Terrier du marquisat de Panilleuse (Eure), volume premier.</rico:title>
+            <rdfs:label xml:lang="fr">Terrier du marquisat de Panilleuse (Eure), volume premier.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1757-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1757-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1757</rico:date>
+            <rico:carrierExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">0,10 m.l.</html:p>
+            </rico:carrierExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre folioté de 1 à 476 (manquent 3 à 25).</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-66hwmn3w9-1vxhcz5fm9cbh"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050350-c-69rd3tkwk-pbqrvb9f26k5">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050350"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Terrier du marquisat de Panilleuse (Eure), quatrième et dernier volume.</rico:title>
+      <rdfs:label xml:lang="fr">Terrier du marquisat de Panilleuse (Eure), quatrième et dernier volume.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1758-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1758-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1758</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Liste de tous les tenants du marquisat de Panilleuse, suivie d’une table alphabétique.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntgjwkiw-1swgkusdxvj67"/>
+      <rico:hasProvenance rdf:resource="agent/010142"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-69rd3tkwk-pbqrvb9f26k5"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050350-c-69rd3tkwk-pbqrvb9f26k5-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050350-c-69rd3tkwk-pbqrvb9f26k5"/>
+            <rico:identifier>MC/ET/XV/1576</rico:identifier>
+            <rico:title xml:lang="fr">Terrier du marquisat de Panilleuse (Eure), quatrième et dernier volume.</rico:title>
+            <rdfs:label xml:lang="fr">Terrier du marquisat de Panilleuse (Eure), quatrième et dernier volume.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1758-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1758-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1758</rico:date>
+            <rico:carrierExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">0,10 m.l.</html:p>
+            </rico:carrierExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre folioté de 1464 à 1859 (sauf la table alphabétique non foliotée) et dont trois feuillets sont détachés en fin de volume.</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-69rd3tkwk-pbqrvb9f26k5"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050350-c-6dc88f2a6--166tabsyt74cy">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050350"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Successions en déshérence du bureau du domaine de la Préfecture de la Seine.</rico:title>
+      <rdfs:label xml:lang="fr">Successions en déshérence du bureau du domaine de la Préfecture de la Seine.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1827-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1816-1827</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010142"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-6dc88f2a6--166tabsyt74cy"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050350-c-6dc88f2a6--166tabsyt74cy-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050350-c-6dc88f2a6--166tabsyt74cy"/>
+            <rico:identifier>MC/ET/XV/1577-MC/ET/XV/1581/A</rico:identifier>
+            <rico:title xml:lang="fr">Successions en déshérence du bureau du domaine de la Préfecture de la Seine.</rico:title>
+            <rdfs:label xml:lang="fr">Successions en déshérence du bureau du domaine de la Préfecture de la Seine.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1827-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1816-1827</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-6dc88f2a6--166tabsyt74cy"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050350-c-6fawgf4z0--u7723bhmhuts">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050350-c-6dc88f2a6--166tabsyt74cy"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Successions en déshérence (1).</rico:title>
+            <rdfs:label xml:lang="fr">Successions en déshérence (1).</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010142"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-6fawgf4z0--u7723bhmhuts"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050350-c-6fawgf4z0--u7723bhmhuts-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050350-c-6fawgf4z0--u7723bhmhuts"/>
+                  <rico:identifier>MC/ET/XV/1577</rico:identifier>
+                  <rico:title xml:lang="fr">Successions en déshérence (1).</rico:title>
+                  <rdfs:label xml:lang="fr">Successions en déshérence (1).</rdfs:label>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-6fawgf4z0--u7723bhmhuts"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050350-c-6gld3l2xn--1brz25bh578c3">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050350-c-6dc88f2a6--166tabsyt74cy"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Successions en déshérence (2).</rico:title>
+            <rdfs:label xml:lang="fr">Successions en déshérence (2).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1825-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1825-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1825</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010142"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-6gld3l2xn--1brz25bh578c3"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050350-c-6gld3l2xn--1brz25bh578c3-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050350-c-6gld3l2xn--1brz25bh578c3"/>
+                  <rico:identifier>MC/ET/XV/1578</rico:identifier>
+                  <rico:title xml:lang="fr">Successions en déshérence (2).</rico:title>
+                  <rdfs:label xml:lang="fr">Successions en déshérence (2).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1825-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1825-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1825</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-6gld3l2xn--1brz25bh578c3"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050350-c-6he4iujrv--1mjl5vux78w0m">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050350-c-6dc88f2a6--166tabsyt74cy"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Successions en déshérence (3).</rico:title>
+            <rdfs:label xml:lang="fr">Successions en déshérence (3).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1826-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1827-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1826-1827</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010142"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-6he4iujrv--1mjl5vux78w0m"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050350-c-6he4iujrv--1mjl5vux78w0m-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050350-c-6he4iujrv--1mjl5vux78w0m"/>
+                  <rico:identifier>MC/ET/XV/1579</rico:identifier>
+                  <rico:title xml:lang="fr">Successions en déshérence (3).</rico:title>
+                  <rdfs:label xml:lang="fr">Successions en déshérence (3).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1826-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1827-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1826-1827</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-6he4iujrv--1mjl5vux78w0m"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050350-c-6gztuqekg--17807pgz903kq">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050350-c-6dc88f2a6--166tabsyt74cy"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Successions en déshérence (4).</rico:title>
+            <rdfs:label xml:lang="fr">Successions en déshérence (4).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1819-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1822-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1819-1822</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010142"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-6gztuqekg--17807pgz903kq"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050350-c-6gztuqekg--17807pgz903kq-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050350-c-6gztuqekg--17807pgz903kq"/>
+                  <rico:identifier>MC/ET/XV/1580</rico:identifier>
+                  <rico:title xml:lang="fr">Successions en déshérence (4).</rico:title>
+                  <rdfs:label xml:lang="fr">Successions en déshérence (4).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1819-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1822-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1819-1822</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-6gztuqekg--17807pgz903kq"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050350-c-6hrkht46f--khh3pntjc6gv">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050350-c-6dc88f2a6--166tabsyt74cy"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Successions en déshérence (5).</rico:title>
+            <rdfs:label xml:lang="fr">Successions en déshérence (5).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1824-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1816-1824</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010142"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-6hrkht46f--khh3pntjc6gv"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050350-c-6hrkht46f--khh3pntjc6gv-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050350-c-6hrkht46f--khh3pntjc6gv"/>
+                  <rico:identifier>MC/ET/XV/1581/A</rico:identifier>
+                  <rico:title xml:lang="fr">Successions en déshérence (5).</rico:title>
+                  <rdfs:label xml:lang="fr">Successions en déshérence (5).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1824-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1816-1824</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050350/c-6hrkht46f--khh3pntjc6gv"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/051272">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Images du répertoire du notaire Etienne Paillet pour l'étude XXI : MC/RE/XXI/3</rico:title>
+      <rdfs:label xml:lang="fr">Images du répertoire du notaire Etienne Paillet pour l'étude XXI : MC/RE/XXI/3</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, notices préparées par Thierry Boudignon, chargé d'études documentaires, et Marie-France Nivet, technicienne de recherche, puis Nathalie Jourdain, adjointe administrative principale.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Deuxième édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2016-06</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Corrections et ajouts en vue de la mise en ligne sur la SIV, N. Jourdain</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-051272"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051272-i1">
+            <rico:isInstantiationOf rdf:resource="record/051272"/>
+            <rico:title xml:lang="fr">Images du répertoire du notaire Etienne Paillet pour l'étude XXI : MC/RE/XXI/3</rico:title>
+            <rdfs:label xml:lang="fr">Images du répertoire du notaire Etienne Paillet pour l'étude XXI : MC/RE/XXI/3</rdfs:label>
+            <rico:history xml:lang="fr">23 novembre 2004</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_051272</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051272"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-051272">
+      <rico:isOrWasDescribedBy rdf:resource="record/051272"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Images du répertoire du notaire Etienne Paillet pour l'étude XXI</rico:title>
+      <rdfs:label xml:lang="fr">Images du répertoire du notaire Etienne Paillet pour l'étude XXI</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1676-06-15</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1680-09-21</rico:endDate>
+      <rico:date xml:lang="fr">15 juin 1676 - 21 septembre 1680</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010148"/>
+      <rico:hasProvenance rdf:resource="agent/010824"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:structure rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+      </rico:structure>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Images des répertoires de l’étude XXIArchives de l'étude XXI</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8f3jla--to36ja96m31q"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051272"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-051272-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-051272"/>
+            <rico:identifier>MC/RE/XXI/3</rico:identifier>
+            <rico:title xml:lang="fr">Images du répertoire du notaire Etienne Paillet pour l'étude XXI</rico:title>
+            <rdfs:label xml:lang="fr">Images du répertoire du notaire Etienne Paillet pour l'étude XXI</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1676-06-15</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1680-09-21</rico:endDate>
+            <rico:date xml:lang="fr">15 juin 1676 - 21 septembre 1680</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Un registre</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010824"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:structure rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+            </rico:structure>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Historique de la conservation</html:h4>
+                     <html:p>42 feuillets et fait partie d'un registre de 332 feuillets de papier manuscrits, hauteur 36,5 x largeur 25 cm.</html:p>
+                     <html:p>Le registre n'est pas en bon état. La reliure est à refaire. Les feuillets 118, 126 et 127 sont détachés.</html:p>
+                  </html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:p>Registre entré aux Archives nationales en 1944.</html:p>
+                  </html:div>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051272"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/051272-c1nnr5zyzzpw-uw4vvbk3x7x"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/051272-c1nnr5zyzzpw-uw4vvbk3x7x">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-051272"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+      <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période du 15 juin 1676 au 21 septembre 1680</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 15 juin 1676 au 21 septembre 1680</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1676-06-15</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1680-09-21</rico:endDate>
+      <rico:date xml:lang="fr">15 juin 1676 - 21 septembre 1680</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Le registre contient aussi le répertoire des notaires <html:b>Jean-Baptiste Bizet</html:b>pour la période du 2 janvier 1666 au 22 mars 1676, et <html:b>Pierre Chuppin</html:b>pour la période du 19 septembre 1680 au 11 novembre 1700.</html:p>
+            <html:p>Le répertoire contient les informations suivantes : 1. nature de l'acte; 2. nom, prénom, des parties; 3. date du jour.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010148"/>
+      <rico:hasProvenance rdf:resource="agent/010824"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051272/c1nnr5zyzzpw-uw4vvbk3x7x"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051272-c1nnr5zyzzpw-uw4vvbk3x7x-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/051272-c1nnr5zyzzpw-uw4vvbk3x7x"/>
+            <rico:identifier>MC/RE/XXI/3</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période du 15 juin 1676 au 21 septembre 1680</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 15 juin 1676 au 21 septembre 1680</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1676-06-15</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1680-09-21</rico:endDate>
+            <rico:date xml:lang="fr">15 juin 1676 - 21 septembre 1680</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">41 feuillets</html:p>
+            </rico:instantiationExtent>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051272/c1nnr5zyzzpw-uw4vvbk3x7x"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051272-c1nnr5zyzqgk-17fpn1v16my3f">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051272-c1nnr5zyzzpw-uw4vvbk3x7x"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Page de titre : "Répertoire des minuttes reçues par deffunt Me Estienne Paillet notaire depuis le 15 juin 1676 jusque et compris le 21 septembre 1680".</rico:title>
+            <rdfs:label xml:lang="fr">Page de titre : "Répertoire des minuttes reçues par deffunt Me Estienne Paillet notaire depuis le 15 juin 1676 jusque et compris le 21 septembre 1680".</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010824"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051272/c1nnr5zyzqgk-17fpn1v16my3f"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051272-c1nnr5zyzqgk-17fpn1v16my3f-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051272-c1nnr5zyzqgk-17fpn1v16my3f"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051272-c1nnr5zyzqgk-17fpn1v16my3f-i2"/>
+                  <rico:title xml:lang="fr">Page de titre : "Répertoire des minuttes reçues par deffunt Me Estienne Paillet notaire depuis le 15 juin 1676 jusque et compris le 21 septembre 1680".</rico:title>
+                  <rdfs:label xml:lang="fr">Page de titre : "Répertoire des minuttes reçues par deffunt Me Estienne Paillet notaire depuis le 15 juin 1676 jusque et compris le 21 septembre 1680".</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">1 feuillet</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051272/c1nnr5zyzqgk-17fpn1v16my3f"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051272-c1nnr5zyzqgk-17fpn1v16my3f-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051272-c1nnr5zyzqgk-17fpn1v16my3f"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051272-c1nnr5zyzqgk-17fpn1v16my3f-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC00784_L.jpg#DAFANCH96_021MIC00784_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051272/c1nnr5zyzqgk-17fpn1v16my3f/DAFANCH96_021MIC00784_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051272-c1nnr5zz0218-1tz9wq644jh0g">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051272-c1nnr5zyzzpw-uw4vvbk3x7x"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 15 juin au 31 décembre 1676</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 15 juin au 31 décembre 1676</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1676-06-15</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1676-12-31</rico:endDate>
+            <rico:date xml:lang="fr">15 juin - 31 décembre 1676</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010824"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051272/c1nnr5zz0218-1tz9wq644jh0g"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051272-c1nnr5zz0218-1tz9wq644jh0g-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051272-c1nnr5zz0218-1tz9wq644jh0g"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051272-c1nnr5zz0218-1tz9wq644jh0g-i2"/>
+                  <rico:identifier>119 r°-122 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 15 juin au 31 décembre 1676</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 15 juin au 31 décembre 1676</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1676-06-15</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1676-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">15 juin - 31 décembre 1676</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">4 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051272/c1nnr5zz0218-1tz9wq644jh0g"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051272-c1nnr5zz0218-1tz9wq644jh0g-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051272-c1nnr5zz0218-1tz9wq644jh0g"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051272-c1nnr5zz0218-1tz9wq644jh0g-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC00785_L.jpg#DAFANCH96_021MIC00788_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051272/c1nnr5zz0218-1tz9wq644jh0g/DAFANCH96_021MIC00785_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051272-c1nnr5zz03ks--1r8g28qaprpst">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051272-c1nnr5zyzzpw-uw4vvbk3x7x"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1677</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1677</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1677-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1677-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 31 décembre 1677</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010824"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051272/c1nnr5zz03ks--1r8g28qaprpst"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051272-c1nnr5zz03ks--1r8g28qaprpst-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051272-c1nnr5zz03ks--1r8g28qaprpst"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051272-c1nnr5zz03ks--1r8g28qaprpst-i2"/>
+                  <rico:identifier>122 r°-129 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1677</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1677</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1677-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1677-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1677</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">8 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051272/c1nnr5zz03ks--1r8g28qaprpst"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051272-c1nnr5zz03ks--1r8g28qaprpst-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051272-c1nnr5zz03ks--1r8g28qaprpst"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051272-c1nnr5zz03ks--1r8g28qaprpst-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC00788_L.jpg#DAFANCH96_021MIC00796_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051272/c1nnr5zz03ks--1r8g28qaprpst/DAFANCH96_021MIC00788_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051272-c1nnr5zz05w4-11bftkzcigfi5">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051272-c1nnr5zyzzpw-uw4vvbk3x7x"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 31 décembre 1678</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 31 décembre 1678</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1678-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1678-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1er janvier - 31 décembre 1678</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010824"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051272/c1nnr5zz05w4-11bftkzcigfi5"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051272-c1nnr5zz05w4-11bftkzcigfi5-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051272-c1nnr5zz05w4-11bftkzcigfi5"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051272-c1nnr5zz05w4-11bftkzcigfi5-i2"/>
+                  <rico:identifier>129 v°-139 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 31 décembre 1678</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 31 décembre 1678</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1678-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1678-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1er janvier - 31 décembre 1678</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">11 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051272/c1nnr5zz05w4-11bftkzcigfi5"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051272-c1nnr5zz05w4-11bftkzcigfi5-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051272-c1nnr5zz05w4-11bftkzcigfi5"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051272-c1nnr5zz05w4-11bftkzcigfi5-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC00796_L.jpg#DAFANCH96_021MIC00804_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051272/c1nnr5zz05w4-11bftkzcigfi5/DAFANCH96_021MIC00796_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051272-c1nnr5zz07fo-1opgq97uo6dt5">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051272-c1nnr5zyzzpw-uw4vvbk3x7x"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1679</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1679</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-01-03</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-12-31</rico:endDate>
+            <rico:date xml:lang="fr">3 janvier - 31 décembre 1679</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010824"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051272/c1nnr5zz07fo-1opgq97uo6dt5"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051272-c1nnr5zz07fo-1opgq97uo6dt5-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051272-c1nnr5zz07fo-1opgq97uo6dt5"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051272-c1nnr5zz07fo-1opgq97uo6dt5-i2"/>
+                  <rico:identifier>139 v°-150 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1679</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1679</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-01-03</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1679-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">3 janvier - 31 décembre 1679</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">12 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051272/c1nnr5zz07fo-1opgq97uo6dt5"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051272-c1nnr5zz07fo-1opgq97uo6dt5-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051272-c1nnr5zz07fo-1opgq97uo6dt5"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051272-c1nnr5zz07fo-1opgq97uo6dt5-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC00804_L.jpg#DAFANCH96_021MIC00818_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051272/c1nnr5zz07fo-1opgq97uo6dt5/DAFANCH96_021MIC00804_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051272-c1nnr5zz08z8--1gsdxd4i6umn5">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051272-c1nnr5zyzzpw-uw4vvbk3x7x"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 21 septembre 1680</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 21 septembre 1680</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1680-01-03</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1680-09-21</rico:endDate>
+            <rico:date xml:lang="fr">3 janvier - 21 septembre 1680</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010824"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051272/c1nnr5zz08z8--1gsdxd4i6umn5"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051272-c1nnr5zz08z8--1gsdxd4i6umn5-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051272-c1nnr5zz08z8--1gsdxd4i6umn5"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051272-c1nnr5zz08z8--1gsdxd4i6umn5-i2"/>
+                  <rico:identifier>151 r°-159 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 21 septembre 1680</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 21 septembre 1680</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1680-01-03</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1680-09-21</rico:endDate>
+                  <rico:date xml:lang="fr">3 janvier - 21 septembre 1680</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">8 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051272/c1nnr5zz08z8--1gsdxd4i6umn5"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051272-c1nnr5zz08z8--1gsdxd4i6umn5-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051272-c1nnr5zz08z8--1gsdxd4i6umn5"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051272-c1nnr5zz08z8--1gsdxd4i6umn5-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC00818_L.jpg#DAFANCH96_021MIC00827_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051272/c1nnr5zz08z8--1gsdxd4i6umn5/DAFANCH96_021MIC00818_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+   </rico:RecordResource>
+</rdf:RDF>

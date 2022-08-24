@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041265">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Jean ANGIRARD, janvier 1535 - 3 décembre 1571 (étude VIII) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jean ANGIRARD, janvier 1535 - 3 décembre 1571 (étude VIII) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-18</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">1ère édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041265"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041265-i1">
+            <rico:isInstantiationOf rdf:resource="record/041265"/>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Jean ANGIRARD, janvier 1535 - 3 décembre 1571 (étude VIII) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jean ANGIRARD, janvier 1535 - 3 décembre 1571 (étude VIII) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041265</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041265"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041265">
+      <rico:isOrWasDescribedBy rdf:resource="record/041265"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Jean ANGIRARD (étude VIII)</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jean ANGIRARD (étude VIII)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1535-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1571-12-03</rico:endDate>
+      <rico:date xml:lang="fr">janvier 1535 - 3 décembre 1571</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010135"/>
+      <rico:hasProvenance rdf:resource="agent/013127"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Attention : ce notaire n'a pas laissé de répertoire pour son activité dans l'étude VIII</html:b>
+            </html:p>
+            <html:p>Accès aux instruments de recherche de tous les notaires de l’étude VIII<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041255">Archives de l'étude VIII</html:a>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041265"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041265-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041265"/>
+            <rico:identifier>MC/ET/VIII/2 - MC/ET/VIII/430</rico:identifier>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Jean ANGIRARD (étude VIII)</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Jean ANGIRARD (étude VIII)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1535-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1571-12-03</rico:endDate>
+            <rico:date xml:lang="fr">janvier 1535 - 3 décembre 1571</rico:date>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010135"/>
+            <rico:hasProvenance rdf:resource="agent/013127"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041265"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/041265-c1p6tdvhry0z--1uuzekzg6vle4"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041265-c1p6tdvhry0z--1uuzekzg6vle4">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041265"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Minutes de Jean ANGIRARD</rico:title>
+      <rdfs:label xml:lang="fr">Minutes de Jean ANGIRARD</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1481-11-10</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1571-12-03</rico:endDate>
+      <rico:date xml:lang="fr">10 novembre 1481 - 3 décembre 1571</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010135"/>
+      <rico:hasProvenance rdf:resource="agent/013127"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041265/c1p6tdvhry0z--1uuzekzg6vle4"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041265-c1p6tdvhry0z--1uuzekzg6vle4-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041265-c1p6tdvhry0z--1uuzekzg6vle4"/>
+            <rico:identifier>MC/ET/VIII/2 - MC/ET/VIII/430</rico:identifier>
+            <rico:title xml:lang="fr">Minutes de Jean ANGIRARD</rico:title>
+            <rdfs:label xml:lang="fr">Minutes de Jean ANGIRARD</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1481-11-10</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1571-12-03</rico:endDate>
+            <rico:date xml:lang="fr">10 novembre 1481 - 3 décembre 1571</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041265/c1p6tdvhry0z--1uuzekzg6vle4"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041265-c1p6tdvht2x7-1vr5p2rq4xhij">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041265-c1p6tdvhry0z--1uuzekzg6vle4"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes de notaires divers. 1481, 10 novembre - 1571, 3 décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes de notaires divers. 1481, 10 novembre - 1571, 3 décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1481-11-10</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1571-12-03</rico:endDate>
+            <rico:date xml:lang="fr">10 novembre 1481 - 3 décembre 1571</rico:date>
+            <rico:hasProvenance rdf:resource="agent/013472"/>
+            <rico:hasProvenance rdf:resource="agent/010743"/>
+            <rico:hasProvenance rdf:resource="agent/013306"/>
+            <rico:hasProvenance rdf:resource="agent/013301"/>
+            <rico:hasProvenance rdf:resource="agent/012727"/>
+            <rico:hasProvenance rdf:resource="agent/012117"/>
+            <rico:hasProvenance rdf:resource="agent/011660"/>
+            <rico:hasProvenance rdf:resource="agent/011645"/>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>1481, 10 novembre - 1518, 8 novembre : actes passés par-devant Jacques et Robert Alaire.</html:p>
+                  <html:p>1494 : expédition dressée par Claude de Troyes.</html:p>
+                  <html:p>1552, 3 actes XVIe non datés, un fragment de d'inventaire de 1540-1549 : passés par-devant Jean Angirard.</html:p>
+                  <html:p>1529, 6 mars : actes passés par-devant Nicolas Contesse avec François Bastonneau.</html:p>
+                  <html:p>1545, 21 décembre : actes passés par-devant François Frenicle.</html:p>
+                  <html:p>1575, 13 octobre collation Herbin.</html:p>
+                  <html:p>1560, 7 décembre : actes passés par-devant Louis Jacquelin.</html:p>
+                  <html:p>1524, 24 août, 1526, avril, 1533, juillet : actes passés par-devant Lefèvre.</html:p>
+                  <html:p>1531, février : actes de Rivière.</html:p>
+                  <html:p>1538, 7 décembre : actes de Martin.</html:p>
+                  <html:p>1570, 5 mai Inventaire après décès de Louis de Bascle, garde du château de Chinon, dressé par Marin Roussel.</html:p>
+                  <html:p>1625, 5 janvier collation d'une expédition du 9 septembre 1587 d'un acte de Jean I Lusson daté du 28 juillet 1570, avec un autre acte du 3 décembre 1571.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010135"/>
+            <rico:hasProvenance rdf:resource="agent/013127"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041265/c1p6tdvht2x7-1vr5p2rq4xhij"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041265-c1p6tdvht2x7-1vr5p2rq4xhij-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041265-c1p6tdvht2x7-1vr5p2rq4xhij"/>
+                  <rico:identifier>MC/ET/VIII/2</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes de notaires divers. 1481, 10 novembre - 1571, 3 décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes de notaires divers. 1481, 10 novembre - 1571, 3 décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1481-11-10</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1571-12-03</rico:endDate>
+                  <rico:date xml:lang="fr">10 novembre 1481 - 3 décembre 1571</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Document détérioré.</html:p>
+                  </rico:instantiationExtent>
+                  <rico:hasProvenance rdf:resource="agent/013472"/>
+                  <rico:hasProvenance rdf:resource="agent/010743"/>
+                  <rico:hasProvenance rdf:resource="agent/013306"/>
+                  <rico:hasProvenance rdf:resource="agent/013301"/>
+                  <rico:hasProvenance rdf:resource="agent/012727"/>
+                  <rico:hasProvenance rdf:resource="agent/012117"/>
+                  <rico:hasProvenance rdf:resource="agent/011660"/>
+                  <rico:hasProvenance rdf:resource="agent/011645"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041265/c1p6tdvht2x7-1vr5p2rq4xhij"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041265-c1p6tdvhxmi3-1wyw0zn2fpv4u">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041265-c1p6tdvhry0z--1uuzekzg6vle4"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1557, mai - octobre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1557, mai - octobre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1557-05-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1557-10-31</rico:endDate>
+            <rico:date xml:lang="fr">mai - octobre 1557</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Actes dressés par Vincent Maupeou.</html:p>
+                  <html:p>Jean Angirard signe aussi en premier.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010135"/>
+            <rico:hasProvenance rdf:resource="agent/013127"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041265/c1p6tdvhxmi3-1wyw0zn2fpv4u"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041265-c1p6tdvhxmi3-1wyw0zn2fpv4u-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041265-c1p6tdvhxmi3-1wyw0zn2fpv4u"/>
+                  <rico:identifier>MC/ET/VIII/231</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1557, mai - octobre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1557, mai - octobre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1557-05-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1557-10-31</rico:endDate>
+                  <rico:date xml:lang="fr">mai - octobre 1557</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041265/c1p6tdvhxmi3-1wyw0zn2fpv4u"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041265-c1p6tdvhykgb--1smhaeobsb5xn">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041265-c1p6tdvhry0z--1uuzekzg6vle4"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1557, 19 avril - 1558, 9 avril</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1557, 19 avril - 1558, 9 avril</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1557-04-19</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1558-04-09</rico:endDate>
+            <rico:date xml:lang="fr">19 avril 1557 - 9 avril 1558</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Actes dressés par Vincent Maupeou.</html:p>
+                  <html:p>Jean Angirard signe aussi en premier.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010135"/>
+            <rico:hasProvenance rdf:resource="agent/013127"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041265/c1p6tdvhykgb--1smhaeobsb5xn"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041265-c1p6tdvhykgb--1smhaeobsb5xn-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041265-c1p6tdvhykgb--1smhaeobsb5xn"/>
+                  <rico:identifier>MC/ET/VIII/232</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1557, 19 avril - 1558, 9 avril</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1557, 19 avril - 1558, 9 avril</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1557-04-19</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1558-04-09</rico:endDate>
+                  <rico:date xml:lang="fr">19 avril 1557 - 9 avril 1558</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041265/c1p6tdvhykgb--1smhaeobsb5xn"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041265-c1p6tdvhzfbf--1x498y0h4u9z8">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041265-c1p6tdvhry0z--1uuzekzg6vle4"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1561, avril - 1562, février</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1561, avril - 1562, février</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1561-04-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1562-02-28</rico:endDate>
+            <rico:date xml:lang="fr">avril 1561 - février 1562</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Actes dressés par Vincent Maupeou.</html:p>
+                  <html:p>Jean Angirard signe aussi en premier.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010135"/>
+            <rico:hasProvenance rdf:resource="agent/013127"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041265/c1p6tdvhzfbf--1x498y0h4u9z8"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041265-c1p6tdvhzfbf--1x498y0h4u9z8-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041265-c1p6tdvhzfbf--1x498y0h4u9z8"/>
+                  <rico:identifier>MC/ET/VIII/247</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1561, avril - 1562, février</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1561, avril - 1562, février</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1561-04-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1562-02-28</rico:endDate>
+                  <rico:date xml:lang="fr">avril 1561 - février 1562</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041265/c1p6tdvhzfbf--1x498y0h4u9z8"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041265-c1p6tdvi0ayb--tjstw5rtdk6m">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041265-c1p6tdvhry0z--1uuzekzg6vle4"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1561, avril - 1562, février</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1561, avril - 1562, février</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1561-04-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1562-02-28</rico:endDate>
+            <rico:date xml:lang="fr">avril 1561 - février 1562</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Actes dressés par Vincent Maupeou.</html:p>
+                  <html:p>Jean Angirard signe aussi en premier.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010135"/>
+            <rico:hasProvenance rdf:resource="agent/013127"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041265/c1p6tdvi0ayb--tjstw5rtdk6m"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041265-c1p6tdvi0ayb--tjstw5rtdk6m-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041265-c1p6tdvi0ayb--tjstw5rtdk6m"/>
+                  <rico:identifier>MC/ET/VIII/248</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1561, avril - 1562, février</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1561, avril - 1562, février</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1561-04-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1562-02-28</rico:endDate>
+                  <rico:date xml:lang="fr">avril 1561 - février 1562</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041265/c1p6tdvi0ayb--tjstw5rtdk6m"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041265-c1p6tdvi151n-sue9p30c1o7r">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041265-c1p6tdvhry0z--1uuzekzg6vle4"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes concernant l'évêché de Paris (terrier). 1543, 31 juillet - 1er novembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes concernant l'évêché de Paris (terrier). 1543, 31 juillet - 1er novembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1543-07-31</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1543-11-01</rico:endDate>
+            <rico:date xml:lang="fr">31 juillet - 1er novembre 1543</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Acte(s) de la même période coté(s) séparément :</html:b>
+                  </html:p>
+                  <html:p>Voir aussi MC/ET/VIII/2.</html:p>
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Terrier de l'évêché de Paris.</html:p>
+                  <html:p>Jean Angirard, avec Claude I Franquelin - 191 déclarations.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8ff7xk-z0gyte45gv23"/>
+            <rico:hasProvenance rdf:resource="agent/010135"/>
+            <rico:hasProvenance rdf:resource="agent/013127"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041265/c1p6tdvi151n-sue9p30c1o7r"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041265-c1p6tdvi151n-sue9p30c1o7r-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041265-c1p6tdvi151n-sue9p30c1o7r"/>
+                  <rico:identifier>MC/ET/VIII/360</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes concernant l'évêché de Paris (terrier). 1543, 31 juillet - 1er novembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes concernant l'évêché de Paris (terrier). 1543, 31 juillet - 1er novembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1543-07-31</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1543-11-01</rico:endDate>
+                  <rico:date xml:lang="fr">31 juillet - 1er novembre 1543</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041265/c1p6tdvi151n-sue9p30c1o7r"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041265-c1p6tdvi2j77--lgrl9b247h8o">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041265-c1p6tdvhry0z--1uuzekzg6vle4"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes concernant l'évêché de Paris (terrier,censier). 1543, 27 août - 1544, 12 décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes concernant l'évêché de Paris (terrier,censier). 1543, 27 août - 1544, 12 décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1543-08-27</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1544-12-12</rico:endDate>
+            <rico:date xml:lang="fr">27 août 1543 - 12 décembre 1544</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Censier de l'évêché de Paris.</html:p>
+                  <html:p>Actes de Claude Franquelin.</html:p>
+                  <html:p>Jean Angirard signe aussi en premier.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement</html:b>
+                     <html:b>:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8ff7xk-z0gyte45gv23"/>
+            <rico:hasProvenance rdf:resource="agent/010135"/>
+            <rico:hasProvenance rdf:resource="agent/013127"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041265/c1p6tdvi2j77--lgrl9b247h8o"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041265-c1p6tdvi2j77--lgrl9b247h8o-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041265-c1p6tdvi2j77--lgrl9b247h8o"/>
+                  <rico:identifier>MC/ET/VIII/430</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes concernant l'évêché de Paris (terrier,censier). 1543, 27 août - 1544, 12 décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes concernant l'évêché de Paris (terrier,censier). 1543, 27 août - 1544, 12 décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1543-08-27</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1544-12-12</rico:endDate>
+                  <rico:date xml:lang="fr">27 août 1543 - 12 décembre 1544</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">registre</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041265/c1p6tdvi2j77--lgrl9b247h8o"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

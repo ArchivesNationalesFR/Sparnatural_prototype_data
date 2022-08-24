@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/059024">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Archives de l'office notarial VII (1862) : Réperoire numérique détaillé (MC/ON/VII/1)</rico:title>
+      <rdfs:label xml:lang="fr">Archives de l'office notarial VII (1862) : Réperoire numérique détaillé (MC/ON/VII/1)</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2021</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Etabli par Marie-Françoise Limon-Bonnet, conservateur général du patrimoine, responsable du Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-059024"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/059024-i1">
+            <rico:isInstantiationOf rdf:resource="record/059024"/>
+            <rico:title xml:lang="fr">Archives de l'office notarial VII (1862) : Réperoire numérique détaillé (MC/ON/VII/1)</rico:title>
+            <rdfs:label xml:lang="fr">Archives de l'office notarial VII (1862) : Réperoire numérique détaillé (MC/ON/VII/1)</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_059024</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_059024"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-059024">
+      <rico:isOrWasDescribedBy rdf:resource="record/059024"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Archives de l'office notarial VII (MC/ON/VII/1)</rico:title>
+      <rdfs:label xml:lang="fr">Archives de l'office notarial VII (MC/ON/VII/1)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1862-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1862-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1862</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010134"/>
+      <rico:hasProvenance rdf:resource="agent/050648"/>
+      <rico:hasProvenance rdf:resource="agent/010452"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:p xml:lang="fr">Autres documents de l'étude (dossiers de clients [DC], archives de l'office notarial [ON], comptabilité [CT]...) :s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur. Par parallélisme avec le délai d'accès pour les archives publiques des études notariales (minutes et répertoires), les notaires acceptent en général de communiquer les documents "archives privées" de plus de 75 ans.</html:p>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduitsà usage privé du copiste, sous réserve des contraintes liées à leur état matériel, et dans le respect des textes relatifs à la réutilisation des informations publiques. Toute autre utilisation qu'un usage privé de document déposé ou donné aux Archives nationales par l'étude doit faire l'objet d'une autorisation de l'étude et des Archives nationales.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès à tous les instruments de recherche de l'étude VIIArchives de l'étude VII</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_059024"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-059024-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-059024"/>
+            <rico:identifier>MC/ON/VII/1</rico:identifier>
+            <rico:title xml:lang="fr">Archives de l'office notarial VII (MC/ON/VII/1)</rico:title>
+            <rdfs:label xml:lang="fr">Archives de l'office notarial VII (MC/ON/VII/1)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1862-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1862-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1862</rico:date>
+            <rico:carrierExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">1 registre</html:p>
+            </rico:carrierExtent>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">0,07 mètre linéaire</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010134"/>
+            <rico:hasProvenance rdf:resource="agent/050648"/>
+            <rico:hasProvenance rdf:resource="agent/010452"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:p xml:lang="fr">Autres documents de l'étude (dossiers de clients [DC], archives de l'office notarial [ON], comptabilité [CT]...) :s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur. Par parallélisme avec le délai d'accès pour les archives publiques des études notariales (minutes et répertoires), les notaires acceptent en général de communiquer les documents "archives privées" de plus de 75 ans.</html:p>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduitsà usage privé du copiste, sous réserve des contraintes liées à leur état matériel, et dans le respect des textes relatifs à la réutilisation des informations publiques. Toute autre utilisation qu'un usage privé de document déposé ou donné aux Archives nationales par l'étude doit faire l'objet d'une autorisation de l'étude et des Archives nationales.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Historique de la conservation</html:h4>
+                     <html:p>A l'étude puis au Minutier central des notaires de Paris</html:p>
+                  </html:div>
+                  <html:div xml:lang="fr">
+                     <html:h4>Informations sur les modalités d’entrée</html:h4>
+                     <html:p>Don de l'étude</html:p>
+                  </html:div>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_059024"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/059024-c-5rk90o5io--1rmd4okknlx56"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/059024-c-5rk90o5io--1rmd4okknlx56">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-059024"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Ouvrage imprimé. Comme l'indique l'auteur, Antoine Juste Alphonse Thomas, alors président de chambre, dans son avertissement en tête de l'ouvrage, ce regitre-minutier a pour but de faire connaître la série des minutes possédées par chacune des études du département de la Seine. Il est divisé en deux parties, la première pour les notariats de Paris, l'autre pour ceux des cantons ruraux. L'ouvrage prend donc la suite de l'ancien "Livre des offices de Paris, édité en 1786, et du supllément de 1819 pour les "notariats extra muros".</rico:title>
+      <rdfs:label xml:lang="fr">Ouvrage imprimé. Comme l'indique l'auteur, Antoine Juste Alphonse Thomas, alors président de chambre, dans son avertissement en tête de l'ouvrage, ce regitre-minutier a pour but de faire connaître la série des minutes possédées par chacune des études du département de la Seine. Il est divisé en deux parties, la première pour les notariats de Paris, l'autre pour ceux des cantons ruraux. L'ouvrage prend donc la suite de l'ancien "Livre des offices de Paris, édité en 1786, et du supllément de 1819 pour les "notariats extra muros".</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1862-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1862-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1862</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010134"/>
+      <rico:hasProvenance rdf:resource="agent/010452"/>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Antoine Juste Alphonse Thomas,Notariats du département de la Seine ou tableaux par ordre chronologique indiquant les minutes appartenant à chaque étude avec tables alphabétiques des noms des notaires de leurs résidences, dressés en exécution d'un arrêté de la Chambre des notaires de Paris du 8 novembre 1860.Tableaux chronologiques des notariats de Paris,suivi deTableaux chronologiques des notariats et anciens tabellionages des cantons ruraux du département de la Seine, par ordre alphabétique des résidences, Paris, 1er janvier 1862, Paris, Boucquin, Imprimeur de la Compagnie des notaires, 5 rue de la Sainte-Chapelle, 252 p.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8evac2--7ly6xmca840y"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89xhie-393mc7qw2ngf"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8atdso--17i9ugr1kx2by"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8ca17m--qyn56zgp674b"/>
+      <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d7dg2--xr5j8rtdxjz6"/>
+      <rico:hasProvenance rdf:resource="agent/010134"/>
+      <rico:hasProvenance rdf:resource="agent/050648"/>
+      <rico:hasProvenance rdf:resource="agent/010452"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_059024/c-5rk90o5io--1rmd4okknlx56"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/059024-c-5rk90o5io--1rmd4okknlx56-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/059024-c-5rk90o5io--1rmd4okknlx56"/>
+            <rico:hasDerivedInstantiation rdf:resource="instantiation/059024-c-5rk90o5io--1rmd4okknlx56-i2"/>
+            <rico:identifier>MC/ON/VII/1</rico:identifier>
+            <rico:title xml:lang="fr">Ouvrage imprimé. Comme l'indique l'auteur, Antoine Juste Alphonse Thomas, alors président de chambre, dans son avertissement en tête de l'ouvrage, ce regitre-minutier a pour but de faire connaître la série des minutes possédées par chacune des études du département de la Seine. Il est divisé en deux parties, la première pour les notariats de Paris, l'autre pour ceux des cantons ruraux. L'ouvrage prend donc la suite de l'ancien "Livre des offices de Paris, édité en 1786, et du supllément de 1819 pour les "notariats extra muros".</rico:title>
+            <rdfs:label xml:lang="fr">Ouvrage imprimé. Comme l'indique l'auteur, Antoine Juste Alphonse Thomas, alors président de chambre, dans son avertissement en tête de l'ouvrage, ce regitre-minutier a pour but de faire connaître la série des minutes possédées par chacune des études du département de la Seine. Il est divisé en deux parties, la première pour les notariats de Paris, l'autre pour ceux des cantons ruraux. L'ouvrage prend donc la suite de l'ancien "Livre des offices de Paris, édité en 1786, et du supllément de 1819 pour les "notariats extra muros".</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1862-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1862-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1862</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010134"/>
+            <rico:hasProvenance rdf:resource="agent/010452"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_059024/c-5rk90o5io--1rmd4okknlx56"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/059024-c-5rk90o5io--1rmd4okknlx56-i2">
+            <rico:isInstantiationOf rdf:resource="recordResource/059024-c-5rk90o5io--1rmd4okknlx56"/>
+            <rico:isDerivedFromInstantiation rdf:resource="instantiation/059024-c-5rk90o5io--1rmd4okknlx56-i1"/>
+            <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+            <rico:identifier>FRAN_0187_49342_L#FRAN_0187_49519_L</rico:identifier>
+            <dc:format xml:lang="en">image/jpeg</dc:format>
+            <rico:hasProvenance rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_059024/c-5rk90o5io--1rmd4okknlx56/FRAN_0187_49342_L"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

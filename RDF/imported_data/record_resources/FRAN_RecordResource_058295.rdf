@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/058295">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Dossiers de clients de l'étude XXV (1843-1942) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XXV (1843-1942) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2019</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Etabli par Anne Brunet, stagiaire de Master 1 « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes, sous la direction de Marie-Françoise Limon-Bonnet, conservateur général du patrimoine, responsable du Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-058295"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/058295-i1">
+            <rico:isInstantiationOf rdf:resource="record/058295"/>
+            <rico:title xml:lang="fr">Dossiers de clients de l'étude XXV (1843-1942) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XXV (1843-1942) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_058295</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_058295"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-058295">
+      <rico:isOrWasDescribedBy rdf:resource="record/058295"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds"/>
+      <rico:title xml:lang="fr">Dossiers de clients de l'étude XXV (1843-1942)</rico:title>
+      <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XXV (1843-1942)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1843-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1843-1942</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010152"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires</html:b>: la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de</html:p>
+            <html:p>l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des</html:p>
+            <html:p>minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se</html:p>
+            <html:p>rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: ces archives privées sont communicables aux</html:p>
+            <html:p>mêmes conditions que les minutes et répertoires des notaires.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur</html:p>
+            <html:p>étatmatériel et dans le respect des conditions de communicabilité.</html:p>
+         </html:div>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>MC/DC/XXV/1.</html:b>Particuliers</html:p>
+            <html:p>
+               <html:b>MC/DC/XXV/2.</html:b>Titres de propriété</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:h4>Autre(s) instrument(s) de recherche</html:h4>
+            <html:ul>
+               <html:li>Archives de l'étude XXV</html:li>
+            </html:ul>
+            <html:p>Archives de l'étude XXV<html:a href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041726">Archives de l'étude XXV</html:a>
+            </html:p>
+         </html:div>
+      </rico:descriptiveNote>
+      <rico:isRecordResourceAssociatedWithRecordResource rdf:resource="recordResource/top-041726"/>
+      <rico:isOrWasSubjectOf rdf:resource="record/041726"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041726"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_058295"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-058295-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-058295"/>
+            <rico:identifier>MC/DC/XXV/1-MC/DC/XXV/2</rico:identifier>
+            <rico:title xml:lang="fr">Dossiers de clients de l'étude XXV (1843-1942)</rico:title>
+            <rdfs:label xml:lang="fr">Dossiers de clients de l'étude XXV (1843-1942)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1843-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1843-1942</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">2 boîtes , 0,12 ml</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010152"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires</html:b>: la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de</html:p>
+                  <html:p>l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des</html:p>
+                  <html:p>minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se</html:p>
+                  <html:p>rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: ces archives privées sont communicables aux</html:p>
+                  <html:p>mêmes conditions que les minutes et répertoires des notaires.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur</html:p>
+                  <html:p>étatmatériel et dans le respect des conditions de communicabilité.</html:p>
+               </html:div>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Dépôt</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_058295"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/058295-c-7srsm0d5d--4jkbskfis5io"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/058295-c-7spp3es47-dxrds27lznxh"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/058295-c-7srsm0d5d--4jkbskfis5io">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-058295"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Particuliers</rico:title>
+      <rdfs:label xml:lang="fr">Particuliers</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1889-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1892-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1889-1892</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:ul>
+               <html:li>Charles Gobert</html:li>
+            </html:ul>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010152"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058295/c-7srsm0d5d--4jkbskfis5io"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/058295-c-7srsm0d5d--4jkbskfis5io-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/058295-c-7srsm0d5d--4jkbskfis5io"/>
+            <rico:identifier>MC/DC/XXV/1</rico:identifier>
+            <rico:title xml:lang="fr">Particuliers</rico:title>
+            <rdfs:label xml:lang="fr">Particuliers</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1889-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1892-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1889-1892</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058295/c-7srsm0d5d--4jkbskfis5io"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058295-c-86s2xc7xt-chsb8u5pap71">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058295-c-7srsm0d5d--4jkbskfis5io"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Charles Gobert</rico:title>
+            <rdfs:label xml:lang="fr">Charles Gobert</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1889-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1892-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1889-1892</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Charles Gobert, ancien colonel d'artillerie, demeurant 122, rue de La-Boëtie, agissant comme caution solidaire de Paul Gobert, son fils.</html:p>
+            </rico:scopeAndContent>
+            <rico:isRelatedTo>
+               <rico:Activity>
+                  <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msjpuqr-66gt6kmedjiv"/>
+               </rico:Activity>
+            </rico:isRelatedTo>
+            <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msjpuqr-66gt6kmedjiv"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8efxut-73bdmxk10sbw"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8eieg8-1dufykarlxz3g"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8euh0o-37slydvw5j2q"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8b42sa-2vo6rr7qrxfh"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8av7ji-2m7xjqbxqsjd"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dv9j1-1wzteoks8ncyf"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d699mmxhwr0-4f15mrcy9b9z"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bq6ez-1daxfsx19z37l"/>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Gobert, Charles</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Gobert, Charles</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Gobert, Charles</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Gobert, Paul</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Gobert, Paul</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Gobert, Paul</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Siégler, Isidore</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Siégler, Isidore</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Siégler, Isidore</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Balensi, Alfred</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Balensi, Alfred</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Balensi, Alfred</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Roger (M)</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Roger (M)</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Roger (M)</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzbmpiv4--9w7er1kmli1i"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzd2tut0-4j6a6kbl0r96"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzc2y1co-za4mtwzxm5ca"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzcqe3p3-ckrkvtcyv9pg"/>
+            <rico:isRelatedTo>
+               <rico:Activity>
+                  <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msjq8lx--rvptbxbjgknx"/>
+               </rico:Activity>
+            </rico:isRelatedTo>
+            <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msjq8lx--rvptbxbjgknx"/>
+            <rico:hasProvenance rdf:resource="agent/010152"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058295/c-86s2xc7xt-chsb8u5pap71"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058295-c-86s2xc7xt-chsb8u5pap71-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058295-c-86s2xc7xt-chsb8u5pap71"/>
+                  <rico:identifier>MC/DC/XXV/1</rico:identifier>
+                  <rico:title xml:lang="fr">Charles Gobert</rico:title>
+                  <rdfs:label xml:lang="fr">Charles Gobert</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1889-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1892-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1889-1892</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058295/c-86s2xc7xt-chsb8u5pap71"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/058295-c-7spp3es47-dxrds27lznxh">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-058295"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Titres de propriété</rico:title>
+      <rdfs:label xml:lang="fr">Titres de propriété</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1843-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1843-1942</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:ul>
+               <html:li>Biens sis 11 et 13, avenue Matignon et 10, rue Montaigne</html:li>
+               <html:li>Bien sis à l'angle des rues Marquette et Cavelier-de-La-Salle</html:li>
+               <html:li>Terrain sis 27, rue Saint-Lazare</html:li>
+               <html:li>Bien sis à Neuilly-sur-Seine (Hauts-de-Seine)</html:li>
+            </html:ul>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010152"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058295/c-7spp3es47-dxrds27lznxh"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/058295-c-7spp3es47-dxrds27lznxh-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/058295-c-7spp3es47-dxrds27lznxh"/>
+            <rico:identifier>MC/DC/XXV/2</rico:identifier>
+            <rico:title xml:lang="fr">Titres de propriété</rico:title>
+            <rdfs:label xml:lang="fr">Titres de propriété</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1843-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1843-1942</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058295/c-7spp3es47-dxrds27lznxh"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058295-c-818u53p3b--1rljpu38mf8we">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058295-c-7spp3es47-dxrds27lznxh"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Biens sis 11 et 13, avenue Matignon et 10, rue Montaigne</rico:title>
+            <rdfs:label xml:lang="fr">Biens sis 11 et 13, avenue Matignon et 10, rue Montaigne</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1843-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1843-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1843</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Biens sis 11 et 13, avenue Matignon et 10, rue Montaigne acquis par Louis Germain René Delaforest, comte d'Armaillé, demeurant à Versailles (Yvelines), et Charlotte Joséphine de Macklot, son épouse : acte de vente, quittance.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Delaforest, Louis Germain René</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Delaforest, Louis Germain René</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Delaforest, Louis Germain René</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Macklot, Charlotte Joséphine (de)</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Macklot, Charlotte Joséphine (de)</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Macklot, Charlotte Joséphine (de)</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntu51cee--wrvelxp49su1"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntb91vp2-1x0gbusmn6zj4"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzc3o0nx-alnlbeh0z4j"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzbzulsf--1m4nlesfu7ugc"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89lgo1-7iazj0zqu03g"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dc8p2-nyxarkw0ppoi"/>
+            <rico:hasProvenance rdf:resource="agent/010152"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058295/c-818u53p3b--1rljpu38mf8we"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058295-c-818u53p3b--1rljpu38mf8we-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058295-c-818u53p3b--1rljpu38mf8we"/>
+                  <rico:identifier>MC/DC/XXV/2</rico:identifier>
+                  <rico:title xml:lang="fr">Biens sis 11 et 13, avenue Matignon et 10, rue Montaigne</rico:title>
+                  <rdfs:label xml:lang="fr">Biens sis 11 et 13, avenue Matignon et 10, rue Montaigne</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1843-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1843-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1843</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058295/c-818u53p3b--1rljpu38mf8we"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058295-c-7wvq2whh4--1li88tgm0mupp">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058295-c-7spp3es47-dxrds27lznxh"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Bien sis à l'angle des rues Marquette et Cavelier-de-La-Salle.</rico:title>
+            <rdfs:label xml:lang="fr">Bien sis à l'angle des rues Marquette et Cavelier-de-La-Salle.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1926-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1926-1942</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">François Auguste Eugène Brun, demeurant à Chantilly (Oise),et Jeanne Davoust, son épouse.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Brun, François Auguste Eugène</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Brun, François Auguste Eugène</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Brun, François Auguste Eugène</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Davoust, Jeanne</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Davoust, Jeanne</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Davoust, Jeanne</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntoszhth--160cb3m6fn6ld"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntb8gs2c-r7m1xcm91zhq"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzbyxfl8-16v8o7y18zsb3"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nz94rcpt-1w1iab556879a"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8efxut-73bdmxk10sbw"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8f08lp-1dqkzwj723t1t"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dv9j1-1wzteoks8ncyf"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d699mmxhwr0-4f15mrcy9b9z"/>
+            <rico:hasProvenance rdf:resource="agent/010152"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058295/c-7wvq2whh4--1li88tgm0mupp"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058295-c-7wvq2whh4--1li88tgm0mupp-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058295-c-7wvq2whh4--1li88tgm0mupp"/>
+                  <rico:identifier>MC/DC/XXV/2</rico:identifier>
+                  <rico:title xml:lang="fr">Bien sis à l'angle des rues Marquette et Cavelier-de-La-Salle.</rico:title>
+                  <rdfs:label xml:lang="fr">Bien sis à l'angle des rues Marquette et Cavelier-de-La-Salle.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1926-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1942-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1926-1942</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058295/c-7wvq2whh4--1li88tgm0mupp"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058295-c-7uu0q5ayi--z648uyldbmnr">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058295-c-7spp3es47-dxrds27lznxh"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Terrain sis 27, rue Saint-Lazare</rico:title>
+            <rdfs:label xml:lang="fr">Terrain sis 27, rue Saint-Lazare</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1883-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1883-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1883</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Terrain sis 27, rue Saint-Lazare, appartenant à Louis Fremy, ancien gouverneur du Crédit Foncier de France, demeurant 28, rue de Lisbonne.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Fremy, Louis</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Fremy, Louis</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Fremy, Louis</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Boas, Alfred</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Boas, Alfred</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Boas, Alfred</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzbs5rm0-1gm13rhq1jvd3"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzd4mgh6-1q8zrk2z9ifof"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nz9ffb1e-1704d9v1ihnpv"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89lgo1-7iazj0zqu03g"/>
+            <rico:hasProvenance rdf:resource="agent/010152"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058295/c-7uu0q5ayi--z648uyldbmnr"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058295-c-7uu0q5ayi--z648uyldbmnr-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058295-c-7uu0q5ayi--z648uyldbmnr"/>
+                  <rico:identifier>MC/DC/XXV/2</rico:identifier>
+                  <rico:title xml:lang="fr">Terrain sis 27, rue Saint-Lazare</rico:title>
+                  <rdfs:label xml:lang="fr">Terrain sis 27, rue Saint-Lazare</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1883-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1883-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1883</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058295/c-7uu0q5ayi--z648uyldbmnr"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/058295-c-83s11vvfp--aqqzy9q04yjr">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/058295-c-7spp3es47-dxrds27lznxh"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:title xml:lang="fr">Bien sis à Neuilly-sur-Seine (Hauts-de-Seine)</rico:title>
+            <rdfs:label xml:lang="fr">Bien sis à Neuilly-sur-Seine (Hauts-de-Seine)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1869-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1883-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1869-1883</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Bien sis à Neuilly-sur-Seine (Hauts-de-Seine) appartenant à Ernest Richard Victor, comte de Tocqueville, demeurant 20, rue de Navarin, et de Jeanne Amélie Mangeot, son épouse : acte de vente, contrat de prêt et copie du contrat, certificat de non-transcription, certificat d'inscription, justificatif, bordereau d'inscription, état des inscriptions, assurance incendie, convention.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Tocqueville, Ernest Richard Victor (comte de)</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Tocqueville, Ernest Richard Victor (comte de)</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Tocqueville, Ernest Richard Victor (comte de)</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject>
+               <rico:Agent>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                  <rdfs:label xml:lang="fr">Mangeot, Jeanne Amélie</rdfs:label>
+                  <rico:hasOrHadAgentName>
+                     <rico:AgentName>
+                        <rdfs:label xml:lang="fr">Mangeot, Jeanne Amélie</rdfs:label>
+                        <rico:textualValue xml:lang="fr">Mangeot, Jeanne Amélie</rico:textualValue>
+                     </rico:AgentName>
+                  </rico:hasOrHadAgentName>
+               </rico:Agent>
+            </rico:hasOrHadSubject>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxeph7b-1sjw6m6t5e8pc"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntb7xgvv-17sbqf1hi4qgj"/>
+            <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzc6s2uz--1b1xq5sx0gccz"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89lgo1-7iazj0zqu03g"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8av7ji-2m7xjqbxqsjd"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8biyg8--qf7axzw7kjv1"/>
+            <rico:hasProvenance rdf:resource="agent/010152"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058295/c-83s11vvfp--aqqzy9q04yjr"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/058295-c-83s11vvfp--aqqzy9q04yjr-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/058295-c-83s11vvfp--aqqzy9q04yjr"/>
+                  <rico:identifier>MC/DC/XXV/2</rico:identifier>
+                  <rico:title xml:lang="fr">Bien sis à Neuilly-sur-Seine (Hauts-de-Seine)</rico:title>
+                  <rdfs:label xml:lang="fr">Bien sis à Neuilly-sur-Seine (Hauts-de-Seine)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1869-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1883-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1869-1883</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_058295/c-83s11vvfp--aqqzy9q04yjr"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

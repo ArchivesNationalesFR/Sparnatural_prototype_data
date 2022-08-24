@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/051496">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Images des répertoires du notaire Jean-Baptiste Decourchant pour l'étude XXXIV : MC/RE/XXXIV/10 - MC/RE/XXXIV/11</rico:title>
+      <rdfs:label xml:lang="fr">Images des répertoires du notaire Jean-Baptiste Decourchant pour l'étude XXXIV : MC/RE/XXXIV/10 - MC/RE/XXXIV/11</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, notices préparées par Monique Leblois-Péchon, chargée d'études documentaires, puis Marie-Françoise Limon-Bonnet, conservateur général du patrimoine, responsable du Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Deuxième édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-09</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Mise à jour des liens avec les images numériques par Nathalie Pielok</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-051496"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051496-i1">
+            <rico:isInstantiationOf rdf:resource="record/051496"/>
+            <rico:title xml:lang="fr">Images des répertoires du notaire Jean-Baptiste Decourchant pour l'étude XXXIV : MC/RE/XXXIV/10 - MC/RE/XXXIV/11</rico:title>
+            <rdfs:label xml:lang="fr">Images des répertoires du notaire Jean-Baptiste Decourchant pour l'étude XXXIV : MC/RE/XXXIV/10 - MC/RE/XXXIV/11</rdfs:label>
+            <rico:history xml:lang="fr">5 février 2007</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_051496</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051496"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-051496">
+      <rico:isOrWasDescribedBy rdf:resource="record/051496"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Images des répertoires du notaire Jean-Baptiste Decourchant pour l'étude XXXIV</rico:title>
+      <rdfs:label xml:lang="fr">Images des répertoires du notaire Jean-Baptiste Decourchant pour l'étude XXXIV</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1807-04-04</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-04-01</rico:endDate>
+      <rico:date xml:lang="fr">4 avril 1807 - 1er avril 1816</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010161"/>
+      <rico:hasProvenance rdf:resource="agent/012228"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires</html:b>: la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Images des répertoires de l'étude XXXIVArchives de l'étude XXXIV</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8f3jla--to36ja96m31q"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051496"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-051496-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-051496"/>
+            <rico:identifier>MC/RE/XXXIV/10 - MC/RE/XXXIV/11</rico:identifier>
+            <rico:title xml:lang="fr">Images des répertoires du notaire Jean-Baptiste Decourchant pour l'étude XXXIV</rico:title>
+            <rdfs:label xml:lang="fr">Images des répertoires du notaire Jean-Baptiste Decourchant pour l'étude XXXIV</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1807-04-04</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-04-01</rico:endDate>
+            <rico:date xml:lang="fr">4 avril 1807 - 1er avril 1816</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">2 registres</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/012228"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires</html:b>: la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement : 1949</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051496"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/051496-c1nof0gacouo--1ll02yraocovl"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/051496-c1nof0gadqns-avp0sw4dl07j"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/051496-c1nof0gacouo--1ll02yraocovl">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-051496"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+      <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période du 4 avril 1807 au 29 novembre 1813</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 4 avril 1807 au 29 novembre 1813</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1807-04-04</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1813-11-29</rico:endDate>
+      <rico:date xml:lang="fr">4 avril 1807 - 29 novembre 1813</rico:date>
+      <rico:structure rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+      </rico:structure>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Le répertoire contient les informations suivantes : 1. le n° de l'acte dans l'année ; 2. date du jour ; 3. nature de l'acte passé en brevet ; 4. nature de l'acte passé en minute ; 5. nom, prénom, domicile des parties, indication sur la situation et les prix des biens ; 6. date d'enregistrement de l'acte ; 7. droits d'enregistrement.</html:p>
+            <html:p>
+               <html:b>Attention : seuls les actes passés en</html:b>
+               <html:b>
+                  <html:i>minute</html:i>
+               </html:b>
+               <html:b>sont conservés ; les actes mentionnés dans le répertoire comme passés en simple</html:b>
+               <html:b>
+                  <html:i>brevet</html:i>
+               </html:b>
+               <html:b>(colonne 3) ne sont pas conservés par les notaires et ne sont donc pas versés au Minutier (ils sont remis aux clients).</html:b>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010161"/>
+      <rico:hasProvenance rdf:resource="agent/012228"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gacouo--1ll02yraocovl"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051496-c1nof0gacouo--1ll02yraocovl-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gacouo--1ll02yraocovl"/>
+            <rico:identifier>MC/RE/XXXIV/10</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période du 4 avril 1807 au 29 novembre 1813</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 4 avril 1807 au 29 novembre 1813</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1807-04-04</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1813-11-29</rico:endDate>
+            <rico:date xml:lang="fr">4 avril 1807 - 29 novembre 1813</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Un registre de 312 feuillets de papier manuscrits, hauteur 35 x largeur 25 cm, composé de cahiers foliotés par le notaire. Le registre est en assez bon état.</html:p>
+            </rico:instantiationExtent>
+            <rico:structure rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+            </rico:structure>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gacouo--1ll02yraocovl"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051496-c1nof0gacyvs--brpu7u2jztmw">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gacouo--1ll02yraocovl"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 4 avril au 31 décembre 1807</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 4 avril au 31 décembre 1807</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1807-04-04</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1807-12-31</rico:endDate>
+            <rico:date xml:lang="fr">4 avril - 31 décembre 1807</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/012228"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gacyvs--brpu7u2jztmw"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gacyvs--brpu7u2jztmw-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gacyvs--brpu7u2jztmw"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051496-c1nof0gacyvs--brpu7u2jztmw-i2"/>
+                  <rico:identifier>1 v°-46 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 4 avril au 31 décembre 1807</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 4 avril au 31 décembre 1807</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1807-04-04</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1807-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">4 avril - 31 décembre 1807</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">46 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gacyvs--brpu7u2jztmw"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gacyvs--brpu7u2jztmw-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gacyvs--brpu7u2jztmw"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051496-c1nof0gacyvs--brpu7u2jztmw-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97_034MIC07737_L.jpg#DAFANCH97_034MIC07827_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051496/c1nof0gacyvs--brpu7u2jztmw/DAFANCH97_034MIC07737_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051496-c1nof0gad174--u1s5qaamlmt">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gacouo--1ll02yraocovl"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actespour la période du 2 janvier au 31 décembre 1808</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actespour la période du 2 janvier au 31 décembre 1808</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1808-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1808-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 31 décembre 1808</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/012228"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gad174--u1s5qaamlmt"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gad174--u1s5qaamlmt-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gad174--u1s5qaamlmt"/>
+                  <rico:identifier>46 r°-99 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actespour la période du 2 janvier au 31 décembre 1808</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actespour la période du 2 janvier au 31 décembre 1808</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1808-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1808-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1808</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">54 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gad174--u1s5qaamlmt"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051496-c1nof0gad3ig-1p2mlz6cujnqc">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gad174--u1s5qaamlmt"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">du 2 janvier au 30 juin 1808</rico:title>
+                  <rdfs:label xml:lang="fr">du 2 janvier au 30 juin 1808</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1808-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1808-06-30</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 30 juin 1808</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010161"/>
+                  <rico:hasProvenance rdf:resource="agent/012228"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gad3ig-1p2mlz6cujnqc"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051496-c1nof0gad3ig-1p2mlz6cujnqc-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gad3ig-1p2mlz6cujnqc"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051496-c1nof0gad3ig-1p2mlz6cujnqc-i2"/>
+                        <rico:identifier>46 r°-73 r°</rico:identifier>
+                        <rico:title xml:lang="fr">du 2 janvier au 30 juin 1808</rico:title>
+                        <rdfs:label xml:lang="fr">du 2 janvier au 30 juin 1808</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1808-01-02</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1808-06-30</rico:endDate>
+                        <rico:date xml:lang="fr">2 janvier - 30 juin 1808</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">28 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gad3ig-1p2mlz6cujnqc"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051496-c1nof0gad3ig-1p2mlz6cujnqc-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gad3ig-1p2mlz6cujnqc"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051496-c1nof0gad3ig-1p2mlz6cujnqc-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH97_034MIC07827_L.jpg#DAFANCH97_034MIC07883_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051496/c1nof0gad3ig-1p2mlz6cujnqc/DAFANCH97_034MIC07827_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051496-c1nof0gad5ts-1c543xpzbzr10">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gad174--u1s5qaamlmt"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">du 1er juillet au 31 décembre 1808</rico:title>
+                  <rdfs:label xml:lang="fr">du 1er juillet au 31 décembre 1808</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1808-07-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1808-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1er juillet - 31 décembre 1808</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010161"/>
+                  <rico:hasProvenance rdf:resource="agent/012228"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gad5ts-1c543xpzbzr10"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051496-c1nof0gad5ts-1c543xpzbzr10-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gad5ts-1c543xpzbzr10"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051496-c1nof0gad5ts-1c543xpzbzr10-i2"/>
+                        <rico:identifier>73 r°-99 r°</rico:identifier>
+                        <rico:title xml:lang="fr">du 1er juillet au 31 décembre 1808</rico:title>
+                        <rdfs:label xml:lang="fr">du 1er juillet au 31 décembre 1808</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1808-07-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1808-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1er juillet - 31 décembre 1808</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">27 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gad5ts-1c543xpzbzr10"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051496-c1nof0gad5ts-1c543xpzbzr10-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gad5ts-1c543xpzbzr10"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051496-c1nof0gad5ts-1c543xpzbzr10-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH97_034MIC07883_L.jpg#DAFANCH97_034MIC07937_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051496/c1nof0gad5ts-1c543xpzbzr10/DAFANCH97_034MIC07883_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051496-c1nof0gad8ww--1x9r3rhllnr43">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gacouo--1ll02yraocovl"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1809</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1809</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1809-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1809-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 31 décembre 1809</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/012228"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gad8ww--1x9r3rhllnr43"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gad8ww--1x9r3rhllnr43-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gad8ww--1x9r3rhllnr43"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051496-c1nof0gad8ww--1x9r3rhllnr43-i2"/>
+                  <rico:identifier>99 r°-138 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1809</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1809</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1809-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1809-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1809</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">40 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gad8ww--1x9r3rhllnr43"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gad8ww--1x9r3rhllnr43-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gad8ww--1x9r3rhllnr43"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051496-c1nof0gad8ww--1x9r3rhllnr43-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97_034MIC07937_L.jpg#DAFANCH97_034MIC08016_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051496/c1nof0gad8ww--1x9r3rhllnr43/DAFANCH97_034MIC07937_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051496-c1nof0gadb88--1j4dnzvput4qd">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gacouo--1ll02yraocovl"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1810</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1810</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 31 décembre 1810</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/012228"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadb88--1j4dnzvput4qd"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadb88--1j4dnzvput4qd-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadb88--1j4dnzvput4qd"/>
+                  <rico:identifier>138 r°-187 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1810</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1810</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1810</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">50 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadb88--1j4dnzvput4qd"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051496-c1nof0gadcrs-16thufuha6m59">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gadb88--1j4dnzvput4qd"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">du 2 janvier au 30 juin 1810</rico:title>
+                  <rdfs:label xml:lang="fr">du 2 janvier au 30 juin 1810</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-06-30</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 30 juin 1810</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010161"/>
+                  <rico:hasProvenance rdf:resource="agent/012228"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadcrs-16thufuha6m59"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadcrs-16thufuha6m59-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadcrs-16thufuha6m59"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051496-c1nof0gadcrs-16thufuha6m59-i2"/>
+                        <rico:identifier>138 r°-165 v°</rico:identifier>
+                        <rico:title xml:lang="fr">du 2 janvier au 30 juin 1810</rico:title>
+                        <rdfs:label xml:lang="fr">du 2 janvier au 30 juin 1810</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-01-02</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-06-30</rico:endDate>
+                        <rico:date xml:lang="fr">2 janvier - 30 juin 1810</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">28 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadcrs-16thufuha6m59"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadcrs-16thufuha6m59-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadcrs-16thufuha6m59"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051496-c1nof0gadcrs-16thufuha6m59-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH97_034MIC08016_L.jpg#DAFANCH97_034MIC08071_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051496/c1nof0gadcrs-16thufuha6m59/DAFANCH97_034MIC08016_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051496-c1nof0gadf34-1wpwyg5zb4tjk">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gadb88--1j4dnzvput4qd"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">du 2 juillet au 31 décembre 1810</rico:title>
+                  <rdfs:label xml:lang="fr">du 2 juillet au 31 décembre 1810</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-07-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 juillet - 31 décembre 1810</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010161"/>
+                  <rico:hasProvenance rdf:resource="agent/012228"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadf34-1wpwyg5zb4tjk"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadf34-1wpwyg5zb4tjk-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadf34-1wpwyg5zb4tjk"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051496-c1nof0gadf34-1wpwyg5zb4tjk-i2"/>
+                        <rico:identifier>165 v°-187 v°</rico:identifier>
+                        <rico:title xml:lang="fr">du 2 juillet au 31 décembre 1810</rico:title>
+                        <rdfs:label xml:lang="fr">du 2 juillet au 31 décembre 1810</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-07-02</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">2 juillet - 31 décembre 1810</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">23 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadf34-1wpwyg5zb4tjk"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadf34-1wpwyg5zb4tjk-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadf34-1wpwyg5zb4tjk"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051496-c1nof0gadf34-1wpwyg5zb4tjk-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH97_034MIC08071_L.jpg#DAFANCH97_034MIC08116_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051496/c1nof0gadf34-1wpwyg5zb4tjk/DAFANCH97_034MIC08071_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051496-c1nof0gadgmo--9f6ie33gh8jr">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gacouo--1ll02yraocovl"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 31 décembre 1811</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 31 décembre 1811</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1811-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1811-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1er janvier - 31 décembre 1811</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/012228"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadgmo--9f6ie33gh8jr"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadgmo--9f6ie33gh8jr-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadgmo--9f6ie33gh8jr"/>
+                  <rico:identifier>187 v°-246 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 31 décembre 1811</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 31 décembre 1811</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1811-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1811-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1er janvier - 31 décembre 1811</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">60 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadgmo--9f6ie33gh8jr"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051496-c1nof0gadiy0--1c9ke73a5cd2i">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gadgmo--9f6ie33gh8jr"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">du 1er janvier au 29 juin 1811</rico:title>
+                  <rdfs:label xml:lang="fr">du 1er janvier au 29 juin 1811</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1811-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1811-06-29</rico:endDate>
+                  <rico:date xml:lang="fr">1er janvier - 29 juin 1811</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010161"/>
+                  <rico:hasProvenance rdf:resource="agent/012228"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadiy0--1c9ke73a5cd2i"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadiy0--1c9ke73a5cd2i-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadiy0--1c9ke73a5cd2i"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051496-c1nof0gadiy0--1c9ke73a5cd2i-i2"/>
+                        <rico:identifier>187 v°-211 r°</rico:identifier>
+                        <rico:title xml:lang="fr">du 1er janvier au 29 juin 1811</rico:title>
+                        <rdfs:label xml:lang="fr">du 1er janvier au 29 juin 1811</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1811-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1811-06-29</rico:endDate>
+                        <rico:date xml:lang="fr">1er janvier - 29 juin 1811</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">25 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadiy0--1c9ke73a5cd2i"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadiy0--1c9ke73a5cd2i-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadiy0--1c9ke73a5cd2i"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051496-c1nof0gadiy0--1c9ke73a5cd2i-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH97_034MIC08116_L.jpg#DAFANCH97_034MIC08162_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051496/c1nof0gadiy0--1c9ke73a5cd2i/DAFANCH97_034MIC08116_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051496-c1nof0gadkhk--126mrla9csjca">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gadgmo--9f6ie33gh8jr"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">du 1er juillet au 31 décembre 1811</rico:title>
+                  <rdfs:label xml:lang="fr">du 1er juillet au 31 décembre 1811</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1811-07-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1811-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1er juillet - 31 décembre 1811</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010161"/>
+                  <rico:hasProvenance rdf:resource="agent/012228"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadkhk--126mrla9csjca"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadkhk--126mrla9csjca-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadkhk--126mrla9csjca"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051496-c1nof0gadkhk--126mrla9csjca-i2"/>
+                        <rico:identifier>211 v°-246 v°</rico:identifier>
+                        <rico:title xml:lang="fr">du 1er juillet au 31 décembre 1811</rico:title>
+                        <rdfs:label xml:lang="fr">du 1er juillet au 31 décembre 1811</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1811-07-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1811-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">1er juillet - 31 décembre 1811</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">26 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadkhk--126mrla9csjca"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadkhk--126mrla9csjca-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadkhk--126mrla9csjca"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051496-c1nof0gadkhk--126mrla9csjca-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH97_034MIC08163_L.jpg#DAFANCH97_034MIC08235_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051496/c1nof0gadkhk--126mrla9csjca/DAFANCH97_034MIC08163_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051496-c1nof0gadmsw--bhab5l8ggzcj">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gacouo--1ll02yraocovl"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1812</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1812</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 31 décembre 1812</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/012228"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadmsw--bhab5l8ggzcj"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadmsw--bhab5l8ggzcj-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadmsw--bhab5l8ggzcj"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051496-c1nof0gadmsw--bhab5l8ggzcj-i2"/>
+                  <rico:identifier>245 v°-283 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1812</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1812</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1812</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">37 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadmsw--bhab5l8ggzcj"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadmsw--bhab5l8ggzcj-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadmsw--bhab5l8ggzcj"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051496-c1nof0gadmsw--bhab5l8ggzcj-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97_034MIC08235_L.jpg#DAFANCH97_034MIC08311_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051496/c1nof0gadmsw--bhab5l8ggzcj/DAFANCH97_034MIC08235_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051496-c1nof0gadocg--f0q37fdnd76t">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gacouo--1ll02yraocovl"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 29 novembre 1813</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 29 novembre 1813</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1813-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1813-11-29</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 29 novembre 1813</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/012228"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadocg--f0q37fdnd76t"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadocg--f0q37fdnd76t-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadocg--f0q37fdnd76t"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051496-c1nof0gadocg--f0q37fdnd76t-i2"/>
+                  <rico:identifier>284 r°-312 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 29 novembre 1813</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 29 novembre 1813</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1813-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1813-11-29</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 29 novembre 1813</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">29 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadocg--f0q37fdnd76t"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadocg--f0q37fdnd76t-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadocg--f0q37fdnd76t"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051496-c1nof0gadocg--f0q37fdnd76t-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97_034MIC08311_L.jpg#DAFANCH97_034MIC08369_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051496/c1nof0gadocg--f0q37fdnd76t/DAFANCH97_034MIC08311_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/051496-c1nof0gadqns-avp0sw4dl07j">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-051496"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+      <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période du 29 novembre 1813 au 1er avril 1816</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 29 novembre 1813 au 1er avril 1816</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1813-11-29</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-04-01</rico:endDate>
+      <rico:date xml:lang="fr">29 novembre 1813 - 1er avril 1816</rico:date>
+      <rico:structure rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+      </rico:structure>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Le registre contient aussi le répertoire du notaire <html:b>Auguste Griois</html:b>pour la période du 23 avril 1816 au 31 mai 1819.</html:p>
+            <html:p>Le répertoire contient les informations suivantes : 1. le n° de l'acte dans l'année ; 2. date du jour ; 3. nature de l'acte passé en brevet ; 4. nature de l'acte passé en minute ; 5. nom, prénom, domicile des parties, indication sur la situation et les prix des biens ; 6. date d'enregistrement de l'acte ; 7. droits d'enregistrement.</html:p>
+            <html:p>
+               <html:b>Attention : seuls les actes passés en</html:b>
+               <html:b>
+                  <html:i>minute</html:i>
+               </html:b>
+               <html:b>sont conservés ; les actes mentionnés dans le répertoire comme passés en simple</html:b>
+               <html:b>
+                  <html:i>brevet</html:i>
+               </html:b>
+               <html:b>(colonne 3) ne sont pas conservés par les notaires et ne sont donc pas versés au Minutier (ils sont remis aux clients).</html:b>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010161"/>
+      <rico:hasProvenance rdf:resource="agent/012228"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadqns-avp0sw4dl07j"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadqns-avp0sw4dl07j-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadqns-avp0sw4dl07j"/>
+            <rico:identifier>MC/RE/XXXIV/11</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période du 29 novembre 1813 au 1er avril 1816</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 29 novembre 1813 au 1er avril 1816</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1813-11-29</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-04-01</rico:endDate>
+            <rico:date xml:lang="fr">29 novembre 1813 - 1er avril 1816</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Le répertoire comporte 86 feuillets et fait partie d'un registre de 243 feuilletsde papier manuscrits,hauteur 35 x largeur 25 cmcomposé de cahiers foliotés par le notaire. Le registre est en mauvais état : il est dérelié, de nombreux feuillets sont volants ou déchirés.</html:p>
+            </rico:instantiationExtent>
+            <rico:structure rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+            </rico:structure>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadqns-avp0sw4dl07j"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051496-c1nof0gads7c-okspbv0kqvmk">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gadqns-avp0sw4dl07j"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actespour la période du 29 novembre au 31 décembre 1813</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actespour la période du 29 novembre au 31 décembre 1813</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1813-11-29</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1813-12-31</rico:endDate>
+            <rico:date xml:lang="fr">29 novembre - 31 décembre 1813</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/012228"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gads7c-okspbv0kqvmk"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gads7c-okspbv0kqvmk-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gads7c-okspbv0kqvmk"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051496-c1nof0gads7c-okspbv0kqvmk-i2"/>
+                  <rico:identifier>1 r°-4 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actespour la période du 29 novembre au 31 décembre 1813</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actespour la période du 29 novembre au 31 décembre 1813</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1813-11-29</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1813-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">29 novembre - 31 décembre 1813</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">4 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gads7c-okspbv0kqvmk"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gads7c-okspbv0kqvmk-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gads7c-okspbv0kqvmk"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051496-c1nof0gads7c-okspbv0kqvmk-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97_034MIC08374_L.jpg#DAFANCH97_034MIC08381_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051496/c1nof0gads7c-okspbv0kqvmk/DAFANCH97_034MIC08374_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051496-c1nof0gaduio-1ox9avydvaisx">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gadqns-avp0sw4dl07j"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1814</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1814</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1814-01-03</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1814-12-31</rico:endDate>
+            <rico:date xml:lang="fr">3 janvier - 31 décembre 1814</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/012228"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gaduio-1ox9avydvaisx"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gaduio-1ox9avydvaisx-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gaduio-1ox9avydvaisx"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051496-c1nof0gaduio-1ox9avydvaisx-i2"/>
+                  <rico:identifier>4 v°-40 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1814</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1814</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1814-01-03</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1814-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">3 janvier - 31 décembre 1814</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">37 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gaduio-1ox9avydvaisx"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gaduio-1ox9avydvaisx-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gaduio-1ox9avydvaisx"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051496-c1nof0gaduio-1ox9avydvaisx-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97_034MIC08381_L.jpg#DAFANCH97_034MIC08459_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051496/c1nof0gaduio-1ox9avydvaisx/DAFANCH97_034MIC08381_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051496-c1nof0gadw28-1o728bwl7n021">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gadqns-avp0sw4dl07j"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 30 décembre 1815</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 30 décembre 1815</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1815-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1815-12-30</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 30 décembre 1815</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/012228"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadw28-1o728bwl7n021"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadw28-1o728bwl7n021-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadw28-1o728bwl7n021"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051496-c1nof0gadw28-1o728bwl7n021-i2"/>
+                  <rico:identifier>40 r°-74 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 30 décembre 1815</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 30 décembre 1815</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1815-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1815-12-30</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 30 décembre 1815</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">35 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadw28-1o728bwl7n021"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadw28-1o728bwl7n021-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadw28-1o728bwl7n021"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051496-c1nof0gadw28-1o728bwl7n021-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97_034MIC08459_L.jpg#DAFANCH97_034MIC08528_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051496/c1nof0gadw28-1o728bwl7n021/DAFANCH97_034MIC08459_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051496-c1nof0gadydk--1kgopyynibb4b">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051496-c1nof0gadqns-avp0sw4dl07j"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 1er avril 1816</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 1er avril 1816</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-04-01</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 1er avril 1816</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010161"/>
+            <rico:hasProvenance rdf:resource="agent/012228"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadydk--1kgopyynibb4b"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadydk--1kgopyynibb4b-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadydk--1kgopyynibb4b"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051496-c1nof0gadydk--1kgopyynibb4b-i2"/>
+                  <rico:identifier>74 r°-86 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 1er avril 1816</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 1er avril 1816</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1816-04-01</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 1er avril 1816</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">13 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051496/c1nof0gadydk--1kgopyynibb4b"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051496-c1nof0gadydk--1kgopyynibb4b-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051496-c1nof0gadydk--1kgopyynibb4b"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051496-c1nof0gadydk--1kgopyynibb4b-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH97_034MIC08528_L.jpg#DAFANCH97_034MIC08554_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051496/c1nof0gadydk--1kgopyynibb4b/DAFANCH97_034MIC08528_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+   </rico:RecordResource>
+</rdf:RDF>

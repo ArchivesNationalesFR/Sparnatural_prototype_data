@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041424">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Claude II LEFEBVRE, 12 avril 1729 - 2 août 1729 (étude XIV) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Claude II LEFEBVRE, 12 avril 1729 - 2 août 1729 (étude XIV) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-18</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">1ère édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041424"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041424-i1">
+            <rico:isInstantiationOf rdf:resource="record/041424"/>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Claude II LEFEBVRE, 12 avril 1729 - 2 août 1729 (étude XIV) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Claude II LEFEBVRE, 12 avril 1729 - 2 août 1729 (étude XIV) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041424</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041424"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041424">
+      <rico:isOrWasDescribedBy rdf:resource="record/041424"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Claude II LEFEBVRE (étude XIV)</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Claude II LEFEBVRE (étude XIV)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-04-12</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-08-02</rico:endDate>
+      <rico:date xml:lang="fr">12 avril 1729 - 2 août 1729</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010141"/>
+      <rico:hasProvenance rdf:resource="agent/011469"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l’étude XIVArchives de l'étude XIV</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041424"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041424-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041424"/>
+            <rico:identifier>MC/ET/XIV/274, MC/RE/XIV/5</rico:identifier>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Claude II LEFEBVRE (étude XIV)</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Claude II LEFEBVRE (étude XIV)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-04-12</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-08-02</rico:endDate>
+            <rico:date xml:lang="fr">12 avril 1729 - 2 août 1729</rico:date>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/011469"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041424"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/041424-c1p6urkhhan7-wfbuyqxrnfiq"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/041424-c1p6urkhpb83--1issp2k7el0lg"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041424-c1p6urkhhan7-wfbuyqxrnfiq">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041424"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Minutes de Claude II LEFEBVRE</rico:title>
+      <rdfs:label xml:lang="fr">Minutes de Claude II LEFEBVRE</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-07-31</rico:endDate>
+      <rico:date xml:lang="fr">janvier 1729 - juillet 1729</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010141"/>
+      <rico:hasProvenance rdf:resource="agent/011469"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041424/c1p6urkhhan7-wfbuyqxrnfiq"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041424-c1p6urkhhan7-wfbuyqxrnfiq-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041424-c1p6urkhhan7-wfbuyqxrnfiq"/>
+            <rico:identifier>MC/ET/XIV/274</rico:identifier>
+            <rico:title xml:lang="fr">Minutes de Claude II LEFEBVRE</rico:title>
+            <rdfs:label xml:lang="fr">Minutes de Claude II LEFEBVRE</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-07-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier 1729 - juillet 1729</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041424/c1p6urkhhan7-wfbuyqxrnfiq"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041424-c1p6urkhi36z--uijxuvxb44rv">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041424-c1p6urkhhan7-wfbuyqxrnfiq"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1729, janvier - 1729, 2 août</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1729, janvier - 1729, 2 août</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-08-02</rico:endDate>
+            <rico:date xml:lang="fr">janvier 1729 - 2 août 1729</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>1729, janvier à 6 avril : actes passés par-devant Jean Le Masle .</html:p>
+                  <html:p>1729, 12 avril à 2 août : actes passés par-devant Claude II Lefebvre.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/011469"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041424/c1p6urkhi36z--uijxuvxb44rv"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041424-c1p6urkhi36z--uijxuvxb44rv-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041424-c1p6urkhi36z--uijxuvxb44rv"/>
+                  <rico:identifier>MC/ET/XIV/274</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1729, janvier - 1729, 2 août</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1729, janvier - 1729, 2 août</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-08-02</rico:endDate>
+                  <rico:date xml:lang="fr">janvier 1729 - 2 août 1729</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041424/c1p6urkhi36z--uijxuvxb44rv"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041424-c1p6urkhj6jn--1t86pqa0fkahf">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041424-c1p6urkhi36z--uijxuvxb44rv"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Vente de l'office de conseiller du roi au Châtelet et siège présidial de Paris à Nicolas de Largillière, peintre ordinaire du roi, recteur en son académie, demeurant rue Geoffroy-Langevin, moyennant 12558 livres.</rico:title>
+                  <rdfs:label xml:lang="fr">Vente de l'office de conseiller du roi au Châtelet et siège présidial de Paris à Nicolas de Largillière, peintre ordinaire du roi, recteur en son académie, demeurant rue Geoffroy-Langevin, moyennant 12558 livres.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-05-25</rico:date>
+                  <rico:date xml:lang="fr">25 mai 1729</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Histoire de l'art, 1700-1750, études XIII à XXXIX (env. 7.500 actes), par Mireille Rambaud, 1966-1975 (fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2010</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2005</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89lgo1-7iazj0zqu03g"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d5bk1ekma9-1r9w5114xrmcc"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Largillière, Nicolas de (1656-1746)</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Largillière, Nicolas de (1656-1746)</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Largillière, Nicolas de (1656-1746)</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                        <rico:performsOrPerformed>
+                           <rico:Activity>
+                              <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msjy3v4--oimn0b7kuvf4"/>
+                           </rico:Activity>
+                        </rico:performsOrPerformed>
+                        <rico:hasOrHadOccupationOfType rdf:resource="occupationType/FRAN_RI_010-d699msjy3v4--oimn0b7kuvf4"/>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010141"/>
+                  <rico:hasProvenance rdf:resource="agent/011469"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041424/c1p6urkhj6jn--1t86pqa0fkahf"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041424-c1p6urkhj6jn--1t86pqa0fkahf-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041424-c1p6urkhj6jn--1t86pqa0fkahf"/>
+                        <rico:identifier>MC/ET/XIV/274</rico:identifier>
+                        <rico:title xml:lang="fr">Vente de l'office de conseiller du roi au Châtelet et siège présidial de Paris à Nicolas de Largillière, peintre ordinaire du roi, recteur en son académie, demeurant rue Geoffroy-Langevin, moyennant 12558 livres.</rico:title>
+                        <rdfs:label xml:lang="fr">Vente de l'office de conseiller du roi au Châtelet et siège présidial de Paris à Nicolas de Largillière, peintre ordinaire du roi, recteur en son académie, demeurant rue Geoffroy-Langevin, moyennant 12558 livres.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-05-25</rico:date>
+                        <rico:date xml:lang="fr">25 mai 1729</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041424/c1p6urkhj6jn--1t86pqa0fkahf"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041424-c1p6urkhl0wj--1j80o1jk78kd">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041424-c1p6urkhi36z--uijxuvxb44rv"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Constitution au profit de Henri Allier, procureur au parlement, de 150 livres de rente par Nicolas de Largillier, peintre ordinaire du roi et recteur en son académie, demeurant rue Geoffroy-Langevin.</rico:title>
+                  <rdfs:label xml:lang="fr">Constitution au profit de Henri Allier, procureur au parlement, de 150 livres de rente par Nicolas de Largillier, peintre ordinaire du roi et recteur en son académie, demeurant rue Geoffroy-Langevin.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-06-08</rico:date>
+                  <rico:date xml:lang="fr">8 juin 1729</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Histoire de l'art, 1700-1750, études XIII à XXXIX (env. 7.500 actes), par Mireille Rambaud, 1966-1975 (fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2010</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2005</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bd2c9-e47vue9hkip7"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d5bk1ekma9-1r9w5114xrmcc"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Allier, Henri</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Allier, Henri</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Allier, Henri</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Largillière, Nicolas de (1656-1746)</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Largillière, Nicolas de (1656-1746)</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Largillière, Nicolas de (1656-1746)</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:isRelatedTo>
+                     <rico:Activity>
+                        <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl7bbdy-s3moxyf8em8b"/>
+                     </rico:Activity>
+                  </rico:isRelatedTo>
+                  <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d3m0bl7bbdy-s3moxyf8em8b"/>
+                  <rico:isRelatedTo>
+                     <rico:Activity>
+                        <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msit6xq-1e7tbhtd3o7v6"/>
+                     </rico:Activity>
+                  </rico:isRelatedTo>
+                  <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msit6xq-1e7tbhtd3o7v6"/>
+                  <rico:isRelatedTo>
+                     <rico:Activity>
+                        <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d3m0bl74hdl-6vhnk4hry8uj"/>
+                     </rico:Activity>
+                  </rico:isRelatedTo>
+                  <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d3m0bl74hdl-6vhnk4hry8uj"/>
+                  <rico:hasProvenance rdf:resource="agent/010141"/>
+                  <rico:hasProvenance rdf:resource="agent/011469"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041424/c1p6urkhl0wj--1j80o1jk78kd"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041424-c1p6urkhl0wj--1j80o1jk78kd-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041424-c1p6urkhl0wj--1j80o1jk78kd"/>
+                        <rico:identifier>MC/ET/XIV/274</rico:identifier>
+                        <rico:title xml:lang="fr">Constitution au profit de Henri Allier, procureur au parlement, de 150 livres de rente par Nicolas de Largillier, peintre ordinaire du roi et recteur en son académie, demeurant rue Geoffroy-Langevin.</rico:title>
+                        <rdfs:label xml:lang="fr">Constitution au profit de Henri Allier, procureur au parlement, de 150 livres de rente par Nicolas de Largillier, peintre ordinaire du roi et recteur en son académie, demeurant rue Geoffroy-Langevin.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-06-08</rico:date>
+                        <rico:date xml:lang="fr">8 juin 1729</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041424/c1p6urkhl0wj--1j80o1jk78kd"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041424-c1p6urkhmuhn-1hzchc039096x">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041424-c1p6urkhi36z--uijxuvxb44rv"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Pouillot (François) maître maçon à Corbeil § quittance et mainlevée</rico:title>
+                  <rdfs:label xml:lang="fr">Pouillot (François) maître maçon à Corbeil § quittance et mainlevée</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-07-08</rico:date>
+                  <rico:date xml:lang="fr">8 juillet 1729</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Artisans XVIIIe siècle, par M. Rambaud et C. Grodecki, 1956-1977 ( fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2011-2012</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2010</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8dc8p2-nyxarkw0ppoi"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Pouillot, François</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Pouillot, François</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Pouillot, François</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010141"/>
+                  <rico:hasProvenance rdf:resource="agent/011469"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041424/c1p6urkhmuhn-1hzchc039096x"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041424-c1p6urkhmuhn-1hzchc039096x-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041424-c1p6urkhmuhn-1hzchc039096x"/>
+                        <rico:identifier>MC/ET/XIV/274</rico:identifier>
+                        <rico:title xml:lang="fr">Pouillot (François) maître maçon à Corbeil § quittance et mainlevée</rico:title>
+                        <rdfs:label xml:lang="fr">Pouillot (François) maître maçon à Corbeil § quittance et mainlevée</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-07-08</rico:date>
+                        <rico:date xml:lang="fr">8 juillet 1729</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041424/c1p6urkhmuhn-1hzchc039096x"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041424-c1p6urkho0xf--hgi5fbfwyt3p">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041424-c1p6urkhi36z--uijxuvxb44rv"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Dubois (Robert Georges) marchand tapissier rue des Petits Augustins § Mariage de ..</rico:title>
+                  <rdfs:label xml:lang="fr">Dubois (Robert Georges) marchand tapissier rue des Petits Augustins § Mariage de ..</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-07-19</rico:date>
+                  <rico:date xml:lang="fr">19 juillet 1729</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Artisans XVIIIe siècle, par M. Rambaud et C. Grodecki, 1956-1977 ( fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2011-2012</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2010</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bh85k-zoce6yspjkhr"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Dubois, Robert Georges</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Dubois, Robert Georges</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Dubois, Robert Georges</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010141"/>
+                  <rico:hasProvenance rdf:resource="agent/011469"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041424/c1p6urkho0xf--hgi5fbfwyt3p"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041424-c1p6urkho0xf--hgi5fbfwyt3p-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041424-c1p6urkho0xf--hgi5fbfwyt3p"/>
+                        <rico:identifier>MC/ET/XIV/274</rico:identifier>
+                        <rico:title xml:lang="fr">Dubois (Robert Georges) marchand tapissier rue des Petits Augustins § Mariage de ..</rico:title>
+                        <rdfs:label xml:lang="fr">Dubois (Robert Georges) marchand tapissier rue des Petits Augustins § Mariage de ..</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-07-19</rico:date>
+                        <rico:date xml:lang="fr">19 juillet 1729</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041424/c1p6urkho0xf--hgi5fbfwyt3p"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041424-c1p6urkhpb83--1issp2k7el0lg">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041424"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Répertoire(s) de Claude II LEFEBVRE</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire(s) de Claude II LEFEBVRE</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1697-08-19</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-07-21</rico:endDate>
+      <rico:date xml:lang="fr">19 août 1697 - 21 juillet 1729</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010141"/>
+      <rico:hasProvenance rdf:resource="agent/011469"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041424/c1p6urkhpb83--1issp2k7el0lg"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041424-c1p6urkhpb83--1issp2k7el0lg-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041424-c1p6urkhpb83--1issp2k7el0lg"/>
+            <rico:identifier>MC/RE/XIV/5</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire(s) de Claude II LEFEBVRE</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire(s) de Claude II LEFEBVRE</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1697-08-19</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-07-21</rico:endDate>
+            <rico:date xml:lang="fr">19 août 1697 - 21 juillet 1729</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041424/c1p6urkhpb83--1issp2k7el0lg"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041424-c1p6urkhq28b--sqg48h1iefqa">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041424-c1p6urkhpb83--1issp2k7el0lg"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+            <rico:title xml:lang="fr">Répertoire. 1697, 19 août - 1729, 21 juillet</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire. 1697, 19 août - 1729, 21 juillet</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1697-08-19</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-07-21</rico:endDate>
+            <rico:date xml:lang="fr">19 août 1697 - 21 juillet 1729</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Répertoire des notaires Jean Le Masle (19 août 1697-6 avril 1729), Claude II Lefebvre (12 avril-21 juillet 1729).</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement et la cotation :</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux mentions d'actes contenues dans le répertoire. Parmi celles-ci, certaines peuvent y être décrites, de manière plus ou moins détaillée. Pour consulter l'acte proprement dit, il convient de rechercher la cote au niveau des articles (registre ou liasse) des minutes du notaire (cote de type 'MC/ET').</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010141"/>
+            <rico:hasProvenance rdf:resource="agent/011469"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041424/c1p6urkhq28b--sqg48h1iefqa"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041424-c1p6urkhq28b--sqg48h1iefqa-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041424-c1p6urkhq28b--sqg48h1iefqa"/>
+                  <rico:identifier>MC/RE/XIV/5</rico:identifier>
+                  <rico:title xml:lang="fr">Répertoire. 1697, 19 août - 1729, 21 juillet</rico:title>
+                  <rdfs:label xml:lang="fr">Répertoire. 1697, 19 août - 1729, 21 juillet</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1697-08-19</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1729-07-21</rico:endDate>
+                  <rico:date xml:lang="fr">19 août 1697 - 21 juillet 1729</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041424/c1p6urkhq28b--sqg48h1iefqa"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041875">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Archives de l'étude XXXIII : Inventaire de regroupement (état des fonds d'archives publiques et privées de l'étude)</rico:title>
+      <rdfs:label xml:lang="fr">Archives de l'étude XXXIII : Inventaire de regroupement (état des fonds d'archives publiques et privées de l'étude)</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:descriptiveNote rdf:parseType="Literal">
+         <html:p xml:lang="fr">Instrument de recherche de regroupement, 18 septembre 2020 (Marie-Françoise Limon-Bonnet)</html:p>
+      </rico:descriptiveNote>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">2e édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041875"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041875-i1">
+            <rico:isInstantiationOf rdf:resource="record/041875"/>
+            <rico:title xml:lang="fr">Archives de l'étude XXXIII : Inventaire de regroupement (état des fonds d'archives publiques et privées de l'étude)</rico:title>
+            <rdfs:label xml:lang="fr">Archives de l'étude XXXIII : Inventaire de regroupement (état des fonds d'archives publiques et privées de l'étude)</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041875</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041875"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041875">
+      <rico:isOrWasDescribedBy rdf:resource="record/041875"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds"/>
+      <rico:title xml:lang="fr">Etude XXXIII</rico:title>
+      <rdfs:label xml:lang="fr">Etude XXXIII</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1498-07-30</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1938-12-31</rico:endDate>
+      <rico:date xml:lang="fr">30 juillet 1498 - 31 décembre 1938</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010160"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Liste des instruments de recherche par notaire :Minutes et répertoires du notaire Jean CROZON (30 juillet 1498 - 1521) Minutes et répertoires du notaire Pierre CROZON (27 mars 1517 - 5 mars 1532) Minutes et répertoires du notaire Catherin FARDEAU (7 septembre 1539 - 1573) Minutes et répertoires du notaire Yves BOURGEOIS (20 septembre 1539 - 26 août 1549) Minutes et répertoires du notaire Claude LENORMAND (7 avril 1553 - 6 juillet 1558) Minutes et répertoires du notaire Philippe LAMIRAL (23 avril 1555 - 25 septembre 1590) Minutes et répertoires du notaire Olivier ROGER (29 novembre 1560 - 26 octobre 1575) Minutes et répertoires du notaire Nicolas FARDEAU (1574 - 15 novembre 1596) Minutes et répertoires du notaire Olivier LEMOYNE (3 octobre 1578 - 14 février 1590) Minutes et répertoires du notaire Hugues BABINET (2 mars 1590 - 1607) Minutes et répertoires du notaire Nicolas CRESSÉ (3 avril 1597 - décembre 1625) Minutes et répertoires du notaire Antoine LEMOYNE (1608 - novembre 1613) Minutes et répertoires du notaire François LEMOYNE (1614 - 4 novembre 1639) Minutes et répertoires du notaire Pierre CRESSÉ (23 mars 1626 - 12 juillet 1636) Minutes et répertoires du notaire René DAVID (30 juillet 1636 - juin 1638) Minutes et répertoires du notaire René MAHEUT (1638 - 30 décembre 1657) Minutes et répertoires du notaire Philippe LEMOYNE (1640 - 4 septembre 1676) Minutes et répertoires du notaire Georges I ROBILLARD (2 février 1658 - 9 avril 1661) Minutes et répertoires du notaire Jean CHUPPIN (19 avril 1661 - 5 août 1690) Minutes et répertoires du notaire François COURTOIS (8 février 1689 - 15 avril 1719) Minutes et répertoires du notaire Barthélémy BINOIS (5 mai 1719 - 21 février 1721) Minutes et répertoires du notaire Pierre BAUDOUIN (mars 1721 - 20 mars 1729) Minutes et répertoires du notaire Dominique CRESTIENNOT (23 mars 1729 - 1er juillet 1748) Minutes et répertoires du notaire Claude Pierre FOURESTIER (4 juillet 1748 - 22 janvier 1756) Minutes et répertoires du notaire René POULTIER (24 janvier 1756 - 11 novembre 1779) Minutes et répertoires du notaire Toussaint GIRARD (13 novembre 1779 - 18 février 1794) Minutes et répertoires du notaire Joseph GRELET (18 août 1794 - 28 avril 1818) Minutes et répertoires du notaire Louis VILCOCQ (29 avril 1818 - 17 mai 1832) Minutes et répertoires du notaire Florestan BONNAIRE (18 mai 1832 - 16 septembre 1845) Minutes et répertoires du notaire Pierre PLANCHAT (17 septembre 1845 - 7 août 1873) Minutes et répertoires du notaire Louis GENTIEN (8 août 1873 - 12 août 1885) Minutes et répertoires du notaire Pierre DELAFON (13 août 1885 - 28 octobre 1920) Minutes et répertoires du notaire Ismaël Paul Gaston CHAUVEAU (29 octobre 1920 - 31 décembre 1938) Images des répertoires de l'étude XXXIII :Images des répertoires du notaire Philippe Lamiral (13 mai 1555 - 31 décembre 1590) Images des répertoires du notaire Nicolas Cressé (3 avril 1597 - 31 décembre 1624) Images des répertoires du notaire François Lemoyne (10 janvier 1615 - 4 novembre 1639) Images des répertoires du notaire Philippe Lemoyne (23 mars 1640 - 4 septembre 1676) Images des répertoires du notaire Jean Chuppin (19 avril 1661 - 5 août 1690) Images des répertoires du notaire François Courtois (10 février 1689 - 15 avril 1719) Images du répertoire du notaire Barthélémy Binois (5 mai 1719 - 28 janvier 1721) Images du répertoire du notaire Pierre Baudouin (1er mars 1721 - 19 mars 1729) Images des répertoires du notaire Dominique Crestiennot (23 mars 1729 - 1er juillet 1748) Images du répertoire du notaire Claude Pierre Fourestier (4 juillet 1748 - 22 janvier 1756) Images des répertoires du notaire René Poultier (24 janvier 1756 - 5 novembre 1779) Images des répertoires du notaire Toussaint Girard (13 novembre 1779 - 7 février 1794) Images des répertoires du notaire Joseph Grelet (20 août 1794 - 27 avril 1818) Images des répertoires du notaire Louis Vilcocq (28 avril 1818 - 17 mai 1832) Images des répertoires du notaire Florestan Bonnaire (18 mai 1832 - 16 septembre 1845) Images des répertoires du notaire Pierre Planchat (17 septembre 1845 - 7 août 1873) Images des répertoires du notaire Louis Gentien (8 août 1873 - 11 août 1885) Images des répertoires du notaire Pierre Delafon (13 août 1885 - 28 octobre 1920) Images des répertoires du notaire Ismaël Paul Gaston Chauveau (29 octobre 1920 - 8 mai 1936) Liste des instruments de recherche pour les autres archives de l'étude (archives privées)«Mélanges» (dossiers de clients) de l’étude XXXIII (1838-1840)</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041875"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041875-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041875"/>
+            <rico:identifier>MC/ET/XXXIII/1 - MC/ET/XXXIII/2180, MC/RE/XXXIII/1 - MC/RE/XXXIII/33</rico:identifier>
+            <rico:title xml:lang="fr">Etude XXXIII</rico:title>
+            <rdfs:label xml:lang="fr">Etude XXXIII</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1498-07-30</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1938-12-31</rico:endDate>
+            <rico:date xml:lang="fr">30 juillet 1498 - 31 décembre 1938</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">241 mètres linéaires</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010160"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement, don</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041875"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+</rdf:RDF>

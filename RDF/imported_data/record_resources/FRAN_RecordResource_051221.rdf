@@ -1,0 +1,2177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/051221">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Images des répertoires du notaire Pierre Tissandier pour l'étude XXI : MC/RE/XXI/11 - MC/RE/XXI/12, MC/RE/XXI/22 - MC/RE/XXI/23</rico:title>
+      <rdfs:label xml:lang="fr">Images des répertoires du notaire Pierre Tissandier pour l'étude XXI : MC/RE/XXI/11 - MC/RE/XXI/12, MC/RE/XXI/22 - MC/RE/XXI/23</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, notices préparées par Thierry Boudignon, chargé d'études documentaires, et Marie-France Nivet, technicienne de recherche, puis Nathalie Jourdain, adjointe administrative principale.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Deuxième édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:isOrWasAffectedBy>
+         <rico:Activity>
+            <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2016-07</rico:date>
+            <rico:descriptiveNote xml:lang="fr">Corrections et ajouts en vue de la mise en ligne sur la SIV, N. Jourdain</rico:descriptiveNote>
+         </rico:Activity>
+      </rico:isOrWasAffectedBy>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-051221"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051221-i1">
+            <rico:isInstantiationOf rdf:resource="record/051221"/>
+            <rico:title xml:lang="fr">Images des répertoires du notaire Pierre Tissandier pour l'étude XXI : MC/RE/XXI/11 - MC/RE/XXI/12, MC/RE/XXI/22 - MC/RE/XXI/23</rico:title>
+            <rdfs:label xml:lang="fr">Images des répertoires du notaire Pierre Tissandier pour l'étude XXI : MC/RE/XXI/11 - MC/RE/XXI/12, MC/RE/XXI/22 - MC/RE/XXI/23</rdfs:label>
+            <rico:history xml:lang="fr">3 décembre 2004</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_051221</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051221"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-051221">
+      <rico:isOrWasDescribedBy rdf:resource="record/051221"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Images des répertoires du notaire Pierre Tissandier pour l'étude XXI</rico:title>
+      <rdfs:label xml:lang="fr">Images des répertoires du notaire Pierre Tissandier pour l'étude XXI</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-06-04</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-12-31</rico:endDate>
+      <rico:date xml:lang="fr">16 prairial an VII - 31 décembre 1812 (4 juin 1799 - 31 décembre 1812)</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010148"/>
+      <rico:hasProvenance rdf:resource="agent/010462"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Images des répertoires de l’étude XXIArchives de l'étude XXI</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8f3jla--to36ja96m31q"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051221"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-051221-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-051221"/>
+            <rico:identifier>MC/RE/XXI/11 - MC/RE/XXI/12, MC/RE/XXI/22 - MC/RE/XXI/23</rico:identifier>
+            <rico:title xml:lang="fr">Images des répertoires du notaire Pierre Tissandier pour l'étude XXI</rico:title>
+            <rdfs:label xml:lang="fr">Images des répertoires du notaire Pierre Tissandier pour l'étude XXI</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-06-04</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-12-31</rico:endDate>
+            <rico:date xml:lang="fr">16 prairial an VII - 31 décembre 1812 (4 juin 1799 - 31 décembre 1812)</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">4 registres</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles sous leur forme originale en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Registres entrés aux Archives nationales en 1944 et 1950.</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_051221"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/051221-c1nnmsoiiv3s-g1secwbfm5q5"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/051221-c1nnmsoiknx4-8wjlhr3keftq"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/051221-c1nnmsoil09k--1cnqdi62xmueb"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoiiv3s-g1secwbfm5q5">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-051221"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+      <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période du 16 prairial an VII (4 juin 1799) au 30 décembre 1809</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 16 prairial an VII (4 juin 1799) au 30 décembre 1809</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-06-04</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1809-12-30</rico:endDate>
+      <rico:date xml:lang="fr">16 prairial an VII - 30 décembre 1809 (4 juin 1799 - 30 décembre 1809)</rico:date>
+      <rico:structure rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+      </rico:structure>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Le registre contient aussi le répertoire du notaire<html:b>Pierre Victor Raffeneau de Lille</html:b>pour la période du 2 vendémiaire an VII au 11 prairial an VII (23 septembre 1798 - 30 mai 1799).</html:p>
+            <html:p>Le répertoire contient les informations suivantes 1. numéro de l'acte dans l'année ; 2. date du jour ; 3. nature de l'acte ; 4. nom, prénom, adresse et désignation des biens vendus ; (4 bis. minute ou brevet) ; 5. date de l'enregistrement ; 6. prix de l'enregistrement.</html:p>
+            <html:p>
+               <html:b>Attention : seuls les actes passés en</html:b>
+               <html:b>
+                  <html:i>minute</html:i>
+               </html:b>
+               <html:b>sont conservés ; les actes mentionnés dans le répertoire comme passés en simple</html:b>
+               <html:b>
+                  <html:i>brevet</html:i>
+               </html:b>
+               <html:b>(colonne 3) ne sont pas conservés par les notaires et ne sont donc pas versés au Minutier (ils sont remis aux clients).</html:b>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010148"/>
+      <rico:hasProvenance rdf:resource="agent/010462"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoiiv3s-g1secwbfm5q5"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoiiv3s-g1secwbfm5q5-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoiiv3s-g1secwbfm5q5"/>
+            <rico:identifier>MC/RE/XXI/11</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période du 16 prairial an VII (4 juin 1799) au 30 décembre 1809</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 16 prairial an VII (4 juin 1799) au 30 décembre 1809</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-06-04</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1809-12-30</rico:endDate>
+            <rico:date xml:lang="fr">16 prairial an VII - 30 décembre 1809 (4 juin 1799 - 30 décembre 1809)</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Le répertoire comporte 288 feuillets et fait partie d'un registre de 321 feuillets de papier manuscrits, hauteur 36 x largeur 24,5 cm foliotés par le notaire. Le registre n'est pas en bon état. La reliure est à refaire.</html:p>
+            </rico:instantiationExtent>
+            <rico:structure rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+            </rico:structure>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoiiv3s-g1secwbfm5q5"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoij880-1d7hgdrz5dw1p">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoiiv3s-g1secwbfm5q5"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 17 prairial an VII au 4ème jour complémentaire an IX (5 juin 1799 - 21 septembre 1801)</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 17 prairial an VII au 4ème jour complémentaire an IX (5 juin 1799 - 21 septembre 1801)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-06-05</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-21</rico:endDate>
+            <rico:date xml:lang="fr">17 prairial an VII - 4ème jour complémentaire an IX (5 juin 1799 - 21 septembre 1801)</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoij880-1d7hgdrz5dw1p"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoij880-1d7hgdrz5dw1p-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoij880-1d7hgdrz5dw1p"/>
+                  <rico:identifier>19 r°-63 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 17 prairial an VII au 4ème jour complémentaire an IX (5 juin 1799 - 21 septembre 1801)</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 17 prairial an VII au 4ème jour complémentaire an IX (5 juin 1799 - 21 septembre 1801)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-06-05</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-21</rico:endDate>
+                  <rico:date xml:lang="fr">17 prairial an VII - 4ème jour complémentaire an IX (5 juin 1799 - 21 septembre 1801)</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">45 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoij880-1d7hgdrz5dw1p"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoijc2w--1ihtt1adgus8d">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoij880-1d7hgdrz5dw1p"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 17 prairial an VII au 4ème jour complémentaire an VII (5 juin 1799 - 20 septembre 1799)</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 17 prairial an VII au 4ème jour complémentaire an VII (5 juin 1799 - 20 septembre 1799)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-06-05</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-09-20</rico:endDate>
+                  <rico:date xml:lang="fr">17 prairial an VII - 4ème jour complémentaire an VII (5 juin 1799 - 20 septembre 1799)</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010148"/>
+                  <rico:hasProvenance rdf:resource="agent/010462"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoijc2w--1ihtt1adgus8d"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoijc2w--1ihtt1adgus8d-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoijc2w--1ihtt1adgus8d"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoijc2w--1ihtt1adgus8d-i2"/>
+                        <rico:identifier>19 r°-23 v°</rico:identifier>
+                        <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 17 prairial an VII au 4ème jour complémentaire an VII (5 juin 1799 - 20 septembre 1799)</rico:title>
+                        <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 17 prairial an VII au 4ème jour complémentaire an VII (5 juin 1799 - 20 septembre 1799)</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-06-05</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-09-20</rico:endDate>
+                        <rico:date xml:lang="fr">17 prairial an VII - 4ème jour complémentaire an VII (5 juin 1799 - 20 septembre 1799)</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">5 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoijc2w--1ihtt1adgus8d"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoijc2w--1ihtt1adgus8d-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoijc2w--1ihtt1adgus8d"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoijc2w--1ihtt1adgus8d-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH96_021MIC02851_L.jpg#DAFANCH96_021MIC02855_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoijc2w--1ihtt1adgus8d/DAFANCH96_021MIC02851_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoijf60--vpxj3uyj72yx">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoij880-1d7hgdrz5dw1p"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 vendémiaire an VIII au 1er jour complémentaire an VIII (24 septembre 1799 - 18 septembre 1800)</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 vendémiaire an VIII au 1er jour complémentaire an VIII (24 septembre 1799 - 18 septembre 1800)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-09-24</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-09-18</rico:endDate>
+                  <rico:date xml:lang="fr">2 vendémiaire an VIII - 1er jour complémentaire an VIII (24 septembre 1799 - 18 septembre 1800)</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010148"/>
+                  <rico:hasProvenance rdf:resource="agent/010462"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoijf60--vpxj3uyj72yx"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoijf60--vpxj3uyj72yx-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoijf60--vpxj3uyj72yx"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoijf60--vpxj3uyj72yx-i2"/>
+                        <rico:identifier>25 r°-39 v°</rico:identifier>
+                        <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 vendémiaire an VIII au 1er jour complémentaire an VIII (24 septembre 1799 - 18 septembre 1800)</rico:title>
+                        <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 vendémiaire an VIII au 1er jour complémentaire an VIII (24 septembre 1799 - 18 septembre 1800)</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-09-24</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-09-18</rico:endDate>
+                        <rico:date xml:lang="fr">2 vendémiaire an VIII - 1er jour complémentaire an VIII (24 septembre 1799 - 18 septembre 1800)</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">15 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoijf60--vpxj3uyj72yx"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoijf60--vpxj3uyj72yx-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoijf60--vpxj3uyj72yx"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoijf60--vpxj3uyj72yx-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH96_021MIC02855_L.jpg#DAFANCH96_021MIC02872_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoijf60--vpxj3uyj72yx/DAFANCH96_021MIC02855_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoijj0w--kvvn3pliy29y">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoij880-1d7hgdrz5dw1p"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 vendémiaire an IX au 4ème jour complémentaire an IX (24 septembre 1800 - 21 septembre 1801)</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 vendémiaire an IX au 4ème jour complémentaire an IX (24 septembre 1800 - 21 septembre 1801)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-09-24</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-21</rico:endDate>
+                  <rico:date xml:lang="fr">2 vendémiaire an IX - 4ème jour complémentaire an IX (24 septembre 1800 - 21 septembre 1801)</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010148"/>
+                  <rico:hasProvenance rdf:resource="agent/010462"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoijj0w--kvvn3pliy29y"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoijj0w--kvvn3pliy29y-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoijj0w--kvvn3pliy29y"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoijj0w--kvvn3pliy29y-i2"/>
+                        <rico:identifier>39 v°-63 v°</rico:identifier>
+                        <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 vendémiaire an IX au 4ème jour complémentaire an IX (24 septembre 1800 - 21 septembre 1801)</rico:title>
+                        <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 vendémiaire an IX au 4ème jour complémentaire an IX (24 septembre 1800 - 21 septembre 1801)</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-09-24</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-21</rico:endDate>
+                        <rico:date xml:lang="fr">2 vendémiaire an IX - 4ème jour complémentaire an IX (24 septembre 1800 - 21 septembre 1801)</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">25 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoijj0w--kvvn3pliy29y"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoijj0w--kvvn3pliy29y-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoijj0w--kvvn3pliy29y"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoijj0w--kvvn3pliy29y-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH96_021MIC02872_L.jpg#DAFANCH96_021MIC02897_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoijj0w--kvvn3pliy29y/DAFANCH96_021MIC02872_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoijm40--10ofxntl52nrz">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoiiv3s-g1secwbfm5q5"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des brevets pour la période du 16 prairial an VII au 6 vendémiaire an XII (4 juin 1799 - 29 septembre 1803)</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des brevets pour la période du 16 prairial an VII au 6 vendémiaire an XII (4 juin 1799 - 29 septembre 1803)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-06-04</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1803-09-29</rico:endDate>
+            <rico:date xml:lang="fr">16 prairial an VII - 6 vendémiaire an XII (4 juin 1799 - 29 septembre 1803)</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoijm40--10ofxntl52nrz"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoijm40--10ofxntl52nrz-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoijm40--10ofxntl52nrz"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoijm40--10ofxntl52nrz-i2"/>
+                  <rico:identifier>79 r°-120 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des brevets pour la période du 16 prairial an VII au 6 vendémiaire an XII (4 juin 1799 - 29 septembre 1803)</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des brevets pour la période du 16 prairial an VII au 6 vendémiaire an XII (4 juin 1799 - 29 septembre 1803)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-06-04</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1803-09-29</rico:endDate>
+                  <rico:date xml:lang="fr">16 prairial an VII - 6 vendémiaire an XII (4 juin 1799 - 29 septembre 1803)</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">42 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoijm40--10ofxntl52nrz"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoijm40--10ofxntl52nrz-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoijm40--10ofxntl52nrz"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoijm40--10ofxntl52nrz-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC02898_L.jpg#DAFANCH96_021MIC02956_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoijm40--10ofxntl52nrz/DAFANCH96_021MIC02898_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoijp74-fxrwjf8xk417">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoiiv3s-g1secwbfm5q5"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 vendémiaire an X (25 septembre 1801) au 30 décembre 1809</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 vendémiaire an X (25 septembre 1801) au 30 décembre 1809</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-25</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1809-12-30</rico:endDate>
+            <rico:date xml:lang="fr">3 vendémiaire an X - 30 décembre 1809 (25 septembre 1801 - 30 décembre 1809)</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoijp74-fxrwjf8xk417"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoijp74-fxrwjf8xk417-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoijp74-fxrwjf8xk417"/>
+                  <rico:identifier>121 r°-311 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 vendémiaire an X (25 septembre 1801) au 30 décembre 1809</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 vendémiaire an X (25 septembre 1801) au 30 décembre 1809</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-25</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1809-12-30</rico:endDate>
+                  <rico:date xml:lang="fr">3 vendémiaire an X - 30 décembre 1809 (25 septembre 1801 - 30 décembre 1809)</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">191 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoijp74-fxrwjf8xk417"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoijsa8--5mw6i1et1f3">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoijp74-fxrwjf8xk417"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 vendémiaire an X au 4ème jour complémentaire an X (25 septembre 1801 - 21 septembre 1802)</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 vendémiaire an X au 4ème jour complémentaire an X (25 septembre 1801 - 21 septembre 1802)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-25</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-09-21</rico:endDate>
+                  <rico:date xml:lang="fr">3 vendémiaire an X - 4ème jour complémentaire an X (25 septembre 1801 - 21 septembre 1802)</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010148"/>
+                  <rico:hasProvenance rdf:resource="agent/010462"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoijsa8--5mw6i1et1f3"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoijsa8--5mw6i1et1f3-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoijsa8--5mw6i1et1f3"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoijsa8--5mw6i1et1f3-i2"/>
+                        <rico:identifier>121 r°-146 v°</rico:identifier>
+                        <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 vendémiaire an X au 4ème jour complémentaire an X (25 septembre 1801 - 21 septembre 1802)</rico:title>
+                        <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 vendémiaire an X au 4ème jour complémentaire an X (25 septembre 1801 - 21 septembre 1802)</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-25</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-09-21</rico:endDate>
+                        <rico:date xml:lang="fr">3 vendémiaire an X - 4ème jour complémentaire an X (25 septembre 1801 - 21 septembre 1802)</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">26 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoijsa8--5mw6i1et1f3"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoijsa8--5mw6i1et1f3-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoijsa8--5mw6i1et1f3"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoijsa8--5mw6i1et1f3-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH96_021MIC02956_L.jpg#DAFANCH96_021MIC02982_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoijsa8--5mw6i1et1f3/DAFANCH96_021MIC02956_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoijvdc-1d8vkbao7gdzl">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoijp74-fxrwjf8xk417"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 vendémiaire an XI au 6ème jour complémentaire an XI (25 septembre 1802 - 23 septembre 1803)</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 vendémiaire an XI au 6ème jour complémentaire an XI (25 septembre 1802 - 23 septembre 1803)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-09-25</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1803-09-23</rico:endDate>
+                  <rico:date xml:lang="fr">3 vendémiaire an XI - 6ème jour complémentaire an XI (25 septembre 1802 - 23 septembre 1803)</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010148"/>
+                  <rico:hasProvenance rdf:resource="agent/010462"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoijvdc-1d8vkbao7gdzl"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoijvdc-1d8vkbao7gdzl-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoijvdc-1d8vkbao7gdzl"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoijvdc-1d8vkbao7gdzl-i2"/>
+                        <rico:identifier>147 r°-167 r°</rico:identifier>
+                        <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 vendémiaire an XI au 6ème jour complémentaire an XI (25 septembre 1802 - 23 septembre 1803)</rico:title>
+                        <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 vendémiaire an XI au 6ème jour complémentaire an XI (25 septembre 1802 - 23 septembre 1803)</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-09-25</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1803-09-23</rico:endDate>
+                        <rico:date xml:lang="fr">3 vendémiaire an XI - 6ème jour complémentaire an XI (25 septembre 1802 - 23 septembre 1803)</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">21 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoijvdc-1d8vkbao7gdzl"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoijvdc-1d8vkbao7gdzl-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoijvdc-1d8vkbao7gdzl"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoijvdc-1d8vkbao7gdzl-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH96_021MIC02982_L.jpg#DAFANCH96_021MIC03003_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoijvdc-1d8vkbao7gdzl/DAFANCH96_021MIC02982_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoijygg--1jdeu0g1e759e">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoijp74-fxrwjf8xk417"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 vendémiaire an XII au 4ème jour complémentaire an XII (26 septembre 1803 - 21 septembre 1804)</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 vendémiaire an XII au 4ème jour complémentaire an XII (26 septembre 1803 - 21 septembre 1804)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1803-09-26</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1804-09-21</rico:endDate>
+                  <rico:date xml:lang="fr">3 vendémiaire an XII - 4ème jour complémentaire an XII (26 septembre 1803 - 21 septembre 1804)</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010148"/>
+                  <rico:hasProvenance rdf:resource="agent/010462"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoijygg--1jdeu0g1e759e"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoijygg--1jdeu0g1e759e-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoijygg--1jdeu0g1e759e"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoijygg--1jdeu0g1e759e-i2"/>
+                        <rico:identifier>167 r°-191 v°</rico:identifier>
+                        <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 vendémiaire an XII au 4ème jour complémentaire an XII (26 septembre 1803 - 21 septembre 1804)</rico:title>
+                        <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 vendémiaire an XII au 4ème jour complémentaire an XII (26 septembre 1803 - 21 septembre 1804)</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1803-09-26</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1804-09-21</rico:endDate>
+                        <rico:date xml:lang="fr">3 vendémiaire an XII - 4ème jour complémentaire an XII (26 septembre 1803 - 21 septembre 1804)</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">25 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoijygg--1jdeu0g1e759e"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoijygg--1jdeu0g1e759e-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoijygg--1jdeu0g1e759e"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoijygg--1jdeu0g1e759e-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH96_021MIC03003_L.jpg#DAFANCH96_021MIC03028_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoijygg--1jdeu0g1e759e/DAFANCH96_021MIC03003_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoik2bc-1wmrb9rlss4ec">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoijp74-fxrwjf8xk417"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 1er vendémiaire an XIII au 4ème jour complémentaire an XIII (23 septembre 1804 - 21 septembre 1805)</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 1er vendémiaire an XIII au 4ème jour complémentaire an XIII (23 septembre 1804 - 21 septembre 1805)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1804-09-23</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-09-21</rico:endDate>
+                  <rico:date xml:lang="fr">1er vendémiaire an XIII - 4ème jour complémentaire an XIII (23 septembre 1804 - 21 septembre 1805)</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010148"/>
+                  <rico:hasProvenance rdf:resource="agent/010462"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoik2bc-1wmrb9rlss4ec"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoik2bc-1wmrb9rlss4ec-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoik2bc-1wmrb9rlss4ec"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoik2bc-1wmrb9rlss4ec-i2"/>
+                        <rico:identifier>191 v°-216 r°</rico:identifier>
+                        <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 1er vendémiaire an XIII au 4ème jour complémentaire an XIII (23 septembre 1804 - 21 septembre 1805)</rico:title>
+                        <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 1er vendémiaire an XIII au 4ème jour complémentaire an XIII (23 septembre 1804 - 21 septembre 1805)</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1804-09-23</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-09-21</rico:endDate>
+                        <rico:date xml:lang="fr">1er vendémiaire an XIII - 4ème jour complémentaire an XIII (23 septembre 1804 - 21 septembre 1805)</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">26 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoik2bc-1wmrb9rlss4ec"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoik2bc-1wmrb9rlss4ec-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoik2bc-1wmrb9rlss4ec"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoik2bc-1wmrb9rlss4ec-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH96_021MIC03028_L.jpg#DAFANCH96_021MIC03053_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoik2bc-1wmrb9rlss4ec/DAFANCH96_021MIC03028_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoik5eg--iulsj4hnxiwh">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoijp74-fxrwjf8xk417"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 vendémiaire au 10 nivôse an XIV (24 septembre - 31 décembre 1805)</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 vendémiaire au 10 nivôse an XIV (24 septembre - 31 décembre 1805)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-09-24</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 vendémiaire - 10 nivôse an XIV (24 septembre - 31 décembre 1805)</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010148"/>
+                  <rico:hasProvenance rdf:resource="agent/010462"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoik5eg--iulsj4hnxiwh"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoik5eg--iulsj4hnxiwh-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoik5eg--iulsj4hnxiwh"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoik5eg--iulsj4hnxiwh-i2"/>
+                        <rico:identifier>216 r°-222 r°</rico:identifier>
+                        <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 vendémiaire au 10 nivôse an XIV (24 septembre - 31 décembre 1805)</rico:title>
+                        <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 vendémiaire au 10 nivôse an XIV (24 septembre - 31 décembre 1805)</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-09-24</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">2 vendémiaire - 10 nivôse an XIV (24 septembre - 31 décembre 1805)</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">7 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoik5eg--iulsj4hnxiwh"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoik5eg--iulsj4hnxiwh-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoik5eg--iulsj4hnxiwh"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoik5eg--iulsj4hnxiwh-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH96_021MIC03053_L.jpg#DAFANCH96_021MIC03060_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoik5eg--iulsj4hnxiwh/DAFANCH96_021MIC03053_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoik8hk-1wxuyk0dggvwm">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoijp74-fxrwjf8xk417"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1806</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1806</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1806-01-03</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1806-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">3 janvier - 31 décembre 1806</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010148"/>
+                  <rico:hasProvenance rdf:resource="agent/010462"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoik8hk-1wxuyk0dggvwm"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoik8hk-1wxuyk0dggvwm-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoik8hk-1wxuyk0dggvwm"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoik8hk-1wxuyk0dggvwm-i2"/>
+                        <rico:identifier>222 r°-246 r°</rico:identifier>
+                        <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1806</rico:title>
+                        <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1806</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1806-01-03</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1806-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">3 janvier - 31 décembre 1806</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">25 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoik8hk-1wxuyk0dggvwm"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoik8hk-1wxuyk0dggvwm-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoik8hk-1wxuyk0dggvwm"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoik8hk-1wxuyk0dggvwm-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH96_021MIC03060_L.jpg#DAFANCH96_021MIC03086_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoik8hk-1wxuyk0dggvwm/DAFANCH96_021MIC03060_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoikbko--m9ad7w2lqwfv">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoijp74-fxrwjf8xk417"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1807</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1807</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1807-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1807-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1807</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010148"/>
+                  <rico:hasProvenance rdf:resource="agent/010462"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoikbko--m9ad7w2lqwfv"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoikbko--m9ad7w2lqwfv-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoikbko--m9ad7w2lqwfv"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoikbko--m9ad7w2lqwfv-i2"/>
+                        <rico:identifier>246 r°-266 r°</rico:identifier>
+                        <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1807</rico:title>
+                        <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1807</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1807-01-02</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1807-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">2 janvier - 31 décembre 1807</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">21 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoikbko--m9ad7w2lqwfv"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoikbko--m9ad7w2lqwfv-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoikbko--m9ad7w2lqwfv"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoikbko--m9ad7w2lqwfv-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH96_021MIC03086_L.jpg#DAFANCH96_021MIC03107_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoikbko--m9ad7w2lqwfv/DAFANCH96_021MIC03086_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoikens--z6sv9cg4at57">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoijp74-fxrwjf8xk417"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1808</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1808</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1808-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1808-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1808</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010148"/>
+                  <rico:hasProvenance rdf:resource="agent/010462"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoikens--z6sv9cg4at57"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoikens--z6sv9cg4at57-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoikens--z6sv9cg4at57"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoikens--z6sv9cg4at57-i2"/>
+                        <rico:identifier>266 r°-290 r°</rico:identifier>
+                        <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1808</rico:title>
+                        <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1808</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1808-01-02</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1808-12-31</rico:endDate>
+                        <rico:date xml:lang="fr">2 janvier - 31 décembre 1808</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">25 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoikens--z6sv9cg4at57"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoikens--z6sv9cg4at57-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoikens--z6sv9cg4at57"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoikens--z6sv9cg4at57-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH96_021MIC03107_L.jpg#DAFANCH96_021MIC03132_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoikens--z6sv9cg4at57/DAFANCH96_021MIC03107_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+            <rico:hasOrHadConstituent>
+               <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoikhqw--oaxw85wgdmtk">
+                  <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoijp74-fxrwjf8xk417"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 30 décembre 1809</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 30 décembre 1809</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1809-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1809-12-30</rico:endDate>
+                  <rico:date xml:lang="fr">1er janvier - 30 décembre 1809</rico:date>
+                  <rico:hasProvenance rdf:resource="agent/010148"/>
+                  <rico:hasProvenance rdf:resource="agent/010462"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoikhqw--oaxw85wgdmtk"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoikhqw--oaxw85wgdmtk-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoikhqw--oaxw85wgdmtk"/>
+                        <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoikhqw--oaxw85wgdmtk-i2"/>
+                        <rico:identifier>290 r°-311 v°</rico:identifier>
+                        <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 30 décembre 1809</rico:title>
+                        <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 1er janvier au 30 décembre 1809</rdfs:label>
+                        <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1809-01-01</rico:beginningDate>
+                        <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1809-12-30</rico:endDate>
+                        <rico:date xml:lang="fr">1er janvier - 30 décembre 1809</rico:date>
+                        <rico:instantiationExtent rdf:parseType="Literal">
+                           <html:p xml:lang="fr">22 feuillets</html:p>
+                        </rico:instantiationExtent>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoikhqw--oaxw85wgdmtk"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoikhqw--oaxw85wgdmtk-i2">
+                        <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoikhqw--oaxw85wgdmtk"/>
+                        <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoikhqw--oaxw85wgdmtk-i1"/>
+                        <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                        <rico:identifier>DAFANCH96_021MIC03132_L.jpg#DAFANCH96_021MIC03154_L.jpg</rico:identifier>
+                        <dc:format xml:lang="en">image/jpeg</dc:format>
+                        <rico:hasProvenance rdf:resource="agent/005061"/>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoikhqw--oaxw85wgdmtk/DAFANCH96_021MIC03132_L.jpg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:hasOrHadConstituent>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoikku0-p3kk9ku4rqm0">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoiiv3s-g1secwbfm5q5"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">"Dépot du répertoire de l'an X à 1809"</rico:title>
+            <rdfs:label xml:lang="fr">"Dépot du répertoire de l'an X à 1809"</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-23</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1809-12-31</rico:endDate>
+            <rico:date xml:lang="fr">an X - 1809 (23 septembre 1801 - 1809)</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoikku0-p3kk9ku4rqm0"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoikku0-p3kk9ku4rqm0-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoikku0-p3kk9ku4rqm0"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoikku0-p3kk9ku4rqm0-i2"/>
+                  <rico:identifier>312 r°-321 v°</rico:identifier>
+                  <rico:title xml:lang="fr">"Dépot du répertoire de l'an X à 1809"</rico:title>
+                  <rdfs:label xml:lang="fr">"Dépot du répertoire de l'an X à 1809"</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-23</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1809-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">an X - 1809 (23 septembre 1801 - 1809)</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">10 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoikku0-p3kk9ku4rqm0"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoikku0-p3kk9ku4rqm0-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoikku0-p3kk9ku4rqm0"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoikku0-p3kk9ku4rqm0-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC03155_L.jpg#DAFANCH96_021MIC03164_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoikku0-p3kk9ku4rqm0/DAFANCH96_021MIC03155_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoiknx4-8wjlhr3keftq">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-051221"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+      <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+      <rico:title xml:lang="fr">Répertoire chronologique pour la période du 2 janvier 1810 au 31 décembre 1812</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 2 janvier 1810 au 31 décembre 1812</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-01-02</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-12-31</rico:endDate>
+      <rico:date xml:lang="fr">2 janvier 1810 - 31 décembre 1812</rico:date>
+      <rico:structure rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+      </rico:structure>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Le registre contient aussi le répertoire du notaire <html:b>Cléophile Deherain</html:b>pour la période du 2 janvier 1813 au 8 janvier 1817.</html:p>
+            <html:p>Le répertoire contient les informations suivantes 1. numéro de l'acte dans l'année ; 2. date du jour ; 3. nature de l'acte ; 4. nom, prénom, adresse et désignation des biens vendus ; 5. minute ou brevet ; 6. date de l'enregistrement ; 7. prix de l'enregistrement.</html:p>
+            <html:p>
+               <html:b>Attention : seuls les actes passés en</html:b>
+               <html:b>
+                  <html:i>minute</html:i>
+               </html:b>
+               <html:b>sont conservés ; les actes mentionnés dans le répertoire comme passés en simple</html:b>
+               <html:b>
+                  <html:i>brevet</html:i>
+               </html:b>
+               <html:b>(colonne 3) ne sont pas conservés par les notaires et ne sont donc pas versés au Minutier (ils sont remis aux clients).</html:b>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010148"/>
+      <rico:hasProvenance rdf:resource="agent/010462"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoiknx4-8wjlhr3keftq"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoiknx4-8wjlhr3keftq-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoiknx4-8wjlhr3keftq"/>
+            <rico:identifier>MC/RE/XXI/12</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire chronologique pour la période du 2 janvier 1810 au 31 décembre 1812</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire chronologique pour la période du 2 janvier 1810 au 31 décembre 1812</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier 1810 - 31 décembre 1812</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Le répertoire comporte 63 feuillets et fait partie d'un registre de 282 feuillets de papier manuscrits, hauteur 34,5 x largeur 24 cm, composé de plusieurs cahiers foliotés par le président du tribunal civil de 1ère instance du département de la Seine conformément à la loi du 25 ventôse an XI. Le registre est en bon état.</html:p>
+            </rico:instantiationExtent>
+            <rico:structure rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+            </rico:structure>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoiknx4-8wjlhr3keftq"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoikr08-1pirfozxn17mw">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoiknx4-8wjlhr3keftq"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1810</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1810</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 31 décembre 1810</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoikr08-1pirfozxn17mw"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoikr08-1pirfozxn17mw-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoikr08-1pirfozxn17mw"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoikr08-1pirfozxn17mw-i2"/>
+                  <rico:identifier>1 r°-22 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1810</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1810</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1810-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1810</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">22 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoikr08-1pirfozxn17mw"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoikr08-1pirfozxn17mw-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoikr08-1pirfozxn17mw"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoikr08-1pirfozxn17mw-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC03167_L.jpg#DAFANCH96_021MIC03190_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoikr08-1pirfozxn17mw/DAFANCH96_021MIC03167_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoiku3c-19fcmz2nao26m">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoiknx4-8wjlhr3keftq"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1811</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1811</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1811-01-02</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1811-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 janvier - 31 décembre 1811</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoiku3c-19fcmz2nao26m"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoiku3c-19fcmz2nao26m-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoiku3c-19fcmz2nao26m"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoiku3c-19fcmz2nao26m-i2"/>
+                  <rico:identifier>22 v°-44 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1811</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 2 janvier au 31 décembre 1811</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1811-01-02</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1811-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 janvier - 31 décembre 1811</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">23 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoiku3c-19fcmz2nao26m"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoiku3c-19fcmz2nao26m-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoiku3c-19fcmz2nao26m"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoiku3c-19fcmz2nao26m-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC03190_L.jpg#DAFANCH96_021MIC03212_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoiku3c-19fcmz2nao26m/DAFANCH96_021MIC03190_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoikx6g--wgpeqadc5hmw">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoiknx4-8wjlhr3keftq"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1812</rico:title>
+            <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1812</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-01-03</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-12-31</rico:endDate>
+            <rico:date xml:lang="fr">3 janvier - 31 décembre 1812</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoikx6g--wgpeqadc5hmw"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoikx6g--wgpeqadc5hmw-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoikx6g--wgpeqadc5hmw"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoikx6g--wgpeqadc5hmw-i2"/>
+                  <rico:identifier>44 v°-63 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1812</rico:title>
+                  <rdfs:label xml:lang="fr">Liste chronologique des actes pour la période du 3 janvier au 31 décembre 1812</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-01-03</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">3 janvier - 31 décembre 1812</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">20 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoikx6g--wgpeqadc5hmw"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoikx6g--wgpeqadc5hmw-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoikx6g--wgpeqadc5hmw"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoikx6g--wgpeqadc5hmw-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC03212_L.jpg#DAFANCH96_021MIC03230_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoikx6g--wgpeqadc5hmw/DAFANCH96_021MIC03212_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoil09k--1cnqdi62xmueb">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-051221"/>
+      <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 16 prairial an VII au 10 nivôse an XIV (4 juin 1799 - 31 décembre 1805)</rico:title>
+      <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 16 prairial an VII au 10 nivôse an XIV (4 juin 1799 - 31 décembre 1805)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-06-04</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-12-31</rico:endDate>
+      <rico:date xml:lang="fr">16 prairial an VII - 10 nivôse an XIV (4 juin 1799 - 31 décembre 1805)</rico:date>
+      <rico:structure rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+      </rico:structure>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Le registre contient aussi le répertoire alphabétique des clients du notaire <html:b>Pierre Victor Raffeneau de Lille</html:b>pour la période du 22 septembre 1792 au 11 prairial an VII (30 mai 1799).</html:p>
+            <html:p>Le répertoire contient les informations suivantes : 1. nom de la première partie de l'acte ; 2. nature de l'acte ; 3. nom de la deuxième partie de l'acte ; 4. date de l'acte ; 5. un numéro dont la signification est inconnue.</html:p>
+            <html:p>
+               <html:b>Attention : seuls les actes passés en</html:b>
+               <html:b>
+                  <html:i>minute</html:i>
+               </html:b>
+               <html:b>sont conservés ; les actes mentionnés dans le répertoire comme passés en simple</html:b>
+               <html:b>
+                  <html:i>brevet</html:i>
+               </html:b>
+               <html:b>(colonne 3) ne sont pas conservés par les notaires et ne sont donc pas versés au Minutier (ils sont remis aux clients).</html:b>
+            </html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010148"/>
+      <rico:hasProvenance rdf:resource="agent/010462"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoil09k--1cnqdi62xmueb"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoil09k--1cnqdi62xmueb-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoil09k--1cnqdi62xmueb"/>
+            <rico:identifier>MC/RE/XXI/22</rico:identifier>
+            <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 16 prairial an VII au 10 nivôse an XIV (4 juin 1799 - 31 décembre 1805)</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 16 prairial an VII au 10 nivôse an XIV (4 juin 1799 - 31 décembre 1805)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-06-04</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-12-31</rico:endDate>
+            <rico:date xml:lang="fr">16 prairial an VII - 10 nivôse an XIV (4 juin 1799 - 31 décembre 1805)</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Le répertoire comporte 88 feuillets et fait partie d'un registre de 188 feuillets de papier manuscrits, hauteur 30,5 x largeur 19,5 cm, composé de 7 cahiers. Le registre est dans un état moyen.</html:p>
+            </rico:instantiationExtent>
+            <rico:structure rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+            </rico:structure>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoil09k--1cnqdi62xmueb"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoil3co--pj6ie04oaji6">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/051221-c1nnmsoil09k--1cnqdi62xmueb"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 16 prairial an VII au 4e jour complémentaire an VII (4 juin 1799 - 20 septembre 1799)</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 16 prairial an VII au 4e jour complémentaire an VII (4 juin 1799 - 20 septembre 1799)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-06-04</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-09-20</rico:endDate>
+            <rico:date xml:lang="fr">16 prairial an VII - 4e jour complémentaire an VII (4 juin 1799 - 20 septembre 1799)</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les actes antérieurs au 16 prairial an VII ont été passés par le notaire Pierre Victor Raffeneau de Lille.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoil3co--pj6ie04oaji6"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoil3co--pj6ie04oaji6-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoil3co--pj6ie04oaji6"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoil3co--pj6ie04oaji6-i2"/>
+                  <rico:identifier>101 r°-110 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 16 prairial an VII au 4e jour complémentaire an VII (4 juin 1799 - 20 septembre 1799)</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 16 prairial an VII au 4e jour complémentaire an VII (4 juin 1799 - 20 septembre 1799)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-06-04</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-09-20</rico:endDate>
+                  <rico:date xml:lang="fr">16 prairial an VII - 4e jour complémentaire an VII (4 juin 1799 - 20 septembre 1799)</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">10 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoil3co--pj6ie04oaji6"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoil3co--pj6ie04oaji6-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoil3co--pj6ie04oaji6"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoil3co--pj6ie04oaji6-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC05717_L.jpg#DAFANCH96_021MIC05727_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoil3co--pj6ie04oaji6/DAFANCH96_021MIC05717_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoilstc--1q3hjs5r78vxb">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/051221-c1nnmsoil09k--1cnqdi62xmueb"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 2 vendémiaire an VIII au 1er jour complémentaire an VIII (24 septembre 1799 - 18 septembre 1800)</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 2 vendémiaire an VIII au 1er jour complémentaire an VIII (24 septembre 1799 - 18 septembre 1800)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-09-24</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-09-18</rico:endDate>
+            <rico:date xml:lang="fr">2 vendémiaire an VIII - 1er jour complémentaire an VIII (24 septembre 1799 - 18 septembre 1800)</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoilstc--1q3hjs5r78vxb"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoilstc--1q3hjs5r78vxb-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoilstc--1q3hjs5r78vxb"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoilstc--1q3hjs5r78vxb-i2"/>
+                  <rico:identifier>111 r°-119 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 2 vendémiaire an VIII au 1er jour complémentaire an VIII (24 septembre 1799 - 18 septembre 1800)</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 2 vendémiaire an VIII au 1er jour complémentaire an VIII (24 septembre 1799 - 18 septembre 1800)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1799-09-24</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-09-18</rico:endDate>
+                  <rico:date xml:lang="fr">2 vendémiaire an VIII - 1er jour complémentaire an VIII (24 septembre 1799 - 18 septembre 1800)</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">9 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoilstc--1q3hjs5r78vxb"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoilstc--1q3hjs5r78vxb-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoilstc--1q3hjs5r78vxb"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoilstc--1q3hjs5r78vxb-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC05728_L.jpg#DAFANCH96_021MIC05738_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoilstc--1q3hjs5r78vxb/DAFANCH96_021MIC05728_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoim0j4--pm1bkj4x2atq">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/051221-c1nnmsoil09k--1cnqdi62xmueb"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 2 vendémiaire an IX au 4ème jour complémentaire an IX (24 septembre 1800 - 21 septembre 1801)</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 2 vendémiaire an IX au 4ème jour complémentaire an IX (24 septembre 1800 - 21 septembre 1801)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-09-24</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-21</rico:endDate>
+            <rico:date xml:lang="fr">2 vendémiaire an IX - 4ème jour complémentaire an IX (24 septembre 1800 - 21 septembre 1801)</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoim0j4--pm1bkj4x2atq"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoim0j4--pm1bkj4x2atq-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoim0j4--pm1bkj4x2atq"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoim0j4--pm1bkj4x2atq-i2"/>
+                  <rico:identifier>121 r°-130 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 2 vendémiaire an IX au 4ème jour complémentaire an IX (24 septembre 1800 - 21 septembre 1801)</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 2 vendémiaire an IX au 4ème jour complémentaire an IX (24 septembre 1800 - 21 septembre 1801)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1800-09-24</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-21</rico:endDate>
+                  <rico:date xml:lang="fr">2 vendémiaire an IX - 4ème jour complémentaire an IX (24 septembre 1800 - 21 septembre 1801)</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">10 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoim0j4--pm1bkj4x2atq"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoim0j4--pm1bkj4x2atq-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoim0j4--pm1bkj4x2atq"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoim0j4--pm1bkj4x2atq-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC05739_L.jpg#DAFANCH96_021MIC05750_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoim0j4--pm1bkj4x2atq/DAFANCH96_021MIC05739_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoim3m8-nqo1w8e1iyya">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/051221-c1nnmsoil09k--1cnqdi62xmueb"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 3 vendémiaire an X au 4ème jour complémentaire an X (25 septembre 1801 - 21 septembre 1802)</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 3 vendémiaire an X au 4ème jour complémentaire an X (25 septembre 1801 - 21 septembre 1802)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-25</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-09-21</rico:endDate>
+            <rico:date xml:lang="fr">3 vendémiaire an X - 4ème jour complémentaire an X (25 septembre 1801 - 21 septembre 1802)</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoim3m8-nqo1w8e1iyya"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoim3m8-nqo1w8e1iyya-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoim3m8-nqo1w8e1iyya"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoim3m8-nqo1w8e1iyya-i2"/>
+                  <rico:identifier>131 r°-144 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 3 vendémiaire an X au 4ème jour complémentaire an X (25 septembre 1801 - 21 septembre 1802)</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 3 vendémiaire an X au 4ème jour complémentaire an X (25 septembre 1801 - 21 septembre 1802)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-09-25</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-09-21</rico:endDate>
+                  <rico:date xml:lang="fr">3 vendémiaire an X - 4ème jour complémentaire an X (25 septembre 1801 - 21 septembre 1802)</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">14 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoim3m8-nqo1w8e1iyya"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoim3m8-nqo1w8e1iyya-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoim3m8-nqo1w8e1iyya"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoim3m8-nqo1w8e1iyya-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC05750_L.jpg#DAFANCH96_021MIC05764_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoim3m8-nqo1w8e1iyya/DAFANCH96_021MIC05750_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoim7h4-1agr8sqkdqmj9">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/051221-c1nnmsoil09k--1cnqdi62xmueb"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 3 vendémiaire an XI au 6ème jour complémentaire an XI (25 septembre 1802 - 23 septembre 1803)</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 3 vendémiaire an XI au 6ème jour complémentaire an XI (25 septembre 1802 - 23 septembre 1803)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-09-25</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1803-09-23</rico:endDate>
+            <rico:date xml:lang="fr">3 vendémiaire an XI - 6ème jour complémentaire an XI (25 septembre 1802 - 23 septembre 1803)</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoim7h4-1agr8sqkdqmj9"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoim7h4-1agr8sqkdqmj9-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoim7h4-1agr8sqkdqmj9"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoim7h4-1agr8sqkdqmj9-i2"/>
+                  <rico:identifier>145 r°-158 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 3 vendémiaire an XI au 6ème jour complémentaire an XI (25 septembre 1802 - 23 septembre 1803)</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 3 vendémiaire an XI au 6ème jour complémentaire an XI (25 septembre 1802 - 23 septembre 1803)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-09-25</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1803-09-23</rico:endDate>
+                  <rico:date xml:lang="fr">3 vendémiaire an XI - 6ème jour complémentaire an XI (25 septembre 1802 - 23 septembre 1803)</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">14 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoim7h4-1agr8sqkdqmj9"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoim7h4-1agr8sqkdqmj9-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoim7h4-1agr8sqkdqmj9"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoim7h4-1agr8sqkdqmj9-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC05764_L.jpg#DAFANCH96_021MIC05778_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoim7h4-1agr8sqkdqmj9/DAFANCH96_021MIC05764_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoimak8-1lcm7tv50jqvt">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/051221-c1nnmsoil09k--1cnqdi62xmueb"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 3 vendémiaire an XII au 4ème jour complémentaire an XII (26 septembre 1803 - 21 septembre 1804)</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 3 vendémiaire an XII au 4ème jour complémentaire an XII (26 septembre 1803 - 21 septembre 1804)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1803-09-26</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1804-09-21</rico:endDate>
+            <rico:date xml:lang="fr">3 vendémiaire an XII - 4ème jour complémentaire an XII (26 septembre 1803 - 21 septembre 1804)</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimak8-1lcm7tv50jqvt"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimak8-1lcm7tv50jqvt-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimak8-1lcm7tv50jqvt"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoimak8-1lcm7tv50jqvt-i2"/>
+                  <rico:identifier>159 r°-171 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 3 vendémiaire an XII au 4ème jour complémentaire an XII (26 septembre 1803 - 21 septembre 1804)</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 3 vendémiaire an XII au 4ème jour complémentaire an XII (26 septembre 1803 - 21 septembre 1804)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1803-09-26</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1804-09-21</rico:endDate>
+                  <rico:date xml:lang="fr">3 vendémiaire an XII - 4ème jour complémentaire an XII (26 septembre 1803 - 21 septembre 1804)</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">13 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimak8-1lcm7tv50jqvt"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimak8-1lcm7tv50jqvt-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimak8-1lcm7tv50jqvt"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoimak8-1lcm7tv50jqvt-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC05778_L.jpg#DAFANCH96_021MIC05791_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoimak8-1lcm7tv50jqvt/DAFANCH96_021MIC05778_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoimcvk-157ec30m2qjr2">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/051221-c1nnmsoil09k--1cnqdi62xmueb"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 1er vendémiaire an XIII au 4ème jour complémentaire an XIII (23 septembre 1804 - 21 septembre 1805)</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 1er vendémiaire an XIII au 4ème jour complémentaire an XIII (23 septembre 1804 - 21 septembre 1805)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1804-09-23</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-09-21</rico:endDate>
+            <rico:date xml:lang="fr">1er vendémiaire an XIII - 4ème jour complémentaire an XIII (23 septembre 1804 - 21 septembre 1805)</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimcvk-157ec30m2qjr2"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimcvk-157ec30m2qjr2-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimcvk-157ec30m2qjr2"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoimcvk-157ec30m2qjr2-i2"/>
+                  <rico:identifier>173 r°-184 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 1er vendémiaire an XIII au 4ème jour complémentaire an XIII (23 septembre 1804 - 21 septembre 1805)</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 1er vendémiaire an XIII au 4ème jour complémentaire an XIII (23 septembre 1804 - 21 septembre 1805)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1804-09-23</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-09-21</rico:endDate>
+                  <rico:date xml:lang="fr">1er vendémiaire an XIII - 4ème jour complémentaire an XIII (23 septembre 1804 - 21 septembre 1805)</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">10 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimcvk-157ec30m2qjr2"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimcvk-157ec30m2qjr2-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimcvk-157ec30m2qjr2"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoimcvk-157ec30m2qjr2-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC05792_L.jpg#DAFANCH96_021MIC05804_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoimcvk-157ec30m2qjr2/DAFANCH96_021MIC05792_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoimgqg--19z49k45oulkm">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/051221-c1nnmsoil09k--1cnqdi62xmueb"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 2 vendémiaire an XIV au 10 nivôse an XIV (24 septembre 1805 - 31 décembre 1805)</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 2 vendémiaire an XIV au 10 nivôse an XIV (24 septembre 1805 - 31 décembre 1805)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-09-24</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-12-31</rico:endDate>
+            <rico:date xml:lang="fr">2 vendémiaire an XIV - 10 nivôse an XIV (24 septembre 1805 - 31 décembre 1805)</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimgqg--19z49k45oulkm"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimgqg--19z49k45oulkm-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimgqg--19z49k45oulkm"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoimgqg--19z49k45oulkm-i2"/>
+                  <rico:identifier>185 r°-188 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients pour la période du 2 vendémiaire an XIV au 10 nivôse an XIV (24 septembre 1805 - 31 décembre 1805)</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients pour la période du 2 vendémiaire an XIV au 10 nivôse an XIV (24 septembre 1805 - 31 décembre 1805)</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-09-24</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1805-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">2 vendémiaire an XIV - 10 nivôse an XIV (24 septembre 1805 - 31 décembre 1805)</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">4 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimgqg--19z49k45oulkm"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimgqg--19z49k45oulkm-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimgqg--19z49k45oulkm"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoimgqg--19z49k45oulkm-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC05804_L.jpg#DAFANCH96_021MIC05807_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoimgqg--19z49k45oulkm/DAFANCH96_021MIC05804_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-051221"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+      <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+      <rico:title xml:lang="fr">Répertoire alphabétique des clients pour la période du 3 janvier 1806 au 31 décembre 1812</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire alphabétique des clients pour la période du 3 janvier 1806 au 31 décembre 1812</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1806-01-03</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-12-31</rico:endDate>
+      <rico:date xml:lang="fr">3 janvier 1806 - 31 décembre 1812</rico:date>
+      <rico:structure rdf:parseType="Literal">
+         <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+      </rico:structure>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>Le registre contient aussi le répertoire alphabétique des clients du notaire <html:b>Cléophile Deherain</html:b>pour la période du 2 janvier 1813 au 13 décembre 1827.</html:p>
+            <html:p>Le répertoire contient les informations suivantes : 1. noms des parties ; 2. nature des actes ; 3. noms des parties ; 4. dates des actes ; 5. numéro du volume (la signification de ce numéro est inconnue).</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:hasProvenance rdf:resource="agent/010148"/>
+      <rico:hasProvenance rdf:resource="agent/010462"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimjtk--1q4c5ayomnspc"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimjtk--1q4c5ayomnspc-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rico:identifier>MC/RE/XXI/23</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire alphabétique des clients pour la période du 3 janvier 1806 au 31 décembre 1812</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire alphabétique des clients pour la période du 3 janvier 1806 au 31 décembre 1812</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1806-01-03</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-12-31</rico:endDate>
+            <rico:date xml:lang="fr">3 janvier 1806 - 31 décembre 1812</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Le répertoire comporte 113 feuillets et fait partie d'un registre de 382 feuillets de papier manuscrits, hauteur 36 x largeur 24,5 cm. Le registre est en bon état.</html:p>
+            </rico:instantiationExtent>
+            <rico:structure rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre folioté en 2003 (foliotation non visible à l'écran)</html:p>
+            </rico:structure>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimjtk--1q4c5ayomnspc"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoimmwo--co0ls8qeybm8">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre A</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre A</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimmwo--co0ls8qeybm8"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimmwo--co0ls8qeybm8-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimmwo--co0ls8qeybm8"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoimmwo--co0ls8qeybm8-i2"/>
+                  <rico:identifier>1 r°-3 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre A</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre A</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">3 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimmwo--co0ls8qeybm8"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimmwo--co0ls8qeybm8-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimmwo--co0ls8qeybm8"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoimmwo--co0ls8qeybm8-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC05810_L.jpg#DAFANCH96_021MIC05812_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoimmwo--co0ls8qeybm8/DAFANCH96_021MIC05810_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoimpzs--fyeyp8si635t">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre B</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre B</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimpzs--fyeyp8si635t"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimpzs--fyeyp8si635t-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimpzs--fyeyp8si635t"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoimpzs--fyeyp8si635t-i2"/>
+                  <rico:identifier>12 r°-24 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre B</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre B</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">13 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimpzs--fyeyp8si635t"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimpzs--fyeyp8si635t-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimpzs--fyeyp8si635t"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoimpzs--fyeyp8si635t-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC05821_L.jpg#DAFANCH96_021MIC05834_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoimpzs--fyeyp8si635t/DAFANCH96_021MIC05821_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoimt2w-10lzsgyuwsj0p">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre C</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre C</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimt2w-10lzsgyuwsj0p"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimt2w-10lzsgyuwsj0p-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimt2w-10lzsgyuwsj0p"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoimt2w-10lzsgyuwsj0p-i2"/>
+                  <rico:identifier>52 r°-63 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre C</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre C</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">10 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimt2w-10lzsgyuwsj0p"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimt2w-10lzsgyuwsj0p-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimt2w-10lzsgyuwsj0p"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoimt2w-10lzsgyuwsj0p-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC05861_L.jpg#DAFANCH96_021MIC05874_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoimt2w-10lzsgyuwsj0p/DAFANCH96_021MIC05861_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoimw60-1nc2zdh1906lp">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre D</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre D</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimw60-1nc2zdh1906lp"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimw60-1nc2zdh1906lp-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimw60-1nc2zdh1906lp"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoimw60-1nc2zdh1906lp-i2"/>
+                  <rico:identifier>98 r°-111 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre D</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre D</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">14 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimw60-1nc2zdh1906lp"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimw60-1nc2zdh1906lp-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimw60-1nc2zdh1906lp"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoimw60-1nc2zdh1906lp-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC05908_L.jpg#DAFANCH96_021MIC05921_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoimw60-1nc2zdh1906lp/DAFANCH96_021MIC05908_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoimz94--vczi4v6o2t3n">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre E</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre E</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimz94--vczi4v6o2t3n"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimz94--vczi4v6o2t3n-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimz94--vczi4v6o2t3n"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoimz94--vczi4v6o2t3n-i2"/>
+                  <rico:identifier>146 r°-146 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre E</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre E</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">1 feuillet</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoimz94--vczi4v6o2t3n"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoimz94--vczi4v6o2t3n-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoimz94--vczi4v6o2t3n"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoimz94--vczi4v6o2t3n-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC05957_L.jpg#DAFANCH96_021MIC05961_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoimz94--vczi4v6o2t3n/DAFANCH96_021MIC05957_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoin2c8-1p4wspeojmgd9">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre F</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre F</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoin2c8-1p4wspeojmgd9"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoin2c8-1p4wspeojmgd9-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoin2c8-1p4wspeojmgd9"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoin2c8-1p4wspeojmgd9-i2"/>
+                  <rico:identifier>149 r°-152 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre F</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre F</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">4 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoin2c8-1p4wspeojmgd9"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoin2c8-1p4wspeojmgd9-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoin2c8-1p4wspeojmgd9"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoin2c8-1p4wspeojmgd9-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC05961_L.jpg#DAFANCH96_021MIC05964_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoin2c8-1p4wspeojmgd9/DAFANCH96_021MIC05961_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoin674--quj5d1n27zkq">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre G</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre G</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoin674--quj5d1n27zkq"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoin674--quj5d1n27zkq-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoin674--quj5d1n27zkq"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoin674--quj5d1n27zkq-i2"/>
+                  <rico:identifier>162 r°-167 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre G</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre G</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">6 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoin674--quj5d1n27zkq"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoin674--quj5d1n27zkq-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoin674--quj5d1n27zkq"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoin674--quj5d1n27zkq-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC05975_L.jpg#DAFANCH96_021MIC05981_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoin674--quj5d1n27zkq/DAFANCH96_021MIC05975_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoin9a8-1ml6ffiniqvdb">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre H</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre H</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoin9a8-1ml6ffiniqvdb"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoin9a8-1ml6ffiniqvdb-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoin9a8-1ml6ffiniqvdb"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoin9a8-1ml6ffiniqvdb-i2"/>
+                  <rico:identifier>188 r°-191 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre H</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre H</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">4 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoin9a8-1ml6ffiniqvdb"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoin9a8-1ml6ffiniqvdb-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoin9a8-1ml6ffiniqvdb"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoin9a8-1ml6ffiniqvdb-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC06001_L.jpg#DAFANCH96_021MIC06004_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoin9a8-1ml6ffiniqvdb/DAFANCH96_021MIC06001_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoincdc--w3w22rld82cx">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettres I et J</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettres I et J</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoincdc--w3w22rld82cx"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoincdc--w3w22rld82cx-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoincdc--w3w22rld82cx"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoincdc--w3w22rld82cx-i2"/>
+                  <rico:identifier>203 r°-205 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettres I et J</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettres I et J</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">3 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoincdc--w3w22rld82cx"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoincdc--w3w22rld82cx-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoincdc--w3w22rld82cx"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoincdc--w3w22rld82cx-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC06016_L.jpg#DAFANCH96_021MIC06018_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoincdc--w3w22rld82cx/DAFANCH96_021MIC06016_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoinfgg--1c93xto3c5bgr">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre K</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre K</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoinfgg--1c93xto3c5bgr"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoinfgg--1c93xto3c5bgr-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoinfgg--1c93xto3c5bgr"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoinfgg--1c93xto3c5bgr-i2"/>
+                  <rico:identifier>212 r°-212 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre K</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre K</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">1 feuillet</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoinfgg--1c93xto3c5bgr"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoinfgg--1c93xto3c5bgr-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoinfgg--1c93xto3c5bgr"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoinfgg--1c93xto3c5bgr-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC06025_L.jpg#DAFANCH96_021MIC06025_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoinfgg--1c93xto3c5bgr/DAFANCH96_021MIC06025_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoinijk-4batclj3xcov">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre L</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre L</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoinijk-4batclj3xcov"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoinijk-4batclj3xcov-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoinijk-4batclj3xcov"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoinijk-4batclj3xcov-i2"/>
+                  <rico:identifier>214 r°-227 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre L</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre L</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">14 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoinijk-4batclj3xcov"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoinijk-4batclj3xcov-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoinijk-4batclj3xcov"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoinijk-4batclj3xcov-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC06027_L.jpg#DAFANCH96_021MIC06041_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoinijk-4batclj3xcov/DAFANCH96_021MIC06027_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoinlmo--btx2e8ztvufv">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre M</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre M</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoinlmo--btx2e8ztvufv"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoinlmo--btx2e8ztvufv-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoinlmo--btx2e8ztvufv"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoinlmo--btx2e8ztvufv-i2"/>
+                  <rico:identifier>255 r°-262 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre M</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre M</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">8 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoinlmo--btx2e8ztvufv"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoinlmo--btx2e8ztvufv-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoinlmo--btx2e8ztvufv"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoinlmo--btx2e8ztvufv-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC06068_L.jpg#DAFANCH96_021MIC06076_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoinlmo--btx2e8ztvufv/DAFANCH96_021MIC06068_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoinops-1eh7zybf8f28f">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre N</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre N</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoinops-1eh7zybf8f28f"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoinops-1eh7zybf8f28f-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoinops-1eh7zybf8f28f"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoinops-1eh7zybf8f28f-i2"/>
+                  <rico:identifier>285 r°-286 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre N</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre N</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">2 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoinops-1eh7zybf8f28f"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoinops-1eh7zybf8f28f-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoinops-1eh7zybf8f28f"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoinops-1eh7zybf8f28f-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC06098_L.jpg#DAFANCH96_021MIC06100_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoinops-1eh7zybf8f28f/DAFANCH96_021MIC06098_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoinrsw--1uy2u6ajl9sy6">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre O</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre O</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoinrsw--1uy2u6ajl9sy6"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoinrsw--1uy2u6ajl9sy6-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoinrsw--1uy2u6ajl9sy6"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoinrsw--1uy2u6ajl9sy6-i2"/>
+                  <rico:identifier>293 r°-293 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre O</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre O</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">1 feuillet</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoinrsw--1uy2u6ajl9sy6"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoinrsw--1uy2u6ajl9sy6-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoinrsw--1uy2u6ajl9sy6"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoinrsw--1uy2u6ajl9sy6-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC06106_L.jpg#DAFANCH96_021MIC06107_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoinrsw--1uy2u6ajl9sy6/DAFANCH96_021MIC06106_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoinx7c--1xdqrmzu7o67w">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre P</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre P</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoinx7c--1xdqrmzu7o67w"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoinx7c--1xdqrmzu7o67w-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoinx7c--1xdqrmzu7o67w"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoinx7c--1xdqrmzu7o67w-i2"/>
+                  <rico:identifier>296 r°-302 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre P</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre P</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">7 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoinx7c--1xdqrmzu7o67w"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoinx7c--1xdqrmzu7o67w-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoinx7c--1xdqrmzu7o67w"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoinx7c--1xdqrmzu7o67w-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC06109_L.jpg#DAFANCH96_021MIC06115_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoinx7c--1xdqrmzu7o67w/DAFANCH96_021MIC06109_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoio2ls--kcbira2s0nib">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre Q</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre Q</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoio2ls--kcbira2s0nib"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoio2ls--kcbira2s0nib-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoio2ls--kcbira2s0nib"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoio2ls--kcbira2s0nib-i2"/>
+                  <rico:identifier>318 r°-318 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre Q</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre Q</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">1 feuillet</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoio2ls--kcbira2s0nib"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoio2ls--kcbira2s0nib-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoio2ls--kcbira2s0nib"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoio2ls--kcbira2s0nib-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC06131_L.jpg#DAFANCH96_021MIC06132_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoio2ls--kcbira2s0nib/DAFANCH96_021MIC06131_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoio8s0-1gwxveoeq4jkb">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre R</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre R</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoio8s0-1gwxveoeq4jkb"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoio8s0-1gwxveoeq4jkb-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoio8s0-1gwxveoeq4jkb"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoio8s0-1gwxveoeq4jkb-i2"/>
+                  <rico:identifier>319 v°-323 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre R</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre R</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">5 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoio8s0-1gwxveoeq4jkb"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoio8s0-1gwxveoeq4jkb-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoio8s0-1gwxveoeq4jkb"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoio8s0-1gwxveoeq4jkb-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC06133_L.jpg#DAFANCH96_021MIC06137_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoio8s0-1gwxveoeq4jkb/DAFANCH96_021MIC06133_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoioe6g--1eqzxet45le3p">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre S</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre S</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoioe6g--1eqzxet45le3p"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoioe6g--1eqzxet45le3p-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoioe6g--1eqzxet45le3p"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoioe6g--1eqzxet45le3p-i2"/>
+                  <rico:identifier>337 v°-340 v°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre S</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre S</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">4 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoioe6g--1eqzxet45le3p"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoioe6g--1eqzxet45le3p-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoioe6g--1eqzxet45le3p"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoioe6g--1eqzxet45le3p-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC06151_L.jpg#DAFANCH96_021MIC06154_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoioe6g--1eqzxet45le3p/DAFANCH96_021MIC06151_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoioi1c-10znqneidcz0y">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre T</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre T</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoioi1c-10znqneidcz0y"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoioi1c-10znqneidcz0y-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoioi1c-10znqneidcz0y"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoioi1c-10znqneidcz0y-i2"/>
+                  <rico:identifier>350 v°-355 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre T</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre T</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">6 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoioi1c-10znqneidcz0y"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoioi1c-10znqneidcz0y-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoioi1c-10znqneidcz0y"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoioi1c-10znqneidcz0y-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC06164_L.jpg#DAFANCH96_021MIC06168_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoioi1c-10znqneidcz0y/DAFANCH96_021MIC06164_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoiol4g--14web22gbooqs">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettres U, V, W</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettres U, V, W</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoiol4g--14web22gbooqs"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoiol4g--14web22gbooqs-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoiol4g--14web22gbooqs"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoiol4g--14web22gbooqs-i2"/>
+                  <rico:identifier>367 r°-370 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettres U, V, W</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettres U, V, W</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">4 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoiol4g--14web22gbooqs"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoiol4g--14web22gbooqs-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoiol4g--14web22gbooqs"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoiol4g--14web22gbooqs-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC06180_L.jpg#DAFANCH96_021MIC06183_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoiol4g--14web22gbooqs/DAFANCH96_021MIC06180_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+      <rico:hasOrHadConstituent>
+         <rico:RecordResource rdf:about="recordResource/051221-c1nnmsoioo7k--1xy8snqnqnf48">
+            <rico:isOrWasConstituentOf rdf:resource="recordResource/051221-c1nnmsoimjtk--1q4c5ayomnspc"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+            <rico:title xml:lang="fr">Table alphabétique des clients, lettre Z</rico:title>
+            <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre Z</rdfs:label>
+            <rico:hasProvenance rdf:resource="agent/010148"/>
+            <rico:hasProvenance rdf:resource="agent/010462"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoioo7k--1xy8snqnqnf48"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoioo7k--1xy8snqnqnf48-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoioo7k--1xy8snqnqnf48"/>
+                  <rico:hasDerivedInstantiation rdf:resource="instantiation/051221-c1nnmsoioo7k--1xy8snqnqnf48-i2"/>
+                  <rico:identifier>380 v°-381 r°</rico:identifier>
+                  <rico:title xml:lang="fr">Table alphabétique des clients, lettre Z</rico:title>
+                  <rdfs:label xml:lang="fr">Table alphabétique des clients, lettre Z</rdfs:label>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">2 feuillets</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_051221/c1nnmsoioo7k--1xy8snqnqnf48"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/051221-c1nnmsoioo7k--1xy8snqnqnf48-i2">
+                  <rico:isInstantiationOf rdf:resource="recordResource/051221-c1nnmsoioo7k--1xy8snqnqnf48"/>
+                  <rico:isDerivedFromInstantiation rdf:resource="instantiation/051221-c1nnmsoioo7k--1xy8snqnqnf48-i1"/>
+                  <rico:productionTechnique xml:lang="fr">reproduction
+					numérique</rico:productionTechnique>
+                  <rico:identifier>DAFANCH96_021MIC06194_L.jpg#DAFANCH96_021MIC06194_L.jpg</rico:identifier>
+                  <dc:format xml:lang="en">image/jpeg</dc:format>
+                  <rico:hasProvenance rdf:resource="agent/005061"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/media/FRAN_IR_051221/c1nnmsoioo7k--1xy8snqnqnf48/DAFANCH96_021MIC06194_L.jpg"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:hasOrHadConstituent>
+   </rico:RecordResource>
+</rdf:RDF>

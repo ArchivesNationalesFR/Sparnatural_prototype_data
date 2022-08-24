@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/041386">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Henri ELLAIN, 6 novembre 1656 - 25 janvier 1658 (étude XII) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Henri ELLAIN, 6 novembre 1656 - 25 janvier 1658 (étude XII) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-18</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">1ère édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-041386"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041386-i1">
+            <rico:isInstantiationOf rdf:resource="record/041386"/>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Henri ELLAIN, 6 novembre 1656 - 25 janvier 1658 (étude XII) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Henri ELLAIN, 6 novembre 1656 - 25 janvier 1658 (étude XII) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche est le résultat de la conversion de la base de données du Minutier central dans le système d'information archivistique des Archives nationales.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_041386</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041386"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-041386">
+      <rico:isOrWasDescribedBy rdf:resource="record/041386"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Minutes et répertoires du notaire Henri ELLAIN (étude XII)</rico:title>
+      <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Henri ELLAIN (étude XII)</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-25</rico:endDate>
+      <rico:date xml:lang="fr">6 novembre 1656 - 25 janvier 1658</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010139"/>
+      <rico:hasProvenance rdf:resource="agent/012128"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l’étude XIIArchives de l'étude XII</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041386"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-041386-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-041386"/>
+            <rico:identifier>MC/ET/XII/118 - MC/ET/XII/123, MC/RE/XII/3</rico:identifier>
+            <rico:title xml:lang="fr">Minutes et répertoires du notaire Henri ELLAIN (étude XII)</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et répertoires du notaire Henri ELLAIN (étude XII)</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-25</rico:endDate>
+            <rico:date xml:lang="fr">6 novembre 1656 - 25 janvier 1658</rico:date>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010139"/>
+            <rico:hasProvenance rdf:resource="agent/012128"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Minutes et répertoires :</html:b>la loi 2008-696 du 15 juillet 2008 relative aux archives a fixé à 75 ans à compter de la date de l'acte, ou à 25 ans à compter de la date du décès de l'intéressé si ce délai est plus bref, le délai de communication des minutes et répertoires des notaires ; ce délai est porté à 100 ans à compter de la date de l'acte si le document se rapporte à un mineur (code du Patrimoine, articles L213-2, 4e d et 5e).</html:p>
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...) :</html:b>s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Versement</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_041386"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/041386-c1p6uh2nzuq3--16etedh5ivf43"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/041386-c1p6uh2ok4nv--1hbvq0rzm87lv"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2nzuq3--16etedh5ivf43">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041386"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Minutes de Henri ELLAIN</rico:title>
+      <rdfs:label xml:lang="fr">Minutes de Henri ELLAIN</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-25</rico:endDate>
+      <rico:date xml:lang="fr">6 novembre 1656 - 25 janvier 1658</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010139"/>
+      <rico:hasProvenance rdf:resource="agent/012128"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2nzuq3--16etedh5ivf43"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2nzuq3--16etedh5ivf43-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2nzuq3--16etedh5ivf43"/>
+            <rico:identifier>MC/ET/XII/118 - MC/ET/XII/123</rico:identifier>
+            <rico:title xml:lang="fr">Minutes de Henri ELLAIN</rico:title>
+            <rdfs:label xml:lang="fr">Minutes de Henri ELLAIN</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-25</rico:endDate>
+            <rico:date xml:lang="fr">6 novembre 1656 - 25 janvier 1658</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2nzuq3--16etedh5ivf43"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2o0o1n--gnj3ns2t1sgq">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2nzuq3--16etedh5ivf43"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1656, 6 novembre - décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1656, 6 novembre - décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-12-31</rico:endDate>
+            <rico:date xml:lang="fr">6 novembre - décembre 1656</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010139"/>
+            <rico:hasProvenance rdf:resource="agent/012128"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2o0o1n--gnj3ns2t1sgq"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2o0o1n--gnj3ns2t1sgq-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2o0o1n--gnj3ns2t1sgq"/>
+                  <rico:identifier>MC/ET/XII/118</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1656, 6 novembre - décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1656, 6 novembre - décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">6 novembre - décembre 1656</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2o0o1n--gnj3ns2t1sgq"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2o1i4z--u2u06hgw6rli">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2nzuq3--16etedh5ivf43"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1657, janvier - mars</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1657, janvier - mars</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-03-31</rico:endDate>
+            <rico:date xml:lang="fr">janvier - mars 1657</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010139"/>
+            <rico:hasProvenance rdf:resource="agent/012128"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2o1i4z--u2u06hgw6rli"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2o1i4z--u2u06hgw6rli-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2o1i4z--u2u06hgw6rli"/>
+                  <rico:identifier>MC/ET/XII/119</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1657, janvier - mars</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1657, janvier - mars</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-03-31</rico:endDate>
+                  <rico:date xml:lang="fr">janvier - mars 1657</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2o1i4z--u2u06hgw6rli"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2o29wz--4gr6l1ajoxp0">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2o1i4z--u2u06hgw6rli"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">CHELLES (abbaye de) § Marché des fondures à faire pour le grand autel que maître l'Abbesse fait construire de neuf. (2 pages et demie de description d'ornements.)</rico:title>
+                  <rdfs:label xml:lang="fr">CHELLES (abbaye de) § Marché des fondures à faire pour le grand autel que maître l'Abbesse fait construire de neuf. (2 pages et demie de description d'ornements.)</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-02-17</rico:date>
+                  <rico:date xml:lang="fr">17 février 1657</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Fichier dit 'général' XVIIe-XVIIIe siècles, par le personnel du Minutier, 1954-1999 ( fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2011-2012</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2010</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bi371-1mjp07dkae4vt"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3m08zlzpl9-azl3yirncl7j"/>
+                  <rico:hasProvenance rdf:resource="agent/010139"/>
+                  <rico:hasProvenance rdf:resource="agent/012128"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2o29wz--4gr6l1ajoxp0"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2o29wz--4gr6l1ajoxp0-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2o29wz--4gr6l1ajoxp0"/>
+                        <rico:identifier>MC/ET/XII/119</rico:identifier>
+                        <rico:title xml:lang="fr">CHELLES (abbaye de) § Marché des fondures à faire pour le grand autel que maître l'Abbesse fait construire de neuf. (2 pages et demie de description d'ornements.)</rico:title>
+                        <rdfs:label xml:lang="fr">CHELLES (abbaye de) § Marché des fondures à faire pour le grand autel que maître l'Abbesse fait construire de neuf. (2 pages et demie de description d'ornements.)</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-02-17</rico:date>
+                        <rico:date xml:lang="fr">17 février 1657</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2o29wz--4gr6l1ajoxp0"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2o3rxf-8mi5z031hbuk">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2o1i4z--u2u06hgw6rli"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Vente. Hillaire Robeau, l'un des douze hautbois de la chambre du roi.</rico:title>
+                  <rdfs:label xml:lang="fr">Vente. Hillaire Robeau, l'un des douze hautbois de la chambre du roi.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-02-20</rico:date>
+                  <rico:date xml:lang="fr">20 février 1657</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Musique XVIIe siècle [2407 actes], par Madeleine Jurgens et le personnel du Minutier, 1954-1996 ( fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2011</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2009</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89lgo1-7iazj0zqu03g"/>
+                  <rico:isRelatedTo>
+                     <rico:Activity>
+                        <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msjsrq5--1mbyt7s1ucsrc"/>
+                     </rico:Activity>
+                  </rico:isRelatedTo>
+                  <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msjsrq5--1mbyt7s1ucsrc"/>
+                  <rico:hasProvenance rdf:resource="agent/010139"/>
+                  <rico:hasProvenance rdf:resource="agent/012128"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2o3rxf-8mi5z031hbuk"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2o3rxf-8mi5z031hbuk-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2o3rxf-8mi5z031hbuk"/>
+                        <rico:identifier>MC/ET/XII/119</rico:identifier>
+                        <rico:title xml:lang="fr">Vente. Hillaire Robeau, l'un des douze hautbois de la chambre du roi.</rico:title>
+                        <rdfs:label xml:lang="fr">Vente. Hillaire Robeau, l'un des douze hautbois de la chambre du roi.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-02-20</rico:date>
+                        <rico:date xml:lang="fr">20 février 1657</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2o3rxf-8mi5z031hbuk"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2o5283--12cwisl1t8wuq">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2o1i4z--u2u06hgw6rli"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Fourier (Jean Edme) architecte entrepreneur de bâtiments de présent novice de la maison conventuelle des RPP Augustins reformés § Création de viagère</rico:title>
+                  <rdfs:label xml:lang="fr">Fourier (Jean Edme) architecte entrepreneur de bâtiments de présent novice de la maison conventuelle des RPP Augustins reformés § Création de viagère</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1732-06-21</rico:date>
+                  <rico:date xml:lang="fr">21 juin 1732</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Artisans XVIIIe siècle, par M. Rambaud et C. Grodecki, 1956-1977 ( fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2011-2012</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2010</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Fourier, Jean Edmé</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Fourier, Jean Edmé</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Fourier, Jean Edmé</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010139"/>
+                  <rico:hasProvenance rdf:resource="agent/012128"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2o5283--12cwisl1t8wuq"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2o5283--12cwisl1t8wuq-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2o5283--12cwisl1t8wuq"/>
+                        <rico:identifier>MC/ET/XII/119</rico:identifier>
+                        <rico:title xml:lang="fr">Fourier (Jean Edme) architecte entrepreneur de bâtiments de présent novice de la maison conventuelle des RPP Augustins reformés § Création de viagère</rico:title>
+                        <rdfs:label xml:lang="fr">Fourier (Jean Edme) architecte entrepreneur de bâtiments de présent novice de la maison conventuelle des RPP Augustins reformés § Création de viagère</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1732-06-21</rico:date>
+                        <rico:date xml:lang="fr">21 juin 1732</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2o5283--12cwisl1t8wuq"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2o6az7--1ax9w5kezv5r8">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2nzuq3--16etedh5ivf43"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1657, avril - juin</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1657, avril - juin</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-04-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-06-30</rico:endDate>
+            <rico:date xml:lang="fr">avril - juin 1657</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010139"/>
+            <rico:hasProvenance rdf:resource="agent/012128"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2o6az7--1ax9w5kezv5r8"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2o6az7--1ax9w5kezv5r8-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2o6az7--1ax9w5kezv5r8"/>
+                  <rico:identifier>MC/ET/XII/120</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1657, avril - juin</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1657, avril - juin</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-04-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-06-30</rico:endDate>
+                  <rico:date xml:lang="fr">avril - juin 1657</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2o6az7--1ax9w5kezv5r8"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2o71zf-uc1f2s4nlsf3">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2o6az7--1ax9w5kezv5r8"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Inventaire après décès de Jean de Lafon, sieur du Plessis, conseiller au Parlement de Normandie, demeurant en l'Ile Notre-Dame.</rico:title>
+                  <rdfs:label xml:lang="fr">Inventaire après décès de Jean de Lafon, sieur du Plessis, conseiller au Parlement de Normandie, demeurant en l'Ile Notre-Dame.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-05-08</rico:date>
+                  <rico:date xml:lang="fr">8 mai 1657</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Georges Wildenstein, Le goût pour la peinture dans la bourgeoisie parisienne au début du règne de Louis XIII, d'après des inventaires après décès...[705 actes], Gazette des Beaux-Arts, Paris, 1959, p.101 (voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2009</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8d1j9y--1stj96clt05y3"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_023-d3m0bq3jt87--fklklizqyo09"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Lafon, Jean de</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Lafon, Jean de</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Lafon, Jean de</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010139"/>
+                  <rico:hasProvenance rdf:resource="agent/012128"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2o71zf-uc1f2s4nlsf3"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2o71zf-uc1f2s4nlsf3-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2o71zf-uc1f2s4nlsf3"/>
+                        <rico:identifier>MC/ET/XII/120</rico:identifier>
+                        <rico:title xml:lang="fr">Inventaire après décès de Jean de Lafon, sieur du Plessis, conseiller au Parlement de Normandie, demeurant en l'Ile Notre-Dame.</rico:title>
+                        <rdfs:label xml:lang="fr">Inventaire après décès de Jean de Lafon, sieur du Plessis, conseiller au Parlement de Normandie, demeurant en l'Ile Notre-Dame.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-05-08</rico:date>
+                        <rico:date xml:lang="fr">8 mai 1657</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2o71zf-uc1f2s4nlsf3"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2o8jzv-1o257w3w8l59o">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2o6az7--1ax9w5kezv5r8"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">Procuration par Claude de Donon de Rouen, l'un des seigneurs associés pour la colonisation de l'Amérique méridionale</rico:title>
+                  <rdfs:label xml:lang="fr">Procuration par Claude de Donon de Rouen, l'un des seigneurs associés pour la colonisation de l'Amérique méridionale</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-06-20</rico:date>
+                  <rico:date xml:lang="fr">20 juin 1657</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Étrangers en France, Français à l'étranger et aux colonies, XVIe-XIXe siècle (env. 1.000 actes), par le personnel du Minutier,1950-2000 (fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2002</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8efxut-73bdmxk10sbw"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntspntio-paw9mmh7emrq"/>
+                  <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d5bdpa8gv8-1tb1oz49vgyi6"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Donon, Claude de</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Donon, Claude de</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Donon, Claude de</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010139"/>
+                  <rico:hasProvenance rdf:resource="agent/012128"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2o8jzv-1o257w3w8l59o"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2o8jzv-1o257w3w8l59o-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2o8jzv-1o257w3w8l59o"/>
+                        <rico:identifier>MC/ET/XII/120</rico:identifier>
+                        <rico:title xml:lang="fr">Procuration par Claude de Donon de Rouen, l'un des seigneurs associés pour la colonisation de l'Amérique méridionale</rico:title>
+                        <rdfs:label xml:lang="fr">Procuration par Claude de Donon de Rouen, l'un des seigneurs associés pour la colonisation de l'Amérique méridionale</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-06-20</rico:date>
+                        <rico:date xml:lang="fr">20 juin 1657</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2o8jzv-1o257w3w8l59o"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2oa3jv-172zk83ue2ckz">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2nzuq3--16etedh5ivf43"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1657, juillet - septembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1657, juillet - septembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-07-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-09-30</rico:endDate>
+            <rico:date xml:lang="fr">juillet - septembre 1657</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010139"/>
+            <rico:hasProvenance rdf:resource="agent/012128"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2oa3jv-172zk83ue2ckz"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2oa3jv-172zk83ue2ckz-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2oa3jv-172zk83ue2ckz"/>
+                  <rico:identifier>MC/ET/XII/121</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1657, juillet - septembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1657, juillet - septembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-07-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-09-30</rico:endDate>
+                  <rico:date xml:lang="fr">juillet - septembre 1657</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2oa3jv-172zk83ue2ckz"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2oavbv--1oyh2mt1j6sui">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2oa3jv-172zk83ue2ckz"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">NOBLET (Michel) Architecte du Roi. § Constitution</rico:title>
+                  <rdfs:label xml:lang="fr">NOBLET (Michel) Architecte du Roi. § Constitution</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-08-17</rico:date>
+                  <rico:date xml:lang="fr">17 août 1657</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Artisans XVIIe, par M. Jurgens, M.A. Fleury, R. Gourmelon et le personnel du Minutier central, 1954-1996 (fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2011-2012</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2010</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Noblet, Michel</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Noblet, Michel</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Noblet, Michel</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010139"/>
+                  <rico:hasProvenance rdf:resource="agent/012128"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2oavbv--1oyh2mt1j6sui"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2oavbv--1oyh2mt1j6sui-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2oavbv--1oyh2mt1j6sui"/>
+                        <rico:identifier>MC/ET/XII/121</rico:identifier>
+                        <rico:title xml:lang="fr">NOBLET (Michel) Architecte du Roi. § Constitution</rico:title>
+                        <rdfs:label xml:lang="fr">NOBLET (Michel) Architecte du Roi. § Constitution</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-08-17</rico:date>
+                        <rico:date xml:lang="fr">17 août 1657</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2oavbv--1oyh2mt1j6sui"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2oc3b7-lk8fz1905mth">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2oa3jv-172zk83ue2ckz"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">ARCHITECTE NOBLET (Michel) à Paris § Constitution</rico:title>
+                  <rdfs:label xml:lang="fr">ARCHITECTE NOBLET (Michel) à Paris § Constitution</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-08-17</rico:date>
+                  <rico:date xml:lang="fr">17 août 1657</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Artisans XVIIe, par M. Jurgens, M.A. Fleury, R. Gourmelon et le personnel du Minutier central, 1954-1996 (fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2011-2012</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2010</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Noblet, Michel</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Noblet, Michel</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Noblet, Michel</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010139"/>
+                  <rico:hasProvenance rdf:resource="agent/012128"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2oc3b7-lk8fz1905mth"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2oc3b7-lk8fz1905mth-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2oc3b7-lk8fz1905mth"/>
+                        <rico:identifier>MC/ET/XII/121</rico:identifier>
+                        <rico:title xml:lang="fr">ARCHITECTE NOBLET (Michel) à Paris § Constitution</rico:title>
+                        <rdfs:label xml:lang="fr">ARCHITECTE NOBLET (Michel) à Paris § Constitution</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-08-17</rico:date>
+                        <rico:date xml:lang="fr">17 août 1657</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2oc3b7-lk8fz1905mth"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2od87f-1fwjlv3cwb36z">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2nzuq3--16etedh5ivf43"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes. 1657, octobre - décembre</rico:title>
+            <rdfs:label xml:lang="fr">Minutes. 1657, octobre - décembre</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-10-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-12-31</rico:endDate>
+            <rico:date xml:lang="fr">octobre - décembre 1657</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010139"/>
+            <rico:hasProvenance rdf:resource="agent/012128"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2od87f-1fwjlv3cwb36z"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2od87f-1fwjlv3cwb36z-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2od87f-1fwjlv3cwb36z"/>
+                  <rico:identifier>MC/ET/XII/122</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes. 1657, octobre - décembre</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes. 1657, octobre - décembre</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-10-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">octobre - décembre 1657</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2od87f-1fwjlv3cwb36z"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2odz7n--1gl6s8ihlqv6b">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2od87f-1fwjlv3cwb36z"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">LE VAU (François) ARCHITECTE à Paris § 1° Partage ; 2° Vente ; 3° Déclaration</rico:title>
+                  <rdfs:label xml:lang="fr">LE VAU (François) ARCHITECTE à Paris § 1° Partage ; 2° Vente ; 3° Déclaration</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-11-16</rico:date>
+                  <rico:date xml:lang="fr">16 novembre 1657</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Artisans XVIIe, par M. Jurgens, M.A. Fleury, R. Gourmelon et le personnel du Minutier central, 1954-1996 (fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2011-2012</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2010</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8e592y--1eh3sssxpxr0n"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89lgo1-7iazj0zqu03g"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bq6ez-1daxfsx19z37l"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Le Vau, François</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Le Vau, François</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Le Vau, François</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010139"/>
+                  <rico:hasProvenance rdf:resource="agent/012128"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2odz7n--1gl6s8ihlqv6b"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2odz7n--1gl6s8ihlqv6b-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2odz7n--1gl6s8ihlqv6b"/>
+                        <rico:identifier>MC/ET/XII/122</rico:identifier>
+                        <rico:title xml:lang="fr">LE VAU (François) ARCHITECTE à Paris § 1° Partage ; 2° Vente ; 3° Déclaration</rico:title>
+                        <rdfs:label xml:lang="fr">LE VAU (François) ARCHITECTE à Paris § 1° Partage ; 2° Vente ; 3° Déclaration</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-11-16</rico:date>
+                        <rico:date xml:lang="fr">16 novembre 1657</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2odz7n--1gl6s8ihlqv6b"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2ofbtn-1xz9uh7o9e2g0">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2od87f-1fwjlv3cwb36z"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">LE VAU (Louis) Architecte § Convention par .. avec son fils, François LE VAU.</rico:title>
+                  <rdfs:label xml:lang="fr">LE VAU (Louis) Architecte § Convention par .. avec son fils, François LE VAU.</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-11-16</rico:date>
+                  <rico:date xml:lang="fr">16 novembre 1657</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Artisans XVIIe, par M. Jurgens, M.A. Fleury, R. Gourmelon et le personnel du Minutier central, 1954-1996 (fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2011-2012</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2010</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Le Vau, Louis</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Le Vau, Louis</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Le Vau, Louis</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010139"/>
+                  <rico:hasProvenance rdf:resource="agent/012128"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2ofbtn-1xz9uh7o9e2g0"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2ofbtn-1xz9uh7o9e2g0-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2ofbtn-1xz9uh7o9e2g0"/>
+                        <rico:identifier>MC/ET/XII/122</rico:identifier>
+                        <rico:title xml:lang="fr">LE VAU (Louis) Architecte § Convention par .. avec son fils, François LE VAU.</rico:title>
+                        <rdfs:label xml:lang="fr">LE VAU (Louis) Architecte § Convention par .. avec son fils, François LE VAU.</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-11-16</rico:date>
+                        <rico:date xml:lang="fr">16 novembre 1657</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2ofbtn-1xz9uh7o9e2g0"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2ogkkr--5tv3lo1k0ah8">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2od87f-1fwjlv3cwb36z"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">ARCHITECTE LEVAU (François) à Paris § 1° Partage 2° Vente 3° Déclaration</rico:title>
+                  <rdfs:label xml:lang="fr">ARCHITECTE LEVAU (François) à Paris § 1° Partage 2° Vente 3° Déclaration</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-11-16</rico:date>
+                  <rico:date xml:lang="fr">16 novembre 1657</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Artisans XVIIe, par M. Jurgens, M.A. Fleury, R. Gourmelon et le personnel du Minutier central, 1954-1996 (fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2011-2012</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2010</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8e592y--1eh3sssxpxr0n"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89lgo1-7iazj0zqu03g"/>
+                  <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8bq6ez-1daxfsx19z37l"/>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Levau, François</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Levau, François</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Levau, François</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010139"/>
+                  <rico:hasProvenance rdf:resource="agent/012128"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2ogkkr--5tv3lo1k0ah8"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2ogkkr--5tv3lo1k0ah8-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2ogkkr--5tv3lo1k0ah8"/>
+                        <rico:identifier>MC/ET/XII/122</rico:identifier>
+                        <rico:title xml:lang="fr">ARCHITECTE LEVAU (François) à Paris § 1° Partage 2° Vente 3° Déclaration</rico:title>
+                        <rdfs:label xml:lang="fr">ARCHITECTE LEVAU (François) à Paris § 1° Partage 2° Vente 3° Déclaration</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-11-16</rico:date>
+                        <rico:date xml:lang="fr">16 novembre 1657</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2ogkkr--5tv3lo1k0ah8"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+            <rico:includesOrIncluded>
+               <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2ohvn7--1fss2uimwwhg">
+                  <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2od87f-1fwjlv3cwb36z"/>
+                  <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+                  <rico:title xml:lang="fr">ARCHITECTE LEVAU (Louis) à Paris § Convention</rico:title>
+                  <rdfs:label xml:lang="fr">ARCHITECTE LEVAU (Louis) à Paris § Convention</rdfs:label>
+                  <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-11-16</rico:date>
+                  <rico:date xml:lang="fr">16 novembre 1657</rico:date>
+                  <rico:scopeAndContent rdf:parseType="Literal">
+                     <html:div xml:lang="fr">
+                        <html:p>
+                           <html:b>Origine de l'information :</html:b>
+                        </html:p>
+                        <html:p>Artisans XVIIe, par M. Jurgens, M.A. Fleury, R. Gourmelon et le personnel du Minutier central, 1954-1996 (fichier papier entièrement dématérialisé ; voir contexte dans le Plan d’orientation général - Notaires de Paris, guides thématiques du Minutier).</html:p>
+                        <html:p>
+                           <html:b>Date de révision :</html:b>2011-2012</html:p>
+                        <html:p>
+                           <html:b>Date de création de la notice :</html:b>2010</html:p>
+                     </html:div>
+                  </rico:scopeAndContent>
+                  <rico:hasOrHadSubject>
+                     <rico:Agent>
+                        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+                        <rdfs:label xml:lang="fr">Levau, Louis</rdfs:label>
+                        <rico:hasOrHadAgentName>
+                           <rico:AgentName>
+                              <rdfs:label xml:lang="fr">Levau, Louis</rdfs:label>
+                              <rico:textualValue xml:lang="fr">Levau, Louis</rico:textualValue>
+                           </rico:AgentName>
+                        </rico:hasOrHadAgentName>
+                     </rico:Agent>
+                  </rico:hasOrHadSubject>
+                  <rico:hasProvenance rdf:resource="agent/010139"/>
+                  <rico:hasProvenance rdf:resource="agent/012128"/>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2ohvn7--1fss2uimwwhg"/>
+                  <rico:hasInstantiation>
+                     <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2ohvn7--1fss2uimwwhg-i1">
+                        <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2ohvn7--1fss2uimwwhg"/>
+                        <rico:identifier>MC/ET/XII/122</rico:identifier>
+                        <rico:title xml:lang="fr">ARCHITECTE LEVAU (Louis) à Paris § Convention</rico:title>
+                        <rdfs:label xml:lang="fr">ARCHITECTE LEVAU (Louis) à Paris § Convention</rdfs:label>
+                        <rico:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1657-11-16</rico:date>
+                        <rico:date xml:lang="fr">16 novembre 1657</rico:date>
+                        <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2ohvn7--1fss2uimwwhg"/>
+                     </rico:Instantiation>
+                  </rico:hasInstantiation>
+               </rico:RecordResource>
+            </rico:includesOrIncluded>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2oizrn-1507n8nqv0qjd">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2nzuq3--16etedh5ivf43"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Minutes et brevets. 1656, 26 novembre - 1658, 25 janvier</rico:title>
+            <rdfs:label xml:lang="fr">Minutes et brevets. 1656, 26 novembre - 1658, 25 janvier</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-26</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-25</rico:endDate>
+            <rico:date xml:lang="fr">26 novembre 1656 - 25 janvier 1658</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>1656, 26 novembre à 1657, 23 septembre : brevets. - 1658, 1 à 25 janvier : minutes.</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement:</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux minutes d'actes. Toutes les minutes ne sont pas forcément décrites une à une. Les descriptions de ces minutes sont plus ou moins détaillées.</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89p6j3-16rea8x5it1b"/>
+            <rico:hasProvenance rdf:resource="agent/010139"/>
+            <rico:hasProvenance rdf:resource="agent/012128"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2oizrn-1507n8nqv0qjd"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2oizrn-1507n8nqv0qjd-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2oizrn-1507n8nqv0qjd"/>
+                  <rico:identifier>MC/ET/XII/123</rico:identifier>
+                  <rico:title xml:lang="fr">Minutes et brevets. 1656, 26 novembre - 1658, 25 janvier</rico:title>
+                  <rdfs:label xml:lang="fr">Minutes et brevets. 1656, 26 novembre - 1658, 25 janvier</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-26</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-01-25</rico:endDate>
+                  <rico:date xml:lang="fr">26 novembre 1656 - 25 janvier 1658</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2oizrn-1507n8nqv0qjd"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2ok4nv--1hbvq0rzm87lv">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-041386"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Répertoire(s) de Henri ELLAIN</rico:title>
+      <rdfs:label xml:lang="fr">Répertoire(s) de Henri ELLAIN</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-02-23</rico:endDate>
+      <rico:date xml:lang="fr">6 novembre 1656 - 23 février 1658</rico:date>
+      <rico:hasProvenance rdf:resource="agent/010139"/>
+      <rico:hasProvenance rdf:resource="agent/012128"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2ok4nv--1hbvq0rzm87lv"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2ok4nv--1hbvq0rzm87lv-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2ok4nv--1hbvq0rzm87lv"/>
+            <rico:identifier>MC/RE/XII/3</rico:identifier>
+            <rico:title xml:lang="fr">Répertoire(s) de Henri ELLAIN</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire(s) de Henri ELLAIN</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-02-23</rico:endDate>
+            <rico:date xml:lang="fr">6 novembre 1656 - 23 février 1658</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2ok4nv--1hbvq0rzm87lv"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/041386-c1p6uh2okxzf--xej0v65sl4mz">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/041386-c1p6uh2ok4nv--1hbvq0rzm87lv"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Record"/>
+            <rico:hasDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-a04blhkno-92bbw9jou9ed"/>
+            <rico:title xml:lang="fr">Répertoire. 1656, 6 novembre - 1658, 23 février</rico:title>
+            <rdfs:label xml:lang="fr">Répertoire. 1656, 6 novembre - 1658, 23 février</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-02-23</rico:endDate>
+            <rico:date xml:lang="fr">6 novembre 1656 - 23 février 1658</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Informations complémentaires :</html:b>
+                  </html:p>
+                  <html:p>Répertoire des notaires Henri Ellain (6 novembre 1656- 25 janvier 1658), Pierre Frezon (30 janvier-23 février 1658).</html:p>
+                  <html:p>
+                     <html:b>Informations concernant le classement et la cotation :</html:b>
+                  </html:p>
+                  <html:p>Le niveau inférieur de description, quand il existe, correspond aux mentions d'actes contenues dans le répertoire. Parmi celles-ci, certaines peuvent y être décrites, de manière plus ou moins détaillée. Pour consulter l'acte proprement dit, il convient de rechercher la cote au niveau des articles (registre ou liasse) des minutes du notaire (cote de type 'MC/ET').</html:p>
+               </html:div>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010139"/>
+            <rico:hasProvenance rdf:resource="agent/012128"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2okxzf--xej0v65sl4mz"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/041386-c1p6uh2okxzf--xej0v65sl4mz-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/041386-c1p6uh2okxzf--xej0v65sl4mz"/>
+                  <rico:identifier>MC/RE/XII/3</rico:identifier>
+                  <rico:title xml:lang="fr">Répertoire. 1656, 6 novembre - 1658, 23 février</rico:title>
+                  <rdfs:label xml:lang="fr">Répertoire. 1656, 6 novembre - 1658, 23 février</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1656-11-06</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1658-02-23</rico:endDate>
+                  <rico:date xml:lang="fr">6 novembre 1656 - 23 février 1658</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_041386/c1p6uh2okxzf--xej0v65sl4mz"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>

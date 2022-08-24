@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:isni="http://isni.org/ontology#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xml:base="http://data.archives-nationales.culture.gouv.fr/">
+   <rico:Record rdf:about="record/050878">
+      <rico:hasDocumentaryFormType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/documentaryFormTypes#FindingAid"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl005"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl004"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl006"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl007"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl008"/>
+      <rico:isOrWasRegulatedBy rdf:resource="rule/rl009"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXVI. MC/ET/XXVI/939-MC/ET/XXVI/943, MC/ET/XXVI/1568-MC/ET/XXVI/1581 (1815-1936) : Répertoire numérique détaillé</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXVI. MC/ET/XXVI/939-MC/ET/XXVI/943, MC/ET/XXVI/1568-MC/ET/XXVI/1581 (1815-1936) : Répertoire numérique détaillé</rdfs:label>
+      <rico:hasCreator rdf:resource="agent/005061"/>
+      <rico:hasPublisher rdf:resource="agent/005061"/>
+      <rico:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2014</rico:publicationDate>
+      <rico:history rdf:parseType="Literal">
+         <html:div>
+            <html:h4>Auteur(s)</html:h4>
+            <html:p xml:lang="fr">Minutier central des notaires de Paris, par Ernest Coyecque, Marie-Antoinette Fleury, Claire Béchu, conservateurs du patrimoine et Danis Habib, chargé d’études documentaires, sous la direction de Marie-Françoise Limon-Bonnet, conservateur général du patrimoine.</html:p>
+         </html:div>
+         <html:div>
+            <html:h4>Mention d’édition</html:h4>
+            <html:p xml:lang="fr">Première édition électronique</html:p>
+         </html:div>
+      </rico:history>
+      <rico:hasOrHadLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:describesOrDescribed rdf:resource="recordResource/top-050878"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050878-i1">
+            <rico:isInstantiationOf rdf:resource="record/050878"/>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXVI. MC/ET/XXVI/939-MC/ET/XXVI/943, MC/ET/XXVI/1568-MC/ET/XXVI/1581 (1815-1936) : Répertoire numérique détaillé</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXVI. MC/ET/XXVI/939-MC/ET/XXVI/943, MC/ET/XXVI/1568-MC/ET/XXVI/1581 (1815-1936) : Répertoire numérique détaillé</rdfs:label>
+            <rico:history xml:lang="fr">Cet instrument de recherche a été rédigé dans le système d’information des Archives nationales. Il remplace l’instrument de recherche dactylographié connu en salle de lecture sous le numéro MC/27.</rico:history>
+            <rico:isOrWasRegulatedBy rdf:resource="rule/rl010"/>
+            <dc:format xml:lang="en">text/xml</dc:format>
+            <rico:identifier>FRAN_IR_050878</rico:identifier>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050878"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:Record>
+   <rico:RecordResource rdf:about="recordResource/top-050878">
+      <rico:isOrWasDescribedBy rdf:resource="record/050878"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXVI</rico:title>
+      <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXVI</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1815-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1815-1936</rico:date>
+      <rico:hasOrHadAllMembersWithLanguage rdf:resource="language/FRAN_RI_100-name4"/>
+      <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rico:conditionsOfAccess rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>
+               <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+            <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+         </html:div>
+      </rico:conditionsOfAccess>
+      <rico:conditionsOfUse rdf:parseType="Literal">
+         <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+      </rico:conditionsOfUse>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Accès aux instruments de recherche de tous les notaires de l'étude XXVIArchives de l'étude XXVI</html:p>
+      </rico:scopeAndContent>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050878"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/top-050878-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/top-050878"/>
+            <rico:identifier>MC/ET/XXVI/939-MC/ET/XXVI/943, MC/ET/XXVI/1568-MC/ET/XXVI/1581</rico:identifier>
+            <rico:title xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXVI</rico:title>
+            <rdfs:label xml:lang="fr">«Mélanges» (dossiers de clients) de l’étude XXVI</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1815-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1815-1936</rico:date>
+            <rico:instantiationExtent rdf:parseType="Literal">
+               <html:p xml:lang="fr">2,5 ml ou 18 cartons (boîtes 10 cm, 12 cm, 12,5 cm ou 15 cm)</html:p>
+            </rico:instantiationExtent>
+            <rico:hasOrHadHolder rdf:resource="agent/005061"/>
+            <rico:hasOrHadLocation rdf:resource="place/FRAN_RI_005-d5bdppt147--176wwvjcctrx0"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rico:conditionsOfAccess rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:p>
+                     <html:b>Autres documents de l'étude (dossiers de clients, comptabilité...)</html:b>: s'agissant d'archives privées, ces documents sont communicables selon les modalités fixées par le déposant ou le donateur.</html:p>
+                  <html:p>Certains documents ne sont pas accessibles en raison de leur mauvais état de conservation.</html:p>
+               </html:div>
+            </rico:conditionsOfAccess>
+            <rico:conditionsOfUse rdf:parseType="Literal">
+               <html:p xml:lang="fr">Les documents peuvent être librement reproduits à usage privé du copiste, sous réserve des contraintes liées à leur état matériel et dans le respect des textes relatifs à la réutilisation des informations publiques.</html:p>
+            </rico:conditionsOfUse>
+            <rico:history rdf:parseType="Literal">
+               <html:div xml:lang="fr">
+                  <html:h4>Informations sur les modalités d’entrée</html:h4>
+                  <html:p>Don</html:p>
+               </html:div>
+            </rico:history>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_050878"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded rdf:resource="recordResource/050878-c-2k48sdx9t-gododgw573vq"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050878-c-2twutx3h3--563vfhai05o0"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050878-c-2wwo8rs6g--1d5plzuyfigko"/>
+      <rico:includesOrIncluded rdf:resource="recordResource/050878-c-67thj8oes-1awcypi5ueib"/>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050878-c-2k48sdx9t-gododgw573vq">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050878"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Terres de Viry et de Savigny.</rico:title>
+      <rdfs:label xml:lang="fr">Terres de Viry et de Savigny.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1815-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1832-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1815-1832</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:div xml:lang="fr">
+            <html:p>« Procès-verbal d’abornement de la terre de Viry[-Châtillon] appartenante à Mme la maréchale duchesse de Raguse [Marie Anne Hortense Perregaux de Raguse]. 2e partie. Contenant les acquisitions Mahieu et Chamberland et les 10 pièces abornées en la 1re partie (…) par Alexis Donnet, ingénieur géomètre du cadastre (…) ». Registre (42 x 28 x 5 cm). 1815.</html:p>
+            <html:p>Procès-verbal de récolement du bornage entre la duchesse de Raguse et les hospices civils de Paris. 1832.</html:p>
+            <html:p>Procès-verbal de récolement de la partie de bornage commune aux domaines de Viry[-Châtillon]et de Savigny[-sur-Orge]. 1832.</html:p>
+         </html:div>
+      </rico:scopeAndContent>
+      <rico:isRelatedTo>
+         <rico:Activity>
+            <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msjgtw3-1ton3i1q2op31"/>
+         </rico:Activity>
+      </rico:isRelatedTo>
+      <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msjgtw3-1ton3i1q2op31"/>
+      <rico:isRelatedTo>
+         <rico:Activity>
+            <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msisgsg-17be3aqlxc1gm"/>
+         </rico:Activity>
+      </rico:isRelatedTo>
+      <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msisgsg-17be3aqlxc1gm"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Perregaux de Raguse, Marie Anne Hortense</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Perregaux de Raguse, Marie Anne Hortense</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Perregaux de Raguse, Marie Anne Hortense</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Mahieu</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Mahieu</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Mahieu</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Chamberland</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Chamberland</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Chamberland</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Donnet, Alexis</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Donnet, Alexis</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Donnet, Alexis</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxec2cm-1fs6c2tcruzqe"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxe1j6i-e66e348jrfsi"/>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8edh1n--6pmbenfru38u"/>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-2k48sdx9t-gododgw573vq"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050878-c-2k48sdx9t-gododgw573vq-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050878-c-2k48sdx9t-gododgw573vq"/>
+            <rico:identifier>MC/ET/XXVI/939</rico:identifier>
+            <rico:title xml:lang="fr">Terres de Viry et de Savigny.</rico:title>
+            <rdfs:label xml:lang="fr">Terres de Viry et de Savigny.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1815-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1832-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1815-1832</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-2k48sdx9t-gododgw573vq"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050878-c-2twutx3h3--563vfhai05o0">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050878"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:title xml:lang="fr">Terres de Viry et de Grigny.</rico:title>
+      <rdfs:label xml:lang="fr">Terres de Viry et de Grigny.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1801-1802</rico:date>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">« Procès-verbal de bornage des terres, prés et vignes appartenant à [Jean Frédéric] Perregaux, sénateur, dans les communes de Viry[-Châtillon] et de Grigny et environs, par Ragoneau [géomètre] ». Registre (42 x 28 x 3 cm). An XI.</html:p>
+      </rico:scopeAndContent>
+      <rico:isRelatedTo>
+         <rico:Activity>
+            <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msisgsg-17be3aqlxc1gm"/>
+         </rico:Activity>
+      </rico:isRelatedTo>
+      <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msisgsg-17be3aqlxc1gm"/>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8edh1n--6pmbenfru38u"/>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxec2cm-1fs6c2tcruzqe"/>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Perregaux, Jean Frédéric</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Perregaux, Jean Frédéric</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Perregaux, Jean Frédéric</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject>
+         <rico:Agent>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#Person"/>
+            <rdfs:label xml:lang="fr">Ragoneau</rdfs:label>
+            <rico:hasOrHadAgentName>
+               <rico:AgentName>
+                  <rdfs:label xml:lang="fr">Ragoneau</rdfs:label>
+                  <rico:textualValue xml:lang="fr">Ragoneau</rico:textualValue>
+               </rico:AgentName>
+            </rico:hasOrHadAgentName>
+         </rico:Agent>
+      </rico:hasOrHadSubject>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_005-d3ntxd2px2-110f151xzdrx5"/>
+      <rico:isRelatedTo>
+         <rico:Activity>
+            <rico:hasActivityType rdf:resource="occupationType/FRAN_RI_010-d699msj9l7t-1gb5a09kkzrmp"/>
+         </rico:Activity>
+      </rico:isRelatedTo>
+      <rico:hasOrHadSubject rdf:resource="occupationType/FRAN_RI_010-d699msj9l7t-1gb5a09kkzrmp"/>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-2twutx3h3--563vfhai05o0"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050878-c-2twutx3h3--563vfhai05o0-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050878-c-2twutx3h3--563vfhai05o0"/>
+            <rico:identifier>MC/ET/XXVI/940</rico:identifier>
+            <rico:title xml:lang="fr">Terres de Viry et de Grigny.</rico:title>
+            <rdfs:label xml:lang="fr">Terres de Viry et de Grigny.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1801-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1802-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1801-1802</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-2twutx3h3--563vfhai05o0"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050878-c-2wwo8rs6g--1d5plzuyfigko">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050878"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Ouverture du boulevard Monceau. Société Varaigne.</rico:title>
+      <rdfs:label xml:lang="fr">Ouverture du boulevard Monceau. Société Varaigne.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1858-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1859-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1858-1859</rico:date>
+      <rico:hasOrHadSubject rdf:resource="place/FRAN_RI_025-d3nzc2xfd5-cpwbfqud45rh"/>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-2wwo8rs6g--1d5plzuyfigko"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050878-c-2wwo8rs6g--1d5plzuyfigko-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050878-c-2wwo8rs6g--1d5plzuyfigko"/>
+            <rico:identifier>MC/ET/XXVI/941-MC/ET/XXVI/943</rico:identifier>
+            <rico:title xml:lang="fr">Ouverture du boulevard Monceau. Société Varaigne.</rico:title>
+            <rdfs:label xml:lang="fr">Ouverture du boulevard Monceau. Société Varaigne.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1858-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1859-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1858-1859</rico:date>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-2wwo8rs6g--1d5plzuyfigko"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-2yqv6qpud-rjcj5ret2lys">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-2wwo8rs6g--1d5plzuyfigko"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Titres de propriété (1).</rico:title>
+            <rdfs:label xml:lang="fr">Titres de propriété (1).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1858-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1858-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1858</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre 1.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89me2v-1xfyihxuch3po"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-2yqv6qpud-rjcj5ret2lys"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-2yqv6qpud-rjcj5ret2lys-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-2yqv6qpud-rjcj5ret2lys"/>
+                  <rico:identifier>MC/ET/XXVI/941</rico:identifier>
+                  <rico:title xml:lang="fr">Titres de propriété (1).</rico:title>
+                  <rdfs:label xml:lang="fr">Titres de propriété (1).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1858-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1858-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1858</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Registre (32 x 22 x 12 cm)</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-2yqv6qpud-rjcj5ret2lys"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-3008j7yfp-ker5r72q878d">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-2wwo8rs6g--1d5plzuyfigko"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Titres de propriété (2).</rico:title>
+            <rdfs:label xml:lang="fr">Titres de propriété (2).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1858-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1859-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1858-1859</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre 2.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89me2v-1xfyihxuch3po"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-3008j7yfp-ker5r72q878d"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-3008j7yfp-ker5r72q878d-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-3008j7yfp-ker5r72q878d"/>
+                  <rico:identifier>MC/ET/XXVI/942</rico:identifier>
+                  <rico:title xml:lang="fr">Titres de propriété (2).</rico:title>
+                  <rdfs:label xml:lang="fr">Titres de propriété (2).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1858-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1859-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1858-1859</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Registre (32 x 22 x 13 cm)</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-3008j7yfp-ker5r72q878d"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-30gm7yul2-ohusjyf9wyvl">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-2wwo8rs6g--1d5plzuyfigko"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Titres de propriété (3).</rico:title>
+            <rdfs:label xml:lang="fr">Titres de propriété (3).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1859-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1859-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1859</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Registre 3.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89me2v-1xfyihxuch3po"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-30gm7yul2-ohusjyf9wyvl"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-30gm7yul2-ohusjyf9wyvl-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-30gm7yul2-ohusjyf9wyvl"/>
+                  <rico:identifier>MC/ET/XXVI/943</rico:identifier>
+                  <rico:title xml:lang="fr">Titres de propriété (3).</rico:title>
+                  <rdfs:label xml:lang="fr">Titres de propriété (3).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1859-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1859-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1859</rico:date>
+                  <rico:instantiationExtent rdf:parseType="Literal">
+                     <html:p xml:lang="fr">Registre (32 x 22 x 16 cm)</html:p>
+                  </rico:instantiationExtent>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-30gm7yul2-ohusjyf9wyvl"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+   <rico:RecordResource rdf:about="recordResource/050878-c-67thj8oes-1awcypi5ueib">
+      <rico:isOrWasIncludedIn rdf:resource="recordResource/top-050878"/>
+      <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+      <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+      <rico:title xml:lang="fr">Chemins de fer de l’État.</rico:title>
+      <rdfs:label xml:lang="fr">Chemins de fer de l’État.</rdfs:label>
+      <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+      <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+      <rico:date xml:lang="fr">1922-1936</rico:date>
+      <rico:structure rdf:parseType="Literal">
+         <html:p xml:lang="fr">Dossiers classés par ordre alphabétique.</html:p>
+      </rico:structure>
+      <rico:scopeAndContent rdf:parseType="Literal">
+         <html:p xml:lang="fr">Adhésions, ventes, échanges, expropriations, etc.</html:p>
+      </rico:scopeAndContent>
+      <rico:hasOrHadAllMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8cppz6--vy9l7i1cqerr"/>
+      <rico:hasProvenance rdf:resource="agent/010153"/>
+      <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-67thj8oes-1awcypi5ueib"/>
+      <rico:hasInstantiation>
+         <rico:Instantiation rdf:about="instantiation/050878-c-67thj8oes-1awcypi5ueib-i1">
+            <rico:isInstantiationOf rdf:resource="recordResource/050878-c-67thj8oes-1awcypi5ueib"/>
+            <rico:identifier>MC/ET/XXVI/1568-MC/ET/XXVI/1581</rico:identifier>
+            <rico:title xml:lang="fr">Chemins de fer de l’État.</rico:title>
+            <rdfs:label xml:lang="fr">Chemins de fer de l’État.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1922-1936</rico:date>
+            <rico:structure rdf:parseType="Literal">
+               <html:p xml:lang="fr">Dossiers classés par ordre alphabétique.</html:p>
+            </rico:structure>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-67thj8oes-1awcypi5ueib"/>
+         </rico:Instantiation>
+      </rico:hasInstantiation>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-6af1gh8yt--18w0xcw5fuq1w">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-67thj8oes-1awcypi5ueib"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Chemins de fer (1).</rico:title>
+            <rdfs:label xml:lang="fr">Chemins de fer (1).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1922-1936</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Dossiers d’adhésions, ventes, échanges, expropriations, etc. : lettres A- B.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6af1gh8yt--18w0xcw5fuq1w"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-6af1gh8yt--18w0xcw5fuq1w-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-6af1gh8yt--18w0xcw5fuq1w"/>
+                  <rico:identifier>MC/ET/XXVI/1568</rico:identifier>
+                  <rico:title xml:lang="fr">Chemins de fer (1).</rico:title>
+                  <rdfs:label xml:lang="fr">Chemins de fer (1).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1922-1936</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6af1gh8yt--18w0xcw5fuq1w"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-6c66n3u8n--1sd59mz779k0i">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-67thj8oes-1awcypi5ueib"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Chemins de fer (2).</rico:title>
+            <rdfs:label xml:lang="fr">Chemins de fer (2).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1922-1936</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Dossiers d’adhésions, ventes, échanges, expropriations, etc. : lettre B (suite).</html:p>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6c66n3u8n--1sd59mz779k0i"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-6c66n3u8n--1sd59mz779k0i-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-6c66n3u8n--1sd59mz779k0i"/>
+                  <rico:identifier>MC/ET/XXVI/1569</rico:identifier>
+                  <rico:title xml:lang="fr">Chemins de fer (2).</rico:title>
+                  <rdfs:label xml:lang="fr">Chemins de fer (2).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1922-1936</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6c66n3u8n--1sd59mz779k0i"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-6coo07cza-l72v4zo54b3c">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-67thj8oes-1awcypi5ueib"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Chemins de fer (3).</rico:title>
+            <rdfs:label xml:lang="fr">Chemins de fer (3).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1922-1936</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Dossiers d’adhésions, ventes, échanges, expropriations, etc. : lettre C.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6coo07cza-l72v4zo54b3c"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-6coo07cza-l72v4zo54b3c-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-6coo07cza-l72v4zo54b3c"/>
+                  <rico:identifier>MC/ET/XXVI/1570</rico:identifier>
+                  <rico:title xml:lang="fr">Chemins de fer (3).</rico:title>
+                  <rdfs:label xml:lang="fr">Chemins de fer (3).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1922-1936</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6coo07cza-l72v4zo54b3c"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-6d1hvtec1-d13chqtme2he">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-67thj8oes-1awcypi5ueib"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Chemins de fer (4).</rico:title>
+            <rdfs:label xml:lang="fr">Chemins de fer (4).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1922-1936</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Dossiers d’adhésions, ventes, échanges, expropriations, etc. : lettre D.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6d1hvtec1-d13chqtme2he"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-6d1hvtec1-d13chqtme2he-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-6d1hvtec1-d13chqtme2he"/>
+                  <rico:identifier>MC/ET/XXVI/1571</rico:identifier>
+                  <rico:title xml:lang="fr">Chemins de fer (4).</rico:title>
+                  <rdfs:label xml:lang="fr">Chemins de fer (4).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1922-1936</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6d1hvtec1-d13chqtme2he"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-6di53ex84--p2bdcdzhw6h6">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-67thj8oes-1awcypi5ueib"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Chemins de fer (5).</rico:title>
+            <rdfs:label xml:lang="fr">Chemins de fer (5).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1922-1936</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Dossiers d’adhésions, ventes, échanges, expropriations, etc. : lettre G.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6di53ex84--p2bdcdzhw6h6"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-6di53ex84--p2bdcdzhw6h6-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-6di53ex84--p2bdcdzhw6h6"/>
+                  <rico:identifier>MC/ET/XXVI/1572</rico:identifier>
+                  <rico:title xml:lang="fr">Chemins de fer (5).</rico:title>
+                  <rdfs:label xml:lang="fr">Chemins de fer (5).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1922-1936</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6di53ex84--p2bdcdzhw6h6"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-6dur196wg--bj27hmzb971s">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-67thj8oes-1awcypi5ueib"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Chemins de fer (6).</rico:title>
+            <rdfs:label xml:lang="fr">Chemins de fer (6).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1922-1936</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Dossiers d’adhésions, ventes, échanges, expropriations, etc. : lettres I, J, K, L.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6dur196wg--bj27hmzb971s"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-6dur196wg--bj27hmzb971s-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-6dur196wg--bj27hmzb971s"/>
+                  <rico:identifier>MC/ET/XXVI/1573</rico:identifier>
+                  <rico:title xml:lang="fr">Chemins de fer (6).</rico:title>
+                  <rdfs:label xml:lang="fr">Chemins de fer (6).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1922-1936</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6dur196wg--bj27hmzb971s"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-6ebklh9wp--1du3lonnnj3uz">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-67thj8oes-1awcypi5ueib"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Chemins de fer (7).</rico:title>
+            <rdfs:label xml:lang="fr">Chemins de fer (7).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1922-1936</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Dossiers d’adhésions, ventes, échanges, expropriations, etc. : lettres L (suite) et M.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6ebklh9wp--1du3lonnnj3uz"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-6ebklh9wp--1du3lonnnj3uz-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-6ebklh9wp--1du3lonnnj3uz"/>
+                  <rico:identifier>MC/ET/XXVI/1574</rico:identifier>
+                  <rico:title xml:lang="fr">Chemins de fer (7).</rico:title>
+                  <rdfs:label xml:lang="fr">Chemins de fer (7).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1922-1936</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6ebklh9wp--1du3lonnnj3uz"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-6evb2siq9--rtqn5nf3s45c">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-67thj8oes-1awcypi5ueib"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Chemins de fer (8).</rico:title>
+            <rdfs:label xml:lang="fr">Chemins de fer (8).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1922-1936</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Dossiers d’adhésions, ventes, échanges, expropriations, etc. : lettres N, O, Q, R.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6evb2siq9--rtqn5nf3s45c"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-6evb2siq9--rtqn5nf3s45c-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-6evb2siq9--rtqn5nf3s45c"/>
+                  <rico:identifier>MC/ET/XXVI/1575</rico:identifier>
+                  <rico:title xml:lang="fr">Chemins de fer (8).</rico:title>
+                  <rdfs:label xml:lang="fr">Chemins de fer (8).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1922-1936</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6evb2siq9--rtqn5nf3s45c"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-6fn87849e-y8aj4bs4qbla">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-67thj8oes-1awcypi5ueib"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Chemins de fer (9).</rico:title>
+            <rdfs:label xml:lang="fr">Chemins de fer (9).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1922-1936</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Dossiers d’adhésions, ventes, échanges, expropriations, etc. : lettre S.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6fn87849e-y8aj4bs4qbla"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-6fn87849e-y8aj4bs4qbla-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-6fn87849e-y8aj4bs4qbla"/>
+                  <rico:identifier>MC/ET/XXVI/1576</rico:identifier>
+                  <rico:title xml:lang="fr">Chemins de fer (9).</rico:title>
+                  <rdfs:label xml:lang="fr">Chemins de fer (9).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1922-1936</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6fn87849e-y8aj4bs4qbla"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-6g6nfppau-cxj004q8t4vk">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-67thj8oes-1awcypi5ueib"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Ventes régularisées, contentieux, correspondance.</rico:title>
+            <rdfs:label xml:lang="fr">Ventes régularisées, contentieux, correspondance.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1922-1936</rico:date>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6g6nfppau-cxj004q8t4vk"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-6g6nfppau-cxj004q8t4vk-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-6g6nfppau-cxj004q8t4vk"/>
+                  <rico:identifier>MC/ET/XXVI/1577</rico:identifier>
+                  <rico:title xml:lang="fr">Ventes régularisées, contentieux, correspondance.</rico:title>
+                  <rdfs:label xml:lang="fr">Ventes régularisées, contentieux, correspondance.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1922-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1936-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1922-1936</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6g6nfppau-cxj004q8t4vk"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-6gjp4a4ld--1btvljzt0esh4">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-67thj8oes-1awcypi5ueib"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Expéditions de testaments et divers actes.</rico:title>
+            <rdfs:label xml:lang="fr">Expéditions de testaments et divers actes.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1829-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1875-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1829-1875</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Testaments (1829-1875), ventes, cessions de brevets, cahiers d’enchères (1845-1875).</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d-8da7t9knp--ju2vtil7dkls"/>
+            <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89p6j3-16rea8x5it1b"/>
+            <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8ak2tf-110kk0n3uzzej"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6gjp4a4ld--1btvljzt0esh4"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-6gjp4a4ld--1btvljzt0esh4-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-6gjp4a4ld--1btvljzt0esh4"/>
+                  <rico:identifier>MC/ET/XXVI/1578</rico:identifier>
+                  <rico:title xml:lang="fr">Expéditions de testaments et divers actes.</rico:title>
+                  <rdfs:label xml:lang="fr">Expéditions de testaments et divers actes.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1829-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1875-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1829-1875</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6gjp4a4ld--1btvljzt0esh4"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-6ijej3au7--ij9oawsl5nlr">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-67thj8oes-1awcypi5ueib"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Expéditions de cessions de brevets et divers actes.</rico:title>
+            <rdfs:label xml:lang="fr">Expéditions de cessions de brevets et divers actes.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1845-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1875-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1845-1875</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Cessions de brevets, cahiers d’enchères (1861-1875), ventes et statuts de compagnies de chemins de fer (1845-1855).</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89p6j3-16rea8x5it1b"/>
+            <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd89lgo1-7iazj0zqu03g"/>
+            <rico:hasOrHadSomeMembersWithDocumentaryFormType rdf:resource="documentaryFormType/FRAN_RI_001-d3nd8f8hn6-1cv55keqf50vh"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6ijej3au7--ij9oawsl5nlr"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-6ijej3au7--ij9oawsl5nlr-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-6ijej3au7--ij9oawsl5nlr"/>
+                  <rico:identifier>MC/ET/XXVI/1579</rico:identifier>
+                  <rico:title xml:lang="fr">Expéditions de cessions de brevets et divers actes.</rico:title>
+                  <rdfs:label xml:lang="fr">Expéditions de cessions de brevets et divers actes.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1845-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1875-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1845-1875</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6ijej3au7--ij9oawsl5nlr"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-6k4ng7dbr--17slrrfu089m8">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-67thj8oes-1awcypi5ueib"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Statuts de sociétés.</rico:title>
+            <rdfs:label xml:lang="fr">Statuts de sociétés.</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1842-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1859-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1842-1859</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Expéditions.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSomeMembersWithRecordState rdf:resource="recordState/FRAN_RI_001-d3m00w6tom1--17yz38y8bszt8"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6k4ng7dbr--17slrrfu089m8"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-6k4ng7dbr--17slrrfu089m8-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-6k4ng7dbr--17slrrfu089m8"/>
+                  <rico:identifier>MC/ET/XXVI/1580</rico:identifier>
+                  <rico:title xml:lang="fr">Statuts de sociétés.</rico:title>
+                  <rdfs:label xml:lang="fr">Statuts de sociétés.</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1842-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1859-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1842-1859</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6k4ng7dbr--17slrrfu089m8"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+      <rico:includesOrIncluded>
+         <rico:RecordResource rdf:about="recordResource/050878-c-6l6oofk0k-109h89w2e62hj">
+            <rico:isOrWasIncludedIn rdf:resource="recordResource/050878-c-67thj8oes-1awcypi5ueib"/>
+            <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordSet"/>
+            <rico:title xml:lang="fr">Statuts de sociétés (suite).</rico:title>
+            <rdfs:label xml:lang="fr">Statuts de sociétés (suite).</rdfs:label>
+            <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1860-01-01</rico:beginningDate>
+            <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1875-12-31</rico:endDate>
+            <rico:date xml:lang="fr">1860-1875</rico:date>
+            <rico:scopeAndContent rdf:parseType="Literal">
+               <html:p xml:lang="fr">Expéditions.</html:p>
+            </rico:scopeAndContent>
+            <rico:hasOrHadSomeMembersWithRecordState rdf:resource="recordState/FRAN_RI_001-d3m00w6tom1--17yz38y8bszt8"/>
+            <rico:hasProvenance rdf:resource="agent/010153"/>
+            <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6l6oofk0k-109h89w2e62hj"/>
+            <rico:hasInstantiation>
+               <rico:Instantiation rdf:about="instantiation/050878-c-6l6oofk0k-109h89w2e62hj-i1">
+                  <rico:isInstantiationOf rdf:resource="recordResource/050878-c-6l6oofk0k-109h89w2e62hj"/>
+                  <rico:identifier>MC/ET/XXVI/1581</rico:identifier>
+                  <rico:title xml:lang="fr">Statuts de sociétés (suite).</rico:title>
+                  <rdfs:label xml:lang="fr">Statuts de sociétés (suite).</rdfs:label>
+                  <rico:beginningDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1860-01-01</rico:beginningDate>
+                  <rico:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1875-12-31</rico:endDate>
+                  <rico:date xml:lang="fr">1860-1875</rico:date>
+                  <rdfs:seeAlso rdf:resource="https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_050878/c-6l6oofk0k-109h89w2e62hj"/>
+               </rico:Instantiation>
+            </rico:hasInstantiation>
+         </rico:RecordResource>
+      </rico:includesOrIncluded>
+   </rico:RecordResource>
+</rdf:RDF>
