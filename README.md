@@ -19,7 +19,7 @@ The 'RDF' folder contains, in the 'imported_data' subfolder, the whole of the da
 In the 
 'sparql_updates' subfolder you can find a text file, that contains the SPARQL INSERT DATA and INSERT queries used to enrich the graph obtained once imported.
 
-Once these operations are done, it has been possible to design and produce the two exploration interfaces that are currently available in the prototype, using the [Sparnatural](https://sparnatural.eu/) SPARQL query visual editor.
+Once these operations are gitdone, it has been possible to design and produce the two exploration interfaces that are currently available in the prototype, using the [Sparnatural](https://sparnatural.eu/) SPARQL query visual editor.
 
 In the 'source_metadata' folder, you can find the most of the source metadata form which the RDF data are generated. This includes 1577 EAD 2022 archival finding aids and 1120 EAC-CPF authority records. About these source metadata, see [https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html#metadata](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html#metadata).
 
@@ -37,7 +37,6 @@ Une fois ces opérations effectuées, il a été possible de concevoir et réali
 
 Dans le dossier 'source_metadata', on trouve la plupart des fichiers source à partir desquels les données RDF ont été générées. Cela inclut 1577 EAD 2022 instruments de recherche archivistiques en EAD 2022 et 1120 notices d'autorité en EAC-CPF. Au sujet de ces métadonnées source, voyez [https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-fr.html#metadata](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-fr.html#metadata).
 
-### [en]
 
 ## Licence | License
 
