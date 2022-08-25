@@ -10,11 +10,13 @@ Download the release | Télécharger la release : [https://github.com/ArchivesNa
 
 The RDF data of this repository are those published in the Sparnatural prototype of the Archives nationales of France ([https://sparna-git.github.io/sparnatural-demonstrateur-an/index.html](https://sparna-git.github.io/sparnatural-demonstrateur-an/index.html)). In this website, the documentation, which is available in French and in English  ([https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html)), explains the objectives of the project, presents the source data selected, the data graph production process, the current content of the knowledge graph obtained, and the outcomes of the project.
 
+Scope and content: the graph describes the archives of 40 notarial offices (out of 122 offices) in Paris, produced and preserved continuously since the end of the 15th to the beginning of the 20th century, and kept by the Archives nationales of France. More information about this record set which is about 9 linear km: [https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html#metadata](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html#metadata). 
+
 Format of the data: RDF/XML
 
 Number of triples: 57,9 million, including about 37 million inferred (in a GraphDB Free repository that has been configured using RDFS-Plus Optimized inference rules)
 
-Main vocabularies and ontologies used:  (RiC-O)](https://www.ica.org/standards/RiC/ontology) (the last official version, v 0.2 dated February 2021) and  [SKOS](https://www.w3.org/2004/02/skos/).
+Main vocabularies and ontologies used:  [RiC-O](https://www.ica.org/standards/RiC/ontology) (the last official version, v 0.2 dated February 2021) and  [SKOS](https://www.w3.org/2004/02/skos/).
 
 More information: [https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html#stats](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html#stats)
 
@@ -31,11 +33,13 @@ In the 'source_metadata' folder, you can find the most of the source metadata fr
 ### [fr]
 Les données RDF de ce dépôt (contenues dans le dossier RDF) sont celles publiées dans le prototype Sparnatural des Archives nationales de France ([https://sparna-git.github.io/sparnatural-demonstrateur-an/index.html](https://sparna-git.github.io/sparnatural-demonstrateur-an/index.html)). Dans ce site web, la documentation, disponible en français ([https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-fr.html](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-fr.html)) et en anglais, présente les objectifs du projet, les données sélectionnées, le processus de sémantisation de ces données et d'enrichissement du graphe obtenu, le contenu actuel du graphe de connaissances, et les résultats du projet. 
 
+Objet et portée du graphe: le graphe décrit les archives de 40 études notariales parisiennes (sur les 122 existantes), produites et préservées sans rupture depuis la fin du XVe au début du XXe siècle, conservées aux Archives nationales de France. Plus d'informations sur cet ensemble d'archives d'environ 9 km linéaires : [https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-fr.html#metadata](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-fr.html#metadata).
+
 Format des données RDF : RDF/XML
 
 Nombre de triplets obtenus : 57,9 millions, dont environ 37 millions de triplets inférés (dans un entrepôt d'une instance de GraphDB Free, configuré pour utiliser simplement les règles d'inférence 'RDFS-Plus Optimized')
 
-Principaux modèles et ontologies utilisés : [Records in Contexts - Ontology (RiC-O)](https://www.ica.org/standards/RiC/ontology) (dans sa dernière version officielle en date, la v0.2 de février 2021) et  [SKOS](https://www.w3.org/2004/02/skos/). 
+Principaux modèles et ontologies utilisés : [Records in Contexts - Ontology](https://www.ica.org/standards/RiC/ontology) (dans sa dernière version officielle en date, la v0.2 de février 2021) et  [SKOS](https://www.w3.org/2004/02/skos/). 
 
 Plus d'informations : [https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-fr.html#stats](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-fr.html#stats).
 
