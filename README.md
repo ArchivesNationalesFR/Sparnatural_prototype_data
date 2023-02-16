@@ -4,24 +4,6 @@
 
 Download the release | Télécharger la release : [https://github.com/ArchivesNationalesFR/Sparnatural_prototype_data/releases/tag/1.0](https://github.com/ArchivesNationalesFR/Sparnatural_prototype_data/releases/tag/1.0). 
 
-## Warning | Avertissement
-
-### [en]
-
-This is an ongoing project; **the data available in this repository should be significantly enriched and enhanced in the coming months**. **New releases of the data can therefore be made in this repository**. The prototype itself will also be improved.
-
-The Sparnatural demonstrator where you can query and display these data is a prototype that was developed to address the needs of a specific project.
-
-As the ANF do not have yet a web application enabling to publish all the RDF data they have produced, and to make them accessible to humans and machines, **the IRIS of the entities described cannot be dereferenced.** However, the last segment of the IRIS (after the base URI, which has been set to 'http://data.archives-nationales.culture.gouv.fr/' and is specified as the value of the xml:base attribute of the root element in each file), is based upon unique and persistent local identifiers given to some of the entities described in the information system of the ANF.
-
-### [fr]
-
-Il s'agit d'un projet en cours ; **les données disponibles dans ce dépôt devraient être significativement enrichies et améliorées dans les prochains mois**.  **De nouvelles releases pourraient donc être publiées dans le présent entrepôt**. Le prototype lui-même devrait lui aussi être amélioré.
-
-The démonstrateur Sparnatural qui permet d'explorer et d'afficher les données RDF présentes dans ce dépôt est un prototype développé dans le cadre d'un projet spécifique. Comme les ANF ne disposent pas encore d'une application web permettant de publier toutes les données RDF qu'elles ont produites, et de les rendre accessibles aux humains et aux machines, **les IRIS des entités décrites par ces données ne sont pas déréférençables**. Cependant, le segment final de ces IRIS (après le segment de base, qui est 'http://data.archives-nationales.culture.gouv.fr/' et qui est stocké comme valeur de l'attribut xml:base de l'élément racine de chacin des fichiers), est fondé sur des identifiants uniques et pérennes locaux assignés par le système d'information des ANF à certaines des entités décrites. 
-
-
-
 ## Description
 
 ### [en]
@@ -68,6 +50,21 @@ Une fois ces opérations effectuées, il a été possible de concevoir et réali
 
 Dans le dossier 'source_metadata', on trouve la plupart des fichiers source à partir desquels les données RDF ont été générées. Cela inclut 1577 EAD 2022 instruments de recherche archivistiques en EAD 2022 et 1120 notices d'autorité en EAC-CPF. Au sujet de ces métadonnées source, voyez [https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-fr.html#metadata](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-fr.html#metadata).
 
+## Warning | Avertissement
+
+### [en]
+
+This is an ongoing project; **the data available in this repository should be significantly enriched and enhanced in the coming months**. **New releases of the data can therefore be made in this repository**. The prototype itself will also be improved.
+
+The Sparnatural demonstrator where you can query and display these data is a prototype that was developed to address the needs of a specific project.
+
+As the ANF do not have yet a web application enabling to publish all the RDF data they have produced, and to make them accessible to humans and machines, **the IRIS of the entities described cannot be dereferenced.** However, the last segment of the IRIS (after the base URI, which has been set to 'http://data.archives-nationales.culture.gouv.fr/' and is specified as the value of the xml:base attribute of the root element in each file), is based upon unique and persistent local identifiers given to some of the entities described in the information system of the ANF.
+
+### [fr]
+
+Il s'agit d'un projet en cours ; **les données disponibles dans ce dépôt devraient être significativement enrichies et améliorées dans les prochains mois**.  **De nouvelles releases pourraient donc être publiées dans le présent entrepôt**. Le prototype lui-même devrait lui aussi être amélioré.
+
+The démonstrateur Sparnatural qui permet d'explorer et d'afficher les données RDF présentes dans ce dépôt est un prototype développé dans le cadre d'un projet spécifique. Comme les ANF ne disposent pas encore d'une application web permettant de publier toutes les données RDF qu'elles ont produites, et de les rendre accessibles aux humains et aux machines, **les IRIS des entités décrites par ces données ne sont pas déréférençables**. Cependant, le segment final de ces IRIS (après le segment de base, qui est 'http://data.archives-nationales.culture.gouv.fr/' et qui est stocké comme valeur de l'attribut xml:base de l'élément racine de chacin des fichiers), est fondé sur des identifiants uniques et pérennes locaux assignés par le système d'information des ANF à certaines des entités décrites. 
 
 ## Licence | License
 
