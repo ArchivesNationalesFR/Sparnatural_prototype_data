@@ -6,7 +6,21 @@ Download the release | Télécharger la release : [https://github.com/ArchivesNa
 
 ## Warning | Avertissement
 
-This is an ongoing project; the data should be significantly enriched and enhanced in the coming months | Il s'agit d'un projet en cours ; les données publiées ici devraient être améliorées et enrichies de façon significative dans les prochains mois.
+### [en]
+
+This is an ongoing project; **the data available in this repository should be significantly enriched and enhanced in the coming months**. **New releases of the data can therefore be made in this repository**. The prototype itself will also be improved.
+
+The Sparnatural demonstrator where you can query and display these data is a prototype that was developed to address the needs of a specific project.
+
+As the ANF do not have yet a web application enabling to publish all the RDF data they have produced, and to make them accessible to humans and machines, **the IRIS of the entities described cannot be dereferenced.** However, the last segment of the IRIS (after the base URI, which has been set to 'http://data.archives-nationales.culture.gouv.fr/' and is specified as the value of the xml:base attribute of the root element in each file), is based upon unique and persistent local identifiers given to some of the entities described in the information system of the ANF.
+
+### [fr]
+
+Il s'agit d'un projet en cours ; **les données disponibles dans ce dépôt devraient être significativement enrichies et améliorées dans les prochains mois**.  **De nouvelles releases pourraient donc être publiées dans le présent entrepôt**. Le prototype lui-même devrait lui aussi être amélioré.
+
+The démonstrateur Sparnatural qui permet d'explorer et d'afficher les données RDF présentes dans ce dépôt est un prototype développé dans le cadre d'un projet spécifique. Comme les ANF ne disposent pas encore d'une application web permettant de publier toutes les données RDF qu'elles ont produites, et de les rendre accessibles aux humains et aux machines, **les IRIS des entités décrites par ces données ne sont pas déréférençables**. Cependant, le segment final de ces IRIS (après le segment de base, qui est 'http://data.archives-nationales.culture.gouv.fr/' et qui est stocké comme valeur de l'attribut xml:base de l'élément racine de chacin des fichiers), est fondé sur des identifiants uniques et pérennes locaux assignés par le système d'information des ANF à certaines des entités décrites. 
+
+
 
 ## Description
 
@@ -57,26 +71,9 @@ Dans le dossier 'source_metadata', on trouve la plupart des fichiers source à p
 
 ## Licence | License
 
+[en] As this data is public information, the user has non-exclusive and free rights of reuse for commercial or non-commercial purposes, worldwide and for an unlimited period of time. It must accompany each reuse of the information specifying the author of the dataset: "Archives nationales of France", the name of the dataset ("RDF knowledge graph of the Archives nationales of France Sparnatural prototype"), the number and the date of the version used (for the latest release "version 1.0 (August 2022)") and the link to this public repository. See also the following page: https://www.archives-nationales.culture.gouv.fr/en/web/guest/reutilisation-des-donnees-publiques. 
 
-[en] For now, **you are not allowed to reuse these data without first getting an official, written, agreement from the Archives nationales of France (ANF).** 
-
-[fr] Pour l'instant, **vous n'êtes pas autorisé à réutiliser ces données sans avoir au préalable obtenu un accord écrit officiel des Archives nationales de France (ANF).**
-
-## Avertissement | Warning
-
-### [en]
-
-The Sparnatural demonstrator where you can query and display these data is a prototype that was developed to address the needs of a specific project.
-
-As the ANF do not have yet a web application enabling to publish all the RDF data they have produced, and to make them accessible to humans and machines, **the IRIS of the entities described cannot be dereferenced.** However, the last segment of the IRIS (after the base URI, which has been set to 'http://data.archives-nationales.culture.gouv.fr/' and is specified as the value of the xml:base attribute of the root element in each file), is based upon unique and persistent local identifiers given to some of the entities described in the information system of the ANF.
-
-**The data and the prototype itself will be improved in the coming months.** New releases of the data can therefore be made in this repository.
-
-### [fr]
-
-The démonstrateur Sparnatural qui permet d'explorer et d'afficher les données RDF présentes dans ce dépôt est un prototype développé dans le cadre d'un projet spécifique. Comme les ANF ne disposent pas encore d'une application web permettant de publier toutes les données RDF qu'elles ont produites, et de les rendre accessibles aux humains et aux machines, **les IRIS des entités décrites par ces données ne sont pas déréférençables**. Cependant, le segment final de ces IRIS (après le segment de base, qui est 'http://data.archives-nationales.culture.gouv.fr/' et qui est stocké comme valeur de l'attribut xml:base de l'élément racine de chacin des fichiers), est fondé sur des identifiants uniques et pérennes locaux assignés par le système d'information des ANF à certaines des entités décrites. 
-
-Les données et le prototype seront améliorés dans les prochains mois. **De nouvelles releases pourraient donc être publiées dans le présent entrepôt**.
+[fr] Ces métadonnées étant des informations publiques, l'usager dispose d'un droit non exclusif et gratuit de libre « réutilisation » à des fins commerciales ou non, dans le monde entier et pour une durée illimitée. Il doit accompagner chaque réutilisation des informations spécifiant l'auteur des métadonnées : « Archives nationales (France) », le nom du jeu de données (« graphe de connaissances RDF du prototype Sparnatural des Archives nationales de France »), le numéro et la date de la version utilisée (pour la dernière release « version 1.0 (août 2022) ») et le lien vers le présent dépôt de données. Voir à ce sujet la page : https://www.archives-nationales.culture.gouv.fr/fr/web/guest/reutilisation-des-donnees-publiques.
 
 
 ## For more information | Pour plus d'informations
