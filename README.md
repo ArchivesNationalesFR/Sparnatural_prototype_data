@@ -68,9 +68,13 @@ The démonstrateur Sparnatural qui permet d'explorer et d'afficher les données 
 
 ## Licence | License
 
-[en] As this data is public information, the user has non-exclusive and free rights of reuse for commercial or non-commercial purposes, worldwide and for an unlimited period of time. It must accompany each reuse of the information specifying the author of the dataset: "Archives nationales of France", the name of the dataset ("RDF knowledge graph of the Archives nationales of France Sparnatural prototype"), the number and the date of the version used (for the latest release "version 1.0 (August 2022)") and the link to this public repository. See also the following page: https://www.archives-nationales.culture.gouv.fr/en/web/guest/reutilisation-des-donnees-publiques. 
+### [en]
 
-[fr] Ces métadonnées étant des informations publiques, l'usager dispose d'un droit non exclusif et gratuit de libre « réutilisation » à des fins commerciales ou non, dans le monde entier et pour une durée illimitée. Il doit accompagner chaque réutilisation des informations spécifiant l'auteur des métadonnées : « Archives nationales (France) », le nom du jeu de données (« graphe de connaissances RDF du prototype Sparnatural des Archives nationales de France »), le numéro et la date de la version utilisée (pour la dernière release « version 1.0 (août 2022) ») et le lien vers le présent dépôt de données. Voir aussi la page : https://www.archives-nationales.culture.gouv.fr/fr/web/guest/reutilisation-des-donnees-publiques.
+As this data is public information, the user has non-exclusive and free rights of reuse for commercial or non-commercial purposes, worldwide and for an unlimited period of time. It must accompany each reuse of the information specifying the author of the dataset: "Archives nationales of France", the name of the dataset ("RDF knowledge graph of the Archives nationales of France Sparnatural prototype"), the number and the date of the version used (for the latest release "version 1.0 (August 2022)") and the link to this public repository. See also the following page: https://www.archives-nationales.culture.gouv.fr/en/web/guest/reutilisation-des-donnees-publiques. 
+
+### [fr]
+
+Ces métadonnées étant des informations publiques, l'usager dispose d'un droit non exclusif et gratuit de libre « réutilisation » à des fins commerciales ou non, dans le monde entier et pour une durée illimitée. Il doit accompagner chaque réutilisation des informations spécifiant l'auteur des métadonnées : « Archives nationales (France) », le nom du jeu de données (« graphe de connaissances RDF du prototype Sparnatural des Archives nationales de France »), le numéro et la date de la version utilisée (pour la dernière release « version 1.0 (août 2022) ») et le lien vers le présent dépôt de données. Voir aussi la page : https://www.archives-nationales.culture.gouv.fr/fr/web/guest/reutilisation-des-donnees-publiques.
 
 
 ## For more information | Pour plus d'informations
