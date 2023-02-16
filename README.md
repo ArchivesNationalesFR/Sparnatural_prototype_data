@@ -4,6 +4,10 @@
 
 Download the release | Télécharger la release : [https://github.com/ArchivesNationalesFR/Sparnatural_prototype_data/releases/tag/1.0](https://github.com/ArchivesNationalesFR/Sparnatural_prototype_data/releases/tag/1.0). 
 
+## Warning | Avertissement
+
+This is an ongoing project; the data should be significantly enriched and enhanced in the coming months | Il s'agit d'un projet en cours ; les données publiées ici devraient être améliorées et enrichies de façon significative dans les prochains mois.
+
 ## Description
 
 ### [en]
@@ -19,7 +23,6 @@ Number of triples: 57,9 million, including about 37 million inferred (in a Graph
 Main vocabularies and ontologies used:  [RiC-O](https://www.ica.org/standards/RiC/ontology) (the last official version, v 0.2 dated February 2021) and  [SKOS](https://www.w3.org/2004/02/skos/).
 
 More information: [https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html#stats](https://sparna-git.github.io/sparnatural-demonstrateur-an/presentation-en.html#stats)
-
 
 The 'RDF' folder contains, in the 'imported_data' subfolder, the whole of the data imported into the graph base used. In the 'other_entities' subfolder, for now, you can find exactly the same data as in the [https://github.com/ArchivesNationalesFR/Referentiels/tree/main/concepts/rdf](https://github.com/ArchivesNationalesFR/Referentiels/tree/main/concepts/rdf), [https://github.com/ArchivesNationalesFR/Referentiels/tree/main/agents/personnesPhysiques](https://github.com/ArchivesNationalesFR/Referentiels/tree/main/agents/personnesPhysiques), and [https://github.com/ArchivesNationalesFR/Referentiels/tree/main/agents/collectivites](https://github.com/ArchivesNationalesFR/Referentiels/tree/main/agents/collectivites) folders.
 
